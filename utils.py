@@ -10,3 +10,5 @@ def save_json(file_path: str, datas: list) -> None:
         os.makedirs(directory)
     with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(datas, f, indent=4, ensure_ascii=False)
+if __name__ == '__main__':
+    save_json('result.json', ["https://github.com/aqlaboratory/openfold","https://github.com/jasonkyuyim/multiflow","https://github.com/NVlabs/protcomposer"])

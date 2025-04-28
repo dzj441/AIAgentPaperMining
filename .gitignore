@@ -177,3 +177,4 @@ cython_debug/
 iclr2025_oral_papers
 # iclr2025_oral_papers.zip
 *.zip
+testresults

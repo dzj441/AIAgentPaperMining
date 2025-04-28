@@ -5,7 +5,7 @@ from typing_extensions import Tuple
 
 BASE_URL = "https://openreview.net"
 
-def get_paper_links(limit: int = 1000) -> list:
+def get_paper_links_via_api(limit: int = 1000) -> list:
     """
     通过 OpenReview API2 接口拉取 ICLR 2025 Oral Presentation 的所有 note，
     并返回对应的 /forum?id=… 链接列表。
@@ -39,7 +39,7 @@ def get_paper_links(limit: int = 1000) -> list:
 
     return links
 
-def download_pdf(paper_url: str) -> Tuple[str, bytes]:
+def download_pdf_bytes(paper_url: str) -> Tuple[str, bytes]:
     """
     给定论文 forum URL，下载对应的 PDF。
     返回 (paper_id, pdf_bytes)。
@@ -63,13 +63,13 @@ if __name__ == "__main__":
 
         # 获取所有论文链接
         print("正在通过 OpenReview API 拉取 Oral 论文列表…")
-        links = get_paper_links()
+        links = get_paper_links_via_api()
         print(f"共找到 {len(links)} 篇 Oral 论文链接。\n")
 
         # 逐篇下载 PDF
         for url in links:
             try:
-                paper_id, pdf_bytes = download_pdf(url)
+                paper_id, pdf_bytes = download_pdf_bytes(url)
                 filename = os.path.join(output_dir, f"{paper_id}.pdf")
                 with open(filename, "wb") as f:
                     f.write(pdf_bytes)
