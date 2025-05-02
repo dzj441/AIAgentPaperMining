@@ -1,0 +1,3444 @@
+kpq3IIjUD3.pdf:
+  https://arxiv.org/abs/1802.08219
+  https://arxiv.org/abs/1803.01588
+  https://arxiv.org/abs/2207.09453
+  https://arxiv.org/abs/2403.00485
+  https://arxiv.org/abs/2405.05722
+  https://dl.acm.org/doi/10.5555/3305381.3305512
+  https://dl.acm.org/doi/10.5555/3618408.3619548
+  https://doi.org/10.1016/j.cpc.2020.107206
+  https://doi.org/10.1016/j.jcp
+  https://doi.org/10.1038/s41467-022-29939-5
+  https://doi.org/10.1038/s41467-023-38468-8
+  https://doi.org/10.1038/s41524-023-01130-4
+  https://doi.org/10.1038/s43588-022-00265-6
+  https://doi.org/10.1063/1.5019779
+  https://doi.org/10.1063/5.0072784
+  https://dx.doi.org/10.1209/epl/i2005-10544-9
+  https://github.com/deepmodeling/DeePTB
+  https://github.com/floatingCatty/dftio
+  https://link.aps.org/doi/10.1103/PhysRev.136.B864
+  https://link.aps.org/doi/10.1103/PhysRev.140.A1133
+  https://link.aps.org/doi/10.1103/PhysRev.94.1498
+  https://link.aps.org/doi/10.1103/PhysRevB.109.075112
+  https://link.aps.org/doi/10.1103/PhysRevB.16.2717
+  https://link.aps.org/doi/10.1103/PhysRevB.69.233101
+  https://link.aps.org/doi/10.1103/PhysRevLett.104.136403
+  https://link.aps.org/doi/10.1103/PhysRevLett.120.143001
+  https://link.aps.org/doi/10.1103/PhysRevLett.98.146401
+  https://link.aps.org/doi/10.1103/RevModPhys.87.897
+  https://openreview.net/forum?id=BEHlPdBZ2e
+  https://proceedings.mlr.press/v139/satorras21a/satorras21a.pdf
+  https://proceedings.mlr.press/v202/joshi23a/joshi23a.pdf
+  https://proceedings.mlr.press/v202/yu23i.html
+  https://proceedings.neurips.cc/paper/2021/file/78f1893678afbeaa90b1fa01b9cfb860-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2018/file/488e4104520c6aab692863cc1dba45af-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2018/file/a3fc981af450752046be179185ebc8b5-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2018/file/e2ad76f2326fbc6b56a45a56c59fafdb-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2022/file/3501bea1ac61fedbaaff2f88e5fa9447-Paper-Conference.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2022/file/4a36c3c51af11ed9f34615b81edb5bbc-Paper-Conference.pdf
+  https://royalsocietypublishing.org/doi/abs/10.1098/rsos.191809
+  https://www.aissquare.com/datasets/detail?pageType=datasets&name=Quantum_Operator_Dataset&id=286
+  https://www.sciencedirect.com/science/article/pii/S001046552030045X
+  https://www.sciencedirect.com/science/article/pii/S0021999114008353
+
+kuutidLf6R.pdf:
+  https://github.com/Jinxu-Lin/DAS
+
+kwqhn2VuG4.pdf:
+  https://cdn.openai.com/papers/GPTV_System_Card.pdf
+  https://commoncrawl.org/terms-of-use
+  https://creativecommons.org/licenses/by/4.0/
+  https://crfm
+  https://doi.org/10.5281/zenodo.5143773
+  https://github.com/OpenGVLab/OmniCorpus/issues
+  https://github.com/kakaobrain/coyo-dataset
+  https://huggingface.co/datasets/OpenGVLab/OmniCorpus-CC-210M
+  https://huggingface.co/datasets/OpenGVLab/OmniCorpus-YT
+  https://huggingface.co/datasets/jimmycarter/textocr-gpt4v
+  https://huggingface.co/datasets/laion/gpt4v-dataset
+  https://huggingface.co/datasets/teknium/OpenHermes-2.5
+  https://lmsys.org/blog/2023-03-30-vicuna/
+  https://openxlab.org.cn/datasets/Li-Qingyun/OmniCorpus-CW
+  https://www.apache.org/licenses/LICENSE-2.0
+  https://www.gov.cn/zhengce/content/202409/content_6977766.htm
+  https://www.youtube.com/terms
+
+kxFtMHItrf.pdf:
+  https://github.com/ChunmingHe/Reti-Diff
+
+KZgo2YQbhc.pdf:
+  https://cdn.openai.com/papers/dall-e-3.pdf
+  https://civitai.com/models/228180/diablo-sliders-ntcaixyz
+  https://civitai.com/models/231983/figurine-sliders-ntcaixyz
+  https://civitai.com/models/317484/mecha-slider-sdxl
+  https://docs.google.com/forms/d/e/1FAIpQLSc7mDMagFkotVwYiYjftV3FY_WSoYDtcpX6_3VqVlp9SmREbA/viewform?usp=sf_link
+  https://github.com/cloneofsimo/lora
+  https://huggingface.co/nitrosocke/Ghibli-Diffusion
+  https://www.midjourney.com
+
+L14sqcrUC3.pdf:
+  http://archive.ics.uci.edu/dataset/12/balance+scale
+  http://automl.chalearn.org
+  http://proceedings.mlr.press/v7/guyon09/guyon09.pdf
+  https://archive.ics.uci.edu/dataset/143/statlog+australian+credit+approval
+  https://archive.ics.uci.edu/dataset/158/poker+hand
+  https://archive.ics.uci.edu/dataset/2/adult
+  https://archive.ics.uci.edu/dataset/203/yearpredictionmsd
+  https://archive.ics.uci.edu/dataset/241/one+hundred+plant+species+leaves+data+set
+  https://archive.ics.uci.edu/dataset/27/credit+approval
+  https://archive.ics.uci.edu/dataset/363/facebook+comment+volume+dataset
+  https://archive.ics.uci.edu/dataset/72/multiple+features
+  https://archive.ics.uci.edu/dataset/8/audiology+standardized
+  https://archive.ics.uci.edu/ml/datasets/wine+quality
+  https://arxiv.org/abs/2312.07577
+  https://arxiv.org/pdf/2206.15407
+  https://books.google.ru/books?id=EThwEAAAQBAJ
+  https://collegescorecard.ed.gov/
+  https://community.fico.com/s/explainable-machine-learning-challenge
+  https://core.ac.uk/download/pdf/55616194.pdf
+  https://datahack.analyticsvidhya.com/contest/black-friday/#ProblemStatement
+  https://dl.acm.org/doi/10.5555/928509
+  https://electionstudies.org/
+  https://en.wikipedia.org/wiki/HTTP_404
+  https://eng.lyft.com/ml-feature-serving-infrastructure-at-lyft-d30bf2d3c32a
+  https://github.com/MLWave/kaggle_acquire-valued-shoppers-challenge
+  https://github.com/Shifts-Project/shifts
+  https://github.com/yandex-research/tabred
+  https://ieeexplore.ieee.org/document/327470
+  https://ieeexplore.ieee.org/document/6575194
+  https://ieeexplore.ieee.org/document/9005736
+  https://joss.theoj.org/papers/10.21105/joss.00051
+  https://k4all.org/project/large-scale-learning-challenge/
+  https://kaggle.com/TabReD
+  https://kaggle.com/competitions/acquire-valued-shoppers-challenge
+  https://kaggle.com/competitions/home-credit-credit-risk-model-stability
+  https://kaggle.com/competitions/homesite-quote-conversion
+  https://kaggle.com/competitions/sberbank-russian-housing-market
+  https://kdd.ics.uci.edu/databases/ipums/ipums.html
+  https://moleculenet.org
+  https://new.assistments.org/
+  https://ogb.stanford.edu/docs/lsc/leaderboards/#pcqm4mv2)
+  https://openml.org/d/1044
+  https://openml.org/d/1120
+  https://openml.org/d/151
+  https://openml.org/d/197
+  https://openml.org/d/216
+  https://openml.org/d/23515
+  https://openml.org/d/287
+  https://openml.org/d/296
+  https://openml.org/d/300
+  https://openml.org/d/41150
+  https://openml.org/d/41160
+  https://openml.org/d/41672
+  https://openml.org/d/42570
+  https://openml.org/d/42688
+  https://openml.org/d/42712
+  https://openml.org/d/42720
+  https://openml.org/d/42724
+  https://openml.org/d/42729
+  https://openml.org/d/42731
+  https://openml.org/d/42769
+  https://openml.org/d/42803
+  https://openml.org/d/43093
+  https://openml.org/d/43144
+  https://openml.org/d/537
+  https://openml.org/d/688
+  https://openml.org/d/722
+  https://openml.org/search?type=data&status=active&id=1067
+  https://openml.org/search?type=data&status=active&id=51
+  https://openreview.net/forum?id=ErkzxOlOLy
+  https://openreview.net/forum?id=Zb6c8A-Fghk
+  https://pages.stern.nyu.edu/~jsimonof/AnalCatData
+  https://pubmed.ncbi.nlm.nih.gov/14502479/
+  https://sci2s.ugr.es/keel/dataset.php?cod=105#sub2
+  https://tableshift.org/
+  https://www.agnostic.inf.ethz.ch/
+  https://www.cdc.gov/brfss/index.html
+  https://www.cdc.gov/nchs/nhanes/index.htm
+  https://www.census.gov/programs-surveys/acs/about.html
+  https://www.dcc.fc.up.pt/~ltorgo/Regression/census.html
+  https://www.diamondse.info/diamond-prices.asp
+  https://www.frontiersin.org/articles/10.3389/fmats.2021.714752/full
+  https://www.hindawi.com/journals/bmri/2014/781670/
+  https://www.kaggle.com/c/GiveMeSomeCredit/data?select=cs-training.csv
+  https://www.kaggle.com/c/bioresponse/overview
+  https://www.kaggle.com/code/yuuniekiri/fork-of-home-credit-catboost-inference
+  https://www.kaggle.com/competitions/acquire-valued-shoppers-challenge/discussion/9756
+  https://www.kaggle.com/competitions/amex-default-prediction/overview)
+  https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/discussion/497167
+  https://www.kaggle.com/competitions/homesite-quote-conversion/discussion/18826
+  https://www.kaggle.com/competitions/otto-group-product-classification-challenge/
+  https://www.kaggle.com/competitions/santander-customer-transaction-prediction
+  https://www.kaggle.com/competitions/sberbank-russian-housing-market/discussion/34364
+  https://www.kaggle.com/competitions/sberbank-russian-housing-market/discussion/35631
+  https://www.kaggle.com/competitions/sberbank-russian-housing-market/discussion/35684
+  https://www.kaggle.com/datasets/danofer/compass?select=cox-violent-parsed.csv
+  https://www.kaggle.com/datasets/shubh0799/churn-modelling/data
+  https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset
+  https://www.kaggle.com/pcovkrd84mejm/datasets
+  https://www.openml.org/search?type=data&sort=version&status=any&order=asc&exact_name=splice&id=46
+  https://www.openml.org/search?type=data&status=active&id=10
+  https://www.openml.org/search?type=data&status=active&id=1468
+  https://www.openml.org/search?type=data&status=active&id=1494
+  https://www.openml.org/search?type=data&status=active&id=25
+  https://www.openml.org/search?type=data&status=active&id=334
+  https://www.openml.org/search?type=data&status=active&id=40536
+  https://www.openml.org/search?type=data&status=active&id=41003
+  https://www.openml.org/search?type=data&status=active&id=44096
+  https://www.openml.org/search?type=data&status=active&id=44987
+  https://www.openml.org/search?type=data&status=active&id=470
+  https://www.openml.org/search?type=data&status=active&id=54
+  https://www.researchgate.net/publication/236168126_Design_and_Analysis_of_the_Nomao_challenge_Active_Learning_in_the_Real-World
+  https://www.sciencedirect.com/science/article/abs/pii/S016771529600140X
+  https://www.sciencedirect.com/science/article/pii/S0957417416300525
+  https://youtu.be/LjcKCm0G_OY
+  www.kaggle.com/competitions/sberbank-russian-housing-market/
+
+l2zFn6TIQi.pdf:
+  https://blackforestlabs.ai/announcing-black-forest-labs/
+  https://github.com/apple/ml-act
+  https://huggingface.co/s-nlp/roberta_toxicity_classifier
+  https://openreview.net/forum?id=2P6GVfSrfZ
+  https://openreview.net/forum?id=wfzXa8e783
+
+l4fMj4Vnly.pdf:
+  http://arxiv.org/abs/1412.6980
+  https://aclanthology.org/D18-1436
+  https://aclanthology.org/W05-0909
+  https://arxiv.org/abs/2302.09719
+  https://doi.org/10.1145/1288869.1288879
+  https://github.com/soham97/ADIFF
+  https://openreview.net/forum?id=14rn7HpKVk
+  https://openreview.net/forum?id=86NGO8qeWs
+  https://openreview.net/forum?id=WYi3WKZjYe
+  https://openreview.net/forum?id=nBZBPXdJlC
+
+L6IgkJvcgV.pdf:
+  https://blackforestlabs.ai/announcing-black-forest-labs/
+  https://chat.openai.com
+  https://doi.org/10.5281/zenodo.5143773
+  https://www.bloomberg.com/graphics/2023-generative-ai-bias/
+  https://www.nature.com/articles/d41586-024-00674-9
+
+l6QnSQizmN.pdf:
+  http://dx.doi.org/10.1007/978-3-030-01252-6_33
+  http://dx.doi.org/10.1016/j.neucom.2020.11.050
+  http://jmlr.org/papers/v22/20-1364.html
+  http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf
+  https://api.semanticscholar.org/CorpusID:46938244
+  https://arxiv.org/abs/1502.02259
+  https://arxiv.org/abs/1502.05477
+  https://arxiv.org/abs/1703.02702
+  https://arxiv.org/abs/1705.05363
+  https://arxiv.org/abs/1707.02286
+  https://arxiv.org/abs/1707.04175
+  https://arxiv.org/abs/1707.06347
+  https://arxiv.org/abs/1807.03888
+  https://arxiv.org/abs/1810.01963
+  https://arxiv.org/abs/1811.06626
+  https://arxiv.org/abs/1812.05905
+  https://arxiv.org/abs/1901.10500
+  https://arxiv.org/abs/1910.07104
+  https://arxiv.org/abs/1911.08068
+  https://arxiv.org/abs/2003.06350
+  https://arxiv.org/abs/2004.12570
+  https://arxiv.org/abs/2101.03778
+  https://arxiv.org/abs/2201.05560
+  https://arxiv.org/abs/2205.10868
+  https://arxiv.org/abs/2306.03552
+  https://arxiv.org/abs/2307.04887
+  https://arxiv.org/abs/2310.01365
+  https://arxiv.org/abs/2312.11669
+  https://doi.org/10.1007%2Fs10489-020-01758-5
+  https://doi.org/10.1016/S0079-7421(08)60536-8
+  https://doi.org/10.1016/j.neunet.2019.01.012
+  https://doi.org/10.1093/biomet/41.1-2.100
+  https://doi.org/10.1145/1143844.1143872
+  https://doi.org/10.1145/1273496.1273606
+  https://doi.org/10.1145/2486001.2486020
+  https://doi.org/10.1145/3341302.3342080
+  https://doi.org/10.1145/3447993.3483259
+  https://github.com/DLR-RM/rl-baselines3-zoo
+  https://github.com/pouyahmdn/LCPO
+  https://link.aps.org/doi/10.1103/PhysRev.36.823
+  https://ojs.aaai.org/index.php/AAAI/article/view/20730
+  https://ojs.aaai.org/index.php/AAAI/article/view/20844
+  https://openreview.net/forum?id=6LBfSduVg0N
+  https://openreview.net/forum?id=AeIzVxdJgeb
+  https://www.microsoft.com/en-us/research/publication/robust-situational-reinforcement-learning-in-face-of-context-disturbances/
+  https://www.sciencedirect.com/science/article/pii/S0079742108605368
+  https://www.sciencedirect.com/science/article/pii/S0893608019300231
+  https://zenodo.org/record/8127025
+  www.microsoft.com/en-us/research/publication/robust-situational-
+
+LbgIZpSUCe.pdf:
+  http://arxiv.org/abs/1312.6114
+  http://dx.doi.org/10.1007/s10827-009-0179-x
+  http://dx.doi.org/10.1561/2200000001
+  https://api.semanticscholar.org/CorpusID:2901305
+  https://doi.org/10.1152/jn.90941.2008
+  https://openreview.net/forum?id=HyTqHL5xg
+  https://proceedings.mlr.press/v54/khan17a.html
+
+LBl7Hez0fF.pdf:
+  https://github.com/LisaAnne/Hallucination
+  https://github.com/RUCAIBox/POPE
+  https://github.com/shengliu66/VTI
+  https://huggingface.co/datasets/Shengcao1006/MMHal-Bench
+  https://lmsys.org/blog/2023-03-30-vicuna/
+
+lgsyLSsDRe.pdf:
+  http://www.aclweb.org/anthology/P11-1015
+  https://aclanthology.org/2021.eacl-main.257
+  https://aclanthology.org/2021.emnlp-demo.21
+  https://aclanthology.org/2022.semeval-1.155
+  https://aclanthology.org/D18-1404
+  https://aclanthology.org/S12-1051
+  https://aclanthology.org/S17-2001
+  https://arxiv.org/abs/2003.04807
+  https://doi.org/10.1145/2507157.2507163
+  https://getlinq.com/blog/linq-embed-mistral/
+  https://github.com/AIR-Bench/AIR-Bench
+  https://github.com/PolyAI-
+  https://github.com/embeddings-benchmark/mteb
+  https://huggingface.co/Salesforce/SFR-Embedding-2_R
+  https://huggingface.co/datasets/flax-sentence-embeddings/stackexchange_title_body_jsonl
+  https://huggingface.co/datasets/sentence-transformers/reddit-title-body
+  https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1
+  https://huggingface.co/nvidia/NV-Embed-v2
+  https://kaggle.com/competitions/jigsaw-unintended-bias-in-toxicity-classification
+  https://kaggle.com/competitions/tweet-sentiment-extraction
+  https://mistral.ai/news/mixtral-8x22b/
+  https://www.mixedbread.ai/blog/mxbai-embed-large-v1
+
+LiUfN9h0Lx.pdf:
+  https://docs.seldon.io/projects/alibi/en/latest/api/alibi.explainers.html#alibi.explainers.PartialDependence
+  https://github.com/hbaniecki/compress-then-explain
+  https://huggingface.co/datasets/stanfordnlp/imdb
+  https://huggingface.co/dfurman/distilbert-base-uncased-imdb
+  https://interpret.ml/docs/python/api/PartialDependence
+
+lJpqxFgWCM.pdf:
+  https://monst3r-paper.github.io/page0.html
+  https://monst3r-project.github.io/
+
+lqTILjL6lP.pdf:
+  http://jmlr.org/papers/v20/18-403.html
+  https://arxiv.org/abs/1710.09412
+  https://arxiv.org/abs/1807.01613
+  https://arxiv.org/abs/2107.11462
+  https://arxiv.org/abs/2404.11965
+  https://doi.org/10.1016/j.cpc
+  https://doi.org/10.1093/mnras/sty2190
+  https://doi.org/10.1093/mnras/stz2558
+  https://doi.org/10.1146/
+  https://doi.org/10.1198/004017008000000082
+  https://doi.org/10.1214/ss/1177012413
+  https://dx.doi.org/10.3847/2041-8213/aa9bf6
+  https://github.com/EmuKit/emukit/blob/main/notebooks/Emukit-tutorial-experimental-design-introduction.ipynb
+  https://github.com/MoritzNeuberger/warwick-legend
+  https://github.com/annkasch/resum-legend
+  https://github.com/drbenmorgan/warwick-legend
+  https://nuclearsciencefuture.org/wp-content/uploads/2024/02/23-G06476-2024-LRP-17x11-pcg-1.24.24.pdf
+  https://www.annualreviews.org/content/journals/10.1146/annurev-nucl-101918-023407
+  https://www.nobelprize.org/prizes/physics/1980/summary/
+  https://www.nobelprize.org/prizes/physics/2002/summary/
+  https://www.nobelprize.org/prizes/physics/2008/summary/
+  www.nobelprize.org/prizes/physics/2002/summary/
+
+LqTz13JS2P.pdf:
+  http://dl.acm.org/citation.cfm?doid=2764468.2764522
+  http://doi.wiley.com/10.1111/1468-0262.00153
+  http://epubs.siam.org/doi/10.1137/S0097539701398375
+  http://jmlr.org/papers/v11/audibert10a.html
+  http://jmlr.org/papers/v8/blum07a.html
+  http://link.springer.com/10.1007/BF01581690
+  http://pubsonline.informs.org/doi/10.1287/opre.2023.2438
+  https://dl.acm.org/doi/10.1145/3219166.3219233
+  https://dl.acm.org/doi/10.1145/3465456.3467574
+  https://dl.acm.org/doi/10.1145/3465456.3467593
+  https://dl.acm.org/doi/10.1145/3490486.3538313
+  https://dl.acm.org/doi/10.1145/3490486.3538327
+  https://dl.acm.org/doi/10.1145/3580507.3597680
+  https://dl.acm.org/doi/10.1145/3670865.3673455
+  https://dl.acm.org/doi/10.1145/3670865.3673514
+  https://dl.acm.org/doi/10.1145/3670865.3673517
+  https://dl.acm.org/doi/10.1145/3670865.3673613
+  https://econtheory.org/ojs/index.php/te/article/view/4742
+  https://ieeexplore.ieee.org/document/9317992/
+  https://link.springer.com/10.1007/978-3-031-48974-7_7
+  https://linkinghub.elsevier.com/retrieve/pii/0304406882900064
+  https://linkinghub.elsevier.com/retrieve/pii/S0899825685710238
+  https://openreview.net/forum?id=9B0iOkn3UP
+  https://openreview.net/forum?id=Bh0LLUp8OA
+  https://openreview.net/forum?id=NyQwBttTnG
+  https://openreview.net/forum?id=omyzrkacme
+  https://proceedings.mlr.press/v178/mansour22a.html
+  https://proceedings.mlr.press/v9/lu10a.html
+  https://proceedings.neurips.cc/paper/2019/file/8b6dd7db9af49e67306feb59a8bdc52c-Paper.pdf
+  https://proceedings.neurips.cc/paper/2020/file/ba5451d3c91a0f982f103cdbe249bc78-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2020/file/d79c8788088c2193f0244d8f1f36d2db-Paper.pdf
+  https://pubs.aeaweb.org/doi/10.1257/aer.101.6.2590
+  https://www.econometricsociety.org/doi/10.3982/ECTA19107
+  https://www.journals.uchicago.edu/doi/10.1086/720464
+  https://www.jstor.org/stable/1913390?origin=crossref
+
+LSp4KBhAom.pdf:
+  https://520xyxyzq.github.io/lora3d/
+
+lvw3UgeVxS.pdf:
+  https://eternagame.org/challenges/11843006
+  https://eternagame.org/labs/13389097
+  https://github.com/A4Bio/RDesign/blob/fa410a916f942a0dab7fb4b14d4e2342bcc88fff/checkpoints/log.log
+  https://github.com/A4Bio/RDesign/blob/fa410a916f942a0dab7fb4b14d4e2342bcc88fff/model/rdesign_model.py
+  https://github.com/A4Bio/RDesign/tree/b61988824d9e69cde316e0c593c446711f0ce36f
+  https://github.com/chaitjo/geometric-rna-design
+  https://www.rosettacommons.org/docs/latest/application_documentation/rna/rna-design
+  mailto:chaitanya.joshi@cl.cam.ac.uk
+
+LXftdR11io.pdf:
+  http://manikvarma.org/downloads/XC/XMLRepository.html
+  https://github.com/st-tech/zr-obp
+
+lXRDQsiP2v.pdf:
+  http://Skylion007.github.io/OpenWebTextCorpus
+  https://github.com/RobinWu218/ToST
+  https://github.com/facebookresearch/mega/issues/3
+  https://github.com/karpathy/nanoGPT
+  https://github.com/pkuzengqi/Skyformer
+
+Lz0XW99tE0.pdf:
+  http://dx.doi.org/10.1016/j.jmat.2017.08.002
+  http://www.sciencedirect.com/science/article/pii/S0010465520304057
+  https://doi.org/10.1016/j.cpc.2020.107810
+  https://doi.org/10.1016/j.matt.2021.11.032
+  https://github.com/wu-han-lin/CrysBFN
+  https://proceedings.mlr.press/v235/miller24a.html
+
+lzdFImKK8w.pdf:
+  http://www.jstor.org/stable/2334029
+  https://arxiv.org/abs/1707.06347v2
+  https://arxiv.org/abs/2301.12842v3
+  https://arxiv.org/abs/2304.02198v1
+  https://arxiv.org/abs/2304.03889
+  https://arxiv.org/abs/2305.18290v2
+  https://arxiv.org/abs/2310.12036v2
+  https://arxiv.org/abs/2310.12304v1
+  https://arxiv.org/abs/2402.04845v1
+  https://arxiv.org/abs/2403.04187v1
+  https://arxiv.org/abs/2403.16576v1
+  https://arxiv.org/abs/2404.05868v1
+  https://arxiv.org/abs/2405.10348v1
+  https://arxiv.org/abs/2405.12961v1
+  https://arxiv.org/abs/2405.14734v1
+  https://arxiv.org/abs/2405.17802v1
+  https://arxiv.org/abs/2406.02066v1
+  https://doi.org/10.1021/acs.jctc.6b00819
+  https://doi.org/10.1021/acs.jctc.7b00125
+  https://doi.org/10.1038/s41467-023-38328-5
+  https://doi.org/10.1038/s41586-024-07487-w
+  https://doi.org/10.1038/s41592-022-01490-7
+  https://doi.org/10.1038/s41596-020-0312-x
+  https://doi.org/10.1093/bioinformatics/btad718
+  https://doi.org/10.1093/bioinformatics/btz184
+  https://doi.org/10.1093/bioinformatics/btz926
+  https://doi.org/10.1093/nar/gkab1050
+  https://github.com/aim-uofa/BA-DDG
+  https://link.springer.com/article/10.1186/s12859-020-03646-8/fulltext.html
+  https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.25630
+  https://openreview.net/forum?id=TG8KACxEON
+  https://proceedings.mlr.press/v139/rao21a.html
+  https://proceedings.mlr.press/v162/hsu22a.html
+  https://proceedings.mlr.press/v162/notin22a.html
+  https://proceedings.mlr.press/v235/wu24o.html
+  https://proceedings.neurips.cc/paper_files/paper/2019/file/6c7de1f27f7de61a6daddfffbe05c058-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2021/file/f51338d736f95dd42427296047067694-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2023/file/99088dffd5eab0babebcda4bc58bbcea-Paper-Conference.pdf
+  https://www.biorxiv.org/content/10.1101/2023.02.28.530137v1
+  https://www.biorxiv.org/content/10.1101/2023.12.10.570461v1
+  https://www.biorxiv.org/content/10.1101/2024.03.14.584940v1
+  https://www.biorxiv.org/content/10.1101/2024.05.20.595026v1
+  https://www.biorxiv.org/content/10.1101/2024.05.25.595871v1
+  https://www.biorxiv.org/content/10.1101/341735v1
+  https://www.biorxiv.org/content/early/2022/07/21/2022.07.20.500902
+  https://www.pnas.org/doi/abs/10.1073/pnas.2122954119
+  https://www.science.org/content/blog-post/alphafold-3-debuts
+  https://www.science.org/doi/pdf/10.1126/science.add2187
+  https://www.science.org/doi/pdf/10.1126/science.adk8946
+
+M2SsqpxGtc.pdf:
+  https://cubediff.github.io/
+  https://polyhaven.com/hdris
+  https://www.humus.name/index.php?page=Textures
+
+M7KyLjuN0A.pdf:
+  https://dynamic-city.github.io
+  https://github.com/NVIDIA/MinkowskiEngine
+  https://github.com/mit-han-lab/spvnas
+  https://github.com/mit-han-lab/torchsparse
+  https://github.com/nutonomy/nuscenes-devkit
+  https://github.com/traveller59/spconv
+  https://github.com/wzzheng/OccSora
+  https://github.com/zoomin-lee/SemCity
+  https://tsinghua-mars-lab.github.io/Occ3D
+  https://umich-curly.github.io/CarlaSC.github.io
+  https://waymo.com/open
+  https://www.nuscenes.org/nuscenes
+
+M8OGl34Pmg.pdf:
+  https://github.com/L-Scofano/SDA
+
+m9RNBZewW2.pdf:
+
+m9wG6ai2Xk.pdf:
+  https://aclanthology.org/2024.findings-emnlp.266
+  https://arxiv.org/abs/2402.11900
+  https://arxiv.org/abs/2407.10671
+  https://arxiv.org/abs/2407.21783
+  https://github.com/henryzhongsc/MQuAKE-Remastered
+  https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md
+  https://huggingface.co/datasets/henryzhongsc/MQuAKE-Remastered
+  https://openreview.net/pdf?id=0hTPJBnncc##page=5
+  https://www.wikidata.org/wiki/Property:P10209
+  https://youtube.com/watch?v=DbwiHC1Fu-E&t=132s
+
+MagmwodCAB.pdf:
+  https://arxiv.org/abs/2206.00364
+  https://arxiv.org/abs/2305.10855
+  https://github.com/limuloo/3DIS
+  https://stability.ai/news/stable-diffusion-v2-release
+  https://wandb.ai/johnowhitaker/multires_noise/reports/
+  https://www.crosslabs.org/blog/diffusion-with-offset-noise
+
+MFZjrTFE7h.pdf:
+  https://docs.ultralytics.com/models/yolo11/
+  https://docs.ultralytics.com/models/yolov8/
+  https://github.com/Peterande/D-FINE
+
+MGKDBuyv4p.pdf:
+  http://jmlr.org/papers/v21/20-074.html
+  https://aclanthology.org/2020.acl-main.66
+  https://aclanthology.org/2022.acl-long.577
+  https://aclanthology.org/2022.emnlp-main.279
+  https://aclanthology.org/2022.emnlp-main.3
+  https://aclanthology.org/2023.blackboxnlp-1.24
+  https://aclanthology.org/2024.acl-long.457
+  https://api.semanticscholar.org/CorpusID:233289412
+  https://api.semanticscholar.org/CorpusID:248496292
+  https://app.electricitymaps.com/map
+  https://docs.nersc.gov/systems/perlmutter/architecture/
+  https://doi.org/10.48550/arXiv.1712.09913
+  https://doi.org/10.5281/zenodo.5297715
+  https://github.com/ddkang/loss_dropper
+  https://github.com/google-research/google-research/tree/master/lm_memorization
+  https://github.com/kingoflolz/mesh-transformer-jax
+  https://github.com/marcellodebernardi/loss-landscapes
+  https://github.com/msakarvadia/memorization
+  https://github.com/pfnet-research/sngan_projection
+  https://github.com/pratyushmaini/localizing-memorization
+  https://github.com/terarachang/MemPi
+  https://openai.com/index/chatgpt/
+  https://openreview.net/forum?id=0DcZxeWfOPt
+  https://openreview.net/forum?id=6qcYDVlVLnK
+  https://openreview.net/forum?id=Byj72udxe
+  https://openreview.net/forum?id=MkbcAHIYgyS
+  https://openreview.net/forum?id=TatRHT_1cK
+  https://openreview.net/forum?id=YokfK5VOoz
+  https://openreview.net/forum?id=fmgYOUahK9
+  https://openreview.net/forum?id=jSu7hAIZM0
+  https://openreview.net/forum?id=qVyeW-grC2k
+  https://www.alcf.anl.gov/polaris
+  https://www.businessinsider.com/why-comedian-sarah-silverman-is-suing-the-company-behind-chatgpt-2023-7
+  mailto:sakarvadia@uchicago.edu
+  www.businessinsider.com/why-comedian-sarah-silverman-is-suing-the-company
+
+mkDam1xIzW.pdf:
+  https://doi.org/10.1214/17-AOAS1115
+
+MKEHCx25xp.pdf:
+  https://ai.meta.com/blog/meta-llama-3/
+  https://api.semanticscholar.org/CorpusID:249017743
+  https://api.semanticscholar.org/CorpusID:251979509
+  https://api.semanticscholar.org/CorpusID:260682249
+  https://api.semanticscholar.org/CorpusID:263625818
+  https://api.semanticscholar.org/CorpusID:265351664
+  https://api.semanticscholar.org/CorpusID:265608902
+  https://api.semanticscholar.org/CorpusID:269390491
+  https://api.semanticscholar.org/CorpusID:269983560
+  https://api.semanticscholar.org/CorpusID:270738096
+  https://github.com/allenai/WildBench/tree/main/evaluation
+  https://github.com/allenai/WildBench/tree/main/scripts
+  https://github.com/tatsu-lab/alpaca_eval
+  https://github.com/tatsu-lab/stanford_alpaca
+  https://hf.co/spaces/allenai/WildBench
+  https://hf.co/spaces/allenai/ZebraLogicBench-Leaderboard
+  https://huggingface.co/datasets/allenai/WildBench/viewer/v2
+  https://huggingface.co/spaces/allenai/WildBench
+  https://lmsys.org/blog/2024-04-19-arena-hard/
+  https://openreview.net/forum?id=qS1ip2dGH0
+  https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf
+
+Mn2qgIcIPS.pdf:
+  https://github.com/dgjung0220/CLODE
+  https://github.com/rtqichen/torchdiffeq
+
+mOpNrrV2zH.pdf:
+  http://openbabel.org/wiki/Main_Page
+  http://www.rdkit.org
+  https://arxiv.org/abs/2203.17003
+  https://arxiv.org/abs/2305.18290
+  https://arxiv.org/abs/2308.07037
+  https://arxiv.org/abs/2406.03403
+  https://arxiv.org/abs/2406.04628
+  https://arxiv.org/abs/2407.01648
+  https://arxiv.org/abs/2407.13981
+  https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/c45147dee729311ef5b5c3003946c48f-Paper-round1.pdf
+  https://doi.org/10.1038/s41597-022-01288-4
+  https://github.com/EDAPINENUT/CBGBench)
+  https://openreview.net/forum?id=4AB54h21qG
+  https://openreview.net/forum?id=4MbGnp4iPQ
+  https://openreview.net/forum?id=6pHP51F55x
+  https://openreview.net/forum?id=LFHFQbjxIiP
+  https://openreview.net/forum?id=Rq13idF0F73
+  https://openreview.net/forum?id=_X9Yl1K2mD
+  https://openreview.net/forum?id=kJqXEPXMsE0
+  https://proceedings.mlr.press/v202/guan23a.html
+
+msEr27EejF.pdf:
+  http://arxiv.org/abs/1606.06565
+  http://arxiv.org/abs/1701.08230
+  http://arxiv.org/abs/1707.06347
+  http://arxiv.org/abs/1710.05465
+  http://arxiv.org/abs/1711.02827
+  http://arxiv.org/abs/1711.09883
+  http://arxiv.org/abs/1712.09381
+  http://arxiv.org/abs/1801.08757
+  http://arxiv.org/abs/1803.04585
+  http://arxiv.org/abs/1806.01186
+  http://arxiv.org/abs/1811.07871
+  http://arxiv.org/abs/1812.02690
+  http://arxiv.org/abs/1901.10031
+  http://arxiv.org/abs/1906.05274
+  http://arxiv.org/abs/1912.01703
+  http://arxiv.org/abs/2002.04833
+  http://arxiv.org/abs/2002.06506
+  http://arxiv.org/abs/2003.14089
+  http://arxiv.org/abs/2006.06547
+  http://arxiv.org/abs/2008.12623
+  http://arxiv.org/abs/2009.01325
+  http://arxiv.org/abs/2009.09051
+  http://arxiv.org/abs/2010.10560
+  http://arxiv.org/abs/2103.12021
+  http://arxiv.org/abs/2104.13906
+  http://arxiv.org/abs/2106.05091
+  http://arxiv.org/abs/2106.06926
+  http://arxiv.org/abs/2110.06267
+  http://arxiv.org/abs/2112.12228
+  http://arxiv.org/abs/2201.03544
+  http://arxiv.org/abs/2202.02446
+  http://arxiv.org/abs/2202.11776
+  http://arxiv.org/abs/2204.02372
+  http://arxiv.org/abs/2204.05862
+  http://arxiv.org/abs/2204.06601
+  http://arxiv.org/abs/2204.08957
+  http://arxiv.org/abs/2205.11275
+  http://arxiv.org/abs/2205.15623
+  http://arxiv.org/abs/2206.07166
+  http://arxiv.org/abs/2207.00046
+  http://arxiv.org/abs/2207.10192
+  http://arxiv.org/abs/2209.00626
+  http://arxiv.org/abs/2209.13085
+  http://arxiv.org/abs/2209.14375
+  http://arxiv.org/abs/2210.10760
+  http://arxiv.org/abs/2301.03652
+  http://arxiv.org/abs/2302.08215
+  http://arxiv.org/abs/2304.09853
+  http://arxiv.org/abs/2305.03360
+  http://arxiv.org/abs/2305.15210
+  http://arxiv.org/abs/2305.18290
+  http://arxiv.org/abs/2309.01107
+  http://arxiv.org/abs/2309.15257
+  http://arxiv.org/abs/2309.16240
+  http://arxiv.org/abs/2310.02743
+  http://arxiv.org/abs/2311.18232
+  http://arxiv.org/abs/2406.15753
+  http://arxiv.org/abs/2407.13399
+  http://arxiv.org/abs/2407.14503
+  http://arxiv.org/abs/cond-mat/0002177
+  http://joschu.net/blog/kl-approx.html
+  http://www.roboticsproceedings.org/rss13/p53.pdf
+  https://academic.oup.com/jrssig/article-
+  https://aclanthology.org/2023.emnlp-main.530
+  https://arxiv.org/abs/1811.06521
+  https://arxiv.org/abs/2203.02155
+  https://arxiv.org/abs/2309.10691
+  https://arxiv.org/abs/2405.14655
+  https://arxiv.org/abs/2406.09279
+  https://doi.org/10.1007/978-1-349-17295-5_4
+  https://doi.org/10.1007/s11886-022-01799-x
+  https://doi.org/10.1111/j.1740-9713.2016.00960.x
+  https://github.com/cassidylaidlaw/orpo
+  https://ieeexplore.ieee.org/document/8569938
+  https://openreview.net/forum?id=LwEQnp6CYev
+  https://papers.nips.cc/paper_files/paper/2016/hash/cc7e2b878868cbae992d1fb743995d8f-Abstract.html
+  https://proceedings.mlr.press/v119/reddy20a.html
+  https://proceedings.mlr.press/v202/biderman23a.html
+  https://proceedings.mlr.press/v235/nika24a.html
+  https://proceedings.mlr.press/v80/kang18a.html
+  https://proceedings.mlr.press/v87/vinitsky18a.html
+  https://proceedings.mlr.press/v97/fujimoto19a.html
+  https://proceedings.neurips.cc/paper_files/paper/2023/hash/5fc47800ee5b30b8777fdd30abcaaf3b-Abstract-Conference.html
+  https://vkrakovna.wordpress.com/2018/04/02/specification-gaming-examples-in-ai/
+  https://vkrakovna.wordpress.com/2019/08/19/classifying-specification-problems-as-variants-of-goodharts-law/
+  https://www.jstor.org/stable/25463523
+  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3876341/
+  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4454102/
+  https://www.science.org/doi/10.1126/science.aax2342
+  https://www.semanticscholar.org/paper/Optimal-Policies-Tend-To-Seek-Power-Turner-Smith/46d4452eb041e33f1e58eab64ec8cf5af534b6ff
+  https://www.semanticscholar.org/paper/Quantilizers%3A-A-Safer-Alternative-to-Maximizers-for-Taylor/4e8ff3b4069a12a00196d62925bab8add7389742
+  www.science.org/doi/10.1126/science.aax2342
+
+MtDd7rWok1.pdf:
+  https://github.com/BestJunYu/ANTI_EXPOSURE_BIAS
+
+n0OtGl6VGb.pdf:
+  https://github.com/SalesforceAIResearch/ThinK
+  https://github.com/gkamradt/LLMTest_NeedleInAHaystack/tree/main
+  https://github.com/jy-yuan/KIVI/tree/main/vis
+  https://openai.com/blog/chatgpt
+
+N1L5TgtkAw.pdf:
+  http://www.uic.unn.ru/
+  https://aclanthology.org/W18-6401
+  https://www.aclweb.org/anthology/W04-1013
+  https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm
+
+N4NhVN30ph.pdf:
+  http://jmlr.org/papers/v22/20-1364.html
+  https://brucegeli.github.io/TOP_ERL_ICLR25/
+  https://openreview.net/forum?id=9ZkUFSwlUH
+  https://openreview.net/forum?id=SyY7ScNpGL
+  https://openreview.net/forum?id=ZdgaF8fOc0
+  https://openreview.net/forum?id=mnipav175N
+
+n9PDaFNi8t.pdf:
+  http://arxiv.org/abs/2105.13231
+  http://arxiv.org/abs/2308.11432
+  https://aclanthology.org/2020.acl-main.729
+  https://api.semanticscholar.org/CorpusID:229363676
+  https://api.semanticscholar.org/CorpusID:236957064
+  https://api.semanticscholar.org/CorpusID:252762394
+  https://arxiv.org/abs/2401.03568
+  https://arxiv.org/abs/2406.17557
+  https://doi.org/10.48550/arXiv.2402.17553
+  https://doi.org/10.48550/arXiv.2406.08451
+  https://doi.org/10.48550/arXiv.2406.11317
+  https://huggingface.co/datasets/agentsea/wave-ui
+  https://lilianweng.github.io/posts/2023-06-23-agent/
+  https://openreview.net/forum?id=VtmBAGCN7o
+  https://openreview.net/forum?id=kiYqbO3wqw
+  https://openreview.net/forum?id=piecKJ2DlB
+  https://osatlas.github.io/
+  https://webaim.org/projects/million/
+  https://www.adept.ai/blog/fuyu-8b
+
+NdHka08uWn.pdf:
+  https://aclanthology.org/2024.lrec-main.196
+  https://github.com/hengzhe-zhang/RAG-SR
+  https://openreview.net/forum?id=1PL1NIMMrw
+  https://openreview.net/forum?id=Bkg6RiCqY7
+  https://openreview.net/forum?id=IejxxE9DO2
+  https://openreview.net/forum?id=KZSEgJGPxu
+  https://openreview.net/forum?id=PJVUWpPnZC
+  https://openreview.net/forum?id=RuCQRXk7a7G
+  https://openreview.net/forum?id=Skq89Scxx
+  https://openreview.net/forum?id=ZTK3SefE8_Z
+  https://openreview.net/forum?id=o7koEEMA1bR
+
+nGiGXLnKhl.pdf:
+  https://github.com/OpenGVLab/Vision-RWKV
+
+NGKQoaqLpo.pdf:
+  https://aclanthology.org/C16-1009
+  https://aclanthology.org/K17-1034
+  https://dumps.wikimedia.org
+  https://github.com/tatsu-lab/stanford_alpaca
+  https://royalsocietypublishing.org/doi/abs/10.1098/rstb.2019.0637
+  https://sunchipsster1.github.io/projects/outlandish/
+  https://www.pnas.org/doi/abs/10.1073/pnas.1714082115
+
+Njx1NjHIx4.pdf:
+  http://Skylion007.github.io/OpenWebTextCorpus
+  https://arxiv.org/abs/2212.13881
+  https://arxiv.org/abs/2309.00570
+  https://arxiv.org/abs/2402.07193
+
+NQqJPPCesd.pdf:
+  http://jmlr.org/papers/v22/20-451.html
+  https://github.com/khainb/MFSWB
+
+NTHMw8S1Ow.pdf:
+  http://arxiv.org/abs/1312.6114
+  http://arxiv.org/abs/1406.2661
+  http://arxiv.org/abs/1411.1784
+  http://arxiv.org/abs/1412.6980
+  http://arxiv.org/abs/1503.08677
+  http://arxiv.org/abs/1606.08415
+  http://arxiv.org/abs/1610.04787
+  http://arxiv.org/abs/1710.08347
+  http://dml.cs.byu.edu/~cgc/docs/mldm_tools/Reading/Need%20for%20Bias.pdf
+  http://dml.cs.byu.edu/˜cgc/docs/mldm_
+  http://dx.doi.org/10.1613/jair.731
+  http://dx.doi.org/10.21468/SciPostPhys.5.3.028
+  http://openaccess.thecvf.com/content_CVPR_2019/html/Schonfeld_Generalized_Zero-_and_Few-Shot_Learning_via_Aligned_Variational_Autoencoders_CVPR_2019_paper.html
+  http://papers.nips.cc/paper_files/paper/2022/hash/01ecd39ca49ddecc5729ca996304781b-Abstract-Conference.html
+  http://papers.nips.cc/paper_files/paper/2022/hash/948552777302d3abf92415b1d7e9de70-Abstract-Conference.html
+  http://papers.nips.cc/paper_files/paper/2023/hash/3eb7ca52e8207697361b2c0fb3926511-Abstract-Conference.html
+  https://aclanthology.org/P19-1139
+  https://arxiv.org/abs/2011.15091
+  https://arxiv.org/abs/2207.04179
+  https://arxiv.org/abs/2302.14545
+  https://arxiv.org/abs/2405.12856
+  https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/9bf31c7ff062936a96d3c8bd1f8f2ff3-Paper-round2.pdf
+  https://doi.org/10.1007/978-1-4615-5529-2_1
+  https://doi.org/10.1007/s10845-022-01975-4
+  https://doi.org/10.1007/s10994-006-5833-1
+  https://doi.org/10.1016/j.cnsns.2021.106041
+  https://doi.org/10.1016/j.eswa.2016.02.050
+  https://doi.org/10.1023/A:1007327622663
+  https://doi.org/10.1080/15427609.2017.1370966
+  https://doi.org/10.1109/CVPR.2016.13
+  https://doi.org/10.1109/TPAMI.2016.2643667
+  https://doi.org/10.1145/3097983.3098126
+  https://doi.org/10.1609/aaai.v32i1.11671
+  https://doi.org/10.18653/v1/2020.findings-emnlp.50
+  https://doi.org/10.48550/arXiv.2204.06125
+  https://doi.org/10.48550/arXiv.2207.12598
+  https://eedi.com/about-us
+  https://github.com/kasia-kobalczyk/informed-meta-learning
+  https://github.com/vanderschaarlab/informed-meta-learning
+  https://huggingface.co/openai/clip-vit-base-patch32)
+  https://icml.cc/2011/papers/399_icmlpaper.pdf
+  https://link.aps.org/doi/10.1103/PhysRevFluids.3.074602
+  https://openreview.net/forum?id=A3HHaEdqAJL
+  https://openreview.net/forum?id=HkxLXnAcFQ
+  https://openreview.net/forum?id=JAMxRSXLFz
+  https://openreview.net/forum?id=OHAIVOOl7Vl
+  https://openreview.net/forum?id=SkE6PjC9KX
+  https://openreview.net/forum?id=SyxS0T4tvS
+  https://openreview.net/forum?id=Unb5CVPtae
+  https://openreview.net/forum?id=kyY4w4IgtM8
+  https://openreview.net/forum?id=tDqef76wFaO
+  https://proceedings.mlr.press/v253/ashman24a.html
+  https://proceedings.mlr.press/v48/cohenc16.html
+  https://proceedings.mlr.press/v80/depeweg18a.html
+  https://proceedings.mlr.press/v80/garnelo18a.html
+  https://proceedings.mlr.press/v9/riihimaki10a.html
+  https://proceedings.neurips.cc/paper/2012/hash/af21d0c97db2e27e13572cbf59eb343d-Abstract.html
+  https://proceedings.neurips.cc/paper/2015/hash/8d55a249e6baa5c06772297520da2051-Abstract.html
+  https://proceedings.neurips.cc/paper/2018/hash/8e2c381d4dd04f1c55093f22c59c3a08-Abstract.html
+  https://proceedings.neurips.cc/paper/2019/hash/3001ef257407d5a371a96dcd947c7d93-Abstract.html
+  https://proceedings.neurips.cc/paper/2020/hash/0a716fe8c7745e51a3185fc8be6ca23a-Abstract.html
+  https://proceedings.neurips.cc/paper/2020/hash/322f62469c5e3c7dc3e58f5a4d1ea399-Abstract.html
+  https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html
+  https://proceedings.neurips.cc/paper/2020/hash/ef0d17b3bdb4ee2aa741ba28c7255c53-Abstract.html
+  https://proceedings.neurips.cc/paper/2021/hash/c705112d1ec18b97acac7e2d63973424-Abstract.html
+  https://proceedings.neurips.cc/paper_files/paper/2017/file/cb8da6767461f2812ae4290eac7cbc42-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2017/file/f22e4747da1aa27e363d86d40ff442fe-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2024/file/24f3041067ab24157912330344dc3bbd-Paper-Conference.pdf
+  https://www.ncei.noaa.gov/access/crn/qcdatasets.html
+  https://www.sciencedirect.com/science/article/pii/S0957417416300896
+  https://www.sciencedirect.com/science/article/pii/S1007570421003531
+
+Nx4PMtJ1ER.pdf:
+  http://dx.doi.org/10.1214/12-AOS1080
+  https://arxiv.org/abs/1603.03788
+  https://doi.org/10.1007/s10670-017-9882-6
+  https://doi.org/10.1016/j.artint.2008.08.001
+  https://doi.org/10.1017/CBO9781107590120
+  https://doi.org/10.1214/17-AOS1618
+  https://doi.org/10.1214/21-AOS2064
+  https://doi.org/10.1214/23-AOS2323
+  https://doi.org/10.1214/aos/1031689015
+  https://github.com/crispitagorico/sigkerax
+  https://openreview.net/forum?id=9wOQOgNe-w
+  https://openreview.net/forum?id=H1gN6kSFwS
+  https://openreview.net/forum?id=IyTArtpuCK
+  https://openreview.net/forum?id=SsHBkfeRF9L
+  https://openreview.net/forum?id=V1GM9xDvIY
+  https://openreview.net/forum?id=hp_RwhKDJ5
+  https://proceedings.mlr.press/v160/glad21a.html
+  https://proceedings.mlr.press/v213/montagna23b.html
+  https://proceedings.mlr.press/v238/mogensen24a.html
+  https://proceedings.neurips.cc/paper_files/paper/2017/file/02f039058bd48307e6f653a2005c9dd2-Paper.pdf
+  https://www.sciencedirect.com/science/article/pii/S0004370208001008
+
+nYpPAT4L3D.pdf:
+  https://github.com/alibaba-damo-academy/fvlm
+
+o1Et3MogPw.pdf:
+  http://papers.nips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html
+  http://papers.nips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html
+  http://papers.nips.cc/paper_files/paper/2023/hash/77c33e6a367922d003ff102ffb92b658-Abstract-Conference.html
+  http://papers.nips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html
+  http://papers.nips.cc/paper_files/paper/2023/hash/a3621ee907def47c1b952ade25c67698-Abstract-Conference.html
+  http://papers.nips.cc/paper_files/paper/2023/hash/d842425e4bf79ba039352da0f658a906-Abstract-Conference.html
+  http://www.oxanaware.com/x-brood-adventures/2021/6/3/its-a-birthday-party)
+  https://api.semanticscholar.org/CorpusID:266149845
+  https://api.semanticscholar.org/CorpusID:86611921
+  https://arxiv.org/abs/2112.09332
+  https://doi.org/10.1016/j.comnet.2008.03.006
+  https://doi.org/10.1109/5254.757631
+  https://doi.org/10.1145/191246.191322
+  https://doi.org/10.1145/3586183.3606763
+  https://doi.org/10.1561/1500000019
+  https://doi.org/10.1613/jair.2695
+  https://doi.org/10.18653/v1/2020.emnlp-main.550
+  https://doi.org/10.18653/v1/2023.acl-long.754
+  https://doi.org/10.48550/arXiv.2303.08774
+  https://doi.org/10.48550/arXiv.2305.14325
+  https://doi.org/10.48550/arXiv.2305.16291
+  https://doi.org/10.48550/arXiv.2305.19118
+  https://doi.org/10.48550/arXiv.2307.04738
+  https://doi.org/10.48550/arXiv.2307.07924
+  https://doi.org/10.48550/arXiv.2307.16789
+  https://doi.org/10.48550/arXiv.2308.00352
+  https://doi.org/10.48550/arXiv.2308.07201
+  https://doi.org/10.48550/arXiv.2308.08155
+  https://doi.org/10.48550/arXiv.2309.10691
+  https://doi.org/10.48550/arXiv.2311.12983
+  https://doi.org/10.48550/arXiv.2312.17025
+  https://doi.org/10.48550/arXiv.2312.17445
+  https://doi.org/10.48550/arXiv.2402.00798
+  https://doi.org/10.48550/arXiv.2402.07456
+  https://doi.org/10.48550/arXiv.2403.05530
+  https://doi.org/10.48550/arXiv.2403.08295
+  https://doi.org/10.48550/arXiv.2403.11322
+  https://doi.org/10.48550/arXiv.2404.06395
+  https://doi.org/10.48550/arXiv.2404.14219
+  https://doi.org/10.48550/arXiv.2406.07155
+  https://github.com/Netflix/eureka
+  https://github.com/OpenBMB/IoA
+  https://github.com/OpenDevin/OpenDevin
+  https://github.com/OpenInterpreter/open-interpreter
+  https://github.com/Significant-Gravitas/AutoGPT
+  https://github.com/crewAIInc/crewAI
+  https://github.com/huggingface/alignment-handbook/blob/main/recipes/zephyr-7b-beta/sft/config_full.yaml
+  https://github.com/langchain-ai/langchain
+  https://github.com/langchain-ai/langgraph
+  https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md
+  https://github.com/pytube/pytube
+  https://lmsys.org/blog/2023-03-30-vicuna/
+  https://news.uark.edu/articles/69326/fay-jones-birthday-events-feature-
+  https://news.uark.edu/articles/69867/happy-birthday-u-of-a-celebrate-the-university-s-
+  https://openreview.net/pdf?id=1PL1NIMMrw
+  https://openreview.net/pdf?id=WE_vluYUL-X
+  https://python.langchain.com/v0.1/docs/integrations/tools/wikidata/
+  https://www.anthropic.com/news/claude-3-family
+  https://www.hcn.org/issues/44-13/of-balloons-littering-and-birthday-
+  https://www.npr.org/2024/02/28/1232982450/celebrate-leap-day-2024'}
+  https://www.npr.org/2024/02/28/1232982450/celebrate-leap-day-2024)
+
+oCHsDpyawq.pdf:
+  http://github.com/jax-ml/jax
+  https://doi.org/10.1002/cne.25268.
+  https://doi.org/10.1016/j.cell.2016.09.055
+  https://doi.org/10.1016/j.cell.2016.10.019
+  https://doi.org/10.1016/j.cell.2019.05.050
+  https://doi.org/10.1016/j.cell.2022.11.022
+  https://doi.org/10.1016/j.ijforecast.2021.11.013
+  https://doi.org/10.1016/j.neuron.2019.04.034
+  https://doi.org/10.1016/j.neuron.2020.07.040
+  https://doi.org/10.1029/2020MS002203
+  https://doi.org/10.1038/80649
+  https://doi.org/10.1038/nature11057
+  https://doi.org/10.1038/nmeth.2434
+  https://doi.org/10.1038/nmeth.3040
+  https://doi.org/10.1038/nmeth.3581
+  https://doi.org/10.1038/s41467-017-00310-3
+  https://doi.org/10.1038/s41586-021-03819-2
+  https://doi.org/10.1038/s41586-024-07939-3
+  https://doi.org/10.1038/s41592-018-0049-4
+  https://doi.org/10.1038/s41592-019-0435-6
+  https://doi.org/10.1038/s41592-020-01018-x
+  https://doi.org/10.1038/s41593-019-0534-9
+  https://doi.org/10.1073/pnas.1507110112
+  https://doi.org/10.1073/pnas.92.23.10545
+  https://doi.org/10.1093/cercor/bhab218
+  https://doi.org/10.1101/2021.07.28.454025
+  https://doi.org/10.1101/2023.07.04.547681
+  https://doi.org/10.1101/2023.07.25.550571
+  https://doi.org/10.1101/2024.08.21.608979
+  https://doi.org/10.1103/PhysRevE.89.052805
+  https://doi.org/10.1103/PhysRevLett.97.170201
+  https://doi.org/10.1145/3620665.3640366
+  https://doi.org/10.1162/neco.1997.9.6.1179
+  https://doi.org/10.1198/016214506000001437
+  https://doi.org/10.1242/jeb.003939
+  https://doi.org/10.1242/jeb.238386
+  https://doi.org/10.1371/journal.pbio.2006732
+  https://doi.org/10.1609/aaai.v37i9.26317
+  https://doi.org/10.17504/protocols.io.dm6gpjx6pgzp/v1
+  https://doi.org/10.48550/arXiv.1710.05941
+  https://doi.org/10.48550/arXiv.1711.05101
+  https://doi.org/10.48550/arXiv.2305.19654
+  https://doi.org/10.48550/arXiv.2306.06079
+  https://doi.org/10.48550/arXiv.2308.15560
+  https://doi.org/10.48550/arXiv.2503.00073
+  https://doi.org/10.5281/zenodo.10534541
+  https://doi.org/10.5281/zenodo.10576375
+  https://doi.org/10.5281/zenodo.5573294
+  https://doi.org/10.7717/peerj.453
+  https://github.com/apache/beam
+  https://github.com/google-research/zapbench/
+  https://github.com/google/grain
+  https://github.com/google/tensorstore
+  https://github.com/mrdoob/three.js
+  https://google-research.github.io/zapbench/
+
+OdnqG1fYpo.pdf:
+  https://github.com/ANTsX/ANTs)
+  https://github.com/iwuqing/Moner
+  https://github.com/mmuckley/torchkbnufft
+  https://github.com/scikit-image/scikit-image)
+  https://github.com/utcsilab/motion_score_mri)
+
+OeBY9XqiTz.pdf:
+  https://anonymous-samba.github.io/
+  https://sambamotr.github.io/
+  https://www.bbc.co.uk/programmes/b018xsc1
+
+ofuLWn8DFZ.pdf:
+  https://pytorch.org/vision/stable/index.html
+  https://www.cs.cit.tum.de/daml/reliable-conformal-prediction/
+
+Oi47wc10sm.pdf:
+  https://ai.meta.com/blog/meta-llama-3/
+  https://arxiv.org/abs/2305.12798
+  https://arxiv.org/abs/2405.18822
+  https://github.com/IBM/activation-steering
+  https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-8B
+  https://huggingface.co/blog/mlabonne/abliteration
+
+oI5tZaWkF9.pdf:
+  https://aclanthology.org/2020.emnlp-demos.6
+  https://aclanthology.org/2020.lrec-1.494
+  https://aclanthology.org/2022.amta-upg.22
+  https://aclanthology.org/2022.emnlp-main.801
+  https://aclanthology.org/2022.naacl-main.341
+  https://aclanthology.org/2023.acl-long.754
+  https://aclanthology.org/2023.emnlp-main.647
+  https://aclanthology.org/2024.emnlp-main.130
+  https://aclanthology.org/N19-1423
+  https://aclanthology.org/S18-1005
+  https://aclanthology.org/W18-5446
+  https://ai.meta.com/blog/meta-llama-3
+  https://arxiv.org/abs/2303.08774
+  https://arxiv.org/abs/2407.21783
+  https://doi.org/10.1002/asi.23062
+  https://github.com/Hsun-Yu/DIMP-Loss
+  https://github.com/tatsu-lab/stanford_alpaca
+  https://lmsys.org/blog/2023-03-30-vicuna/
+  https://openai.com/blog/chatgpt
+  https://openreview.net/forum?id=h5OpjGd_lo6
+  https://proceedings.mlr.press/v139/menon21a.html
+  https://proceedings.mlr.press/v162/mindermann22a.html
+  https://proceedings.mlr.press/v80/katharopoulos18a.html
+  https://proceedings.mlr.press/v80/ren18a.html
+  https://proceedings.mlr.press/v97/byrd19a.html
+  https://proceedings.neurips.cc/paper_files/paper/2019/file/671f0311e2754fcdd37f70a8550379bc-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2020/file/aeb7b30ef1d024a76f21a1d40e30c302-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2022/file/57b53238ff22bc0dc62de08f53eb5de2-Paper-Conference.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2023/file/1af3e0bf5905e33789979f666c31192d-Paper-Conference.pdf
+  https://www.kaggle.com/competitions/tweet-sentiment-extraction
+  https://www.tandfonline.com/doi/abs/10.1080/00401706.1995.10484303
+  www.tandfonline.com/doi/abs/10.1080/00401706.1995.10484303
+
+oQ4igHyh3N.pdf:
+  http://Skylion007.github.io/OpenWebTextCorpus
+  http://mattmahoney.net/dc/text.html
+  https://api.semanticscholar.org/CorpusID:245758737
+  https://github.com/Haiyang-W/TokenFormer.git
+  https://github.com/karpathy/nanoGPT
+  https://github.com/open-mmlab/mmdetection
+
+oSQiao9GqB.pdf:
+  https://github.com/LLaVA-VL/LLaVA-NeXT
+  https://llava-vl.github.io/blog/2024-06-16-llava-next-interleave/
+  https://sciverse-cuhk.github.io
+
+OwpLQrpdwE.pdf:
+  https://doi.org/10.1016/j.physd.2024.134070
+  https://github.com/FrancescoRegazzoni/LDNets
+  https://github.com/rtqichen/torchdiffeq
+  https://pysindy.readthedocs.io/en/latest/examples/14_cavity_flow/example.html#6.-Manifold-SINDy
+  https://www.sciencedirect.com/science/article/pii/S0167278924000216
+  www.sciencedirect.com/science/article/pii/S0167278924000216
+
+OZbFRNhpwr.pdf:
+  https://ai-agents-2030.github.io/SPA-Bench/
+  https://developer.android.com/studio/run/emulator
+  https://github.com/PaddlePaddle/PaddleOCR
+  https://github.com/openatx/uiautomator2
+  https://github.com/senzhk/ADBKeyBoard
+  https://github.com’
+
+OZVTqoli2N.pdf:
+  https://doi.org/10.5281/zenodo.4532597
+  https://github.com/aimagelab/mammoth
+
+P42DbV2nuV.pdf:
+  http://www.pascal-
+  https://github.com/tmllab/2025_ICLR_IES
+
+p4cLtzk4oe.pdf:
+  https://arxiv.org/abs/2305.08694
+  https://stablediffusionlitigation.com/
+
+P7KRIiLM8T.pdf:
+  http://arxiv.org/abs/1805.10387
+  http://arxiv.org/abs/1905.12334
+  http://arxiv.org/abs/1910.12478
+  http://arxiv.org/abs/1911.03925
+  http://arxiv.org/abs/2405.15743
+  http://papers.nips.cc/paper_files/paper/2022/hash/67d57c32e20fd0a7a302cb81d36e40d5-Abstract-Conference.html
+  http://papers.nips.cc/paper_files/paper/2022/hash/c3ba4962c05c49636d4c6206a97e9c8a-Abstract-Conference.html
+  http://papers.nips.cc/paper_files/paper/2023/hash/edbcb7583fd8921dad78adecfe06a99b-Abstract-Conference.html
+  http://proceedings.mlr.press/v139/yang21c.html
+  http://proceedings.mlr.press/v139/yang21f.html
+  https://arxiv.org/abs/2002.05202
+  https://arxiv.org/abs/2006.14548
+  https://arxiv.org/abs/2009.10685
+  https://arxiv.org/abs/2304.01373
+  https://arxiv.org/abs/2407.05872
+  https://arxiv.org/abs/2407.21783
+  https://docs.nvidia.com/deeplearning/transformer-engine/user-guide/examples/fp8_primer.html
+  https://doi.org/10.1016/j.neucom.2023.127063
+  https://doi.org/10.1109/SC41405.2020.00024
+  https://doi.org/10.1145/3458817.3476209
+  https://doi.org/10.18653/v1/2024.acl-long.841
+  https://doi.org/10.48550/arXiv.2203.03466
+  https://doi.org/10.48550/arXiv.2206.02915
+  https://doi.org/10.48550/arXiv.2209.05433
+  https://doi.org/10.48550/arXiv.2302.13971
+  https://doi.org/10.48550/arXiv.2303.08774
+  https://doi.org/10.48550/arXiv.2304.03208
+  https://doi.org/10.48550/arXiv.2307.09288
+  https://doi.org/10.48550/arXiv.2308.01814
+  https://doi.org/10.48550/arXiv.2309.10818
+  https://doi.org/10.48550/arXiv.2309.11568
+  https://doi.org/10.48550/arXiv.2309.14322
+  https://doi.org/10.48550/arXiv.2309.17224
+  https://doi.org/10.48550/arXiv.2310.02244
+  https://doi.org/10.48550/arXiv.2310.17813
+  https://doi.org/10.48550/arXiv.2310.18313
+  https://doi.org/10.48550/arXiv.2311.16867
+  https://doi.org/10.48550/arXiv.2312.06550
+  https://doi.org/10.48550/arXiv.2402.17762
+  https://doi.org/10.48550/arXiv.2404.05728
+  https://doi.org/10.48550/arXiv.2404.06395
+  https://doi.org/10.48550/arXiv.2405.13698
+  https://doi.org/10.48550/arXiv.2405.14813
+  https://doi.org/10.48550/arXiv.2405.18392
+  https://doi.org/10.48550/arXiv.2405.19279
+  https://doi.org/10.48550/arXiv.2407.10671
+  https://dx.doi.org/10.1088/1742-5468/ad01b0
+  https://github.com/NVIDIA/TransformerEngine
+  https://github.com/microsoft/mup
+  https://github.com/xai-org/grok-1
+  https://openreview.net/forum?id=Bkg6RiCqY7
+  https://openreview.net/forum?id=Byj72udxe
+  https://openreview.net/forum?id=H1W1UN9gg
+  https://openreview.net/forum?id=Hkuq2EkPf
+  https://openreview.net/forum?id=hrOlBgHsMI
+  https://openreview.net/forum?id=r1gs9JgRZ
+  https://proceedings.mlr.press/v202/blake23a.html
+  https://proceedings.neurips.cc/paper/2018/hash/335d3d1cd7ef05ec77714a215134914c-Abstract.html
+  https://proceedings.neurips.cc/paper/2018/hash/5a4be1fa34e62bb8a6ec6b91d2462f5a-Abstract.html
+  https://proceedings.neurips.cc/paper/2019/hash/1e8a19426224ca89e83cef47f1e7f53b-Abstract.html
+  https://proceedings.neurips.cc/paper/2019/hash/65fc9fb4897a89789352e211ca2d398f-Abstract.html
+  https://proceedings.neurips.cc/paper_files/paper/2016/file/148510031349642de5ca0c544f31b2ef-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2022/file/ae0cba715b60c4052359b3d52a2cff7f-Paper-Conference.pdf
+  https://www.pnas.org/doi/abs/10.1073/pnas.1806579115
+  mailto:charlieb@graphcore.ai
+  mailto:constantin.eichenberg@aleph-alpha-ip.ai
+
+PGhiPGBf47.pdf:
+  https://aclanthology.org/2023.c3nlp-1.12
+  https://aclanthology.org/2023.c3nlp-1.7
+  https://cdn.openai.com/spec/model-spec-2024-05-08.html#follow-the-chain-of-command
+  https://crfm.stanford.edu/2024/02/18/helm-instruct.html
+  https://github.com/kellycyy/daily_dilemmas
+  https://hf.co/datasets/kellycyy/daily_dilemmas
+  https://huggingface.co/blog/how-to-generate#samplin
+  https://model-spec.openai.com/2025-02-12.html
+  https://www.anthropic.com/news/claudes-constitution
+  https://www.reddit.com/r/AITAFiltered/
+  https://www.reddit.com/r/AmItheAsshole/comments/dcae07/2019_subscriber_survey_data_dump/?rdt=38184
+  https://www.un.org/en/about-us/universal-declaration-of-human-rights
+  https://www.worldvaluessurvey.org/WVSNewsShow.jsp?ID=467
+
+pHOH8FVrTp.pdf:
+
+PiZtlzMWUj.pdf:
+  http://github.com/google-deepmind
+  http://github.com/google/jax
+  http://www.bristol.ac.uk/acrc/
+  https://github.com/danielward27/flowjax
+  https://github.com/danielward27/pyrox
+  https://github.com/danielward27/softcvi_validation
+
+PkpNRmBZ32.pdf:
+  https://github.com/Brainchip-Inc/Centaurus
+
+pPQPQ7Yd58.pdf:
+  http://www.pymunk.org
+  https://computationalrobotics.seas.harvard.edu/ControlOriented_NC
+  https://github.com/DLR-RM/rl-baselines3-zoo
+
+pPyJyeLriR.pdf:
+  https://doi.org/10.48550/arXiv.2311.10972
+  https://github.com/luyi256/ScaleGUN
+
+PpYy0dR3Qw.pdf:
+  http://www.csie.ntu.edu.tw/%7Ecjlin/libsvm
+  https://yann.lecun.com/exdb/mnist/
+
+pQsllTesiE.pdf:
+  http://arxiv.org/abs/1707.02568
+  http://papers.nips.cc/paper_files/paper/2022/hash/fe90657b12193c7b52a3418bdc351807-Abstract-Conference.html
+  http://papers.nips.cc/paper_files/paper/2023/hash/f49287371916715b9209fa41a275851e-Abstract-Conference.html
+  http://proceedings.mlr.press/v100/gupta20a.html
+  http://proceedings.mlr.press/v139/hubert21a.html
+  http://proceedings.mlr.press/v139/ozair21a.html
+  http://proceedings.mlr.press/v97/kipf19a.html
+  https://api.semanticscholar.org/CorpusID:14171346
+  https://api.semanticscholar.org/CorpusID:1537485
+  https://api.semanticscholar.org/CorpusID:174799876
+  https://api.semanticscholar.org/CorpusID:6626684
+  https://arxiv.org/abs/1712.01815
+  https://arxiv.org/abs/2004.07219
+  https://dl.acm.org/doi/10.5555/3635637.3662988
+  https://doi.org/10.1007/11871842_29
+  https://doi.org/10.1007/978-3-642-25566-3_32
+  https://doi.org/10.1023/A:1007686309208
+  https://doi.org/10.1038/s41586-020-03051-4
+  https://doi.org/10.1109/CDC49753.2023.10384075
+  https://doi.org/10.1145/3576841.3585934
+  https://doi.org/10.15607/RSS.2023.XIX.016
+  https://doi.org/10.1609/aaai.v34i04.6059
+  https://doi.org/10.1613/jair.3171
+  https://doi.org/10.24963/ijcai.2019/772
+  https://doi.org/10.48550/arXiv.2309.16397
+  https://jmlr.org/papers/v22/20-1235.html
+  https://openreview.net/forum?id=68n2s9ZJWF8
+  https://openreview.net/forum?id=V69LGwJ0lIN
+  https://openreview.net/forum?id=X6D9bAHhBQ1
+  https://openreview.net/forum?id=cA77NrVEuqn
+  https://openreview.net/forum?id=p225Od0aYt
+  https://proceedings.mlr.press/v155/zhou21b.html
+  https://proceedings.mlr.press/v229/luo23a.html
+  https://proceedings.neurips.cc/paper/2010/hash/19f3cd308f1455b3fa09a282e0d496f4-Abstract.html
+  https://proceedings.neurips.cc/paper/2017/hash/7a98af17e63a0ac09ce2e96d03992fbc-Abstract.html
+  https://proceedings.neurips.cc/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html
+  https://proceedings.neurips.cc/paper/2021/hash/099fe6b0b444c23836c4a5d07346082b-Abstract.html
+  https://proceedings.neurips.cc/paper/2021/hash/7f489f642a0ddb10272b5c31057f0663-Abstract.html
+  https://proceedings.neurips.cc/paper/2021/hash/d5eca8dc3820cad9fe56a3bafda65ca1-Abstract.html
+  https://proceedings.neurips.cc/paper/2021/hash/e8258e5140317ff36c7f8225a3bf9590-Abstract.html
+
+PstM8YfhvI.pdf:
+  https://bbbc.broadinstitute.org/BBBC021
+  https://data.broadinstitute.org/bbbc/BBBC021/BBBC021_v1_compound.csv
+  https://github.com/Lee-Gihun/MEDIAR
+  https://github.com/bowang-lab/MorphoDiff
+  https://github.com/bowang-lab/scGPT/tree/main?tab=readme-ov-file
+  https://github.com/broadinstitute/cellpainting-gallery
+  https://github.com/cytomining/pycytominer
+  https://github.com/huggingface/diffusers/tree/main/examples/text_to_image
+  https://github.com/recursionpharma/rxrx1-utils/blob/d34b2b0db0af1cb4fe357573bb8de76bd042b34f/rxrx/io.py#L61
+  https://github.com/theislab/IMPA
+  https://huggingface.co/CompVis/stable-diffusion-v1-4
+  https://openai.com/chatgpt
+  https://www.rdkit.org/
+  https://www.rxrx.ai/rxrx1
+  https://www.thermofisher.com/ca/en/home.html
+
+PUnD86UEK5.pdf:
+  https://arxiv.org/pdf/1412.6980.pdf
+  https://arxiv.org/pdf/1705.07774.pdf
+  https://arxiv.org/pdf/1802.04434.pdf
+  https://arxiv.org/pdf/1807.06766
+  https://arxiv.org/pdf/1808.02941.pdf
+  https://arxiv.org/pdf/1808.05671
+  https://arxiv.org/pdf/1811.09358.pdf
+  https://arxiv.org/pdf/1905.11881
+  https://arxiv.org/pdf/1912.03194.pdf
+  https://arxiv.org/pdf/2001.08361
+  https://arxiv.org/pdf/2003.02395.pdf
+  https://arxiv.org/pdf/2006.16541
+  https://arxiv.org/pdf/2007.08840
+  https://arxiv.org/pdf/2112.03459.pdf
+  https://arxiv.org/pdf/2205.13599
+  https://arxiv.org/pdf/2208.09632.pdf
+  https://arxiv.org/pdf/2302.13971
+  https://arxiv.org/pdf/2303.08774
+  https://arxiv.org/pdf/2304.13960.pdf
+  https://arxiv.org/pdf/2306.00204
+  https://arxiv.org/pdf/2402.00389
+  https://arxiv.org/pdf/2402.16788v1
+  https://arxiv.org/pdf/2402.19449
+  https://arxiv.org/pdf/2403.05530
+  https://arxiv.org/pdf/2404.04454
+  https://arxiv.org/pdf/2406.04592
+  https://arxiv.org/pdf/2406.15244
+  https://arxiv.org/pdf/2406.16793
+  https://arxiv.org/pdf/2407.07972
+  https://arxiv.org/pdf/2410.19964
+  https://github.com/karpathy/nanoGPT
+  https://github.com/mohamad-amin/adam-coordinate-adaptivity
+  https://link.springer.com/article/10.1007/s10107-022-01822-7
+  https://openreview.net/pdf?id=3UDSdyIcBDA
+  https://proceedings.neurips.cc/paper/2018/file/90365351ccc7437a1309dc64e4db32a3-Paper.pdf
+  https://proceedings.neurips.cc/paper/2021/file/ac10ff1941c540cd87c107330996f4f6-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2023/file/a3cc50126338b175e56bb3cad134db0b-Paper-Conference.pdf
+  https://www.cs.toronto.edu/~hinton/coursera/lecture6/lec6.pdf
+  https://www.jmlr.org/papers/volume21/18-352/18-352.pdf
+
+pZISppZSTv.pdf:
+  http://dblp.uni-trier.de/db/journals/corr/corr1707.html#SchulmanWDRK17
+  http://doi.acm.org/10.1145/3197517.3201311
+  http://doi.acm.org/10.1145/3450626.3459670
+  https://doi.org/10.1145/3550469.3555391
+  https://doi.org/10.1145/3588432.3591525
+  https://github.com/GuyTevet/CLoSD
+  https://guytevet.github.io/CLoSD-page/
+  https://openreview.net/forum?id=1vCnDyQkjg
+  https://openreview.net/forum?id=OrOd8PxOO2
+  https://openreview.net/forum?id=SJ1kSyO2jwu
+  https://openreview.net/forum?id=dTpbEdN9kr
+  https://openreview.net/pdf?id=DrhZneqz4n
+
+Q0zmmNNePz.pdf:
+  https://anonymous.4open.science/r/Topograph
+
+Q150eWkQ4I.pdf:
+  https://cave.cs.columbia.edu/repository/Multispectral)
+  https://github.com/SMARK2022/PSR-SCI
+  https://github.com/Stability-AI/StableDiffusion)
+  https://github.com/Stability-AI/stablediffusion
+  https://openreview.net/forum?id=St1giarCHLP
+  https://openreview.net/forum?id=agj4cdOfrAP
+
+q3EbOXb4y1.pdf:
+  https://lumalabs.ai/
+  https://poly.cam/
+  https://unity.com/
+  https://www.nvidia.com/en-us/research/ai-art-gallery/instant-nerf/
+
+q5EZ7gKcnW.pdf:
+  https://connect.cloudresearch.com
+  https://crfm
+  https://github.com/helloelwin/iterative-label-refinement
+  https://github.com/tatsu-lab/alpaca_eval
+  https://openai.com/blog/introducing-superalignment
+  https://openai.com/index/hello-gpt-4o/
+
+qgsXsqahMq.pdf:
+  https://github.com/ZhuangDingyi/GETS/
+  https://github.com/shchur/gnn-benchmark
+
+QjSOgxJ0hp.pdf:
+  https://machinelearning.apple.com/research/learning-with-privacy-at-scale
+  https://proceedings.neurips.cc/paper_files/paper/2015/file/250cf8b51c773f3f8dc8b4be867a9a02-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2021/file/f44ec26e2ac3f1ab8c2472d4b1c2ea86-Paper.pdf
+  https://www.aclweb.org/anthology/D13-1170
+
+QOfswj7hij.pdf:
+  https://api.semanticscholar.org/CorpusID:59656859
+  https://lis.csail.mit.edu/bilevel-planning-for-robots-an-illustrated-
+
+QogcGNXJVw.pdf:
+  https://fedeadolfi.github.io
+
+qPx3i9sMxv.pdf:
+  http://dl.acm.org/citation.cfm?doid=2733373.2806390
+  http://dx.doi.org/10.1109/ICCV.2017.100
+  http://dx.doi.org/10.1109/TASLP.2024.3419446
+  https://arxiv.org/abs/1607.08822
+  https://arxiv.org/abs/1804.03160
+  https://arxiv.org/abs/1809.02587
+  https://arxiv.org/abs/1810.04805
+  https://arxiv.org/abs/1910.10683
+  https://arxiv.org/abs/1910.13461
+  https://arxiv.org/abs/1912.10211
+  https://arxiv.org/abs/2201.11903
+  https://arxiv.org/abs/2202.00874
+  https://arxiv.org/abs/2403.04594
+  https://arxiv.org/abs/2407.02857
+  https://doi.org/10.1016/j.neucom.2021.05.104
+  https://github.com/Stability-AI/stable-audio-tools
+  https://github.com/facebookresearch/faiss
+  https://huggingface.co/google-t5/t5-base
+  https://huggingface.co/laion/clap-htsat-unfused
+  https://immersive-audio.github.io/
+  https://openreview.net/forum?id=86NGO8qeWs
+  https://peiwensun2000.github.io/bewo/
+  https://requester.mturk.com/
+  https://sbert.net/
+  https://www.makesense.ai/
+  https://www.mdpi.com/1424-8220/24/1/68
+  https://www.sciencedirect.com/science/article/pii/S037859552300196X
+  https://www.sciencedirect.com/science/article/pii/S0925231221011085
+
+qpXctF2aLZ.pdf:
+  http://github.com/RobertTLange/gymnax
+  https://arxiv.org/abs/1602.01783
+  https://arxiv.org/abs/2306.09884
+  https://arxiv.org/abs/2408.11632
+  https://github.com/s-marton/sympol
+  https://openreview.net/forum?id=hOMVq57Ce0
+  https://openreview.net/forum?id=hWwY_Jq0xsN
+  https://proceedings.neurips.cc/paper_files/paper/2022/file/8caaf08e49ddbad6694fae067442ee21-Paper-Datasets_and_Benchmarks.pdf
+
+qtTIP5Gjc5.pdf:
+  https://github.com/Fsoft-AIC/Mamba-token-dynamic
+  https://openreview.net/forum?id=16kG5aNleS
+  https://openreview.net/forum?id=Ai8Hw3AXqks
+  https://openreview.net/forum?id=Byj72udxe
+  https://openreview.net/forum?id=JFPaD7lpBD
+  https://openreview.net/forum?id=TGJSPbRpJX-
+  https://openreview.net/forum?id=qVyeW-grC2k
+  https://openreview.net/forum?id=tEYskw1VY2
+  https://openreview.net/forum?id=uYLFoz1vlAC
+
+qtWjSboqfe.pdf:
+  https://cdn
+  https://github.com/RainBowLuoCS/DEEM
+  https://huggingface.co/blog/idefics
+
+qxRoo7ULCo.pdf:
+  https://4k4dgen.github.io/
+  https://arxiv.org/abs/2407.07580
+  https://arxiv.org/abs/2501.16764
+
+qyU5s4fzLg.pdf:
+  http://arxiv.org/abs/1506.02438
+  http://doi.apa.org/getdoi.cfm?doi=10.1037/0021-9010.72.1.146
+  http://link.springer.com/10.1007/s11859-007-0038-4
+  https://aclanthology.org/2020.emnlp-main.354
+  https://aclanthology.org/2020.emnlp-main.389
+  https://aclanthology.org/2020.findings-emnlp.447
+  https://aclanthology.org/2021.acl-long.209
+  https://aclanthology.org/2021.emnlp-main.395
+  https://aclanthology.org/2021.naacl-main.117
+  https://aclanthology.org/2021.naacl-main.119
+  https://aclanthology.org/2022.acl-long.548
+  https://aclanthology.org/2023.findings-emnlp.113
+  https://aclanthology.org/2024.findings-acl.225
+  https://api.semanticscholar.org/CorpusID:267617032
+  https://api.semanticscholar.org/CorpusID:3347806
+  https://api.semanticscholar.org/CorpusID:336219
+  https://catalog.ldc.upenn.edu/LDC2005T01
+  https://catalog.ldc.upenn.edu/LDC99T42
+  https://doi.org/10.1007/BF00992696
+  https://doi.org/10.48550/arXiv.2306.04757
+  https://github.com/junjiechen-chris/Improving-Unsupervised-Constituency-Parsing-via-Maximizing-Semantic-Information.git
+  https://linkinghub.elsevier.com/retrieve/pii/S0306457302000213
+  https://openreview.net/forum?id=RR8y0WKrFv
+  https://proceedings.neurips.cc/paper_files/paper/2008/file/f11bec1411101c743f64df596773d0b2-Paper.pdf
+  https://pubs.aip.org/jasa/article/65/S1/S132/739840/Trainable-grammars-for-speech-recognition
+  https://www.emerald.com/insight/content/doi/10.1108/eb026526/full/html
+  https://www.jstor.org/stable/1412159?origin=crossref
+  https://www.jstor.org/stable/2331838?origin=crossref
+  www.jstor.org/stable/1412159?origin=crossref
+
+R1hIXdST22.pdf:
+  http://jmlr.org/papers/v22/20-1364.html
+  https://github.com/danijar/dreamerv3
+  https://github.com/facebookresearch/MRQ
+  https://github.com/facebookresearch/drqv2
+  https://github.com/nicklashansen/tdmpc2/tree/episodic-rl
+  https://github.com/sfujim/TD7
+
+r3DF5sOo5B.pdf:
+  http://arxiv.org/abs/2305.16380
+  https://openreview.net/forum?id=o8AaRKbP9K
+
+RaR3ETzyKp.pdf:
+  https://arxiv.org/abs/2406.12303
+  https://github.com/ermongroup/ddim
+  https://github.com/gnobitab/RectifiedFlow
+  https://github.com/shifengxu/DANSM
+
+rdAbEn5DZt.pdf:
+
+rDLgnYLM5b.pdf:
+  https://api.semanticscholar.org/CorpusID:173990261
+  https://api.semanticscholar.org/CorpusID:218571335
+  https://api.semanticscholar.org/CorpusID:222090341
+  https://api.semanticscholar.org/CorpusID:3510042
+  https://arxiv.org/abs/2409.13555
+  https://blackforestlabs.ai/
+  https://cdn
+  https://doubiiu.github.io/projects/DynamiCrafter/
+  https://github.com/leoShen917/DreamMover
+  https://github.com/timothybrooks/instruct-pix2pix
+  https://interleave-eval.github.io
+  https://openai.com/index/hello-gpt-4o/
+  https://openai.com/research/gpt-4v-system-card
+  https://stablediffusion.com
+  https://sv3d.github.io/
+  https://ultra-editing.github.io/
+  https://www.anthropic.com/news/claude-3-5-sonnet
+
+RInisw1yin.pdf:
+  https://arxiv.org/pdf/2103.11512.pdf
+  https://srsa2024.github.io/
+  https://www.mdpi.com/2076-3417/10/19/6923
+
+rpwGUtTeA5.pdf:
+  http://papers.nips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract-Conference.html
+  http://papers.nips.cc/paper_files/paper/2023/hash/4dbb61cb68671edc4ca3712d70083b9f-Abstract-Datasets_and_Benchmarks.html
+  http://papers.nips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html
+  http://proceedings.mlr.press/v139/kossen21a.html
+  https://aclanthology.org/2024.acl-long.846
+  https://aclanthology.org/2024.eacl-long.95
+  https://doi.org/10.1609/aaai.v38i18.30020
+  https://doi.org/10.18653/v1/2023.emnlp-main.153
+  https://doi.org/10.18653/v1/2024.findings-naacl.97
+  https://doi.org/10.48550/arXiv.2307.03025
+  https://doi.org/10.48550/arXiv.2307.09288
+  https://doi.org/10.48550/arXiv.2310.01377
+  https://doi.org/10.48550/arXiv.2311.17295
+  https://doi.org/10.48550/arXiv.2312.02554
+  https://doi.org/10.48550/arXiv.2401.16788
+  https://doi.org/10.48550/arXiv.2403.16950
+  https://doi.org/10.48550/arXiv.2404.04475
+  https://doi.org/10.48550/arXiv.2404.08008
+  https://doi.org/10.48550/arXiv.2406.11191
+  https://doi.org/10.48550/arXiv.2407.06172
+  https://doi.org/10.5220/0006679200590066
+  https://github.com/tatsu-lab/alpaca_eval
+  https://lmarena.ai/
+  https://openai.com/index/hello-gpt-4o/
+  https://openreview.net/forum?id=3MW8GKNyzI
+  https://openreview.net/forum?id=JiYq3eqTKY
+  https://openreview.net/forum?id=qAml3FpfhG
+  https://storage.googleapis.com/arena_external_data/public/clean_battle_20240814_public.json
+  https://tatsu-lab.github.io/alpaca_eval/
+
+RSGoXnS9GH.pdf:
+  https://chat.openai.com
+  https://github.com/FanZT6/FairMT-bench
+  https://github.com/meta-llama/PurpleLlama/blob/main/Llama-Guard3/1B/MODEL_CARD.md
+  https://kaggle.com/competitions/jigsaw-unintended-bias-in-toxicity-classification
+  https://qwenlm.github.io/blog/qwen2.5/
+  https://www.kaggle.com/m/3301
+
+rxVvRBgqmS.pdf:
+  http://www.apache.org/licenses/
+  https://creativecommons.org/licenses/by-nc/4.0/
+  https://github.com/agnJason/PianoMotion10M
+  https://github.com/marcomusy/pianoplayer
+  https://huggingface.co/facebook/hubert-base-ls960
+  https://huggingface.co/facebook/hubert-large-ls960-ft
+  https://huggingface.co/facebook/wav2vec2-base-960h
+  https://huggingface.co/facebook/wav2vec2-large-960h-lv60-self
+  https://www.bilibili.com
+
+rySLejeB1k.pdf:
+  http://link.springer.com/10.1007/978-3-319-65591-8
+  http://www.jneurosci.org/content/33/13/5475.abstract
+  https://doi.org/10.1007/BF00234111
+  https://doi.org/10.1007/BF00275687
+  https://doi.org/10.1007/BF00337288
+  https://doi.org/10.1093/cercor/bht133
+  https://doi.org/10.1371/journal.pcbi.1002250
+  https://jamanetwork.com/journals/jamaneurology/fullarticle/1852982
+  https://journals.physiology.org/doi/abs/10.1152/jn.1971.34.3.437
+  https://journals.physiology.org/doi/abs/10.1152/jn.1995.73.2.713
+  https://journals.physiology.org/doi/full/10.1152/jn.01021.2012
+  https://journals.physiology.org/doi/full/10.1152/jn.1999.82.1.301
+  https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005785
+  https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009007
+  https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009642
+  https://link.springer.com/article/10.1007/BF02331346
+  https://onlinelibrary.wiley.com/doi/abs/10.1002/cne.901580304
+  https://onlinelibrary.wiley.com/doi/abs/10.1002/cne.901770204
+  https://onlinelibrary.wiley.com/doi/abs/10.1002/cne.902780202
+  https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1460-9568.1996.tb01183.x
+  https://onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1962.sp006837
+  https://onlinelibrary.wiley.com/doi/pdf/10.1002/cne.901770204
+  https://www.biorxiv.org/content/10.1101/2023.05.18.541361v1
+  https://www.cell.com/cell-reports/abstract/S2211-1247(20)31570-9
+  https://www.cell.com/neuron/abstract/S0896-6273(06)00625-8
+  https://www.frontiersin.org/articles/10.3389/fncom.2013.00010
+  https://www.frontiersin.org/articles/10.3389/neuro.01.1.1.002.2007
+  https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2018.00046/full
+  https://www.jneurosci.org/content/13/12/5251
+  https://www.jneurosci.org/content/14/1/409
+  https://www.jneurosci.org/content/16/10/3351
+  https://www.jneurosci.org/content/16/20/6443
+  https://www.jneurosci.org/content/17/6/2112
+  https://www.jneurosci.org/content/28/30/7520
+  https://www.jneurosci.org/content/32/40/13644
+  https://www.jneurosci.org/content/33/40/15747
+  https://www.jneurosci.org/content/34/41/13701
+  https://www.jneurosci.org/content/35/4/1591
+  https://www.mdpi.com/1099-4300/15/9/3507
+  https://www.nature.com/articles/321579a0
+  https://www.nature.com/articles/353429a0
+  https://www.nature.com/articles/nature16468
+  https://www.nature.com/articles/nature17936
+  https://www.nature.com/articles/nature17941
+  https://www.nature.com/articles/ncomms12270
+  https://www.nature.com/articles/nn.2729
+  https://www.nature.com/articles/nn.2876
+  https://www.nature.com/articles/nn.3446
+  https://www.nature.com/articles/nn.3488
+  https://www.nature.com/articles/nn.4249
+  https://www.nature.com/articles/s41467-021-24311-5
+  https://www.nature.com/articles/s41467-022-29433-y
+  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2343144/
+  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4106281/
+  https://www.pnas.org/doi/10.1073/pnas.1509282112
+  https://www.pnas.org/doi/10.1073/pnas.2112566119
+  https://www.pnas.org/doi/abs/10.1073/pnas.0810390106
+  https://www.pnas.org/doi/full/10.1073/pnas.1616163114
+  https://www.pnas.org/doi/full/10.1073/pnas.1719044115
+  https://www.pnas.org/doi/full/10.1073/pnas.1719711115
+  https://www.pnas.org/doi/full/10.1073/pnas.2036460100
+  https://www.science.org/doi/10.1126/science.1194869
+  https://www.science.org/doi/10.1126/science.1205737
+  https://www.science.org/doi/10.1126/science.287.5456.1273
+  https://www.sciencedirect.com/science/article/pii/0042698979901433
+  https://www.sciencedirect.com/science/article/pii/0042698984900415
+  https://www.sciencedirect.com/science/article/pii/S0042698914002351
+  https://www.sciencedirect.com/science/article/pii/S0042698997001697
+  https://www.sciencedirect.com/science/article/pii/S0165017306001160
+  https://www.sciencedirect.com/science/article/pii/S0165027000001734
+  https://www.sciencedirect.com/science/article/pii/S0306452220304073
+  https://www.sciencedirect.com/science/article/pii/S0896627301002239
+  https://www.sciencedirect.com/science/article/pii/S0896627315006480
+  https://www.sciencedirect.com/science/article/pii/S0896627319300674
+  https://www.sciencedirect.com/science/article/pii/S2211124720301996
+  www.jneurosci.org/content/16/20/6443
+  www.jneurosci.org/content/33/13/5475.abstract
+  www.pnas.org/doi/abs/10.1073/pnas.0810390106
+  www.science.org/doi/10.1126/science.1194869
+  www.sciencedirect.com/science/article/pii/S0306452220304073
+  www.sciencedirect.com/science/article/pii/S2211124720301996
+
+S4dItvpvAv.pdf:
+
+S5Yo6w3n3f.pdf:
+
+S85PP4xjFD.pdf:
+  https://api.semanticscholar.org/CorpusID:15193013
+  https://api.semanticscholar.org/CorpusID:244906179
+  https://api.semanticscholar.org/CorpusID:259252450
+  https://api.semanticscholar.org/CorpusID:268066655
+  https://arxiv.org/abs/1807.03748
+  https://arxiv.org/abs/2204.03162
+  https://arxiv.org/abs/2204.06125
+  https://arxiv.org/abs/2206.01714
+  https://arxiv.org/abs/2209.15003
+  https://arxiv.org/abs/2210.01936
+  https://arxiv.org/abs/2211.09800
+  https://arxiv.org/abs/2212.05032
+  https://arxiv.org/abs/2212.10549
+  https://arxiv.org/abs/2301.12597
+  https://arxiv.org/abs/2301.13826
+  https://arxiv.org/abs/2303.14465
+  https://arxiv.org/abs/2305.03689
+  https://arxiv.org/abs/2305.13308
+  https://arxiv.org/abs/2305.15393
+  https://arxiv.org/abs/2306.10012
+  https://arxiv.org/abs/2307.01952
+  https://arxiv.org/abs/2307.06350
+  https://arxiv.org/abs/2307.10864
+  https://arxiv.org/abs/2310.00426
+  https://arxiv.org/abs/2310.03744
+  https://arxiv.org/abs/2311.17076
+  https://arxiv.org/abs/2311.17946
+  https://arxiv.org/abs/2312.00081
+  https://arxiv.org/abs/2312.02338
+  https://arxiv.org/abs/2312.06059
+  https://arxiv.org/abs/2401.15688
+  https://arxiv.org/abs/2402.01103
+  https://arxiv.org/abs/2406.07550
+  https://arxiv.org/abs/2406.07844
+  https://arxiv.org/abs/2406.09416
+  https://arxiv.org/abs/2406.13743
+  https://arxiv.org/abs/2406.14847
+  https://arxiv.org/abs/2407.02716
+  https://arxiv.org/abs/2407.03418
+  https://arxiv.org/abs/2407.04787
+  https://arxiv.org/abs/2407.07614
+  https://arxiv.org/abs/2408.09765
+  https://arxiv.org/abs/2409.16211
+  https://arxiv.org/abs/2501.07730
+  https://cdn
+  https://doi.org/10.1145/1553374.1553380
+  https://doi.org/10.48550/arXiv.2411.04713
+  https://evansh666.github.io/EvoGen_Page/
+  https://openai.com/research/video-generation-models-as-world-simulators
+  https://openreview.net/forum?id=JkCJBoNUcU
+
+sahQq2sH5x.pdf:
+  http://github.com/google-deepmind
+  http://github.com/google/jax
+  http://yann.lecun.com/exdb/mnist/
+  https://github.com/YuhangSong/Prospective-Configuration
+  https://github.com/liukidar/pcx
+
+scI9307PLG.pdf:
+  https://github.com/jacobbamberger/BuNN
+  https://github.com/toshas/torch-householder
+
+SG1R2H3fa1.pdf:
+  https://github.com/Lightning-AI/lightning
+  https://github.com/jw9730/random-walk
+  https://github.com/kerighan/graph-walker
+  https://mathoverflow.net/questions/112470
+
+SgymXhOEA5.pdf:
+
+SjufxrSOYd.pdf:
+  http://arxiv.org/abs/1009.2376
+  http://arxiv.org/abs/1609.02907
+  http://arxiv.org/abs/1710.10903
+  http://arxiv.org/abs/1802.08876
+  http://arxiv.org/abs/1810.00826
+  http://arxiv.org/abs/1907.12972
+  http://arxiv.org/abs/1910.03802
+  http://arxiv.org/abs/2003.05030
+  http://arxiv.org/abs/2006.03548
+  http://arxiv.org/abs/2006.15646
+  http://arxiv.org/abs/2008.01767
+  http://arxiv.org/abs/2009.11848
+  http://arxiv.org/abs/2112.09001
+  http://arxiv.org/abs/2201.07083
+  http://arxiv.org/abs/2212.12794
+  http://arxiv.org/abs/2401.08514
+  http://arxiv.org/abs/2402.08595
+  http://arxiv.org/abs/2404.03473
+  http://link.springer.com/10.1007/978-3-319-64546-9
+  http://link.springer.com/10.1007/978-3-662-57939-8
+  https://alco.centre-mersenne.org/item/ALCO_2020__3_2_509_0/
+  https://arxiv.org/abs/2408.14182v1
+  https://doi.org/10.1007/BF01305232
+  https://doi.org/10.1007/BFb0045375
+  https://doi.org/10.1007/s10959-023-01271-8
+  https://doi.org/10.1145/3308558.3313488
+  https://ems.press/content/book-chapter-files/33345
+  https://github.com/dan1elherbst/Higher-Order-WNNs
+  https://ieeexplore.ieee.org/abstract/document/10190182
+  https://ieeexplore.ieee.org/abstract/document/10448216
+  https://link.springer.com/10.1007/978-3-662-53622-3
+  https://link.springer.com/10.1007/s00493-021-4336-9
+  https://link.springer.com/book/10.1007/BFb0045375
+  https://math.stackexchange.com/q/4824292 (version: 2023-12-11)
+  https://mathworld.wolfram.com/
+  https://ojs.aaai.org/index.php/AAAI/article/view/4384
+  https://onlinelibrary.wiley.com/doi/abs/10.1002/jgt.20461
+  https://openreview.net/forum?id=Q-UHqMorzil
+  https://openreview.net/forum?id=Syx72jC9tm
+  https://openreview.net/forum?id=xAqcJ9XoTf
+  https://proceedings.mlr.press/v119/nguyen20c.html
+  https://proceedings.mlr.press/v139/yehudai21a.html
+  https://proceedings.mlr.press/v162/cai22b.html
+  https://proceedings.mlr.press/v206/tahmasebi23a.html
+  https://proceedings.mlr.press/v70/gilmer17a.html
+  https://proceedings.mlr.press/v97/maron19a.html
+  https://proceedings.neurips.cc/paper/2019/hash/bb04af0f7ecaee4aae62035497da1387-Abstract.html
+  https://proceedings.neurips.cc/paper/2020/hash/75877cb75154206c4e65e76b88a12712-Abstract.html
+  https://proceedings.neurips.cc/paper/2021/hash/38181d991caac98be8fb2ecb8bd0f166-Abstract.html
+  https://proceedings.neurips.cc/paper_files/paper/2019/hash/ea9268cb43f55d1d12380fb6ea5bf572-Abstract.html
+  https://proceedings.neurips.cc/paper_files/paper/2023/hash/3516aa3393f0279e04c099f724664f99-Abstract-Conference.html
+  https://proceedings.neurips.cc/paper_files/paper/2023/hash/8154c89c8d3612d39fd1ed6a20f4bab1-Abstract-Conference.html
+  https://proceedings.neurips.cc/paper_files/paper/2023/hash/9200d97ca2bf3a26db7b591844014f00-Abstract-Conference.html
+  https://proceedings.neurips.cc/paper_files/paper/2023/hash/cb7943be26bb34f036c7e4068c490903-Abstract-Conference.html
+  https://www.cambridge.org/core/books/graph-theory-and-additive-combinatorics/90A4FA3C584FA93E984517D80C7D34CA
+  https://www.cambridge.org/core/journals/acta-numerica/article/approximation-theory-of-the-mlp-model-in-neural-networks/18072C558C8410C4F92A82BCC8FC8CF9
+  https://www.cambridge.org/core/journals/canadian-journal-of-mathematics/article/action-convergence-of-operators-and-graphs/F5900CA5BE554C9F4DEAAB518962D2DD
+  https://www.jstor.org/stable/43864249
+  https://www.nature.com/articles/s41586-023-06735-9
+  https://www.sciencedirect.com/science/article/pii/S0095895606000517
+  https://www.sciencedirect.com/science/article/pii/S0097316505000580
+  www.sciencedirect.com/science/article/pii/S0097316505000580
+
+sKYHBTAxVa.pdf:
+  http://arxiv.org/abs/2310.18208
+  http://dx.doi.org/10.1038/nature14236
+  https://ai.google.dev/gemini-api/docs/models/experimental-models
+  https://ai.meta.com/blog/meta-llama-3/
+  https://anonymous.4open.science/r/LiveBench/README.md
+  https://artofproblemsolving.com/)
+  https://atcoder.jp/
+  https://blog.sumble.com/the-overlooked-genai-use-case/
+  https://dl.acm.org/doi/10.1145/3318464.3389738
+  https://docs.python.org/3/library/difflib.html
+  https://doi.org/10.7717/peerj-cs.103
+  https://github.com/LiveBench/LiveBench/blob/main/README.md
+  https://github.com/LiveBench/LiveBench/blob/main/docs/DATASHEET.md
+  https://github.com/kamyu104/LeetCode-Solutions
+  https://github.com/livebench/livebench
+  https://github.com/quint-t/Puzzle-Generator-and-Solver
+  https://github.com/tatsu-lab/alpaca_eval
+  https://huggingface.co/01-ai/Yi-6B
+  https://huggingface.co/CohereForAI/c4ai-command-r-plus-08-2024
+  https://huggingface.co/abacusai/Dracarys-72B-Instruct
+  https://huggingface.co/abacusai/Dracarys-Llama-3.1-70B-Instruct
+  https://huggingface.co/abacusai/Dracarys2-72B-Instruct
+  https://huggingface.co/abacusai/Dracarys2-Llama-3.1-70B-Instruct
+  https://huggingface.co/livebench
+  https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
+  https://leetcode.com/
+  https://livebench.ai/
+  https://lmsys.org/blog/2024-04-19-arena-hard/
+  https://omni-math.github.io/
+  https://open-platform.theguardian.com/
+  https://openai.com/index/openai-o1-system-card/
+  https://openreview.net/forum?id=uyTL5Bvosj
+  https://qwenlm.github.io/blog/qwen2.5/
+  https://scale.com/leaderboard
+  https://txt.cohere.com/command-r
+  https://vicuna
+  https://www.anthropic.com/claude/haiku
+  https://www.anthropic.com/news/claude-3-5-sonnet
+  https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
+  https://www.kaggle.com/m/3301
+  https://www.nytimes.com/games/connections
+  https://www.stepfun.com/#step2
+  https://www.theguardian.com/
+  https://x.ai/blog/grok-2
+
+SOd07Qxkw4.pdf:
+
+SOWZ59UyNc.pdf:
+  https://arxiv.org/abs/2310.04353
+  https://dennyzhou.github.io/LLMs-Reason-Taiwan-2023.pdf
+  https://doi.org/10.1145/3372885.3373824
+  https://doi.org/10.1145/3611643.3616243
+  https://leanstar.github.io/
+  https://mathstodon.xyz/@tao/111287749336059662
+  https://openai.com/research/gpt-4
+  https://openreview.net/forum?id=V5tdi14ple
+  https://openreview.net/forum?id=rpxJc9j04U
+  https://openreview.net/forum?id=xLoxMvO695
+  https://scholarworks.umass.edu/dissertations_2/2812
+  https://xenaproject.wordpress.com/2024/01/20/lean-in-2024/
+
+SqZ0KY4qBD.pdf:
+  https://aclanthology.org/E17-2025
+  https://api.semanticscholar.org/CorpusID:49313245
+  https://arxiv.org/abs/1810.04805
+  https://arxiv.org/abs/2103.07601
+  https://arxiv.org/abs/2111.02080
+  https://arxiv.org/abs/2211.00170
+  https://arxiv.org/abs/2301.00234
+  https://arxiv.org/abs/2305.18475
+  https://github.com/Bond1995/Markov
+  https://github.com/epfml/llm-baselines
+  https://transformer-circuits.pub/2021/framework/index.html
+
+SRpq5OBpED.pdf:
+  https://openreview.net/forum?id=9zhHVyLY4K
+  https://openreview.net/forum?id=Ln8ogihZ2S
+
+SUc1UOWndp.pdf:
+  http://jmlr.org/papers/v21/20-091.html
+  https://anonymous.4open.science/r/paper-rllcs-2024-BE57
+  https://distill.pub/2020/circuits
+  https://github.com/neelnanda-io/TransformerLens
+  https://github.com/timaeus-research/devinterp
+  https://huggingface.co/datasets/codeparrot/github-code
+  https://huggingface.co/datasets/mteb/raw_arxiv
+  https://openreview.net/forum?id=ePUVetPKu6
+  https://openreview.net/forum?id=r1iuQjxCZ
+
+SuH5SdOXpe.pdf:
+  https://api.semanticscholar.org/CorpusID:60282629
+  https://github.com/chris-hzc/Robustness-Reprogramming
+
+SyVPiehSbg.pdf:
+  http://dx.doi.org/10.1016/j.cma.2021.114333
+  http://dx.doi.org/10.1016/j.cma.2024.117397
+  http://github.com/google/flax
+  http://github.com/google/jax
+  https://arxiv.org/abs/2006.09661
+  https://arxiv.org/abs/2102.06171
+  https://arxiv.org/abs/2205.14135
+  https://arxiv.org/abs/2406.11045
+  https://arxiv.org/abs/2406.19662
+  https://arxiv.org/abs/2407.16674
+  https://arxiv.org/abs/2407.17611
+  https://arxiv.org/abs/2407.18373
+  https://arxiv.org/abs/2408.06650
+  https://doi.org/10.1016/j.cma.2024.117290
+  https://doi.org/10.1016/j.jcp.2021.110768
+  https://doi.org/10.1038%2Fs42256-021-00302-5
+  https://doi.org/10.1038/s41586-020-2649-2
+  https://doi.org/10.1162/neco.1993.5.1.18
+  https://github.com/Blealtan/efficient-kan.git
+  https://github.com/PredictiveIntelligenceLab/ActNet
+  https://github.com/PredictiveIntelligenceLab/jaxpi/tree/ActNet
+  https://github.com/PredictiveIntelligenceLab/jaxpi/tree/pirate
+  https://openreview.net/forum?id=THCvohg1RV
+  https://pytorch.org/assets/pytorch2-2.pdf
+  https://www.sciencedirect.com/science/article/pii/S0021904521000721
+  https://www.sciencedirect.com/science/article/pii/S0021999118307125
+  https://www.sciencedirect.com/science/article/pii/S002199912100663X
+  https://www.sciencedirect.com/science/article/pii/S0045782524005462
+  www.sciencedirect.com/science/article/pii/S0045782524005462
+
+sZQRUrvLn4.pdf:
+  http://graphkernels.cs.tu-dortmund.de
+
+szRmEM8Kx5.pdf:
+  http://arxiv.org/abs/1301.3781
+  http://arxiv.org/abs/1807.03748
+  http://arxiv.org/abs/1910.06188
+  http://jmlr.org/papers/v9/vandermaaten08a.html
+  https://aclanthology.org/2020.emnlp-main.550
+  https://aclanthology.org/2021.acl-long.334
+  https://aclanthology.org/2021.acl-short.123
+  https://aclanthology.org/2021.mrl-1.12
+  https://aclanthology.org/2022.aacl-short.14
+  https://aclanthology.org/D18-1259
+  https://aclanthology.org/N18-1074
+  https://aclanthology.org/N19-1423
+  https://aclanthology.org/P15-1027/
+  https://api.semanticscholar.org/CorpusID:229297730
+  https://arxiv.org/abs/1611.09268
+  https://arxiv.org/abs/1906.05849
+  https://arxiv.org/abs/2010.04592
+  https://arxiv.org/abs/2012.15156
+  https://arxiv.org/abs/2104.08253
+  https://arxiv.org/abs/2104.08663
+  https://arxiv.org/abs/2104.08821
+  https://arxiv.org/abs/2201.10005
+  https://arxiv.org/abs/2205.13147
+  https://arxiv.org/abs/2207.02578
+  https://arxiv.org/abs/2210.07316
+  https://arxiv.org/abs/2212.03533
+  https://arxiv.org/abs/2212.09741
+  https://arxiv.org/abs/2305.12641
+  https://arxiv.org/abs/2401.00368
+  https://arxiv.org/abs/2402.09906
+  https://doi.org/10.1162/tacl_a_00595
+  https://github.com/openai/tiktoken
+  https://huggingface.co/blog/embedding-quantization
+  https://huggingface.co/codesage/codesage-base
+  https://huggingface.co/spaces/mteb/leaderboard
+  https://openreview.net/forum?id=ejHUr4nfHhD
+  https://openreview.net/forum?id=vfzRRjumpX
+  https://proceedings.neurips.cc/paper/2013/hash/db2b4182156b2f1f817860ac9f409ad7-Abstract.html
+  https://proceedings.neurips.cc/paper/2020/hash/d89a66c7c80a29b1bdbab0f2a1a94af8-Abstract.html
+  https://proceedings.neurips.cc/paper_files/paper/2015/file/f442d33fa06832082290ad8544a8da27-Paper.pdf
+
+t8qcGXaepr.pdf:
+  https://github.com/kingoflolz/mesh-transformer-jax
+
+TeVAZXr3yv.pdf:
+  https://aclanthology.org/P19-1455
+  https://ai.stonybrook.edu/Audio-Perception-Understanding-Path-Towards-Audio-AGI
+  https://arxiv.org/abs/2302.13971
+  https://arxiv.org/abs/2303.08774
+  https://arxiv.org/abs/2306.02858
+  https://arxiv.org/abs/2402.07729
+  https://arxiv.org/abs/2403.05530
+  https://arxiv.org/abs/2406.16020
+  https://doi.org/10.1016/S0167-6393(97)
+  https://llava-vl.github.io/blog/2024-01-30-llava-next/
+  https://openreview.net/forum?id=1tZbq88f27
+  https://proceedings.mlr.press/v235/morris24b.html
+  https://sakshi113.github.io/mmau_homepage/
+  https://www.sciencedirect.com/science/article/pii/S0167639397000216
+
+tfyHbvFZ0K.pdf:
+  http://proceedings.mlr.press/v70/sundararajan17a.html
+  https://aclanthology.org/2021.acl-long.71
+  https://aclanthology.org/2021.emnlp-main.446
+  https://aclanthology.org/2021.emnlp-main.805
+  https://aclanthology.org/2021.tacl-1.60
+  https://aclanthology.org/2022.acl-long.581
+  https://aclanthology.org/2022.emnlp-main.379
+  https://aclanthology.org/2023.emnlp-main.632
+  https://aclanthology.org/2023.findings-acl.733
+  https://aclanthology.org/2024.acl-long.338
+  https://aclanthology.org/2024.acl-long.732/
+  https://aclanthology.org/2024.emnlp-main.420
+  https://aclanthology.org/D19-1250
+  https://ai.meta.com/blog/meta-llama-3/
+  https://api.semanticscholar.org/CorpusID:271865810
+  https://arxiv.org/abs/2010.12697
+  https://arxiv.org/abs/2305.15853
+  https://arxiv.org/abs/2307.09288
+  https://arxiv.org/abs/2307.12976
+  https://arxiv.org/abs/2310.14928
+  https://arxiv.org/abs/2401.17585
+  https://arxiv.org/abs/2402.13055
+  https://arxiv.org/abs/2402.13731
+  https://arxiv.org/abs/2402.16438
+  https://arxiv.org/abs/2402.18815
+  https://arxiv.org/abs/2403.05189
+  https://arxiv.org/abs/2403.07825
+  https://arxiv.org/abs/2404.02431
+  https://arxiv.org/abs/2405.17969
+  https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
+  https://doi.org/10.1162/dint_a_00119
+  https://doi.org/10.1162/dint_a_00232
+  https://en.wikipedia.org/wiki/Otsu%27s_method
+  https://en.wikipedia.org/wiki/Welch%27s_t-test
+  https://github.com/heng840/KnowledgeLocalization
+  https://ojs.aaai.org/index.php/AAAI/article/view/29735
+  https://openreview.net/forum?id=-h6WAS6eE4
+  https://openreview.net/forum?id=2HJRwwbV3G
+  https://openreview.net/forum?id=2wFVkTDGOZ
+  https://openreview.net/forum?id=Byj72udxe
+  https://openreview.net/forum?id=EldbUlZtbd
+  https://openreview.net/forum?id=F1G7y94K02
+  https://openreview.net/forum?id=MLKLYoXypN
+  https://openreview.net/forum?id=MkbcAHIYgyS
+  https://openreview.net/forum?id=fNktD3ib16
+  https://proceedings.mlr.press/v162/lundstrom22a.html
+  https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html
+  https://transformer-circuits.pub/2023/monosemantic-features/index.html
+  https://transformer-circuits.pub/2023/superposition-composition/index.html
+  https://www.mi-research.net/en/article/doi/10.1007/s11633-022-1410-8
+  https://www.mi-research.net/en/article/doi/10.1007/s11633-023-1416-x
+  https://www.nature.com/articles/nrn2075
+  https://www.nature.com/articles/s41467-022-28483-6#citeas
+  https://www.nature.com/articles/s41583-023-00777-8
+  https://www.nature.com/articles/s41593-018-0076-6#citeas
+
+THqWPzL00e.pdf:
+  https://doi.org/10.5281/zenodo.5297715
+  https://dumps.wikimedia.org
+  https://github.com/karpathy/nanoGPT
+  https://github.com/libffcv/ffcv/
+  https://github.com/pytorch/vision
+  https://github.com/toponets/topoloss/blob/620ee3efe7ef358f52365ac94c432e1bb186dddb/topoloss/cortical_sheet/common.py#L11
+  https://github.com/toponets/topoloss/blob/620ee3efe7ef358f52365ac94c432e1bb186dddb/topoloss/cortical_sheet/output.py#L6
+  https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu
+  https://huggingface.co/datasets/nampdn-ai/tiny-codes
+  https://openreview.net/forum?id=3pLMzgoZSA
+  https://toponets.github.io
+  https://www.biorxiv.org/content/10.1101/407007v2
+  https://www.cell.com/neuron/fulltext/S0896-6273(20)30605-X
+  https://www.science.org/doi/abs/10.1126/sciadv.ade8187
+  https://www.sciencedirect.com/science/article/pii/S0361923097000944
+
+tIBAOcAvn4.pdf:
+  https://github.com/machanic/hard_label_attacks
+  https://openreview.net/forum?id=SklTQCNtvS
+  https://openreview.net/forum?id=YicbFdNTTy
+  https://openreview.net/forum?id=rJlk6iRqKX
+  https://openreview.net/forum?id=rJzIBfZAb
+  https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf
+
+TId1SHe8JG.pdf:
+  https://arxiv.org/abs/2203.06102
+  https://doi.org/10.1016/j.ijar.2021.07.013
+  https://github.com/google-deepmind/enn
+  https://github.com/google/uncertainty-baselines
+
+tj5xJInWty.pdf:
+  https://doi.org/10.48550/arXiv.2304.01565
+  https://doi.org/10.48550/arXiv.2407.20060
+  https://github.com/xinyuu-he/THePUff
+  https://openreview.net/forum?id=0q4zjGMKoA
+  https://openreview.net/forum?id=BIMSHniyCP
+  https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html
+  https://proceedings.neurips.cc/paper_files/paper/2022/file/3fa7d76a0dc1179f1e98d1bc62403756-Paper-Conference.pdf
+  https://tianchi.aliyun.com/dataset/649
+  https://www.aminer.org/citation
+  https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset
+  https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset
+
+TJo6aQb7mK.pdf:
+  https://aclanthology.org/2022.acl-long.331
+  https://aclanthology.org/2022.findings-acl.165
+  https://aclanthology.org/N19-1300
+  https://aclanthology.org/P16-1144
+  https://aclanthology.org/P17-1147
+  https://aclanthology.org/P19-1472
+  https://api.semanticscholar.org/CorpusID:1553193
+  https://api.semanticscholar.org/CorpusID:208290939
+  https://api.semanticscholar.org/CorpusID:3922816
+  https://api.semanticscholar.org/CorpusID:54458838
+  https://arxiv.org/abs/1301.3781
+  https://arxiv.org/abs/1511.00363
+  https://arxiv.org/abs/1606.06160
+  https://arxiv.org/abs/1608.05859
+  https://arxiv.org/abs/1710.03740
+  https://arxiv.org/abs/1902.06822
+  https://arxiv.org/abs/1905.12322
+  https://arxiv.org/abs/2001.00281
+  https://arxiv.org/abs/2001.08361
+  https://arxiv.org/abs/2005.14165
+  https://arxiv.org/abs/2006.10518
+  https://arxiv.org/abs/2109.12948
+  https://arxiv.org/abs/2202.08906
+  https://arxiv.org/abs/2203.15556
+  https://arxiv.org/abs/2204.06745
+  https://arxiv.org/abs/2205.14135
+  https://arxiv.org/abs/2206.01861
+  https://arxiv.org/abs/2211.10438
+  https://arxiv.org/abs/2303.08302
+  https://arxiv.org/abs/2305.19268
+  https://arxiv.org/abs/2306.00978
+  https://arxiv.org/abs/2306.01841
+  https://arxiv.org/abs/2306.02272
+  https://arxiv.org/abs/2306.03078
+  https://arxiv.org/abs/2307.08691
+  https://arxiv.org/abs/2308.07633
+  https://arxiv.org/abs/2308.13137
+  https://arxiv.org/abs/2310.18313
+  https://arxiv.org/abs/2312.00752
+  https://arxiv.org/abs/2401.06118
+  https://arxiv.org/abs/2402.00838
+  https://arxiv.org/abs/2402.18158
+  https://arxiv.org/abs/2403.08295
+  https://arxiv.org/abs/2403.14123
+  https://arxiv.org/abs/2404.05405
+  https://arxiv.org/abs/2404.06395
+  https://arxiv.org/abs/2404.14047
+  https://arxiv.org/abs/2405.14852
+  https://arxiv.org/abs/2405.17703
+  https://arxiv.org/abs/2405.21060
+  https://arxiv.org/abs/2406.11704
+  https://cdrdv2-public.intel.com/817486/gaudi-3-ai-accelerator-white-paper.pdf
+  https://cloud.google.com/tpu/docs/v3
+  https://cloud.google.com/tpu/docs/v4
+  https://cloud.google.com/tpu/docs/v5e
+  https://cloud.google.com/tpu/docs/v5p
+  https://doi.org/10.1145/3394486.3406703
+  https://doi.org/10.1145/3474381
+  https://github.com/IST-DASLab/marlin
+  https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md
+  https://groq.com/
+  https://images.nvidia.com/content/technologies/volta/pdf/tesla-volta-v100-datasheet-letter-fnl-web.pdf
+  https://ir.amd.com/news-events/press-releases/detail/1201/amd-accelerates-pace-of-data-center-ai-innovation-and
+  https://nvdam.widen.net/s/nb5zzzsjdf/hpc-datasheet-sc23-h200-datasheet-3002446
+  https://openreview.net/forum?id=BifeBRhikU
+  https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+  https://resources.nvidia.com/en-us-blackwell-architecture
+  https://resources.nvidia.com/en-us-tensor-core/nvidia-tensor-core-gpu-datasheet
+  https://www.aclweb.org/anthology/2020.emnlp-demos.6
+  https://www.amd.com/en/products/accelerators/instinct/mi200/mi210.html
+  https://www.amd.com/en/products/accelerators/instinct/mi300/mi300a.html
+  https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html
+  https://www.amd.com/system/files/documents/amd-instinct-mi200-datasheet.pdf
+  https://www.cerebras.net/blog/slimpajama-a-627b-token-cleaned-and-deduplicated-version-of-redpajama
+  https://www.cerebras.net/product-chip/
+  https://www.github.com/eleutherai/gpt-neox
+  https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf
+  https://www.nvidia.com/en-in/data-center/h200/
+  https://www.wandb.com/
+  https://zenodo.org/records/10256836
+
+TlAdgeoDTo.pdf:
+  https://aclanthology.org/2022.emnlp-main.625
+  https://aclanthology.org/2022.findings-acl.165
+  https://aclanthology.org/2023.findings-acl.847
+  https://aclanthology.org/2024.acl-long.511
+  https://aclanthology.org/D19-1339
+  https://aclanthology.org/N18-2002
+  https://aclanthology.org/N18-2003
+  https://api.semanticscholar.org/CorpusID:201666566
+  https://arxiv.org/abs/2201.12323
+  https://arxiv.org/abs/2302.04166
+  https://arxiv.org/abs/2303.08774
+  https://arxiv.org/abs/2305.13711
+  https://arxiv.org/abs/2305.18569
+  https://arxiv.org/abs/2307.11761
+  https://arxiv.org/abs/2311.09766
+  https://arxiv.org/abs/2312.03689
+  https://arxiv.org/abs/2402.04105
+  https://arxiv.org/abs/2404.06619
+  https://arxiv.org/abs/2405.01470
+  https://arxiv.org/abs/2406.06560
+  https://arxiv.org/abs/2406.12232
+  https://arxiv.org/abs/2407.06003
+  https://arxiv.org/abs/2410.19803
+  https://arxiv.org/pdf/2305.18189
+  https://doi.org/10.1007/11681878_14
+  https://doi.org/10.1145/3531146.3533088
+  https://doi.org/10.1145/3582269.3615599
+  https://doi.org/10.7910/DVN/SGKW0K
+  https://openai.com/index/custom-instructions-for-chatgpt/
+  https://openai.com/index/memory-and-new-controls-for-chatgpt/
+  https://openreview.net/forum?id=qS1ip2dGH0
+  https://platform.openai.com/docs/api-reference/completions/create#completions-create-logprobs
+  https://prolific.com
+  https://www.aeaweb.org/articles?id=10.1257/0002828042002561
+  https://www.ssa.gov/oact/babynames/names.zip
+
+TtUh0TOlGX.pdf:
+  https://doi.org/10.48550/arXiv.2209.14687
+  https://doi.org/10.48550/arXiv.2212.00490
+  https://github.com/TReg-inverse/Treg
+  https://github.com/bahjat-kawar/ddrm-jpeg
+  https://openreview.net/forum?id=FjNys5c7VyY
+  https://openreview.net/forum?id=qw8AKxfYbI
+  https://proceedings.mlr.press/v235/chung24b.html
+
+tuu4de7HL1.pdf:
+  http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html
+  https://archive.ics.uci.edu/dataset/51/internet+advertisements
+  https://doi.org/10.24432/C5V011
+  https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass.html
+
+Tv36j85SqR.pdf:
+  http://github.com/tensorflow/compression
+  https://doi.org/10.1137/0605031
+  https://github.com/leieric/lattice-transform-coding
+  https://github.com/mandt-lab/RD-sandwich
+  https://openreview.net/forum?id=1pGmKJvneD7
+  https://openreview.net/forum?id=H4PmOqSZDY
+  https://openreview.net/forum?id=HkpbnH9lx
+  https://openreview.net/forum?id=Z2L5d9ay4B
+  https://openreview.net/forum?id=rkcQFMZRb
+  https://proceedings.mlr.press/v108/mcallester20a.html
+  https://r0k.us/graphics/kodak/
+
+twEvvkQqPS.pdf:
+  http://dx.doi.org/10.1039/D2CP03966D
+  http://stacks.iop.org/1367-2630/15/i=9/a=095003
+  https://arxiv.org/abs/2406.14347
+  https://arxiv.org/pdf/2306.09549.pdf
+  https://books.google.com/books?id=5wsK1OP7UFgC
+  https://doi.org/10.1038/s41467-019-12875-2
+  https://doi.org/10.1038/s41557-020-0544-y
+  https://doi.org/10.1038/s43588-022-00265-6
+  https://doi.org/10.1038/srep42669
+  https://doi.org/10.1063/5.0012911
+  https://link.aps.org/doi/10.1103/RevModPhys.87.897
+  https://openreview.net/forum?id=KwmPfARgOTD
+  https://openreview.net/forum?id=auGY2UQfhSu
+  https://proceedings.mlr.press/v48/cohenc16.html
+  https://proceedings.mlr.press/v80/kondor18a.html
+
+TYSQYx9vwd.pdf:
+
+U3PBITXNG6.pdf:
+  http://dx.doi.org/10.1109/TSP.2019.2894825
+  http://dx.doi.org/10.3390/universe8020085
+  https://api.semanticscholar.org/CorpusID:215727630
+  https://api.semanticscholar.org/CorpusID:256697667
+  https://arxiv.org/abs/2010.03106
+  https://arxiv.org/abs/2202.06386
+  https://arxiv.org/abs/2307.08123
+  https://arxiv.org/abs/2403.06054
+  https://arxiv.org/abs/2403.17042
+  https://arxiv.org/abs/2407.01521
+  https://arxiv.org/abs/2409.20175
+  https://arxiv.org/abs/2410.17725
+  https://devzhk.github.io/InverseBench/
+  https://dx.doi.org/10.3847/1538-4357/ab8469
+  https://dx.doi.org/10.3847/2041-8213/ab0c57
+  https://dx.doi.org/10.3847/2041-8213/ab0e85
+  https://dx.doi.org/10.3847/2041-8213/ac6429
+  https://github.com/mikgroup/sigpy
+  https://openreview.net/forum?id=1YO4EE3SPB
+  https://openreview.net/forum?id=1phOqr675L
+  https://openreview.net/forum?id=6TxBxqNME1Y
+  https://openreview.net/forum?id=9_gsMA8MRKQ
+  https://openreview.net/forum?id=OnD9zGAGT0k
+  https://openreview.net/forum?id=XKBFdYwfRo
+  https://openreview.net/forum?id=db2pFKVcm1
+  https://openreview.net/forum?id=nHESwXvxWK
+  https://openreview.net/forum?id=vaRCHVj0uGI
+  https://openreview.net/forum?id=wHoIjrT6MMb
+  https://openreview.net/forum?id=x5hh6N9bUUb
+  https://opg.optica.org/oe/abstract.cfm?URI=oe-28-9-12872
+  https://proceedings.mlr.press/v202/song23k.html
+  https://proceedings.mlr.press/v235/huang24g.html
+  https://proceedings.neurips.cc/paper_files/paper/2023/file/63e8bc7bbf1cfea36d1d1b6538aecce5-Paper-Conference.pdf
+  https://www.geosci-model-dev.net/12/1165/2019/
+
+U67J0QNtzo.pdf:
+  https://github.com/qingshi9974/AuxT
+  https://openreview.net/forum?id=HKGQDDTuvZ
+  https://openreview.net/forum?id=V1sChEsXZg
+
+U834XHJuqk.pdf:
+  http://catdir.loc.gov/catdir/description/dover031/2001047459.html
+  http://dx.doi.org/10.1109/JSTSP.2016.2539100
+  http://gso.gbv.de/DB=2.1/CMD?ACT=SRCHA&SRT=YOP&IKT=1016&TRM=ppn+483463442&sourceid=fbw_bibsonomy
+  http://probml.github.io/book2
+  http://www.jstor.org/stable/2344614
+  http://www.jstor.org/stable/2345875
+  http://www.jstor.org/stable/2529876
+  http://www.jstor.org/stable/j.ctvqsdxqd
+  https://aclanthology.org/2020.acl-demos.12
+  https://aclanthology.org/D18-2029
+  https://aclanthology.org/D19-1410
+  https://aclanthology.org/J92-4003
+  https://aclanthology.org/N18-1202
+  https://aclanthology.org/N19-1423
+  https://arxiv.org/abs/2101.04285
+  https://arxiv.org/abs/2406.16964
+  https://blog.arxiv.org/2020/08/05/leveraging-machine-learning-to-fuel-new-discoveries-with-the-arxiv-dataset
+  https://doi.org/10.1002/047174882X.ch5
+  https://doi.org/10.1007/978-1-4419-9569-8_10
+  https://doi.org/10.1007/978-3-540-74048-3_4
+  https://doi.org/10.1007/BF01908075
+  https://doi.org/10.1007/s10107-015-0876-3
+  https://doi.org/10.1007/s10107-017-1161-4
+  https://doi.org/10.1007/s10618-016-0483-9
+  https://doi.org/10.1007/s10618-021-00796-y
+  https://doi.org/10.1007/s10618-022-00844-1
+  https://doi.org/10.1007/s10618-023-00939-3
+  https://doi.org/10.1007/s10618-024-01022-1
+  https://doi.org/10.1016/j.patcog.2017.09.020
+  https://doi.org/10.1016/j.patrec.2005.10.010
+  https://doi.org/10.1038/s41551-022-00914-1
+  https://doi.org/10.1038/s41586-021-03819-2
+  https://doi.org/10.1038/s41746-021-00455-y
+  https://doi.org/10.1042/bj2290281
+  https://doi.org/10.1134/S0005117919100084
+  https://doi.org/10.1137/070697835
+  https://doi.org/10.1137/080716542
+  https://doi.org/10.1137/080738970
+  https://doi.org/10.1137/17M1144799
+  https://doi.org/10.1137/S0097539792240406
+  https://doi.org/10.1137/S1052623403425629
+  https://doi.org/10.1145/1390156.1390191
+  https://doi.org/10.1145/1553374.1553511
+  https://doi.org/10.1145/1557019.1557122
+  https://doi.org/10.1145/2133806.2133826
+  https://doi.org/10.1287/10-SSY011
+  https://doi.org/10.1371/journal.pone.0261531
+  https://doi.org/10.1561/2400000003
+  https://doi.org/10.21105/joss.00861
+  https://doi.org/10.7551/mitpress/9609.001.0001
+  https://dx.doi.org/10.1088/1361-6579/abc960
+  https://epubs.siam.org/doi/abs/10.1137/1.9781611976595
+  https://github.com/XSpace2013/LowRankTimeSeriesRecovery
+  https://ojs.aaai.org/index.php/AAAI/article/view/20881
+  https://onlinelibrary.wiley.com/doi/abs/10.1002/047174882X.ch5
+  https://openreview.net/forum?id=3y2TfP966N
+  https://openreview.net/forum?id=sOQBHlCmzp
+  https://openreview.net/forum?id=twSnZwiOIm
+  https://proceedings.mlr.press/v151/gorbunov22a.html
+  https://proceedings.mlr.press/v162/kirchmeyer22a.html
+  https://proceedings.mlr.press/v162/yang22e.html
+  https://proceedings.neurips.cc/paper_files/paper/1996/file/6a61d423d02a1c56250dc23ae7ff12f3-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2019/file/1359aa933b48b754a2f54adb688bfa77-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2019/file/53c6de78244e9f528eb3e1cda69699bb-Paper.pdf
+  https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/
+  https://www.cs.ucr.edu/~eamonn/time_series_data_2018/
+  https://www.cs.ucr.edu/˜eamonn/time_series_data_2018/
+  https://www.gutenberg.org
+  https://www.kaggle.com/datasets/Cornell-University/arxiv
+  https://www.mdpi.com/1099-4300/26/3/252
+  https://www.sciencedirect.com/science/article/pii/S0031320317303710
+  https://www.sciencedirect.com/science/article/pii/S016786550500303X
+  www.jstor.org/stable/2344614
+  www.sciencedirect.com/science/article/pii/S0031320317303710
+
+ujpAYpFDEA.pdf:
+  https://doi.org/10.1145/3626772.3661377
+  https://github.com/THU-BPM/Watermarked_LLM_Identification
+  https://huggingface.co/meta-llama/Llama-3.2-3B
+  https://openreview.net/forum?id=6p8lpe4MNf
+  https://www.scottaaronson.com/talks/watermark.ppt
+
+UL8b54P96G.pdf:
+  https://arxiv.org/abs/1505.04597
+  https://arxiv.org/abs/1512.03385
+  https://arxiv.org/abs/1909.12271
+  https://arxiv.org/abs/1910.10897
+  https://arxiv.org/abs/2103.00020
+  https://arxiv.org/abs/2106.09685
+  https://arxiv.org/abs/2204.03458
+  https://arxiv.org/abs/2204.03638
+  https://arxiv.org/abs/2205.09853
+  https://arxiv.org/abs/2205.11495
+  https://arxiv.org/abs/2209.14792
+  https://arxiv.org/abs/2210.02303
+  https://arxiv.org/abs/2210.02399
+  https://arxiv.org/abs/2211.11018
+  https://arxiv.org/abs/2211.13221
+  https://arxiv.org/abs/2302.00111
+  https://arxiv.org/abs/2302.03011
+  https://arxiv.org/abs/2303.08320
+  https://arxiv.org/abs/2303.12346
+  https://arxiv.org/abs/2303.13439
+  https://arxiv.org/abs/2304.08818
+  https://arxiv.org/abs/2306.07954
+  https://arxiv.org/abs/2308.06571
+  https://arxiv.org/abs/2309.17080
+  https://arxiv.org/abs/2310.06114
+  https://arxiv.org/abs/2310.08576
+  https://arxiv.org/abs/2310.08864
+  https://arxiv.org/abs/2310.20700
+  https://arxiv.org/abs/2311.10982
+  https://arxiv.org/abs/2311.16933
+  https://arxiv.org/abs/2401.09985
+  https://arxiv.org/abs/2401.11504
+  https://arxiv.org/abs/2402.04324
+  https://arxiv.org/abs/2403.14773
+  https://arxiv.org/abs/2405.15223
+  https://arxiv.org/abs/2406.09455
+  https://doi.org/10.1007/s11263-021-01531-2
+  https://runwayml.com/
+  https://slowfast-vgen.github.io
+  https://www.scenedetect.com/
+  https://www.unrealengine.com
+
+uqWM9hBDAE.pdf:
+  http://jmlr.org/papers/v23/21-1528.html
+  http://www.jstor.org/stable/2333577
+  http://www.jstor.org/stable/2335721
+  https://dl.acm.org/doi/10.1145/3597503.3639198
+  https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00018
+  https://doi.org/10.1007/BF01587086
+  https://doi.org/10.1145/2897518.2897641
+  https://doi.org/10.1145/3468264.3468570
+  https://doi.org/10.1145/3510455.3512796
+  https://doi.org/10.1145/3611643.3616268
+  https://github.com/niMgnoeSeeL/UnseenGA
+  https://proceedings.neurips.cc/paper/2015/file/d759175de8ea5b1d9a2660e45554894f-Paper.pdf
+  https://proceedings.neurips.cc/paper/2020/file/618790ae971abb5610b16c826fb72d01-Paper.pdf
+  https://www.kaggle.com/datasets/joebeachcapital/australian-population-data-by-region
+  https://www.kaggle.com/datasets/kingburrito666/shakespeare-plays
+  https://www.pnas.org/doi/abs/10.1073/pnas.1607774113
+  www.jstor.org/stable/2333577
+
+UqYNPyotxL.pdf:
+  https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.linear_sum_assignment.html
+  https://pytorch.org/docs/stable/generated/torch.nn.Linear.html
+  https://pytorch.org/docs/stable/generated/torch.optim.Adam.html
+  https://www.openml.org/d/44089
+  https://www.openml.org/d/44120
+  https://www.openml.org/d/44121
+  https://www.openml.org/d/44122
+  https://www.openml.org/d/44123
+  https://www.openml.org/d/44125
+  https://www.openml.org/d/44126
+  https://www.openml.org/d/44128
+  https://www.openml.org/d/44129
+  https://www.openml.org/d/44130
+  https://www.openml.org/d/45019
+  https://www.openml.org/d/45020
+  https://www.openml.org/d/45021
+  https://www.openml.org/d/45022
+  https://www.openml.org/d/45026
+  https://www.openml.org/d/45028
+
+uREg3OHjLL.pdf:
+  http://dx.doi.org/10.14279/depositonce-15271
+  http://www.deeplearningbook.org
+  https://doi.org/10.1007/s12045-010-0123-4
+  https://doi.org/10.1016/0893-6080(91)
+  https://doi.org/10.1093/oso/9780199219858.001.0001
+  https://doi.org/10.1109/IEEESTD.2019.8766229
+  https://epubs.siam.org/doi/abs/10.1137/1.9781611977912.113
+  https://proceedings.mlr.press/v125/kidger20a.html
+  https://proceedings.mlr.press/v235/lee24q.html
+  https://proceedings.mlr.press/v49/telgarsky16.html
+  https://proceedings.mlr.press/v70/raghu17a.html
+  https://proceedings.neurips.cc/paper_files/paper/2023/file/71c31ebf577ffdad5f4a74156daad518-Paper-Conference.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2023/file/8948a8d039ed52d1031db6c7c2373378-Paper-Conference.pdf
+  https://www.sciencedirect.com/science/article/pii/089360809190009T
+  https://www.sciencedirect.com/science/article/pii/S0893608005801315
+  www.deeplearningbook.org
+
+uSz2K30RRd.pdf:
+  https://github.com/sony/wpse
+
+uTqnyF0JNR.pdf:
+  https://github.com/Jaeyun-Song/TAM
+  https://github.com/JoonHyung-Park/GraphENS
+  https://github.com/Leo-Q-316/ImGAGN
+  https://github.com/LirongWu/GraphMixup
+  https://github.com/RingBDStack/HyperIMBA
+  https://github.com/RingBDStack/IGL-Bench
+  https://github.com/RingBDStack/PASTEL
+  https://github.com/SukwonYun/LTE4G
+  https://github.com/TianxiangZhao/GraphSmote
+  https://github.com/Tommtang/ImGKB
+  https://github.com/TraceIvan/TOPOAUC
+  https://github.com/YuWVandy/DPGNN
+  https://github.com/amazon-research/gnn-tail-generalization
+  https://github.com/codeshareabc/DRGCN
+  https://github.com/jiank2/RawlsGCN
+  https://github.com/jumxglhf/GraphPatcher
+  https://github.com/jwu4sml/DEMO-Net
+  https://github.com/shuaiOKshuai/SOLT-GNN
+  https://github.com/shuaiOKshuai/Tail-GNN
+  https://github.com/smufang/meta-tail2vec
+  https://github.com/submissionconff/G2GNN
+  https://github.com/victorchen96/ReNode
+  https://github.com/wenzhilics/GraphSHA
+  https://github.com/zihan448/TopoImb
+  https://wandb.ai/
+  https://www.dropbox.com/sh/8jaq9zekzl3khni/AAA0kNDs_UMxj4YbTEKKyiXna?dl=0
+
+uuriavczkL.pdf:
+  http://dx.doi.org/10.1037/a0022750
+  http://www.nber.org/papers/w9873
+  https://aclanthology.org/2022.tacl-1.66
+  https://causalai.net/r113.pdf
+  https://ftp.cs.ucla.edu/pub/stat_ser/r530.pdf
+  https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
+
+UvfI4grcM7.pdf:
+  http://dx.doi.org/10.1088/2634-4386/ac97bb
+  http://dx.doi.org/10.3389/fnins.2022.1079357
+  http://pybullet.org
+  https://api.semanticscholar.org/CorpusID:13840922
+  https://api.semanticscholar.org/CorpusID:2554264
+  https://api.semanticscholar.org/CorpusID:4465407
+  https://api.semanticscholar.org/CorpusID:52294209
+  https://arxiv.org/abs/1611.09913
+  https://arxiv.org/abs/2005.11633
+  https://arxiv.org/abs/2404.03325
+  https://doi.org/10.1016/j.celrep.2022.111936
+  https://doi.org/10.1038/nn1545
+  https://doi.org/10.1162/netn_a_00269
+  https://doi.org/10.7554/eLife.12366
+  https://europepmc.org/articles/PMC6622639
+  https://github.com/fun0515/RSNN_bfd
+  https://proceedings.neurips.cc/paper_files/paper/2017/file/ab541d874c7bc19ab77642849e02b89f-Paper.pdf
+  https://www.frontiersin.org/articles/10.3389/fninf.2019.00032
+  https://www.pnas.org/doi/abs/10.1073/pnas.1922248117
+  https://www.sciencedirect.com/science/article/pii/S0896627324004963
+  https://www.sciencedirect.com/science/article/pii/S221112472201837X
+  www.frontiersin.org/articles/10.3389/fninf.2019.00032
+
+uvHmnahyp1.pdf:
+  https://arxiv.org/abs/1702.08165
+  https://arxiv.org/abs/2102.09548
+  https://arxiv.org/abs/2110.06389
+  https://arxiv.org/abs/2206.12411
+  https://arxiv.org/abs/2312.14331
+  https://arxiv.org/abs/2406.04628
+  https://arxiv.org/abs/2407.12186
+  https://doi.org/10.1021/ci100050t
+  https://enamine.net
+  https://github.com/MolecularAI/REINVENT4
+  https://github.com/mirunacrt/synflownet
+  https://github.com/recursionpharma/gflownet
+  https://github.com/swansonk14/SyntheMol
+  https://www.biorxiv.org/content/early/2023/11/05/2023.11.04.565429
+  https://www.biotite-python.org/latest/index.html
+  www.biosolveit.de/spacelight-a-spotlight-on-the-analog-hunter-for-
+  www.biotite-python.org
+
+UVnD9Ze6mF.pdf:
+  https://ai.google.dev/gemma/prohibited_use_policy
+  https://ai.meta.com/blog/meta-llama-3/
+  https://ai.meta.com/llama/use-policy/
+  https://artificialintelligenceact.eu/
+  https://cdn.openai.com/spec/model-spec-2024-05-08.html
+  https://chat.deepseek.com/downloads/DeepSeek%20User%20Agreement.html
+  https://cohere.com/blog/command-r-plus-microsoft-azure
+  https://cohere.com/terms-of-use
+  https://crfm.stanford.edu/2024/04/08/aups.html
+  https://crfm.stanford.edu/helm/air-bench/latest/
+  https://data.europa.eu/eli/reg/2016/679/oj
+  https://docs.cohere.com/docs/c4ai-acceptable-use-policy
+  https://docs.cohere.com/docs/usage-guidelines
+  https://github.com/CHATS-lab/persuasive_jailbreaker/tree/main/PAP_Better_Incontext_Sample
+  https://github.com/DeepSeek-ai/DeepSeek-LLM/blob/main/LICENSE-MODEL
+  https://huggingface.co/datasets/stanford-crfm/air-bench-2024
+  https://m.facebook.com/policies/other-policies/ais-terms
+  https://mistral.ai/news/la-plateforme/
+  https://mistral.ai/news/mixtral-8x22b/
+  https://mistral.ai/terms/
+  https://openai.com/blog/chatgpt
+  https://openai.com/index/hello-gpt-4o/
+  https://openai.com/index/new-models-and-developer-products-announced-at-devday/
+  https://openai.com/policies/usage-policies
+  https://openai.com/research/gpt-4v-system-card
+  https://openreview.net/forum?id=hTEGyKf0dZ
+  https://platform.DeepSeek.com/downloads/DeepSeek%20Open%20Platform%20Terms%20of%20Service.html
+  https://policies.google.com/terms/generative-ai/use-policy
+  https://qwenlm.github.io/blog/qwen1.5/
+  https://stability.ai/use-policy
+  https://web.archive.org/web/20240109122522/https:/openai.com/policies/usage-policies
+  https://www.anthropic.com/claude-3-model-card
+  https://www.anthropic.com/index/introducing-claude
+  https://www.anthropic.com/legal/aup
+  https://www.chinalawtranslate.com/en/algorithms/
+  https://www.chinalawtranslate.com/en/deep-synthesis/
+  https://www.chinalawtranslate.com/en/generative-ai-interim/
+  https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm
+  https://www.tc260.org.cn/upload/2024-03-01/1709282398070082466.pdf
+  https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/
+  https://yiyan.baidu.com/infoUser
+  www.gov.cn/zhengce/zhengceku/202310/content_6908045.htm
+
+v9EjwMM55Y.pdf:
+  https://doi.org/10.1093/bib/bbaa266
+  https://doi.org/10.1093/bib/bbab317
+  https://github.com/BenevolentAI/MolBERT.git
+  https://github.com/Lirain21/UniMatch.git
+  https://github.com/OpenDrugAI/AttentiveFP.git
+  https://github.com/SY575/CMPNN.git
+  https://github.com/Wenlin-Chen/ADKF-IFT.git
+  https://github.com/chao1224/n_gram_graph.git
+  https://github.com/chemprop/chemprop.git
+  https://github.com/jrwnter/cddd.git
+  https://github.com/lol88/Meta-MolNet.git
+  https://github.com/lol88/Mol2Context-vec.git
+  https://github.com/snap-stanford/pretrain-gnns.git
+  https://github.com/tkipf/gcn.git
+  https://github.com/yvquanli/trimnet.git
+  https://openreview.net/forum?id=701FtuyLlAd
+  https://openreview.net/forum?id=88nT0j5jAn
+  https://openreview.net/forum?id=KXRSh0sdVTP
+  https://openreview.net/forum?id=SJU4ayYgl
+  https://openreview.net/forum?id=XrMWUuEevr
+  https://openreview.net/forum?id=ryGs6iA5Km
+  https://openreview.net/forum?id=to9OkIFYyC
+  https://openreview.net/forum?id=vGjTOxss-Dl
+
+VaowElpVzd.pdf:
+  https://mattie-e.github.io/Co3/)
+  https://openreview.net/forum?id=SJ1kSyO2jwu
+
+VCbqXtS5YY.pdf:
+  https://huggingface.co/EleutherAI
+  https://huggingface.co/HuggingFaceH4/mistral-7b-sft-beta
+  https://huggingface.co/datasets/Anthropic/hh-rlhf
+  https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k
+  https://huggingface.co/datasets/HuggingFaceH4/ultrafeedback_binarized
+  https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
+
+VeMC6Bn0ZB.pdf:
+  https://api.semanticscholar.org/CorpusID:14183894
+  https://arxiv.org/abs/2001.04536
+  https://arxiv.org/abs/2102.03657
+  https://arxiv.org/abs/2108.08481
+  https://arxiv.org/abs/2205.03787
+  https://arxiv.org/abs/2409.04898
+  https://data.nasdaq.com/databases/EOD/documentation
+  https://doi.org/10.24963/ijcai.2021/610
+
+VEqPDZIDAh.pdf:
+  http://arxiv.org/abs/1910.11856
+  http://dx.doi.org/10.1609/aaai.v38i18.29970
+  http://papers.nips.cc/paper_files/paper/2023/hash/c1f0b856a35986348ab3414177266f75-Abstract-Conference.html
+  http://papers.nips.cc/paper_files/paper/2023/hash/f751c6f8bfb52c60f43942896fe65904-Abstract-Conference.html
+  http://papers.nips.cc/paper_files/paper/2023/hash/fd6613131889a4b656206c50a8bd7790-Abstract-Conference.html
+  http://www.lrec-conf.org/proceedings/lrec2014/pdf/756_Paper.pdf
+  https://aclanthology.org/2011.mtsummit-tutorials.3
+  https://aclanthology.org/2022.emnlp-main.406
+  https://aclanthology.org/2023.acl-long.346
+  https://aclanthology.org/2024.acl-long.192
+  https://ai.meta.com/blog/meta-llama-3/
+  https://api.semanticscholar.org/CorpusID:120467216
+  https://api.semanticscholar.org/CorpusID:257986789
+  https://arxiv.org/abs/2005.14165
+  https://arxiv.org/abs/2106.03193
+  https://arxiv.org/abs/2109.13916
+  https://doi.org/10.1038/s42256-022-00458-8
+  https://doi.org/10.1162/tacl_a_00433
+  https://doi.org/10.18653/v1/d18-1269
+  https://doi.org/10.48550/arXiv.2212.08073
+  https://doi.org/10.48550/arXiv.2302.13971
+  https://doi.org/10.48550/arXiv.2303.12712
+  https://doi.org/10.48550/arXiv.2403.04652
+  https://en.wikipedia.org/wiki/Languages_of_Belgium
+  https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers
+  https://github.com/causalNLP/multiTP
+  https://moralmachine.net
+  https://openreview.net/forum?id=3MW8GKNyzI
+  https://openreview.net/forum?id=dNy\_RKzJacY
+  https://osf.io/3hvt2/
+  https://pypi.org/project/googletrans/
+  https://www.aclweb.org/anthology/2020.emnlp-main.48
+  mailto:giorgio.piatti@alumni.ethz.ch
+  mailto:maxkw@uw.edu
+  mailto:zjin@cs.toronto.edu
+
+VGQugiuCQs.pdf:
+  https://arxiv.org/abs/2208.14129
+  https://doi.org/10.1080/15427951.2006.10129115
+  https://doi.org/10.24432/C5C59F
+  https://doi.org/10.24432/C5K306
+  https://doi.org/10.24432/C5T59G
+  https://doi.org/10.24432/C5VP42
+  https://doi.org/10.24432/C5XW20
+  https://images.apple.com/privacy/docs/Differential
+  https://policies.google.com/technologies/retention
+  https://www.facebook.com/policy.php
+
+vi3DjUhFVm.pdf:
+  http://arxiv.org/abs/1503.03585
+  http://arxiv.org/abs/1909.08593
+  http://arxiv.org/abs/2006.11239
+  http://arxiv.org/abs/2011.13456
+  http://arxiv.org/abs/2101.09258
+  http://arxiv.org/abs/2111.15141
+  http://arxiv.org/abs/2203.02155
+  http://arxiv.org/abs/2204.03458
+  http://arxiv.org/abs/2210.10760
+  http://arxiv.org/abs/2302.12192
+  http://arxiv.org/abs/2306.04488
+  http://arxiv.org/abs/2310.02743
+  http://arxiv.org/abs/2310.03739
+  http://arxiv.org/abs/2402.15194
+  http://arxiv.org/abs/2403.13826
+  http://papers.nips.cc/paper_files/paper/2022/hash/67496dfa96afddab795530cc7c69b57a-Abstract-Conference.html
+  http://papers.nips.cc/paper_files/paper/2023/hash/63e8bc7bbf1cfea36d1d1b6538aecce5-Abstract-Conference.html
+  http://papers.nips.cc/paper_files/paper/2023/hash/a5755ccd0efeca8852ae0a1193f319f6-Abstract-Conference.html
+  http://papers.nips.cc/paper_files/paper/2023/hash/a85b405ed65c6477a4fe8302b5e06ce7-Abstract-Conference.html
+  https://github.com/krafton-ai/DAS
+  https://ieeexplore.ieee.org/document/10208653/
+  https://ieeexplore.ieee.org/document/10657686/
+  https://ieeexplore.ieee.org/document/8578166/
+  https://laion.ai/blog/laion-aesthetics/
+  https://link.springer.com/10.1007/978-3-030-47845-2
+  https://openreview.net/forum?id=6TxBxqNME1Y
+  https://openreview.net/forum?id=9_gsMA8MRKQ
+  https://openreview.net/forum?id=OnD9zGAGT0k
+  https://openreview.net/forum?id=YCWjhGrJFD
+  https://openreview.net/forum?id=dtVlc9ybTm
+  https://openreview.net/forum?id=shgx0eqdw6
+  https://proceedings.mlr.press/v235/zhang24ch.html
+
+vQhn4wrQ6j.pdf:
+  https://aclanthology.org/2020.acl-main.747
+  https://aclanthology.org/2020.emnlp-main.359
+  https://aclanthology.org/2020.emnlp-main.617
+  https://aclanthology.org/2021.acl-long.378
+  https://aclanthology.org/2021.eacl-main.189
+  https://aclanthology.org/2021.emnlp-main.257
+  https://aclanthology.org/2021.emnlp-main.3
+  https://aclanthology.org/2021.emnlp-main.749
+  https://aclanthology.org/2022.acl-long.125
+  https://aclanthology.org/2022.emnlp-main.9
+  https://aclanthology.org/2022.naacl-main.255
+  https://aclanthology.org/2023.acl-long.323
+  https://aclanthology.org/2023.acl-long.355
+  https://aclanthology.org/2023.acl-long.856
+  https://aclanthology.org/2023.emnlp-main.163
+  https://aclanthology.org/2023.emnlp-main.813
+  https://aclanthology.org/2023.emnlp-main.818
+  https://aclanthology.org/2023.findings-acl.189
+  https://aclanthology.org/2023.findings-emnlp.335
+  https://aclanthology.org/2024.acl-long.309
+  https://aclanthology.org/2024.acl-long.338
+  https://aclanthology.org/2024.acl-long.356
+  https://aclanthology.org/2024.acl-long.379
+  https://aclanthology.org/2024.acl-long.44
+  https://aclanthology.org/2024.acl-long.539
+  https://aclanthology.org/2024.acl-long.607
+  https://aclanthology.org/2024.acl-long.620
+  https://aclanthology.org/2024.acl-long.820
+  https://aclanthology.org/2024.findings-acl.488
+  https://aclanthology.org/2024.findings-naacl.21
+  https://aclanthology.org/2024.naacl-long.384
+  https://aclanthology.org/2024.naacl-long.412
+  https://ai.meta.com/research/publications/layerskip-enabling-early-exit-inference-and-self-speculative-decoding/
+  https://api.semanticscholar.org/CorpusID:254877458
+  https://api.semanticscholar.org/CorpusID:3833416
+  https://api.semanticscholar.org/CorpusID:47328136
+  https://api.semanticscholar.org/CorpusID:56776745
+  https://arxiv.org/abs/2305.12720
+  https://arxiv.org/abs/2310.06825
+  https://arxiv.org/abs/2401.07037
+  https://arxiv.org/abs/2401.16405
+  https://arxiv.org/abs/2407.02552
+  https://arxiv.org/abs/2408.07666
+  https://huggingface.co/datasets/CohereForAI/aya_dataset
+  https://huggingface.co/datasets/ai4bharat/indic-align
+  https://huggingface.co/datasets/allenai/nllb
+  https://huggingface.co/datasets/bigscience/xP3mt
+  https://huggingface.co/datasets/izumi-lab/llm-japanese-dataset
+  https://huggingface.co/datasets/kunishou/databricks-dolly-15k-ja
+  https://huggingface.co/datasets/lelapa/Inkuba-instruct
+  https://huggingface.co/datasets/lumatic-ai/BongChat-v1-253k
+  https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k
+  https://huggingface.co/datasets/p1atdev/ichikara-instruction
+  https://openreview.net/forum?id=0A9f2jZDGW
+  https://openreview.net/forum?id=5r3e27I9Gy
+  https://openreview.net/forum?id=6t0Kwf8-jrj
+  https://openreview.net/forum?id=CQsmMYmlP5T
+  https://openreview.net/forum?id=L1Hxp8ktiT
+  https://openreview.net/forum?id=Uwh-v1HSw-x
+  https://openreview.net/forum?id=d7KBjmI3GmQ
+  https://openreview.net/forum?id=fR3wGCk-IXp
+  https://openreview.net/forum?id=nZeVKeeFYf9
+  https://openreview.net/forum?id=vuyP3tupig
+  https://openreview.net/forum?id=xtaX3WyCj1
+  https://proceedings.mlr.press/v162/wortsman22a.html
+  https://proceedings.neurips.cc/paper_files/paper/2022/file/70c26937fbf3d4600b69a129031b66ec-Paper-Conference.pdf
+
+vVCHWVBsLH.pdf:
+
+vWR3KuiQur.pdf:
+  https://blackforestlabs.ai/
+  https://blog.fal.ai/auraflow/
+  https://developer.nvidia.com/blog/tensorrt-accelerates-stable-diffusion-nearly-2x-faster-with-8-bit-post-training-quantization/
+  https://docs.nvidia.com/deeplearning/cudnn/frontend/latest/operations/BlockScaling.html
+  https://en.wikipedia.org/wiki/Structural_similarity_index_measure
+  https://github.com/lllyasviel/stable-diffusion-webui-forge/discussions/981
+  https://github.com/mit-han-lab/deepcompressor
+  https://github.com/mit-han-lab/nunchaku
+  https://hanlab.mit.edu/projects/svdquant
+  https://huggingface.co/Shakker-Labs/FLUX.1-dev-LoRA-Children-Simple-Sketch
+  https://huggingface.co/XLabs-AI/flux-RealismLora
+  https://huggingface.co/aleksa-codes/flux-ghibsky-illustration
+  https://huggingface.co/alvdansen/sonny-anime-fixed
+  https://huggingface.co/linoyts/yarn_art_Flux_LoRA
+  https://resources.nvidia.com/en-us-blackwell-architecture
+  https://svdquant.mit.edu/flux1-schnell-sketch/
+
+WcZLG8XxhD.pdf:
+  http://papers.nips.cc/paper_files/paper/2023/hash/2e49934cac6cb8604b0c67cfa0828718-Abstract-Conference.html
+  http://www.caida.org/data/monitors/passive-equinix-
+  http://youtu.be/L5HQoFIaT4I
+  http://youtu.be/ufnf_q_3Ofg
+  http://youtu.be/xmLZsEfXEgE
+  https://algorithms-with-predictions.github.io/
+  https://api.semanticscholar.org/CorpusID:11724394
+  https://api.semanticscholar.org/CorpusID:174800680
+  https://api.semanticscholar.org/CorpusID:236154892
+  https://arxiv.org/abs/2202.01780
+  https://doi.org/10.1016/0167-6423(82)90012-0
+  https://doi.org/10.1137/15M1009718
+  https://doi.org/10.1145/2487575.2487623
+  https://doi.org/10.1145/2488608.2488620
+  https://doi.org/10.1145/3183713.3196909
+  https://doi.org/10.1145/3447579
+  https://doi.org/10.1145/3528087
+  https://github.com/edoliberty/frequent-directions
+  https://openreview.net/forum?id=RsJwmWvE6Q
+  https://openreview.net/forum?id=r1lohoCqY7
+  https://proceedings.mlr.press/v139/du21d.html
+  https://proceedings.neurips.cc/paper_files/paper/2014/file/58e4d44e550d0f7ee0a23d6b02d9b0db-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2019/file/1625abb8e458a79765c62009235e9d5b-Paper.pdf
+  https://proceedings.neurips.cc/paper_files/paper/2021/file/588da7a73a2e919a23cb9a419c4c6d44-Paper.pdf
+
+wFD16gwpze.pdf:
+  https://doi.org/10.1016/j.neunet.2020.08.022
+  https://dx.doi.org/10.1088/0305-4470/28/3/018
+  https://dx.doi.org/10.1088/0305-4470/29/16/005
+  https://link.aps.org/doi/10.1103/PhysRevE.52.4225
+  https://link.aps.org/doi/10.1103/PhysRevResearch.6.L022049
+  https://link.aps.org/doi/10.1103/PhysRevX.10.041044
+  https://link.aps.org/doi/10.1103/PhysRevX.14.031001
+  https://openreview.net/forum?id=3tbTw2ga8K
+  https://openreview.net/forum?id=KVvku47shW
+  https://openreview.net/forum?id=WPI2vbkAl3Q
+  https://openreview.net/forum?id=guetrIHLFGI
+  https://openreview.net/forum?id=sckjveqlCZ
+  https://proceedings.mlr.press/v162/wei22a.html
+  https://proceedings.neurips.cc/paper_files/paper/2019/file/287e03db1d99e0ec2edb90d079e142f3-Paper.pdf
+  https://www.sciencedirect.com/science/article/pii/S0893608020303117
+
+wg3rBImn3O.pdf:
+  https://github.com/shap/shap
+
+wHebuIb6IH.pdf:
+  http://www.blender.org
+  https://docs.blender.org/api/current
+  https://doi.org/10.1090/S0273-0979-08-01238-X
+  https://doi.org/10.1145/3687979
+  https://github.com/mit-gfx/VLMaterial
+  https://heypictures.gumroad.com/l/zwhai;
+  https://llava-vl.github.io/blog/2024-01-30-llava-next/
+  https://llava-vl.github.io/blog/2024-05-10-llava-next-stronger-llms/
+  https://maroc777772.gumroad.com/l/oaehcd
+  https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence
+  https://openai.com/index/hello-gpt-4o/
+  https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+  https://www.adobe.com/products/substance3d
+  https://www.blenderkit.com
+  https://www.unrealengine.com
+
+wJv4AIt4sK.pdf:
+  http://arxiv.org/abs/1710.03740
+  http://arxiv.org/abs/1804.01526
+  http://papers.nips.cc/paper_files/paper/2023/hash/c48bc80aa5d3cbbdd712d1cc107b8319-Abstract-Conference.html
+  http://proceedings.mlr.press/v119/evci20a.html
+  https://api.semanticscholar.org/CorpusID:231740691
+  https://api.semanticscholar.org/CorpusID:233296249
+  https://arxiv.org/abs/1812.08301
+  https://arxiv.org/abs/2104.08378
+  https://cloud.google.com/blog/products/ai-machine-learning/introducing-cloud-tpu-v5p-and-ai-hypercomputer
+  https://doi.org/10.1109/EMC2-NIPS53020.2019.00016
+  https://doi.org/10.1109/TCSVT.2019.2911674
+  https://doi.org/10.1145/3579371.3589351
+  https://doi.org/10.1609/aaai.v33i01.33015676
+  https://doi.org/10.1609/aaai.v38i12.29237
+  https://doi.org/10.2200/S01004ED1V01Y202004CAC050
+  https://doi.org/10.48550/arXiv.2205.01068
+  https://doi.org/10.48550/arXiv.2208.07339
+  https://doi.org/10.48550/arXiv.2209.05433
+  https://doi.org/10.48550/arXiv.2210.17323
+  https://doi.org/10.48550/arXiv.2211.05100
+  https://doi.org/10.48550/arXiv.2302.07612
+  https://doi.org/10.48550/arXiv.2303.08774
+  https://doi.org/10.48550/arXiv.2303.17951
+  https://doi.org/10.48550/arXiv.2306.11695
+  https://doi.org/10.48550/arXiv.2307.09288
+  https://doi.org/10.48550/arXiv.2310.06825
+  https://doi.org/10.48550/arXiv.2310.10537
+  https://doi.org/10.48550/arXiv.2311.16867
+  https://doi.org/10.48550/arXiv.2312.08553
+  https://doi.org/10.48550/arXiv.2312.11805
+  https://doi.org/10.48550/arXiv.2402.04744
+  https://doi.org/10.48550/arXiv.2403.08295
+  https://github.com/microsoft/microxcaling
+  https://images.nvidia.com/aem-dam/en-zz/Solutions/data-center/
+  https://openreview.net/forum?id=9Rroj9GIOQ
+  https://openreview.net/forum?id=Byj72udxe
+  https://openreview.net/forum?id=K9bw7vqp_s
+  https://openreview.net/forum?id=YicbFdNTTy
+  https://openreview.net/forum?id=rJl-b3RcF7
+  https://openreview.net/pdf?id=cKlgcx7nSZ
+  https://proceedings.mlr.press/v119/evci20a.html
+  https://proceedings.mlr.press/v202/frantar23a.html
+  https://proceedings.mlr.press/v202/lu23c.html
+  https://proceedings.mlr.press/v202/xiao23c.html
+  https://proceedings.neurips.cc/paper/2020/file/747e32ab0fea7fbd2ad9ec03daa3f840-Paper.pdf
+  https://proceedings.neurips.cc/paper/2021/hash/6e8404c3b93a9527c8db241a1846599a-Abstract.html
+  https://proceedings.neurips.cc/paper/2021/hash/ad68473a64305626a27c32a5408552d7-Abstract.html
+  https://proceedings.neurips.cc/paper/2021/hash/b0490b85e92b64dbb5db76bf8fca6a82-Abstract.html
+  https://sq-interplay.github.io/
+  https://www.advancedclustering.com/wp-content/
+  https://www.nvidia.com/en-us/data-center/tensor-cores/#blackwell
+  https://zenodo.org/records/12608602
+  mailto:ayan.chakraborty@epfl.ch
+  mailto:ayazdan@google.com
+  mailto:babak.falsafi@epfl.ch
+  mailto:danila.mishin@epfl.ch
+  mailto:dongho.ha@mangoboost.io
+  mailto:elizaveta.kostenok@epfl.ch
+  mailto:martin.jaggi@epfl.ch
+  mailto:miliu@google.com
+  mailto:simla.harma@epfl.ch
+  mailto:suvinay@google.com
+  mailto:yunho_oh@korea.ac.kr
+
+WKfb1xGXGx.pdf:
+  http://www.cemyuksel.com/research/hairmodels/
+  https://cs.yale.edu/homes/che/projects/perm/
+  https://github.com/GAP-LAB-CUHK-SZ/HairStep
+  https://github.com/NVlabs/stylegan2-ada-pytorch
+  https://github.com/milesial/Pytorch-UNet
+  https://www.adobe.com/products/firefly.html
+  https://www.autodesk.com/products/maya/
+
+wkHcXDv7cv.pdf:
+  https://dlsun.github.io/probability/
+  https://github.com/state-spaces/s4
+
+wmV4cIbgl6.pdf:
+  http://arxiv.org/abs/1702.07007
+  http://arxiv.org/abs/1802.05046
+  http://arxiv.org/abs/1803.01164
+  http://arxiv.org/abs/1905.09515
+  http://arxiv.org/abs/2402.09305
+  http://arxiv.org/abs/2405.02315
+  http://arxiv.org/abs/2406.04598
+  http://arxiv.org/abs/2407.13054
+  http://jmlr.org/papers/v11/hyvarinen10a.html
+  http://jmlr.org/papers/v17/14-518.html
+  http://proceedings.mlr.press/v3/guyon08a.html
+  https://archive.ics.uci.edu/dataset/18
+  https://causalrivers.github.io
+  https://cir.nii.ac.jp/crid/1360011146031175296
+  https://dare.uva.nl/search?identifier=9fb31ff0-f332-4fd5-939d-a7fd446a06d8
+  https://doi.org/10.1093/bioinformatics/btz422
+  https://doi.org/10.1145/3527154
+  https://doi.org/10.1186/1471-2105-7-43
+  https://github.com/causalrivers/causalrivers
+  https://github.com/causalrivers/documentation
+  https://github.com/causalrivers/experiments/
+  https://gld.lhw-sachsen-anhalt.de/
+  https://hnz.thueringen.de/hw-portal/
+  https://ieeexplore.ieee.org/abstract/document/5740928
+  https://ieeexplore.ieee.org/abstract/document/7891544
+  https://ieeexplore.ieee.org/abstract/document/9926420
+  https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0013397
+  https://michelbesserve.com/
+  https://onlinelibrary.wiley.com/doi/abs/10.1029/2023EA003430
+  https://onlinelibrary.wiley.com/doi/abs/10.1111/j.2517-6161.1988.tb01721.x
+  https://openaccess.thecvf.com/content_cvpr_2016/html/Cordts_The_Cityscapes_Dataset_CVPR_2016_paper.html
+  https://openreview.net/forum?id=DEIzEyV17t
+  https://openreview.net/forum?id=cEvJDrQ5Im
+  https://openreview.net/forum?id=fHT8kZcyyT
+  https://openreview.net/forum?id=i8L9qoeZOS
+  https://openreview.net/forum?id=iad1yyyGme
+  https://openreview.net/forum?id=m28E5RN64hi
+  https://openreview.net/forum?id=rJ4km2R5t7
+  https://papers.nips.cc/paper_files/paper/2019/hash/4fdaa19b1f22a4d926fce9bfc7c61fa5-Abstract.html
+  https://pegelportal-mv.de/pegel_mv.html
+  https://pegelportal.brandenburg.de/start.php
+  https://proceedings.mlr.press/r3/spirtes01a.html
+  https://proceedings.mlr.press/v108/pamfil20a.html
+  https://proceedings.mlr.press/v177/mcduff22a.html
+  https://proceedings.mlr.press/v236/gobler24a.html
+  https://proceedings.mlr.press/v236/mogensen24a.html
+  https://proceedings.mlr.press/v238/faller24a.html
+  https://proceedings.mlr.press/v37/gongb15.html
+  https://proceedings.mlr.press/v48/bauer16.html
+  https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html
+  https://proceedings.neurips.cc/paper/2021/hash/e987eff4a7c7b7e580d659feb6f60c1a-Abstract.html
+  https://proceedings.neurips.cc/paper_files/paper/2022/hash/a1859debfb3b59d094f3504d5ebb6c25-Abstract-Datasets_and_Benchmarks.html
+  https://proceedings.neurips.cc/paper_files/paper/2022/hash/c9fcd02e6445c7dfbad6986abee53d0d-Abstract-Conference.html
+  https://proceedings.neurips.cc/paper_files/paper/2023/hash/93ed74938a54a73b5e4c52bbaf42ca8e-Abstract-Conference.html
+  https://projecteuclid.org/journals/statistical-science/volume-34/issue-1/Automated-versus-Do-It-Yourself-Methods-for-Causal-Inference/10.1214/18-STS667.full
+  https://projecteuclid.org/journals/statistics-surveys/volume-3/issue-none/Causal-inference-in-statistics-An-overview/10.1214/09-SS057.full
+  https://scholar.google.com/citations?user=xSbhK5cAAAAJ
+  https://ui.adsabs.harvard.edu/abs/1975LNP....39..420K
+  https://ui.adsabs.harvard.edu/abs/2007AGUFM.H11H..05W
+  https://wasserportal.berlin.de/
+  https://www.dwd.de/EN/Home/home_node.html
+  https://www.govdata.de/dl-de/by-2-0
+  https://www.hnd.bayern.de/
+  https://www.jair.org/index.php/jair/article/view/13428
+  https://www.jstor.org/stable/2245959
+  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5464762/
+  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5995575/
+  https://www.science.org/doi/10.1126/science.1105809
+  https://www.sciencedirect.com/science/article/pii/S1053811910011602
+  https://www.sciencedirect.com/science/article/pii/S2405471220302878
+  https://www.umwelt.sachsen.de/umwelt/infosysteme/hwims/portal/web/wasserstand-uebersicht
+
+wN3KaUXA5X.pdf:
+  https://github.com/lark-parser/lark
+  https://github.com/revalo/iceberg
+  https://github.com/rwightman/pytorch-image-models
+  https://proceedings.mlr.press/v202/zheng23e.html
+  https://pytorch.org/assets/pytorch2-2.pdf
+  https://tree-diffusion.github.io
+  https://www.fuzzingbook.org/html/GrammarFuzzer.html
+
+ws5phQki00.pdf:
+  http://ceur-ws.org/Vol-2624/paper9.pdf
+  http://jmlr.org/papers/v9/vandermaaten08a.html
+  https://aclanthology.org/2021.findings-acl.208
+  https://aclanthology.org/2022.findings-acl.20
+  https://aclanthology.org/2022.findings-naacl.94
+  https://aclanthology.org/N19-1423
+  https://aclanthology.org/P19-1247
+  https://api.semanticscholar.org/CorpusID:258866005
+  https://arxiv.org/abs/2409.07780
+  https://doi.org/10.1007/978-3-031-15086-9_24
+  https://doi.org/10.1016/j.procs.2017.10.003
+  https://doi.org/10.1111/jcom.12123
+  https://doi.org/10.1145/130385.130417
+  https://doi.org/10.1145/3132169
+  https://doi.org/10.1145/3369026
+  https://doi.org/10.1145/3603254
+  https://doi.org/10.1145/3605764.3623985
+  https://openreview.net/forum?id=MmBjKmHIND
+  https://openreview.net/forum?id=n9yozEWDGO
+  https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+  https://www.sciencedirect.com/science/article/pii/S0306457321000960
+  https://www.sciencedirect.com/science/article/pii/S1877050917320409
+  https://www.smartvote.ch/
+  www.sciencedirect.com/science/article/pii/S1877050917320409
+
+wXSshrxlP4.pdf:
+  https://github.com/vLAR-group/GrabS
+
+WzCEiBILHu.pdf:
+  https://data.mendeley.com/datasets/hhny5ff7yj/1
+  https://github.com/atong01/conditional-flow-matching
+  https://github.com/cookbook-ms/topological_SB_matching
+
+xak8c9l1nu.pdf:
+  http://cds.cern.ch/record/460663
+  http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521424264
+  https://api.semanticscholar.org/CorpusID:10158214
+  https://api.semanticscholar.org/CorpusID:122157319
+  https://doi.org/10.1063/1.1703953
+  https://doi.org/10.1063/1.1704825
+  https://doi.org/10.1145/335305.335316
+  https://openreview.net/forum?id=6OSLjErBhh
+
+xaYlO03tIk.pdf:
+  https://api.semanticscholar.org/CorpusID:257378658
+  https://api.semanticscholar.org/CorpusID:259375845
+  https://api.semanticscholar.org/CorpusID:266239314
+  https://arxiv.org/abs/1011.0686
+  https://arxiv.org/abs/1606.03476
+  https://arxiv.org/abs/1710.09412
+  https://arxiv.org/abs/2010.02502
+  https://arxiv.org/abs/2103.05079
+  https://arxiv.org/abs/2203.06173
+  https://arxiv.org/abs/2203.12601
+  https://arxiv.org/abs/2304.13705
+  https://arxiv.org/abs/2305.16807
+  https://arxiv.org/abs/2306.10695
+  https://arxiv.org/abs/2309.04907
+  https://arxiv.org/abs/2310.14274
+  https://arxiv.org/abs/2312.12540
+  https://arxiv.org/abs/2403.14602
+  https://arxiv.org/abs/2407.15815
+  https://doi.org/10
+  https://github.com/hukz18/Stem-Ob/
+  https://www.sciencedirect.com/science/article/pii/S0896627302010917
+
+XgH1wfHSX8.pdf:
+  https://arxiv.org/abs/1810.13243
+  https://arxiv.org/abs/2012.14913
+  https://arxiv.org/abs/2104.09864
+  https://arxiv.org/abs/2208.01066
+  https://arxiv.org/abs/2209.11895
+  https://arxiv.org/abs/2211.15661
+  https://arxiv.org/abs/2303.03846
+  https://arxiv.org/abs/2303.08774
+  https://arxiv.org/abs/2304.13276
+  https://arxiv.org/abs/2305.09731
+  https://arxiv.org/abs/2306.04891
+  https://arxiv.org/abs/2306.15063
+  https://arxiv.org/abs/2307.03576
+  https://arxiv.org/abs/2309.00941
+  https://arxiv.org/abs/2310.07582
+  https://arxiv.org/abs/2310.11324
+  https://arxiv.org/abs/2311.08360
+  https://arxiv.org/abs/2312.03002
+  https://arxiv.org/abs/2401.12973
+  https://arxiv.org/abs/2402.01092
+  https://arxiv.org/abs/2402.02364
+  https://arxiv.org/abs/2402.11004
+  https://arxiv.org/abs/2402.18819
+  https://arxiv.org/abs/2404.07129
+  https://arxiv.org/abs/2405.15618
+  https://arxiv.org/abs/2407.14561
+  https://arxiv.org/abs/2407.21783
+  https://github.com/cfpark00/markov-mixtures
+  https://github.com/karpathy/nanoGPT
+  https://openreview.net/forum?id=DeG07_TcZvT
+  https://transformer-circuits.pub/2021/framework/index.html
+
+xGs7Ch3Vyo.pdf:
+  http://dblp.uni-trier.de/db/journals/corr/corr2405.html#abs-2405-12856
+  http://dx.doi.org/10.18653/v1/S17-2001
+  https://aclanthology.org/2023.acl-long.477
+  https://aclanthology.org/2023.acl-long.870/
+  https://aclanthology.org/2023.eamt-1.19
+  https://aclanthology.org/2023.wmt-1.100
+  https://aclanthology.org/2024.findings-acl.843
+  https://aclanthology.org/2024.findings-acl.967
+  https://aclanthology.org/2024.findings-emnlp.799/
+  https://aclanthology.org/2024.findings-naacl.246
+  https://aclanthology.org/D19-1018
+  https://arxiv.org/abs/1706.02776
+  https://arxiv.org/abs/2310.01208
+  https://arxiv.org/abs/2401.13870
+  https://arxiv.org/abs/2405.04434
+  https://arxiv.org/abs/2407.21783
+  https://arxiv.org/abs/2408.00118
+  https://doi.org/10.1145/3539618.3592047
+  https://doi.org/10.1145/3576915.3616652
+  https://doi.org/10.1198/016214506000001437
+  https://openreview.net/forum?id=KkHY1WGDII
+  https://openreview.net/forum?id=LzpaUxcNFK
+  https://proceedings.neurips.cc/paper_files/paper/2022/file/0cde695b83bd186c1fd456302888454c-Paper-Conference.pdf
+
+XNA3Mnnbvb.pdf:
+  https://zkf1997.github.io/DART/
+
+xQBRrtQM8u.pdf:
+
+xsELpEPn4A.pdf:
+  https://aclanthology.org/W15-3049
+  https://doi.org/10.48550/arXiv.2306.05087
+  https://doi.org/10.48550/arXiv.2310.05470
+  https://github.com/baaivision/JudgeLM
+  https://github.com/nomic-ai/gpt4all
+  https://github.com/zeno-ml/zeno-build/tree/main/examples/chatbot/report#zeno-chatbot-report
+  https://openai.com/blog/chatgpt/
+  https://vicuna
+  https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm
+
+xsx3Fpo3UD.pdf:
+  https://aclanthology.org/2023.acl-long.471/
+  https://aclanthology.org/2023.conll-babylm.16/
+  https://aclanthology.org/2024.findings-acl.923/
+  https://github.com/SLIT-AI/ADPA
+  https://github.com/huggingface/alignment-handbook
+  https://github.com/lm-sys/FastChat/pull/3158
+  https://github.com/tatsu-lab/alpaca_eval
+  https://huggingface.co/datasets/argilla/DPO-MIX-7K
+  https://huggingface.co/sfairXC/FsfairX-LLaMA3-RM-v0.1
+  https://huggingface.co/spaces/open-llm-leaderboard-old/open_llm_leaderboard
+  https://lmsys.org/blog/2023-03-30-vicuna/
+  https://zenodo.org/records/12608602
+
+Y2RW9EVwhT.pdf:
+  https://doi.org/10.5281/zenodo.5143773
+  https://github.com/NVlabs/Eagle
+  https://github.com/facebookresearch/dinov2/blob/main/MODEL_CARD.md
+  https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md
+  https://huggingface.co/Yuxin-CV/EVA-02/blob/main/eva02/det/eva02_L_coco_det_sys_o365.pth
+  https://huggingface.co/datasets/laion/gpt4v-dataset
+  https://huggingface.co/datasets/teknium/OpenHermes-2.5
+  https://huggingface.co/facebook/sam-vit-large
+  https://huggingface.co/google/pix2struct-large
+  https://huggingface.co/laion/CLIP-convnext_xxlarge-laion2B-s34B-b82K-augreg-soup
+  https://llava-vl.github.io/blog/2024-01-30-llava-next/
+  https://lmsys.org/blog/2023-03-30-vicuna/
+  https://openreview.net/forum?id=M3Y74vmsMcY
+  https://x.ai/blog/grok-1.5v
+
+y5einmJ0Yx.pdf:
+  https://arxiv.org/abs/2007.04250
+  https://doi.org/10.3390/s21144758
+  https://github.com/DannyW618/GOLD
+  https://github.com/qitianwu/GraphOOD-GNNSafe
+  https://github.com/snap-stanford/ogb?tab=readme-ov-file
+  https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html
+
+yfW1x7uBS5.pdf:
+  https://cdn
+  https://chatgpt.com/share/ea3d1290-f137-4131-baca-2fa1c92b3859
+  https://doi.org/10.1109/TIP.2018.2866698
+  https://github.com/AUTOMATIC1111/stable-diffusion-webui
+  https://github.com/ethz-spylab/robust-style-mimicry
+  https://github.com/huggingface/diffusers
+  https://github.com/muerrilla/stable-diffusion-NPW
+  https://huggingface.co/stabilityai/stable-diffusion-2-1
+  https://www.404media.co/laion-datasets-removed-stanford-csam-child-abuse/
+  www.artstation.com
+  www.huggingface.co/stabilityai/stable-diffusion-x4-upscaler
+
+YhfrKB3Ah7.pdf:
+  https://github.com/RaulAstudillo06/qEUBO/tree/main/src/acquisition_functions
+  https://github.com/fivethirtyeight/data/tree/master/candy-power-ranking/
+  https://github.com/xinyuzc/PABBO
+  https://www.kamishima.net/sushi/
+
+Yk87CwhBDx.pdf:
+  http://www.w3.org/1999/xlink
+  http://www.w3.org/2000/svg">
+  https://github.com/EleutherAI/lm-evaluation-harness
+  https://github.com/huggingface/peft
+  https://github.com/lupantech/MathVista
+  https://github.com/openai/simple-evals
+  https://github.com/tatsu-lab/stanford_alpaca
+  https://github.com/unslothai/unsloth
+  https://github.com/vllm-project/vllm
+  https://huggingface.co/datasets/VMware/open-instruct
+  https://sgp-bench.github.io
+  https://www.kaggle.com/datasets/jacekpardyak/mnist-svg
+  https://www.kaggle.com/datasets/victorcondino/svgicons
+  https://www.svgrepo.com/page/licensing/
+
+YK9G4Htdew.pdf:
+  https://github.com/burchim/TWISTER
+  https://github.com/fdeng18/dreamer-pro
+  https://github.com/nicklashansen/tdmpc2
+  https://openreview.net/forum?id=BiWIERWBFX
+
+ykuc5q381b.pdf:
+  https://aclanthology.org/2021.naacl-main.200
+  https://aclanthology.org/2023.eacl-main.148
+  https://aclanthology.org/2023.emnlp-main.489
+  https://aclanthology.org/2023.findings-acl.225
+  https://aclanthology.org/2023.findings-acl.71
+  https://aclanthology.org/P17-1015
+  https://aclanthology.org/P17-1171
+  https://aclanthology.org/P19-1612
+  https://api
+  https://artofproblemsolving.com/wiki/index.php/Category:Theorems
+  https://artofproblemsolving.com/wiki/index.php/Chicken_McNugget_Theorem
+  https://artofproblemsolving.com/wiki/index.php/Inequality
+  https://artofproblemsolving.com/wiki/index.php/Newton%27s_Sums
+  https://artofproblemsolving.com/wiki/index.php/Vieta%27s_formulas
+  https://arxiv.org/abs/2312.17120
+  https://brightbenchmark.github.io/
+  https://chatgpt.com/
+  https://docs.voyageai.com/docs/embeddings
+  https://doi.org/10.1145/345508.345577
+  https://github.com/xlang-ai/BRIGHT
+  https://hf.co/spaces/mteb/leaderboard?task=retrieval
+  https://huggingface.co/Cohere/Cohere-embed-english-light-v3.0
+  https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-12-v2
+  https://huggingface.co/datasets/TIGER-Lab/MathInstruct
+  https://huggingface.co/datasets/code_search_net
+  https://huggingface.co/datasets/greengerong/leetcode
+  https://huggingface.co/datasets/xlangai/BRIGHT
+  https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct
+  https://leetcode.com/
+  https://openai.com/index/new-embedding-models-and-api-updates/
+  https://openreview.net/forum?id=7Bywt2mQsCe
+  https://openreview.net/forum?id=jKN1pXi7b0
+  https://proceedings.mlr.press/v162/borgeaud22a.html
+  https://proofwiki.org
+  https://pypi.org/project/gensim/
+  https://pypi.org/project/pyserini/
+  https://stackexchange.com/
+
+yVeNBxwL5W.pdf:
+  http://live
+  https://github.com/grrrute/mr-sampler
+
+yVQcr4qjD6.pdf:
+  https://arxiv.org/abs/2304.08244
+  https://arxiv.org/abs/2402.15491
+  https://arxiv.org/abs/2405.08355
+  https://arxiv.org/abs/2406.12045
+  https://arxiv.org/abs/2406.18518
+  https://arxiv.org/abs/2407.21075
+  https://arxiv.org/abs/2409.00920
+  https://arxiv.org/abs/2409.03215
+  https://arxiv.org/abs/2409.08069
+  https://bair.berkeley.edu/blog/2024/05/29/tiny-agent/
+  https://github.com/MadeAgents/Hammer
+  https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html
+  https://huggingface.co/MadeAgents
+  https://openreview.net/forum?id=5lcPe6DqfI
+  https://openreview.net/forum?id=f9w89OY2cp
+  https://proceedings.mlr.press/v235/kim24y.html
+
+ywFOSIT9ik.pdf:
+  https://doi.org/10.1007/s10994-025-06746-9
+  https://www.aclweb.org/anthology/D13-1170
+
+YwJkv2YqBq.pdf:
+  https://arxiv.org/abs/2403.06930
+  https://arxiv.org/abs/2405.19809
+  https://openreview.net/forum?id=B186cP9gx
+  https://openreview.net/forum?id=S1iiddyDG
+  https://openreview.net/forum?id=rJrTwxbCb
+  https://proceedings.neurips.cc/paper_files/paper/2024/file/24d2dd6dc9b79116f8ebc852ddb9dc94-Paper-Conference.pdf
+
+z8sxoCYgmd.pdf:
+  https://acestudio.ai/
+  https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-flash
+  https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-pro
+  https://ai.meta.com/research/publications/the-llama-3-herd-of-models/
+  https://api.semanticscholar.org/CorpusID:267095113
+  https://arxiv.org/abs/1605.01397
+  https://arxiv.org/abs/1812.04948
+  https://arxiv.org/abs/1911.01601
+  https://arxiv.org/abs/2105.05233
+  https://arxiv.org/abs/2211.01095
+  https://arxiv.org/abs/2301.11325
+  https://arxiv.org/abs/2305.15047
+  https://arxiv.org/abs/2306.11644
+  https://arxiv.org/abs/2308.12966
+  https://arxiv.org/abs/2309.07973
+  https://arxiv.org/abs/2404.13306
+  https://arxiv.org/abs/2405.16640
+  https://arxiv.org/abs/2410.08102
+  https://docs.anthropic.com/en/docs/about-claude/models
+  https://docs.mistral.ai/getting-started/models/
+  https://doi.org/10.5281/zenodo.3402023
+  https://github.com/Inf-imagine/Sentry
+  https://github.com/YuanGongND/ltu#pretrained-models
+  https://github.com/hpcaitech/Open-Sora
+  https://github.com/opendatalab/LabelLLM
+  https://github.com/opendatalab/labelU
+  https://github.com/svc-develop-team/so-vits-svc
+  https://huggingface.co/Efficient-Large-Model/Llama-3-LongVILA-8B-128Frames
+  https://huggingface.co/Efficient-Large-Model/VILA1.5-13b
+  https://huggingface.co/Efficient-Large-Model/VILA1.5-40b
+  https://huggingface.co/HuggingFaceM4/idefics2-8b
+  https://huggingface.co/OpenGVLab/InternVL2-26B
+  https://huggingface.co/OpenGVLab/InternVL2-40B
+  https://huggingface.co/OpenGVLab/InternVL2-8B
+  https://huggingface.co/OpenGVLab/InternVL2-Llama3-76B
+  https://huggingface.co/Qwen/Qwen-Audio-Chat
+  https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct
+  https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct
+  https://huggingface.co/csuhan/OneLLM-7B
+  https://huggingface.co/fnlp/AnyGPT-chat
+  https://huggingface.co/internlm/internlm-xcomposer2d5-7b
+  https://huggingface.co/lmms-lab/LongVA-7B-DPO
+  https://huggingface.co/lmms-lab/llava-onevision-qwen2-72b-ov-sft
+  https://huggingface.co/lmms-lab/llava-onevision-qwen2-7b-ov
+  https://huggingface.co/mPLUG/mPLUG-Owl3-7B-240728
+  https://huggingface.co/meta-llama/Llama-3.1-405B
+  https://huggingface.co/microsoft/Phi-3.5-vision-instruct
+  https://huggingface.co/openbmb/MiniCPM-V-2_6
+  https://huggingface.co/tsinghua-ee/SALMONN-7B
+  https://mistral.ai/news/mistral-large-2407/
+  https://openai.com/index/hello-gpt-4o/
+  https://openai.com/research/video-generation-models-as-world-simulators
+  https://openai.com/sora
+  https://opendatalab.github.io/LOKI/
+  https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4
+  https://platform.openai.com/docs/models/gpt-4o
+  https://proceedings.neurips.cc/paper_files/paper/2023/file/505df5ea30f630661074145149274af0-Paper-Datasets_and_Benchmarks.pdf
+  https://suno.com/
+  https://www.aisafetysummit.gov.uk/
+  https://www.alibabacloud.com/help/en/model-studio/developer-reference/use-qwen-by-calling-api
+  https://www.anthropic.com
+  https://www.kaggle.com/datasets/thedatabeast/ted-talk-transcripts-2006-2021
+  https://www.midjourneyai.ai/en
+  https://x.com/sama/status/1756089361609981993
+
+ZGkfoufDaU.pdf:
+  https://aclanthology.org/2022.emnlp-main.570
+  https://aclanthology.org/2023.findings-acl.719
+  https://aclanthology.org/2023.findings-emnlp.679
+  https://en.wikipedia.org/wiki/Chain_rule_(probability)
+  https://github.com/togethercomputer/RedPajama-Data
+  https://openreview.net/forum?id=3eIrli0TwQ
+  https://openreview.net/forum?id=HL7IhzS8W5
+  https://openreview.net/forum?id=zWqr3MQuNs
+  https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf
+  https://www.nytimes.com/2023/12/27/business/media/new-york-times-open-ai-microsoft-lawsuit.html
+  https://www.wired.com/story/battle-over-books3/
+  https://zjysteven.github.io/mink-plus-plus/
+
+ztzZDzgfrh.pdf:
+  https://aclanthology.org/2024.acl-demos.38
+  https://aclanthology.org/2024.eacl-demo.16
+  https://aclanthology.org/W19-4828
+  https://arxiv.org/abs/2408.12194
+  https://github.com/Jeryi-Sun/ReDEeP-ICLR
+  https://huggingface.co/BAAI/bge-base-en-v1.5
+  https://huggingface.co/meta-llama/Llama-2-13b-chat-hf
+  https://huggingface.co/meta-llama/Llama-2-7b-chat-hf
+  https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct
+  https://openreview.net/forum?id=MyywdOeyn0
+  https://openreview.net/forum?id=Th6NyL07na
+  https://openreview.net/forum?id=Zj12nzlQbz
+  https://openreview.net/forum?id=uLYc4L3C81A
+  https://pytorch.org/docs/stable/generated/torch.nn.NLLLoss.html
+  https://transformer-circuits.pub/2021/framework/index.html
+  https://www.alignmentforum.org/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens
+  https://www.langchain.com/
+  https://www.trulens.org/
+
+ZV7CLf0RHK.pdf:
+  https://aclanthology.org/2020.emnlp-main.398
+  https://aclanthology.org/2020.findings-emnlp.41
+  https://aclanthology.org/2021.acl-long.353
+  https://aclanthology.org/2021.eacl-main.39
+  https://aclanthology.org/2021.emnlp-main.243
+  https://aclanthology.org/2021.naacl-main.168
+  https://aclanthology.org/2022.acl-long.229
+  https://aclanthology.org/2022.acl-short.8
+  https://aclanthology.org/2023.findings-emnlp.715/
+  https://aclanthology.org/N19-1421
+  https://api.semanticscholar.org/CorpusID:248118878
+  https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/be83ab3ecd0db773eb2dc1b0a17836a1-Abstract-round2.html
+  https://doi.org/10.1016/j.aiopen
+  https://doi.org/10.1145/3641289
+  https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md
+  https://github.com/pixas/NoRM
+  https://openreview.net/forum?id=3d5CIRG1n2
+  https://openreview.net/forum?id=6ZBHIEtdP4
+  https://openreview.net/forum?id=N8N0hgNDRt
+  https://openreview.net/forum?id=NEv8YqBROO
+  https://openreview.net/forum?id=XUeoOBid3x
+  https://openreview.net/forum?id=d7KBjmI3GmQ
+  https://openreview.net/forum?id=gTwRMU3lJ5
+  https://openreview.net/forum?id=lq62uWRJjiY
+  https://openreview.net/forum?id=nZeVKeeFYf9
+  https://proceedings.neurips.cc/paper_files/paper/2015/file/250cf8b51c773f3f8dc8b4be867a9a02-Paper.pdf
+  https://www.sciencedirect.com/science/article/pii/S2666651023000141
+
