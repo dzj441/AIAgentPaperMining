@@ -1,9 +1,20 @@
 import os
+import time
 import requests
 from urllib.parse import urlparse, parse_qs
 from typing_extensions import Tuple
+import json 
+
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import StaleElementReferenceException
+from selenium.common.exceptions import StaleElementReferenceException, NoSuchElementException
 
 BASE_URL = "https://openreview.net"
+PDF_URL_TMPL = BASE_URL + "/pdf?id={paper_id}"
 
 def get_paper_links_via_api(limit: int = 1000) -> list:
     """
@@ -40,53 +51,213 @@ def get_paper_links_via_api(limit: int = 1000) -> list:
     return links
 
 def download_pdf_bytes(paper_url: str) -> Tuple[str, bytes]:
-    """
-    给定论文 forum URL，下载对应的 PDF。
-    返回 (paper_id, pdf_bytes)。
-    """
     parsed = urlparse(paper_url)
-    query = parse_qs(parsed.query)
-    paper_id = query.get('id', [None])[0]
+    qs = parse_qs(parsed.query)
+    paper_id = qs.get("id", [None])[0]
     if not paper_id:
         raise ValueError(f"无法从 URL 中解析出 paper id：{paper_url}")
-    pdf_url = f"{BASE_URL}/pdf?id={paper_id}"
+    pdf_url = PDF_URL_TMPL.format(paper_id=paper_id)
     resp = requests.get(pdf_url)
     resp.raise_for_status()
     return paper_id, resp.content
 
+def download_pdf(output_dir, url):
+    paper_id, pdf_bytes = download_pdf_bytes(url)
+    filename = os.path.join(output_dir, f"{paper_id}.pdf")
+    with open(filename, "wb") as f:
+        f.write(pdf_bytes)
+    return paper_id
 
+def setup_driver(headless: bool = True) -> webdriver.Chrome:
+    opts = Options()
+    if headless:
+        opts.add_argument("--headless")
+        opts.add_argument("--disable-gpu")
+    return webdriver.Chrome(options=opts)
+
+
+def get_paper_links_via_selenium(page_url: str, timeout: int = 20, max_scrolls: int = 5) -> list:
+    driver = setup_driver(headless=True)
+    try:
+        driver.get(page_url)
+        wait = WebDriverWait(driver, timeout)
+
+        # 1. 等待第一页的论文链接加载
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "a[href*='/forum?id=']")))
+
+        # 2. 滚动触底尝试加载分页
+        fragment = urlparse(page_url).fragment
+        container_id = fragment.replace("tab-", "") if fragment.startswith("tab-") else fragment
+        link_selector = f"#{container_id} a[href*='/forum?id=']"
+        pagination_sel = f"#{container_id} > div > div > nav > ul"
+        found_pagination = False
+        for _ in range(max_scrolls):
+            if driver.find_elements(By.CSS_SELECTOR, pagination_sel):
+                found_pagination = True
+                break
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(0.3)
+
+        # 如果没找到分页，说明只有一页，直接抓这一页所有链接并返回
+        if not found_pagination:
+            elems = driver.find_elements(By.CSS_SELECTOR, link_selector)
+            all_links = []
+            for e in elems:
+                href = e.get_attribute("href")
+                if href:
+                    all_links.append(href)
+            print(f"[Info] 未检测到分页控件，仅抓取单页，共 {len(all_links)} 篇论文")
+            return list(dict.fromkeys(all_links))
+
+        all_links = []
+        skipped = []
+        page_index = 1
+
+        # 3. 通过右箭头翻页，直到箭头变 disabled
+        while True:
+            # 抓本页链接
+            elems = driver.find_elements(By.CSS_SELECTOR, link_selector)
+            count = 0
+            for e in elems:
+                href = e.get_attribute("href")
+                if href:
+                    all_links.append(href)
+                    count += 1
+            print(f"[Info] 第 {page_index} 页（#{container_id}）抓到 {count} 篇论文")
+
+            # 定位右箭头
+            try:
+                arrow = driver.find_element(
+                    By.CSS_SELECTOR,
+                    f"{pagination_sel} > li.right-arrow > a"
+                )
+            except NoSuchElementException:
+                # 箭头不存在或已 disabled，结束翻页
+                break
+
+            # 点击箭头，带一次重试
+            for attempt in (1, 2):
+                try:
+                    old_first = elems[0].get_attribute("href") if elems else None
+                    driver.execute_script("arguments[0].scrollIntoView(true);", arrow)
+                    time.sleep(0.3)
+                    arrow.click()
+                    time.sleep(1)
+                    # 等待页面更新：首个链接发生变化
+                    if old_first:
+                        wait.until(lambda d: d.find_element(By.CSS_SELECTOR, link_selector)
+                                         .get_attribute("href") != old_first)
+                    else:
+                        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, link_selector)))
+                    break
+                except StaleElementReferenceException as e:
+                    if attempt == 1:
+                        print(f"[Warn] 第 {page_index} 页 翻页遇 stale，等待重试：{e}")
+                        time.sleep(0.5)
+                        # 重新定位箭头再试
+                        arrow = driver.find_element(
+                            By.CSS_SELECTOR,
+                            f"{pagination_sel} > li.right-arrow > a"
+                        )
+                        continue
+                    else:
+                        print(f"[Warn] 第 {page_index} 页 翻页仍 stale，停止翻页：{e}")
+                        return list(dict.fromkeys(all_links))
+                except Exception as e:
+                    print(f"[Warn] 第 {page_index} 页 翻页出错，停止翻页：{e}")
+                    return list(dict.fromkeys(all_links))
+
+            page_index += 1
+            # 触底确保新页内容加载
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(1)
+
+        if skipped:
+            print(f"[Info] 以下页码跳过：{skipped}")
+
+        return list(dict.fromkeys(all_links))
+
+    finally:
+        driver.quit()
+
+def scraper_main(args):
+    pdf_output_dir = args.pdf_dir
+    urls = args.urls
+    json_dir = args.json_dir
+    os.makedirs(pdf_output_dir, exist_ok=True)
+    os.makedirs(json_dir, exist_ok=True)
+
+    for page_url in urls:
+        print(f"\n▶ 处理页面：{page_url}")
+        parsed = urlparse(page_url)
+        group_id = parse_qs(parsed.query).get("id", ["unknown"])[0]
+        fragment = parsed.fragment or ""
+        subdir = group_id.replace("/", "_") + (f"_{fragment}" if fragment else "")
+        target_dir = os.path.join(pdf_output_dir, subdir)
+        os.makedirs(target_dir, exist_ok=True)
+
+        links_file = os.path.join(json_dir, f"{subdir}.json")
+        try:
+            links = get_paper_links_via_selenium(page_url)
+            print(f"共找到 {len(links)} 篇论文链接（已跳过失败页）。")
+
+            # 将 links 保存到 JSON 文件
+            with open(links_file, "w", encoding="utf-8") as f:
+                json.dump(links, f, ensure_ascii=False, indent=2)
+            print(f"已将链接保存至：{links_file}")
+
+        except Exception as e:
+            print(f"[✗] 抓取链接失败：{e}")
+            continue
+
+        if not os.path.exists(links_file):
+            print(f"[!] 未找到链接文件: {links_file}, 跳过")
+            continue
+
+        # 从 JSON 中读取 links
+        with open(links_file, "r", encoding="utf-8") as f:
+            links = json.load(f)
+        print(links)
+
+        # for link in links:
+        #     try:
+        #         paper_id = download_pdf(pdf_output_dir,link)
+        #         print(f"[✓] 已保存 {subdir}/{paper_id}.pdf")
+        #     except Exception as e:
+        #         print(f"[✗] 下载失败 {link} ：{e}")
+        #         continue
 
 if __name__ == "__main__":
-    def main(output_dir: str):
-        # 创建输出目录
-        os.makedirs(output_dir, exist_ok=True)
-
-        # 获取所有论文链接
-        print("正在通过 OpenReview API 拉取 Oral 论文列表…")
-        links = get_paper_links_via_api()
-        print(f"共找到 {len(links)} 篇 Oral 论文链接。\n")
-
-        # 逐篇下载 PDF
-        for url in links:
-            try:
-                paper_id, pdf_bytes = download_pdf_bytes(url)
-                filename = os.path.join(output_dir, f"{paper_id}.pdf")
-                with open(filename, "wb") as f:
-                    f.write(pdf_bytes)
-                print(f"[✓] 已保存 {paper_id}.pdf")
-            except Exception as e:
-                print(f"[✗] 下载失败 {url} ：{e}")
     import argparse
 
     parser = argparse.ArgumentParser(
-        description="抓取 ICLR 2025 接受（Oral）论文并保存 PDF（通过 OpenReview API）"
+        description="Selenium 抓取任意 OpenReview group 页面中的所有论文 PDF（跳过抓取失败的页）"
     )
     parser.add_argument(
-        "--output-dir",
+        "urls",
+        nargs="*",
+        default=[
+            "https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-oral","https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-spotlight","https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-poster"
+        ],
+        help=(
+            "一个或多个 OpenReview group 页面 URL，"
+            "如果不提供则使用默认 ICLR2025 accept-oral 页面"
+        )
+    )
+
+    parser.add_argument(
+        "--json-dir",
         type=str,
-        default="./iclr2025_oral_papers",
-        help="PDF dir"
+        default="./openreview_paper_links",
+        help="json 保存挖掘到的links"
+    )
+    parser.add_argument(
+        "--pdf-dir",
+        type=str,
+        default="./openreview_papers",
+        help="PDF 保存根目录"
     )
     args = parser.parse_args()
 
-    main(args.output_dir)
+    scraper_main(args)
+
