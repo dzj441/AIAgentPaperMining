@@ -1,0 +1,630 @@
+kpq3IIjUD3.pdf:
+  https://github.com/deepmodeling/DeePTB
+  https://github.com/floatingCatty/dftio
+https://proceedings.neurips.cc/paper_files/paper/2022/file/4a36c3c51af11ed9f34615b81edb5bbc-Paper-Conference.pdf:
+  https://www.aissquare.com/datasets/detail?pageType=datasets&name=Quantum_Operator_Dataset&id=286
+kuutidLf6R.pdf:
+  https://github.com/Jinxu-Lin/DAS
+https://cdn.openai.com/papers/GPTV_System_Card.pdf:
+  https://github.com/OpenGVLab/OmniCorpus/issues
+  https://github.com/kakaobrain/coyo-dataset
+  https://huggingface.co/datasets/OpenGVLab/OmniCorpus-CC-210M
+  https://huggingface.co/datasets/OpenGVLab/OmniCorpus-YT
+  https://huggingface.co/datasets/jimmycarter/textocr-gpt4v
+  https://huggingface.co/datasets/laion/gpt4v-dataset
+  https://huggingface.co/datasets/teknium/OpenHermes-2.5
+  https://openxlab.org.cn/datasets/Li-Qingyun/OmniCorpus-CW
+kxFtMHItrf.pdf:
+  https://github.com/ChunmingHe/Reti-Diff
+https://cdn.openai.com/papers/dall-e-3.pdf:
+  https://github.com/cloneofsimo/lora
+L14sqcrUC3.pdf:
+  http://archive.ics.uci.edu/dataset/12/balance+scale
+http://proceedings.mlr.press/v7/guyon09/guyon09.pdf:
+  https://archive.ics.uci.edu/dataset/143/statlog+australian+credit+approval
+  https://archive.ics.uci.edu/dataset/158/poker+hand
+  https://archive.ics.uci.edu/dataset/2/adult
+  https://archive.ics.uci.edu/dataset/203/yearpredictionmsd
+  https://archive.ics.uci.edu/dataset/241/one+hundred+plant+species+leaves+data+set
+  https://archive.ics.uci.edu/dataset/27/credit+approval
+  https://archive.ics.uci.edu/dataset/363/facebook+comment+volume+dataset
+  https://archive.ics.uci.edu/dataset/72/multiple+features
+  https://archive.ics.uci.edu/dataset/8/audiology+standardized
+  https://archive.ics.uci.edu/ml/datasets/wine+quality
+https://core.ac.uk/download/pdf/55616194.pdf:
+  https://github.com/MLWave/kaggle_acquire-valued-shoppers-challenge
+  https://github.com/Shifts-Project/shifts
+  https://github.com/yandex-research/tabred
+  https://sci2s.ugr.es/keel/dataset.php?cod=105#sub2
+  https://www.kaggle.com/datasets/danofer/compass?select=cox-violent-parsed.csv
+  https://www.kaggle.com/datasets/shubh0799/churn-modelling/data
+  https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset
+  https://www.kaggle.com/pcovkrd84mejm/datasets
+l2zFn6TIQi.pdf:
+  https://github.com/apple/ml-act
+l4fMj4Vnly.pdf:
+  https://github.com/soham97/ADIFF
+http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf:
+  https://github.com/DLR-RM/rl-baselines3-zoo
+  https://github.com/pouyahmdn/LCPO
+LBl7Hez0fF.pdf:
+  https://github.com/LisaAnne/Hallucination
+  https://github.com/RUCAIBox/POPE
+  https://github.com/shengliu66/VTI
+  https://huggingface.co/datasets/Shengcao1006/MMHal-Bench
+lgsyLSsDRe.pdf:
+  https://github.com/AIR-Bench/AIR-Bench
+  https://github.com/PolyAI-
+  https://github.com/embeddings-benchmark/mteb
+  https://huggingface.co/datasets/flax-sentence-embeddings/stackexchange_title_body_jsonl
+  https://huggingface.co/datasets/sentence-transformers/reddit-title-body
+LiUfN9h0Lx.pdf:
+  https://github.com/hbaniecki/compress-then-explain
+  https://huggingface.co/datasets/stanfordnlp/imdb
+lJpqxFgWCM.pdf:
+  https://monst3r-paper.github.io/page0.html
+  https://monst3r-project.github.io/
+lqTILjL6lP.pdf:
+  https://github.com/EmuKit/emukit/blob/main/notebooks/Emukit-tutorial-experimental-design-introduction.ipynb
+  https://github.com/MoritzNeuberger/warwick-legend
+  https://github.com/annkasch/resum-legend
+  https://github.com/drbenmorgan/warwick-legend
+LSp4KBhAom.pdf:
+  https://520xyxyzq.github.io/lora3d/
+lvw3UgeVxS.pdf:
+  https://github.com/A4Bio/RDesign/blob/fa410a916f942a0dab7fb4b14d4e2342bcc88fff/checkpoints/log.log
+  https://github.com/A4Bio/RDesign/blob/fa410a916f942a0dab7fb4b14d4e2342bcc88fff/model/rdesign_model.py
+  https://github.com/A4Bio/RDesign/tree/b61988824d9e69cde316e0c593c446711f0ce36f
+  https://github.com/chaitjo/geometric-rna-design
+LXftdR11io.pdf:
+  https://github.com/st-tech/zr-obp
+lXRDQsiP2v.pdf:
+  http://Skylion007.github.io/OpenWebTextCorpus
+  https://github.com/RobinWu218/ToST
+  https://github.com/facebookresearch/mega/issues/3
+  https://github.com/karpathy/nanoGPT
+  https://github.com/pkuzengqi/Skyformer
+Lz0XW99tE0.pdf:
+  https://github.com/wu-han-lin/CrysBFN
+lzdFImKK8w.pdf:
+  https://github.com/aim-uofa/BA-DDG
+M2SsqpxGtc.pdf:
+  https://cubediff.github.io/
+M7KyLjuN0A.pdf:
+  https://dynamic-city.github.io
+  https://github.com/NVIDIA/MinkowskiEngine
+  https://github.com/mit-han-lab/spvnas
+  https://github.com/mit-han-lab/torchsparse
+  https://github.com/nutonomy/nuscenes-devkit
+  https://github.com/traveller59/spconv
+  https://github.com/wzzheng/OccSora
+  https://github.com/zoomin-lee/SemCity
+  https://tsinghua-mars-lab.github.io/Occ3D
+  https://umich-curly.github.io/CarlaSC.github.io
+M8OGl34Pmg.pdf:
+  https://github.com/L-Scofano/SDA
+m9wG6ai2Xk.pdf:
+  https://github.com/henryzhongsc/MQuAKE-Remastered
+  https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md
+  https://huggingface.co/datasets/henryzhongsc/MQuAKE-Remastered
+MagmwodCAB.pdf:
+  https://github.com/limuloo/3DIS
+MFZjrTFE7h.pdf:
+  https://github.com/Peterande/D-FINE
+MGKDBuyv4p.pdf:
+  https://github.com/ddkang/loss_dropper
+  https://github.com/google-research/google-research/tree/master/lm_memorization
+  https://github.com/kingoflolz/mesh-transformer-jax
+  https://github.com/marcellodebernardi/loss-landscapes
+  https://github.com/msakarvadia/memorization
+  https://github.com/pfnet-research/sngan_projection
+  https://github.com/pratyushmaini/localizing-memorization
+  https://github.com/terarachang/MemPi
+MKEHCx25xp.pdf:
+  https://github.com/allenai/WildBench/tree/main/evaluation
+  https://github.com/allenai/WildBench/tree/main/scripts
+  https://github.com/tatsu-lab/alpaca_eval
+  https://github.com/tatsu-lab/stanford_alpaca
+  https://huggingface.co/datasets/allenai/WildBench/viewer/v2
+Mn2qgIcIPS.pdf:
+  https://github.com/dgjung0220/CLODE
+  https://github.com/rtqichen/torchdiffeq
+https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/c45147dee729311ef5b5c3003946c48f-Paper-round1.pdf:
+  https://github.com/EDAPINENUT/CBGBench)
+http://www.roboticsproceedings.org/rss13/p53.pdf:
+  https://github.com/cassidylaidlaw/orpo
+MtDd7rWok1.pdf:
+  https://github.com/BestJunYu/ANTI_EXPOSURE_BIAS
+n0OtGl6VGb.pdf:
+  https://github.com/SalesforceAIResearch/ThinK
+  https://github.com/gkamradt/LLMTest_NeedleInAHaystack/tree/main
+  https://github.com/jy-yuan/KIVI/tree/main/vis
+N4NhVN30ph.pdf:
+  https://brucegeli.github.io/TOP_ERL_ICLR25/
+n9PDaFNi8t.pdf:
+  https://huggingface.co/datasets/agentsea/wave-ui
+  https://lilianweng.github.io/posts/2023-06-23-agent/
+  https://osatlas.github.io/
+NdHka08uWn.pdf:
+  https://github.com/hengzhe-zhang/RAG-SR
+nGiGXLnKhl.pdf:
+  https://github.com/OpenGVLab/Vision-RWKV
+NGKQoaqLpo.pdf:
+  https://github.com/tatsu-lab/stanford_alpaca
+  https://sunchipsster1.github.io/projects/outlandish/
+Njx1NjHIx4.pdf:
+  http://Skylion007.github.io/OpenWebTextCorpus
+NQqJPPCesd.pdf:
+  https://github.com/khainb/MFSWB
+https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/9bf31c7ff062936a96d3c8bd1f8f2ff3-Paper-round2.pdf:
+  https://github.com/kasia-kobalczyk/informed-meta-learning
+  https://github.com/vanderschaarlab/informed-meta-learning
+https://proceedings.neurips.cc/paper_files/paper/2024/file/24f3041067ab24157912330344dc3bbd-Paper-Conference.pdf:
+  https://www.ncei.noaa.gov/access/crn/qcdatasets.html
+Nx4PMtJ1ER.pdf:
+  https://github.com/crispitagorico/sigkerax
+nYpPAT4L3D.pdf:
+  https://github.com/alibaba-damo-academy/fvlm
+o1Et3MogPw.pdf:
+  http://papers.nips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html
+  https://github.com/Netflix/eureka
+  https://github.com/OpenBMB/IoA
+  https://github.com/OpenDevin/OpenDevin
+  https://github.com/OpenInterpreter/open-interpreter
+  https://github.com/Significant-Gravitas/AutoGPT
+  https://github.com/crewAIInc/crewAI
+  https://github.com/huggingface/alignment-handbook/blob/main/recipes/zephyr-7b-beta/sft/config_full.yaml
+  https://github.com/langchain-ai/langchain
+  https://github.com/langchain-ai/langgraph
+  https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md
+  https://github.com/pytube/pytube
+oCHsDpyawq.pdf:
+  http://github.com/jax-ml/jax
+  https://github.com/apache/beam
+  https://github.com/google-research/zapbench/
+  https://github.com/google/grain
+  https://github.com/google/tensorstore
+  https://github.com/mrdoob/three.js
+  https://google-research.github.io/zapbench/
+OdnqG1fYpo.pdf:
+  https://github.com/ANTsX/ANTs)
+  https://github.com/iwuqing/Moner
+  https://github.com/mmuckley/torchkbnufft
+  https://github.com/scikit-image/scikit-image)
+  https://github.com/utcsilab/motion_score_mri)
+OeBY9XqiTz.pdf:
+  https://anonymous-samba.github.io/
+  https://sambamotr.github.io/
+Oi47wc10sm.pdf:
+  https://github.com/IBM/activation-steering
+oI5tZaWkF9.pdf:
+  https://github.com/Hsun-Yu/DIMP-Loss
+  https://github.com/tatsu-lab/stanford_alpaca
+oQ4igHyh3N.pdf:
+  http://Skylion007.github.io/OpenWebTextCorpus
+  https://github.com/Haiyang-W/TokenFormer.git
+  https://github.com/karpathy/nanoGPT
+  https://github.com/open-mmlab/mmdetection
+oSQiao9GqB.pdf:
+  https://github.com/LLaVA-VL/LLaVA-NeXT
+  https://llava-vl.github.io/blog/2024-06-16-llava-next-interleave/
+  https://sciverse-cuhk.github.io
+OwpLQrpdwE.pdf:
+  https://github.com/FrancescoRegazzoni/LDNets
+  https://github.com/rtqichen/torchdiffeq
+OZbFRNhpwr.pdf:
+  https://ai-agents-2030.github.io/SPA-Bench/
+  https://github.com/PaddlePaddle/PaddleOCR
+  https://github.com/openatx/uiautomator2
+  https://github.com/senzhk/ADBKeyBoard
+  https://github.com’
+OZVTqoli2N.pdf:
+  https://github.com/aimagelab/mammoth
+P42DbV2nuV.pdf:
+  https://github.com/tmllab/2025_ICLR_IES
+P7KRIiLM8T.pdf:
+  https://github.com/NVIDIA/TransformerEngine
+  https://github.com/microsoft/mup
+  https://github.com/xai-org/grok-1
+PGhiPGBf47.pdf:
+  https://github.com/kellycyy/daily_dilemmas
+  https://hf.co/datasets/kellycyy/daily_dilemmas
+PiZtlzMWUj.pdf:
+  http://github.com/google-deepmind
+  http://github.com/google/jax
+  https://github.com/danielward27/flowjax
+  https://github.com/danielward27/pyrox
+  https://github.com/danielward27/softcvi_validation
+PkpNRmBZ32.pdf:
+  https://github.com/Brainchip-Inc/Centaurus
+pPQPQ7Yd58.pdf:
+  https://github.com/DLR-RM/rl-baselines3-zoo
+pPyJyeLriR.pdf:
+  https://github.com/luyi256/ScaleGUN
+PstM8YfhvI.pdf:
+  https://github.com/Lee-Gihun/MEDIAR
+  https://github.com/bowang-lab/MorphoDiff
+  https://github.com/bowang-lab/scGPT/tree/main?tab=readme-ov-file
+  https://github.com/broadinstitute/cellpainting-gallery
+  https://github.com/cytomining/pycytominer
+  https://github.com/huggingface/diffusers/tree/main/examples/text_to_image
+  https://github.com/recursionpharma/rxrx1-utils/blob/d34b2b0db0af1cb4fe357573bb8de76bd042b34f/rxrx/io.py#L61
+  https://github.com/theislab/IMPA
+https://arxiv.org/pdf/2304.13960.pdf:
+  https://github.com/karpathy/nanoGPT
+  https://github.com/mohamad-amin/adam-coordinate-adaptivity
+pZISppZSTv.pdf:
+  https://github.com/GuyTevet/CLoSD
+  https://guytevet.github.io/CLoSD-page/
+Q150eWkQ4I.pdf:
+  https://github.com/SMARK2022/PSR-SCI
+  https://github.com/Stability-AI/StableDiffusion)
+  https://github.com/Stability-AI/stablediffusion
+q5EZ7gKcnW.pdf:
+  https://github.com/helloelwin/iterative-label-refinement
+  https://github.com/tatsu-lab/alpaca_eval
+qgsXsqahMq.pdf:
+  https://github.com/ZhuangDingyi/GETS/
+  https://github.com/shchur/gnn-benchmark
+QogcGNXJVw.pdf:
+  https://fedeadolfi.github.io
+qPx3i9sMxv.pdf:
+  https://github.com/Stability-AI/stable-audio-tools
+  https://github.com/facebookresearch/faiss
+  https://immersive-audio.github.io/
+  https://peiwensun2000.github.io/bewo/
+qpXctF2aLZ.pdf:
+  http://github.com/RobertTLange/gymnax
+  https://github.com/s-marton/sympol
+qtTIP5Gjc5.pdf:
+  https://github.com/Fsoft-AIC/Mamba-token-dynamic
+qtWjSboqfe.pdf:
+  https://github.com/RainBowLuoCS/DEEM
+qxRoo7ULCo.pdf:
+  https://4k4dgen.github.io/
+qyU5s4fzLg.pdf:
+  https://github.com/junjiechen-chris/Improving-Unsupervised-Constituency-Parsing-via-Maximizing-Semantic-Information.git
+R1hIXdST22.pdf:
+  https://github.com/danijar/dreamerv3
+  https://github.com/facebookresearch/MRQ
+  https://github.com/facebookresearch/drqv2
+  https://github.com/nicklashansen/tdmpc2/tree/episodic-rl
+  https://github.com/sfujim/TD7
+RaR3ETzyKp.pdf:
+  https://github.com/ermongroup/ddim
+  https://github.com/gnobitab/RectifiedFlow
+  https://github.com/shifengxu/DANSM
+rDLgnYLM5b.pdf:
+  https://doubiiu.github.io/projects/DynamiCrafter/
+  https://github.com/leoShen917/DreamMover
+  https://github.com/timothybrooks/instruct-pix2pix
+  https://interleave-eval.github.io
+  https://sv3d.github.io/
+  https://ultra-editing.github.io/
+https://arxiv.org/pdf/2103.11512.pdf:
+  https://srsa2024.github.io/
+rpwGUtTeA5.pdf:
+  http://papers.nips.cc/paper_files/paper/2023/hash/4dbb61cb68671edc4ca3712d70083b9f-Abstract-Datasets_and_Benchmarks.html
+  http://papers.nips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html
+  https://github.com/tatsu-lab/alpaca_eval
+  https://tatsu-lab.github.io/alpaca_eval/
+RSGoXnS9GH.pdf:
+  https://github.com/FanZT6/FairMT-bench
+  https://github.com/meta-llama/PurpleLlama/blob/main/Llama-Guard3/1B/MODEL_CARD.md
+  https://qwenlm.github.io/blog/qwen2.5/
+rxVvRBgqmS.pdf:
+  https://github.com/agnJason/PianoMotion10M
+  https://github.com/marcomusy/pianoplayer
+S85PP4xjFD.pdf:
+  https://evansh666.github.io/EvoGen_Page/
+sahQq2sH5x.pdf:
+  http://github.com/google-deepmind
+  http://github.com/google/jax
+  https://github.com/YuhangSong/Prospective-Configuration
+  https://github.com/liukidar/pcx
+scI9307PLG.pdf:
+  https://github.com/jacobbamberger/BuNN
+  https://github.com/toshas/torch-householder
+SG1R2H3fa1.pdf:
+  https://github.com/Lightning-AI/lightning
+  https://github.com/jw9730/random-walk
+  https://github.com/kerighan/graph-walker
+SjufxrSOYd.pdf:
+  https://github.com/dan1elherbst/Higher-Order-WNNs
+sKYHBTAxVa.pdf:
+  https://github.com/LiveBench/LiveBench/blob/main/README.md
+  https://github.com/LiveBench/LiveBench/blob/main/docs/DATASHEET.md
+  https://github.com/kamyu104/LeetCode-Solutions
+  https://github.com/livebench/livebench
+  https://github.com/quint-t/Puzzle-Generator-and-Solver
+  https://github.com/tatsu-lab/alpaca_eval
+  https://omni-math.github.io/
+  https://qwenlm.github.io/blog/qwen2.5/
+https://dennyzhou.github.io/LLMs-Reason-Taiwan-2023.pdf:
+  https://leanstar.github.io/
+SqZ0KY4qBD.pdf:
+  https://github.com/Bond1995/Markov
+  https://github.com/epfml/llm-baselines
+SUc1UOWndp.pdf:
+  https://github.com/neelnanda-io/TransformerLens
+  https://github.com/timaeus-research/devinterp
+  https://huggingface.co/datasets/codeparrot/github-code
+  https://huggingface.co/datasets/mteb/raw_arxiv
+SuH5SdOXpe.pdf:
+  https://github.com/chris-hzc/Robustness-Reprogramming
+SyVPiehSbg.pdf:
+  http://github.com/google/flax
+  http://github.com/google/jax
+  https://github.com/Blealtan/efficient-kan.git
+  https://github.com/PredictiveIntelligenceLab/ActNet
+  https://github.com/PredictiveIntelligenceLab/jaxpi/tree/ActNet
+  https://github.com/PredictiveIntelligenceLab/jaxpi/tree/pirate
+szRmEM8Kx5.pdf:
+  https://github.com/openai/tiktoken
+t8qcGXaepr.pdf:
+  https://github.com/kingoflolz/mesh-transformer-jax
+TeVAZXr3yv.pdf:
+  https://llava-vl.github.io/blog/2024-01-30-llava-next/
+  https://sakshi113.github.io/mmau_homepage/
+https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf:
+  https://github.com/heng840/KnowledgeLocalization
+THqWPzL00e.pdf:
+  https://github.com/karpathy/nanoGPT
+  https://github.com/libffcv/ffcv/
+  https://github.com/pytorch/vision
+  https://github.com/toponets/topoloss/blob/620ee3efe7ef358f52365ac94c432e1bb186dddb/topoloss/cortical_sheet/common.py#L11
+  https://github.com/toponets/topoloss/blob/620ee3efe7ef358f52365ac94c432e1bb186dddb/topoloss/cortical_sheet/output.py#L6
+  https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu
+  https://huggingface.co/datasets/nampdn-ai/tiny-codes
+  https://toponets.github.io
+tIBAOcAvn4.pdf:
+  https://github.com/machanic/hard_label_attacks
+TId1SHe8JG.pdf:
+  https://github.com/google-deepmind/enn
+  https://github.com/google/uncertainty-baselines
+tj5xJInWty.pdf:
+  https://github.com/xinyuu-he/THePUff
+https://proceedings.neurips.cc/paper_files/paper/2022/file/3fa7d76a0dc1179f1e98d1bc62403756-Paper-Conference.pdf:
+  https://tianchi.aliyun.com/dataset/649
+  https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset
+  https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset
+https://cdrdv2-public.intel.com/817486/gaudi-3-ai-accelerator-white-paper.pdf:
+  https://github.com/IST-DASLab/marlin
+  https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md
+https://www.amd.com/system/files/documents/amd-instinct-mi200-datasheet.pdf:
+  https://www.github.com/eleutherai/gpt-neox
+TtUh0TOlGX.pdf:
+  https://github.com/TReg-inverse/Treg
+  https://github.com/bahjat-kawar/ddrm-jpeg
+tuu4de7HL1.pdf:
+  http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html
+  https://archive.ics.uci.edu/dataset/51/internet+advertisements
+  https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass.html
+Tv36j85SqR.pdf:
+  http://github.com/tensorflow/compression
+  https://github.com/leieric/lattice-transform-coding
+  https://github.com/mandt-lab/RD-sandwich
+U3PBITXNG6.pdf:
+  https://devzhk.github.io/InverseBench/
+  https://github.com/mikgroup/sigpy
+U67J0QNtzo.pdf:
+  https://github.com/qingshi9974/AuxT
+U834XHJuqk.pdf:
+  http://probml.github.io/book2
+  https://blog.arxiv.org/2020/08/05/leveraging-machine-learning-to-fuel-new-discoveries-with-the-arxiv-dataset
+  https://github.com/XSpace2013/LowRankTimeSeriesRecovery
+https://proceedings.neurips.cc/paper_files/paper/2019/file/53c6de78244e9f528eb3e1cda69699bb-Paper.pdf:
+  https://www.kaggle.com/datasets/Cornell-University/arxiv
+ujpAYpFDEA.pdf:
+  https://github.com/THU-BPM/Watermarked_LLM_Identification
+UL8b54P96G.pdf:
+  https://slowfast-vgen.github.io
+uqWM9hBDAE.pdf:
+  https://github.com/niMgnoeSeeL/UnseenGA
+https://proceedings.neurips.cc/paper/2020/file/618790ae971abb5610b16c826fb72d01-Paper.pdf:
+  https://www.kaggle.com/datasets/joebeachcapital/australian-population-data-by-region
+  https://www.kaggle.com/datasets/kingburrito666/shakespeare-plays
+uSz2K30RRd.pdf:
+  https://github.com/sony/wpse
+uTqnyF0JNR.pdf:
+  https://github.com/Jaeyun-Song/TAM
+  https://github.com/JoonHyung-Park/GraphENS
+  https://github.com/Leo-Q-316/ImGAGN
+  https://github.com/LirongWu/GraphMixup
+  https://github.com/RingBDStack/HyperIMBA
+  https://github.com/RingBDStack/IGL-Bench
+  https://github.com/RingBDStack/PASTEL
+  https://github.com/SukwonYun/LTE4G
+  https://github.com/TianxiangZhao/GraphSmote
+  https://github.com/Tommtang/ImGKB
+  https://github.com/TraceIvan/TOPOAUC
+  https://github.com/YuWVandy/DPGNN
+  https://github.com/amazon-research/gnn-tail-generalization
+  https://github.com/codeshareabc/DRGCN
+  https://github.com/jiank2/RawlsGCN
+  https://github.com/jumxglhf/GraphPatcher
+  https://github.com/jwu4sml/DEMO-Net
+  https://github.com/shuaiOKshuai/SOLT-GNN
+  https://github.com/shuaiOKshuai/Tail-GNN
+  https://github.com/smufang/meta-tail2vec
+  https://github.com/submissionconff/G2GNN
+  https://github.com/victorchen96/ReNode
+  https://github.com/wenzhilics/GraphSHA
+  https://github.com/zihan448/TopoImb
+UvfI4grcM7.pdf:
+  https://github.com/fun0515/RSNN_bfd
+uvHmnahyp1.pdf:
+  https://github.com/MolecularAI/REINVENT4
+  https://github.com/mirunacrt/synflownet
+  https://github.com/recursionpharma/gflownet
+  https://github.com/swansonk14/SyntheMol
+UVnD9Ze6mF.pdf:
+  https://github.com/CHATS-lab/persuasive_jailbreaker/tree/main/PAP_Better_Incontext_Sample
+  https://github.com/DeepSeek-ai/DeepSeek-LLM/blob/main/LICENSE-MODEL
+  https://huggingface.co/datasets/stanford-crfm/air-bench-2024
+  https://qwenlm.github.io/blog/qwen1.5/
+v9EjwMM55Y.pdf:
+  https://github.com/BenevolentAI/MolBERT.git
+  https://github.com/Lirain21/UniMatch.git
+  https://github.com/OpenDrugAI/AttentiveFP.git
+  https://github.com/SY575/CMPNN.git
+  https://github.com/Wenlin-Chen/ADKF-IFT.git
+  https://github.com/chao1224/n_gram_graph.git
+  https://github.com/chemprop/chemprop.git
+  https://github.com/jrwnter/cddd.git
+  https://github.com/lol88/Meta-MolNet.git
+  https://github.com/lol88/Mol2Context-vec.git
+  https://github.com/snap-stanford/pretrain-gnns.git
+  https://github.com/tkipf/gcn.git
+  https://github.com/yvquanli/trimnet.git
+VaowElpVzd.pdf:
+  https://mattie-e.github.io/Co3/)
+VCbqXtS5YY.pdf:
+  https://huggingface.co/datasets/Anthropic/hh-rlhf
+  https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k
+  https://huggingface.co/datasets/HuggingFaceH4/ultrafeedback_binarized
+http://www.lrec-conf.org/proceedings/lrec2014/pdf/756_Paper.pdf:
+  https://github.com/causalNLP/multiTP
+vi3DjUhFVm.pdf:
+  https://github.com/krafton-ai/DAS
+vQhn4wrQ6j.pdf:
+  https://huggingface.co/datasets/CohereForAI/aya_dataset
+  https://huggingface.co/datasets/ai4bharat/indic-align
+  https://huggingface.co/datasets/allenai/nllb
+  https://huggingface.co/datasets/bigscience/xP3mt
+  https://huggingface.co/datasets/izumi-lab/llm-japanese-dataset
+  https://huggingface.co/datasets/kunishou/databricks-dolly-15k-ja
+  https://huggingface.co/datasets/lelapa/Inkuba-instruct
+  https://huggingface.co/datasets/lumatic-ai/BongChat-v1-253k
+  https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k
+  https://huggingface.co/datasets/p1atdev/ichikara-instruction
+vWR3KuiQur.pdf:
+  https://github.com/lllyasviel/stable-diffusion-webui-forge/discussions/981
+  https://github.com/mit-han-lab/deepcompressor
+  https://github.com/mit-han-lab/nunchaku
+WcZLG8XxhD.pdf:
+  https://algorithms-with-predictions.github.io/
+  https://github.com/edoliberty/frequent-directions
+wg3rBImn3O.pdf:
+  https://github.com/shap/shap
+wHebuIb6IH.pdf:
+  https://github.com/mit-gfx/VLMaterial
+  https://llava-vl.github.io/blog/2024-01-30-llava-next/
+  https://llava-vl.github.io/blog/2024-05-10-llava-next-stronger-llms/
+wJv4AIt4sK.pdf:
+  https://github.com/microsoft/microxcaling
+https://proceedings.neurips.cc/paper/2020/file/747e32ab0fea7fbd2ad9ec03daa3f840-Paper.pdf:
+  https://sq-interplay.github.io/
+WKfb1xGXGx.pdf:
+  https://github.com/GAP-LAB-CUHK-SZ/HairStep
+  https://github.com/NVlabs/stylegan2-ada-pytorch
+  https://github.com/milesial/Pytorch-UNet
+wkHcXDv7cv.pdf:
+  https://dlsun.github.io/probability/
+  https://github.com/state-spaces/s4
+wmV4cIbgl6.pdf:
+  https://archive.ics.uci.edu/dataset/18
+  https://causalrivers.github.io
+  https://github.com/causalrivers/causalrivers
+  https://github.com/causalrivers/documentation
+  https://github.com/causalrivers/experiments/
+  https://openaccess.thecvf.com/content_cvpr_2016/html/Cordts_The_Cityscapes_Dataset_CVPR_2016_paper.html
+  https://proceedings.neurips.cc/paper_files/paper/2022/hash/a1859debfb3b59d094f3504d5ebb6c25-Abstract-Datasets_and_Benchmarks.html
+wN3KaUXA5X.pdf:
+  https://github.com/lark-parser/lark
+  https://github.com/revalo/iceberg
+  https://github.com/rwightman/pytorch-image-models
+https://pytorch.org/assets/pytorch2-2.pdf:
+  https://tree-diffusion.github.io
+wXSshrxlP4.pdf:
+  https://github.com/vLAR-group/GrabS
+WzCEiBILHu.pdf:
+  https://data.mendeley.com/datasets/hhny5ff7yj/1
+  https://github.com/atong01/conditional-flow-matching
+  https://github.com/cookbook-ms/topological_SB_matching
+xaYlO03tIk.pdf:
+  https://github.com/hukz18/Stem-Ob/
+XgH1wfHSX8.pdf:
+  https://github.com/cfpark00/markov-mixtures
+  https://github.com/karpathy/nanoGPT
+XNA3Mnnbvb.pdf:
+  https://zkf1997.github.io/DART/
+xsELpEPn4A.pdf:
+  https://github.com/baaivision/JudgeLM
+  https://github.com/nomic-ai/gpt4all
+  https://github.com/zeno-ml/zeno-build/tree/main/examples/chatbot/report#zeno-chatbot-report
+xsx3Fpo3UD.pdf:
+  https://github.com/SLIT-AI/ADPA
+  https://github.com/huggingface/alignment-handbook
+  https://github.com/lm-sys/FastChat/pull/3158
+  https://github.com/tatsu-lab/alpaca_eval
+  https://huggingface.co/datasets/argilla/DPO-MIX-7K
+Y2RW9EVwhT.pdf:
+  https://github.com/NVlabs/Eagle
+  https://github.com/facebookresearch/dinov2/blob/main/MODEL_CARD.md
+  https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md
+  https://huggingface.co/datasets/laion/gpt4v-dataset
+  https://huggingface.co/datasets/teknium/OpenHermes-2.5
+  https://llava-vl.github.io/blog/2024-01-30-llava-next/
+y5einmJ0Yx.pdf:
+  https://github.com/DannyW618/GOLD
+  https://github.com/qitianwu/GraphOOD-GNNSafe
+  https://github.com/snap-stanford/ogb?tab=readme-ov-file
+  https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html
+yfW1x7uBS5.pdf:
+  https://github.com/AUTOMATIC1111/stable-diffusion-webui
+  https://github.com/ethz-spylab/robust-style-mimicry
+  https://github.com/huggingface/diffusers
+  https://github.com/muerrilla/stable-diffusion-NPW
+  https://www.404media.co/laion-datasets-removed-stanford-csam-child-abuse/
+YhfrKB3Ah7.pdf:
+  https://github.com/RaulAstudillo06/qEUBO/tree/main/src/acquisition_functions
+  https://github.com/fivethirtyeight/data/tree/master/candy-power-ranking/
+  https://github.com/xinyuzc/PABBO
+Yk87CwhBDx.pdf:
+  https://github.com/EleutherAI/lm-evaluation-harness
+  https://github.com/huggingface/peft
+  https://github.com/lupantech/MathVista
+  https://github.com/openai/simple-evals
+  https://github.com/tatsu-lab/stanford_alpaca
+  https://github.com/unslothai/unsloth
+  https://github.com/vllm-project/vllm
+  https://huggingface.co/datasets/VMware/open-instruct
+  https://sgp-bench.github.io
+  https://www.kaggle.com/datasets/jacekpardyak/mnist-svg
+  https://www.kaggle.com/datasets/victorcondino/svgicons
+YK9G4Htdew.pdf:
+  https://github.com/burchim/TWISTER
+  https://github.com/fdeng18/dreamer-pro
+  https://github.com/nicklashansen/tdmpc2
+ykuc5q381b.pdf:
+  https://brightbenchmark.github.io/
+  https://github.com/xlang-ai/BRIGHT
+  https://huggingface.co/datasets/TIGER-Lab/MathInstruct
+  https://huggingface.co/datasets/code_search_net
+  https://huggingface.co/datasets/greengerong/leetcode
+  https://huggingface.co/datasets/xlangai/BRIGHT
+yVeNBxwL5W.pdf:
+  https://github.com/grrrute/mr-sampler
+yVQcr4qjD6.pdf:
+  https://github.com/MadeAgents/Hammer
+z8sxoCYgmd.pdf:
+  https://github.com/Inf-imagine/Sentry
+  https://github.com/YuanGongND/ltu#pretrained-models
+  https://github.com/hpcaitech/Open-Sora
+  https://github.com/opendatalab/LabelLLM
+  https://github.com/opendatalab/labelU
+  https://github.com/svc-develop-team/so-vits-svc
+  https://opendatalab.github.io/LOKI/
+https://proceedings.neurips.cc/paper_files/paper/2023/file/505df5ea30f630661074145149274af0-Paper-Datasets_and_Benchmarks.pdf:
+  https://www.kaggle.com/datasets/thedatabeast/ted-talk-transcripts-2006-2021
+ZGkfoufDaU.pdf:
+  https://github.com/togethercomputer/RedPajama-Data
+https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf:
+  https://zjysteven.github.io/mink-plus-plus/
+ztzZDzgfrh.pdf:
+  https://github.com/Jeryi-Sun/ReDEeP-ICLR
+ZV7CLf0RHK.pdf:
+  https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/be83ab3ecd0db773eb2dc1b0a17836a1-Abstract-round2.html
+  https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md
+  https://github.com/pixas/NoRM
