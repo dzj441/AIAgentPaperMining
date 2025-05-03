@@ -2,5 +2,297 @@
     {
         "url": "https://www.aissquare.com/datasets/detail?pageType=datasets&name=Quantum_Operator_Dataset&id=286",
         "pdf": "kpq3IIjUD3.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/OpenGVLab/OmniCorpus-CC-210M",
+        "pdf": "kwqhn2VuG4.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/OpenGVLab/OmniCorpus-YT",
+        "pdf": "kwqhn2VuG4.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/jimmycarter/textocr-gpt4v",
+        "pdf": "kwqhn2VuG4.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/laion/gpt4v-dataset",
+        "pdf": "kwqhn2VuG4.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/teknium/OpenHermes-2.5",
+        "pdf": "kwqhn2VuG4.pdf"
+    },
+    {
+        "url": "https://openxlab.org.cn/datasets/Li-Qingyun/OmniCorpus-CW",
+        "pdf": "kwqhn2VuG4.pdf"
+    },
+    {
+        "url": "http://archive.ics.uci.edu/dataset/12/balance+scale",
+        "pdf": "L14sqcrUC3.pdf"
+    },
+    {
+        "url": "https://archive.ics.uci.edu/dataset/143/statlog+australian+credit+approval",
+        "pdf": "L14sqcrUC3.pdf"
+    },
+    {
+        "url": "https://archive.ics.uci.edu/dataset/158/poker+hand",
+        "pdf": "L14sqcrUC3.pdf"
+    },
+    {
+        "url": "https://archive.ics.uci.edu/dataset/2/adult",
+        "pdf": "L14sqcrUC3.pdf"
+    },
+    {
+        "url": "https://archive.ics.uci.edu/dataset/203/yearpredictionmsd",
+        "pdf": "L14sqcrUC3.pdf"
+    },
+    {
+        "url": "https://archive.ics.uci.edu/dataset/241/one+hundred+plant+species+leaves+data+set",
+        "pdf": "L14sqcrUC3.pdf"
+    },
+    {
+        "url": "https://archive.ics.uci.edu/dataset/27/credit+approval",
+        "pdf": "L14sqcrUC3.pdf"
+    },
+    {
+        "url": "https://archive.ics.uci.edu/dataset/363/facebook+comment+volume+dataset",
+        "pdf": "L14sqcrUC3.pdf"
+    },
+    {
+        "url": "https://archive.ics.uci.edu/dataset/72/multiple+features",
+        "pdf": "L14sqcrUC3.pdf"
+    },
+    {
+        "url": "https://archive.ics.uci.edu/dataset/8/audiology+standardized",
+        "pdf": "L14sqcrUC3.pdf"
+    },
+    {
+        "url": "https://archive.ics.uci.edu/ml/datasets/wine+quality",
+        "pdf": "L14sqcrUC3.pdf"
+    },
+    {
+        "url": "https://sci2s.ugr.es/keel/dataset.php?cod=105#sub2",
+        "pdf": "L14sqcrUC3.pdf"
+    },
+    {
+        "url": "https://www.kaggle.com/datasets/danofer/compass?select=cox-violent-parsed.csv",
+        "pdf": "L14sqcrUC3.pdf"
+    },
+    {
+        "url": "https://www.kaggle.com/datasets/shubh0799/churn-modelling/data",
+        "pdf": "L14sqcrUC3.pdf"
+    },
+    {
+        "url": "https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset",
+        "pdf": "L14sqcrUC3.pdf"
+    },
+    {
+        "url": "https://www.kaggle.com/pcovkrd84mejm/datasets",
+        "pdf": "L14sqcrUC3.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/Shengcao1006/MMHal-Bench",
+        "pdf": "LBl7Hez0fF.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/flax-sentence-embeddings/stackexchange_title_body_jsonl",
+        "pdf": "lgsyLSsDRe.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/sentence-transformers/reddit-title-body",
+        "pdf": "lgsyLSsDRe.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/stanfordnlp/imdb",
+        "pdf": "LiUfN9h0Lx.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/henryzhongsc/MQuAKE-Remastered",
+        "pdf": "m9wG6ai2Xk.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/allenai/WildBench/viewer/v2",
+        "pdf": "MKEHCx25xp.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/agentsea/wave-ui",
+        "pdf": "n9PDaFNi8t.pdf"
+    },
+    {
+        "url": "https://www.ncei.noaa.gov/access/crn/qcdatasets.html",
+        "pdf": "NTHMw8S1Ow.pdf"
+    },
+    {
+        "url": "https://hf.co/datasets/kellycyy/daily_dilemmas",
+        "pdf": "PGhiPGBf47.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/mteb/raw_arxiv",
+        "pdf": "SUc1UOWndp.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu",
+        "pdf": "THqWPzL00e.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/nampdn-ai/tiny-codes",
+        "pdf": "THqWPzL00e.pdf"
+    },
+    {
+        "url": "https://tianchi.aliyun.com/dataset/649",
+        "pdf": "tj5xJInWty.pdf"
+    },
+    {
+        "url": "https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset",
+        "pdf": "tj5xJInWty.pdf"
+    },
+    {
+        "url": "https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset",
+        "pdf": "tj5xJInWty.pdf"
+    },
+    {
+        "url": "http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html",
+        "pdf": "tuu4de7HL1.pdf"
+    },
+    {
+        "url": "https://archive.ics.uci.edu/dataset/51/internet+advertisements",
+        "pdf": "tuu4de7HL1.pdf"
+    },
+    {
+        "url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass.html",
+        "pdf": "tuu4de7HL1.pdf"
+    },
+    {
+        "url": "https://blog.arxiv.org/2020/08/05/leveraging-machine-learning-to-fuel-new-discoveries-with-the-arxiv-dataset",
+        "pdf": "U834XHJuqk.pdf"
+    },
+    {
+        "url": "https://www.kaggle.com/datasets/Cornell-University/arxiv",
+        "pdf": "U834XHJuqk.pdf"
+    },
+    {
+        "url": "https://www.kaggle.com/datasets/joebeachcapital/australian-population-data-by-region",
+        "pdf": "uqWM9hBDAE.pdf"
+    },
+    {
+        "url": "https://www.kaggle.com/datasets/kingburrito666/shakespeare-plays",
+        "pdf": "uqWM9hBDAE.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/stanford-crfm/air-bench-2024",
+        "pdf": "UVnD9Ze6mF.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/Anthropic/hh-rlhf",
+        "pdf": "VCbqXtS5YY.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k",
+        "pdf": "VCbqXtS5YY.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/HuggingFaceH4/ultrafeedback_binarized",
+        "pdf": "VCbqXtS5YY.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/CohereForAI/aya_dataset",
+        "pdf": "vQhn4wrQ6j.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/ai4bharat/indic-align",
+        "pdf": "vQhn4wrQ6j.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/allenai/nllb",
+        "pdf": "vQhn4wrQ6j.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/bigscience/xP3mt",
+        "pdf": "vQhn4wrQ6j.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/izumi-lab/llm-japanese-dataset",
+        "pdf": "vQhn4wrQ6j.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/kunishou/databricks-dolly-15k-ja",
+        "pdf": "vQhn4wrQ6j.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/lelapa/Inkuba-instruct",
+        "pdf": "vQhn4wrQ6j.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/lumatic-ai/BongChat-v1-253k",
+        "pdf": "vQhn4wrQ6j.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k",
+        "pdf": "vQhn4wrQ6j.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/p1atdev/ichikara-instruction",
+        "pdf": "vQhn4wrQ6j.pdf"
+    },
+    {
+        "url": "https://archive.ics.uci.edu/dataset/18",
+        "pdf": "wmV4cIbgl6.pdf"
+    },
+    {
+        "url": "https://data.mendeley.com/datasets/hhny5ff7yj/1",
+        "pdf": "WzCEiBILHu.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/argilla/DPO-MIX-7K",
+        "pdf": "xsx3Fpo3UD.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/laion/gpt4v-dataset",
+        "pdf": "Y2RW9EVwhT.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/teknium/OpenHermes-2.5",
+        "pdf": "Y2RW9EVwhT.pdf"
+    },
+    {
+        "url": "https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html",
+        "pdf": "y5einmJ0Yx.pdf"
+    },
+    {
+        "url": "https://www.404media.co/laion-datasets-removed-stanford-csam-child-abuse/",
+        "pdf": "yfW1x7uBS5.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/VMware/open-instruct",
+        "pdf": "Yk87CwhBDx.pdf"
+    },
+    {
+        "url": "https://www.kaggle.com/datasets/jacekpardyak/mnist-svg",
+        "pdf": "Yk87CwhBDx.pdf"
+    },
+    {
+        "url": "https://www.kaggle.com/datasets/victorcondino/svgicons",
+        "pdf": "Yk87CwhBDx.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/TIGER-Lab/MathInstruct",
+        "pdf": "ykuc5q381b.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/code_search_net",
+        "pdf": "ykuc5q381b.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/greengerong/leetcode",
+        "pdf": "ykuc5q381b.pdf"
+    },
+    {
+        "url": "https://huggingface.co/datasets/xlangai/BRIGHT",
+        "pdf": "ykuc5q381b.pdf"
+    },
+    {
+        "url": "https://www.kaggle.com/datasets/thedatabeast/ted-talk-transcripts-2006-2021",
+        "pdf": "z8sxoCYgmd.pdf"
     }
 ]
