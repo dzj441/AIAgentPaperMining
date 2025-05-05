@@ -9,7 +9,7 @@ import sseclient # 虽然当前没用流式输出，但保持与 sql 示例结�
 from typing import List, Dict, Any, Optional, Union, Callable, Generator
 
 # 从新的 config.py 导入配置
-from mineAgent.config import AI_CONFIG
+from config import AI_CONFIG
 
 logger = logging.getLogger(__name__)
 

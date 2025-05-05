@@ -10,10 +10,10 @@ from dotenv import load_dotenv
 from typing import Dict, Any
 
 # 导入新的配置和客户端获取方式
-from mineAgent.config import AI_CONFIG # 直接从 config.py 导入
-from mineAgent.ai_client import get_ai_client, AIClientError # 导入客户端获取函数
-from mineAgent.agent import MineAgent
-from mineAgent.llm_handler import LLMHandler # LLM Handler 仍然使用
+from config import AI_CONFIG # 直接从 config.py 导入
+from ai_client import get_ai_client, AIClientError # 导入客户端获取函数
+from agent import MineAgent
+from llm_handler import LLMHandler # LLM Handler 仍然使用
 
 # 配置日志输出格式
 logging.basicConfig(
@@ -39,9 +39,9 @@ async def main():
 
     # --- 配置区 (任务和 URL) ---
     # TODO: 把下面改成你自己的任务和起始网址
-    task = "查看该网页是否是benchmark"
+    task = "查看该网页是否是数据集的网站，请回答YES或者NO"
     # 修改: 添加 https:// 协议头
-    start_url = "https://huggingface.co/datasets/OpenGVLab/OmniCorpus-CC-210M"
+    start_url = "https://hf-mirror.com/datasets/OpenGVLab/OmniCorpus-CC-210M"
     
     # 创建 LLM Handler (它内部会调用 get_ai_client)
     try:

@@ -2,9 +2,9 @@ import asyncio
 import logging
 from typing import List, Dict, Any
 
-from mineAgent.browser_controller import BrowserController
-from mineAgent.llm_handler import LLMHandler
-from mineAgent.actions import AgentAction, FinishAction, GoToURLAction, GoToURLParams
+from browser_controller import BrowserController
+from llm_handler import LLMHandler
+from actions import AgentAction, FinishAction, GoToURLAction, GoToURLParams
 
 logger = logging.getLogger(__name__)
 

@@ -3,7 +3,7 @@ from playwright.async_api import async_playwright, Browser, Page, Playwright, El
 import logging
 from typing import Dict, Any, Optional, List
 
-from mineAgent.actions import (
+from actions import (
     GoToURLAction,
     ClickElementAction,
     TypeTextAction,
