@@ -82,19 +82,28 @@ class PdfLinkExtractor:
 
     def apply_replacements(self, urls: list) -> list:
         """
-        按照 replacements 字典，对 URL 进行子串替换，并打印替换日志。
+        按照 replacements 字典，对 URL 进行子串替换，并打印替换日志；
+        并清理末尾多余的右括号。
         """
         new_urls = []
         for url in urls:
             updated = url
+            # 先做映射替换
             for src, tgt in self.replacements.items():
                 if src in updated:
                     original = updated
                     updated = updated.replace(src, tgt)
                     # print(f"[替换] {original} -> {updated}")
+
+            # 清理末尾多余的右括号
+            if updated.endswith(")"):
+                cleaned = updated.rstrip(")")
+                # print(f"[清理] 去除末尾括号: {updated} -> {cleaned}")
+                updated = cleaned
+
             new_urls.append(updated)
         return new_urls
-
+    
     def run(self):
         if self.flatten:
             global_urls = set()

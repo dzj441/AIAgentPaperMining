@@ -16,11 +16,34 @@ github上的release中有 爬取的ICLR 2025 oral 所有论文的压缩包。
 
 使用git基于分支开发
 
-## scraper  
+## mining pipeline  
 
-- get_paper_links_via_api
-    通过API获取论文链接，因为无法百分百从网页url中提取出API格式。作为一个扩展功能，它可以配合 LLM/Agent 由LLM Agent 组装API 而由这个函数来执行pdf的下载。
-- get_paper_links_via_selenium  
-    通过selenium动态渲染网页，提取其中的paper_id，目前在iclr 25 poster oral spotlight上都测试过，翻页逻辑锚定页面上的右翻页符，对于只有一页的情况，直接当前页所有的paper_id，在`https://openreview.net/group?id=MICCAI.org/2024/Challenge/FLARE&referrer=%5BHomepage%5D(%2F)#tab-accept-with-minor-revisions`上测试过。会将 所有的paperid 保存到一个json文件中，以便与下载逻辑分离。
-- scraper_main
-    从命令行读取参数，主要是一个url列表，pdf输出目录 和 json保存目录。
+OpenReviewScraper:
+```python
+def run(self, urls: list):
+    """
+    对传入的 OpenReview 页面 URL 列表依次执行：
+    1. 抓取每个页面的论文论坛链接。
+    2. 将每页抓到的链接按子目录写入 JSON 文件。
+    3. （可选）下载对应的论文 PDF 并保存到指定目录。
+    """
+    ...
+```
+PdfLinkExtractor:
+```python
+def run(self):
+    """
+    遍历指定的 PDF 根目录，针对每个 .pdf 文件依次执行：
+    
+    1. 读取并提取该 PDF 中的所有外部链接。
+    2. 去除那些严格作为其他链接前缀的冗余短链接。
+    3. 过滤掉位于 skip_domains 列表中的不需要链接。
+    4. 按照 replacements 映射，对剩余链接进行批量替换（如将 huggingface.co 替为 hf-mirror.com）。
+    5. 根据 flatten 参数决定输出格式：
+       - flatten=False：按文件分组，将每个文件的链接写入输出文件。
+       - flatten=True：汇总所有链接，去重后扁平化写入输出文件。
+    """
+    ...
+```
+
+TODO：加入urlchecker的部分 有的太离谱的url可以加入skip_domains 里面，skip_domains 的内容也需要仔细验证 是否都需要skip 以及在什么情形下提取出来的。
