@@ -218,19 +218,9 @@ if __name__ == "__main__":
             "如果不提供则使用默认 ICLR2025 accept-oral 页面"
         )
     )
-    parser.add_argument(
-        "--json-dir",
-        type=str,
-        default="./openreview_paper_links",
-        help="json 保存挖掘到的 links"
-    )
-    parser.add_argument(
-        "--pdf-dir",
-        type=str,
-        default="./openreview_papers",
-        help="PDF 保存根目录"
-    )
+    from utils import load_config
+    config = load_config("config.yaml")
     args = parser.parse_args()
 
-    scraper = OpenReviewScraper(args.pdf_dir, args.json_dir)
+    scraper = OpenReviewScraper(config['scraper']['pdf_dir'], config['scraper']['json_dir'])
     scraper.run(args.urls)

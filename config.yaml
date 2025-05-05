@@ -1,3 +1,3 @@
 scraper:
-  json_dir: "./openreview_paper_links" # json 保存所有的论文paper_id
+  json_dir: "./openreview_paper_links_json" # json 保存所有的论文paper_id
   pdf_dir: "./openreview_papers" # 最终论文会被下到这个目录下

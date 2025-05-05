@@ -178,3 +178,5 @@ iclr2025_oral_papers
 # iclr2025_oral_papers.zip
 *.zip
 testresults
+openreview_papers
+openreview_paper_links_json
