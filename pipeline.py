@@ -7,7 +7,7 @@ from utils import load_config
 from scraper import OpenReviewScraper
 from PDFparser import PdfLinkExtractor
 # 导入 urlchecker 的接口
-from urlchecker.main import check_url_is_dataset 
+from urlchecker.main import check_url_is_dataset, check_url_likely_dataset
 
 # 设置日志记录
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -79,8 +79,8 @@ class MiningPipeline:
     async def run(self, urls: list):
         start_time = time.time()
         # 第一步：抓取 PDF (可选, 当前注释掉了)
-        #logger.info("[Pipeline] 开始抓取 PDF")
-        #self.scraper.run(urls)
+        # logger.info("[Pipeline] 开始抓取 PDF")
+        # self.scraper.run(urls)
 
         # 第二步：提取链接
         logger.info("[Pipeline] 开始从 PDF 提取链接...")
@@ -99,13 +99,32 @@ class MiningPipeline:
         if not candidate_urls:
              logger.info("[Pipeline] 初步过滤后无候选链接，流程结束。")
              return
+        
+        # 第3.5步: 使用LLM粗选链接(应该返回url对应三种状态yes, no, maybe)
+        logger.info(f"[Pipeline] 开始顺序调用LLM粗选url(返回三种状态yes, no, maybe) Agent 检查 {len(candidate_urls)} 个链接... (这可能需要一些时间)")
+        results_yes = []
+        result_maybe = []
+        result_no = []
+        for url in candidate_urls:
+            logger.info(f"[Pipeline] 正在检查 URL: {url}")
+            try:
+                result = await check_url_likely_dataset(url)
+                if result == "YES":
+                    results_yes.append(url)
+                elif result == "NO":
+                    result_no.append(url)
+                elif result == "MAYBE":
+                    result_maybe.append(url)
+            except Exception as e:
+                logger.error(f"[Agent检查严重错误] URL: {url} 在调用 check_url_is_dataset 时发生异常: {e}")
+                results_map[url] = e
 
         # 第四步：调用 urlchecker Agent 进行检查 (改为顺序执行)
         logger.info(f"[Pipeline] 开始顺序调用 Agent 检查 {len(candidate_urls)} 个链接... (这可能需要一些时间)")
         
         results_map = {} # 用于存储 URL 和其结果的映射
 
-        for url in candidate_urls:
+        for url in results_yes:
             logger.info(f"[Pipeline] 正在检查 URL: {url}")
             try:
                 result = await check_url_is_dataset(url)
@@ -115,6 +134,14 @@ class MiningPipeline:
                 results_map[url] = e # 将异常本身存起来，以便后续识别
             # 可以在每个 URL 检查后稍作停顿，如果需要避免过于频繁的请求
             # await asyncio.sleep(1) # 例如，暂停1秒
+        for url in result_maybe:
+            logger.info(f"[Pipeline] 正在检查 URL: {url}")
+            try:
+                result = await check_url_is_dataset(url)
+                results_map[url] = result
+            except Exception as e:
+                logger.error(f"[Agent检查严重错误] URL: {url} 在调用 check_url_is_dataset 时发生异常: {e}")
+                results_map[url] = e
 
         # 第五步：处理结果并输出
         dataset_urls = []
@@ -145,10 +172,10 @@ class MiningPipeline:
             for url in dataset_urls:
                 print(f"- {url}")
             # TODO: 可以选择将 dataset_urls 保存到文件，例如使用 utils.save_json
-            # from utils import save_json
-            # output_json_path = "final_dataset_links.json"
-            # save_json(output_json_path, dataset_urls)
-            # logger.info(f"已将确认的链接保存到: {output_json_path}")
+            from utils import save_json
+            output_json_path = "final_dataset_links.json"
+            save_json(output_json_path, dataset_urls)
+            logger.info(f"已将确认的链接保存到: {output_json_path}")
         else:
             print("\n未找到确认的数据集/代码链接。")
 
