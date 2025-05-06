@@ -8,9 +8,9 @@ from typing import List, Dict, Any, Optional
 from pydantic import ValidationError
 
 # 导入新的 AI Client
-from ai_client import AIClient, AIClientError, get_ai_client
-from actions import LLMResponse, AgentAction, FinishAction, FinishParams
-from prompts import get_system_prompt # 系统提示仍然需要
+from .ai_client import AIClient, AIClientError, get_ai_client
+from .actions import LLMResponse, AgentAction, FinishAction, FinishParams
+from .prompts import get_system_prompt # 系统提示仍然需要
 
 logger = logging.getLogger(__name__)
 
@@ -23,7 +23,7 @@ class LLMHandler:
         self.system_prompt = get_system_prompt()
         # 从 client 获取一些配置可能有用，或者直接从 AI_CONFIG 读取
         # 例如，获取模型名称以传递给 complete 方法 (如果需要覆盖客户端默认值)
-        from config import AI_CONFIG
+        from .config import AI_CONFIG
         default_source = AI_CONFIG.get("DEFAULT_AI_SOURCE", "OPENAI")
         self.default_model = AI_CONFIG.get(default_source, {}).get('MODEL')
         self.default_temperature = AI_CONFIG.get(default_source, {}).get('TEMPERATURE', 0.0)

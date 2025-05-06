@@ -1,6 +1,7 @@
 import os
 import re
 import pymupdf
+from typing import List
 
 class PdfLinkExtractor:
     def __init__(self, pdf_root_dir: str, output_file: str, flatten: bool = False,
@@ -28,6 +29,7 @@ class PdfLinkExtractor:
         # 使用字典存储多对替换规则
         self.replacements = replacements or {
             "huggingface.co": "hf-mirror.com",
+            "github.com": "gitee.com",
             # 可以继续添加其他替换对
         }
 
@@ -60,7 +62,7 @@ class PdfLinkExtractor:
 
     @staticmethod
     def remove_prefix_urls(url_list: list) -> list:
-        """删除那些严格作为其他 URL 前缀存在的“冗余”短链接。"""
+        """删除那些严格作为其他 URL 前缀存在的"冗余"短链接。"""
         url_list = sorted(set(url_list), key=len)
         result = []
         for i, u in enumerate(url_list):
@@ -104,40 +106,69 @@ class PdfLinkExtractor:
             new_urls.append(updated)
         return new_urls
     
-    def run(self):
-        if self.flatten:
-            global_urls = set()
+    def run(self) -> List[str]:
+        # 始终初始化一个集合来收集所有处理过的 URL，无论 flatten 如何设置
+        processed_urls = set()
 
-        with open(self.output_file, "w", encoding="utf-8") as out_f:
-            for root, _, files in os.walk(self.pdf_root_dir):
-                for fn in files:
-                    if not fn.lower().endswith(".pdf"):
-                        continue
+        # 文件写入逻辑保持不变
+        try:
+            # 尝试创建输出目录 (如果需要)
+            output_dir = os.path.dirname(self.output_file)
+            if output_dir:
+                 os.makedirs(output_dir, exist_ok=True)
+                 
+            with open(self.output_file, "w", encoding="utf-8") as out_f:
+                for root, _, files in os.walk(self.pdf_root_dir):
+                    for fn in files:
+                        if not fn.lower().endswith(".pdf"):
+                            continue
 
-                    pdf_path = os.path.join(root, fn)
-                    try:
-                        with open(pdf_path, "rb") as f:
-                            pdf_bytes = f.read()
-                    except Exception as e:
-                        print(f"[错误] 读取失败 {pdf_path}: {e}")
-                        continue
+                        pdf_path = os.path.join(root, fn)
+                        try:
+                            with open(pdf_path, "rb") as f:
+                                pdf_bytes = f.read()
+                        except Exception as e:
+                            print(f"[错误] 读取 PDF 失败 {pdf_path}: {e}")
+                            continue
 
-                    links = self.extract_text_and_links(pdf_bytes)
-                    links = self.remove_prefix_urls(links)
-                    links = self.filter_urls(links)
-                    links = self.apply_replacements(links)
+                        # 提取和处理链接
+                        try:
+                            links = self.extract_text_and_links(pdf_bytes)
+                            links = self.remove_prefix_urls(links)
+                            links = self.filter_urls(links)
+                            links = self.apply_replacements(links)
+                        except Exception as proc_e:
+                             print(f"[错误] 处理 PDF 时出错 {pdf_path}: {proc_e}")
+                             continue # 跳过处理失败的 PDF
 
-                    if self.flatten:
-                        global_urls.update(links)
-                    else:
-                        out_f.write(f"{fn}:\n")
-                        for url in links:
-                            out_f.write(f"  {url}\n")
-                        out_f.write("\n")
+                        # 将当前 PDF 处理后的链接添加到总集合中
+                        processed_urls.update(links)
 
-            if self.flatten:
-                for url in sorted(global_urls):
-                    out_f.write(f"{url}\n")
+                        # 根据 flatten 选项写入文件
+                        if not self.flatten:
+                            out_f.write(f"{fn}:\n")
+                            for url in links: # 写入当前文件的链接
+                                out_f.write(f"  {url}\n")
+                            out_f.write("\n")
+
+                # 如果是 flatten 模式，在最后写入所有去重链接
+                if self.flatten:
+                    for url in sorted(processed_urls):
+                        out_f.write(f"{url}\n")
+            
+            print(f"[信息] 提取的链接已写入文件: {self.output_file}")
+
+        except OSError as e:
+            print(f"[错误] 无法写入输出文件 {self.output_file}: {e}")
+            # 即使写入失败，也尝试返回已处理的 URL
+        except Exception as e_outer:
+             print(f"[错误] PdfLinkExtractor 运行时发生意外错误: {e_outer}")
+             # 返回空的或部分结果
+
+        # 无论文件写入是否成功，都返回收集到的所有处理过的、去重的 URL 列表
+        final_url_list = sorted(list(processed_urls))
+        print(f"[信息] PdfLinkExtractor 完成，共找到 {len(final_url_list)} 个唯一链接。")
+        return final_url_list
 
 if __name__ == "__main__":
     from utils import load_config
