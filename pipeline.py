@@ -2,7 +2,7 @@ import argparse
 import asyncio # 导入 asyncio
 import time # 用于计时
 import logging # 用于日志记录
-
+import requests # 用来检测是否为国外网站
 from utils import load_config
 from scraper import OpenReviewScraper
 from PDFparser import PdfLinkExtractor
@@ -101,30 +101,42 @@ class MiningPipeline:
              return
         
         # 第3.5步: 使用LLM粗选链接(应该返回url对应三种状态yes, no, maybe)
-        logger.info(f"[Pipeline] 开始顺序调用LLM粗选url(返回三种状态yes, no, maybe) Agent 检查 {len(candidate_urls)} 个链接... (这可能需要一些时间)")
-        results_yes = []
-        result_maybe = []
-        result_no = []
+        # 使用网站链接测试来判断是否为国外网站,如果为国外网站算作maybe,其余算作yes或者no
+        urls_maybe = []
+        urls_yes_no = []
         for url in candidate_urls:
+            logger.info(f"正在检测网址 {url}")
+            try:
+                response = requests.get(url, timeout=5)
+                if response.status_code == 200:
+                    urls_yes_no.append(url)
+                else:
+                    urls_maybe.append(url)
+            except requests.RequestException as e:
+                print(f"连接 {url} 时出现错误: {e}")
+        # 使用agent判断网址是否为数据集的网站
+        logger.info(f"[Pipeline] 开始顺序调用 Agent 检查 {len(candidate_urls)} 个链接... (这可能需要一些时间)")
+        urls_yes = []
+        urls_no = []
+        for url in urls_yes_no:
             logger.info(f"[Pipeline] 正在检查 URL: {url}")
             try:
-                result = await check_url_likely_dataset(url)
+                result = await check_url_is_dataset(url)
                 if result == "YES":
-                    results_yes.append(url)
+                    urls_yes.append(url)
                 elif result == "NO":
-                    result_no.append(url)
-                elif result == "MAYBE":
-                    result_maybe.append(url)
+                    urls_no.append(url)
             except Exception as e:
                 logger.error(f"[Agent检查严重错误] URL: {url} 在调用 check_url_is_dataset 时发生异常: {e}")
-                results_map[url] = e
+                urls_maybe.append(url)
+        # 国内访问不了的url存放在urls_maybe, 判断是数据库网站的url存放在urls_yes, 判断不是数据库网址的url存放在urls_no
 
         # 第四步：调用 urlchecker Agent 进行检查 (改为顺序执行)
         logger.info(f"[Pipeline] 开始顺序调用 Agent 检查 {len(candidate_urls)} 个链接... (这可能需要一些时间)")
         
         results_map = {} # 用于存储 URL 和其结果的映射
 
-        for url in results_yes:
+        for url in candidate_urls:
             logger.info(f"[Pipeline] 正在检查 URL: {url}")
             try:
                 result = await check_url_is_dataset(url)
@@ -134,14 +146,6 @@ class MiningPipeline:
                 results_map[url] = e # 将异常本身存起来，以便后续识别
             # 可以在每个 URL 检查后稍作停顿，如果需要避免过于频繁的请求
             # await asyncio.sleep(1) # 例如，暂停1秒
-        for url in result_maybe:
-            logger.info(f"[Pipeline] 正在检查 URL: {url}")
-            try:
-                result = await check_url_is_dataset(url)
-                results_map[url] = result
-            except Exception as e:
-                logger.error(f"[Agent检查严重错误] URL: {url} 在调用 check_url_is_dataset 时发生异常: {e}")
-                results_map[url] = e
 
         # 第五步：处理结果并输出
         dataset_urls = []

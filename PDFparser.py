@@ -29,7 +29,7 @@ class PdfLinkExtractor:
         # 使用字典存储多对替换规则
         self.replacements = replacements or {
             "huggingface.co": "hf-mirror.com",
-            "github.com": "gitee.com",
+            "github.com": "bgithub.xyz",
             # 可以继续添加其他替换对
         }
 
