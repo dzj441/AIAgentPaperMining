@@ -7,7 +7,8 @@ from utils import load_config
 from scraper import OpenReviewScraper
 from PDFparser import PdfLinkExtractor
 # 导入 urlchecker 的接口
-from urlchecker.main import check_url_is_dataset, check_url_likely_dataset
+from urlchecker.main import check_url_is_dataset #, check_url_likely_dataset
+import urllib3
 
 # 设置日志记录
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -112,6 +113,9 @@ class MiningPipeline:
                     urls_yes_no.append(url)
                 else:
                     urls_maybe.append(url)
+            except urllib3.exceptions.LocationParseError as e:
+                    # 特别处理 LocationParseError，记录错误并跳过该URL
+                    logger.error(f"解析URL {url} 时发生错误: {e}")                    
             except requests.RequestException as e:
                 print(f"连接 {url} 时出现错误: {e}")
         # 使用agent判断网址是否为数据集的网站
