@@ -90,9 +90,9 @@ class OpenReviewScraper:
         resp.raise_for_status()
         return paper_id, resp.content
 
-    def download_pdf(self, url: str) -> str:
+    def download_pdf(self, url: str,save_subdir:str) -> str:
         paper_id, pdf_bytes = self.download_pdf_bytes(url)
-        filename = os.path.join(self.pdf_dir, f"{paper_id}.pdf")
+        filename = os.path.join(self.pdf_dir,save_subdir ,f"{paper_id}.pdf")
         with open(filename, "wb") as f:
             f.write(pdf_bytes)
         return paper_id
@@ -222,7 +222,7 @@ class OpenReviewScraper:
             # 默认不下载 PDF，如需下载，可取消下面代码注释
             for link in links:
                 try:
-                    paper_id = self.download_pdf(link)
+                    paper_id = self.download_pdf(link,save_subdir=subdir)
                     print(f"[✓] 已保存 {subdir}/{paper_id}.pdf")
                 except Exception as e:
                     print(f"[✗] 下载失败 {link} ：{e}")
