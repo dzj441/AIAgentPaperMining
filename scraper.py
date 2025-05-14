@@ -24,38 +24,61 @@ class OpenReviewScraper:
         os.makedirs(self.pdf_dir, exist_ok=True)
         os.makedirs(self.json_dir, exist_ok=True)
 
-    def get_paper_links_via_api(self, limit: int = 1000) -> list:
+    def get_paper_links_via_api(self, page_url: str, limit: int = 1000) -> list:
         """
-        使用 OpenReview API2 拉取 ICLR 2025 Oral Presentation 的所有 note，
-        返回对应的 /forum?id=… 链接列表。
+        使用 OpenReview API2 拉取指定 group 页面（如 ICLR 2025 Oral、NeurIPS 2024 Poster 等）的所有 note。
+        对于分区名称（Oral/Spotlight/Poster）同时尝试 Title-case 和 lower-case，
+        并将两次结果合并去重后返回。
         """
-        API = "https://api2.openreview.net/notes"
-        params = {
-            "content.venue": "ICLR 2025 Oral",
-            "domain": "ICLR.cc/2025/Conference",
+        # 1. 解析 URL
+        parsed = urlparse(page_url)
+        qs = parse_qs(parsed.query)
+        group_id = qs.get("id", [""])[0]             # e.g. "ICLR.cc/2025/Conference"
+        fragment = parsed.fragment                   # e.g. "tab-accept-oral"
+
+        # 2. 拆出 conf、year
+        parts = group_id.split('/')
+        conf = parts[0].split('.')[0]                # "ICLR"
+        year = parts[1] if len(parts) > 1 else ""     # "2025"
+
+        # 3. 分区关键词
+        suffix = fragment.split('-')[-1] if fragment else ""
+        section_title = suffix.title()               # "Oral"
+        section_lower = suffix.lower()               # "oral"
+
+        # 4. 两种 venue 组合
+        venue_options = [
+            f"{conf} {year} {section_title}",
+            f"{conf} {year} {section_lower}"
+        ]
+
+        api_url = "https://api2.openreview.net/notes"
+        base_params = {
+            "domain": group_id,
             "details": "replyCount,presentation,writable",
-            "limit": limit,
-            "offset": 0
+            "limit": limit
         }
 
-        links = []
-        while True:
-            resp = requests.get(API, params=params)
-            resp.raise_for_status()
-            data = resp.json()
-            notes = data.get("notes", [])
-            if not notes:
-                break
+        merged_links = []
+        # 5. 对每个 venue 都分页拉取、累积
+        for venue in venue_options:
+            params = {**base_params, "content.venue": venue, "offset": 0}
+            while True:
+                resp = requests.get(api_url, params=params)
+                resp.raise_for_status()
+                data = resp.json()
+                notes = data.get("notes", [])
+                if not notes:
+                    break
+                for note in notes:
+                    pid = note.get("id") or note.get("forum")
+                    if pid:
+                        merged_links.append(f"{self.BASE_URL}/forum?id={pid}")
+                params["offset"] += limit
 
-            for note in notes:
-                paper_id = note.get("id") or note.get("forum")
-                if paper_id:
-                    links.append(f"{self.BASE_URL}/forum?id={paper_id}")
-
-            params["offset"] += limit
-
-        return links
-
+        # 6. 去重并保持原顺序
+        return list(dict.fromkeys(merged_links))
+    
     def download_pdf_bytes(self, paper_url: str) -> Tuple[str, bytes]:
         parsed = urlparse(paper_url)
         qs = parse_qs(parsed.query)
@@ -171,16 +194,23 @@ class OpenReviewScraper:
 
             links_file = os.path.join(self.json_dir, f"{subdir}.json")
             try:
-                links = self.get_paper_links_via_selenium(page_url)
-                print(f"共找到 {len(links)} 篇论文链接（已跳过失败页）。")
+                links = self.get_paper_links_via_api(page_url)
+                if not links:
+                    raise ValueError("API 返回空列表，尝试回退到 Selenium")
+                print(f"[Info] API 获取到 {len(links)} 篇论文链接")
+            except Exception as api_err:
+                print(f"[Warn] API 方法失败：{api_err}\n[Info] 改用 Selenium 动态爬虫")
+                try:
+                    links = self.get_paper_links_via_selenium(page_url)
+                    print(f"[Info] Selenium 获取到 {len(links)} 篇论文链接（已跳过失败页）。")
+                except Exception as sel_err:
+                    print(f"[✗] Selenium 方法也失败：{sel_err}，跳过该页面")
+                    continue
 
-                with open(links_file, "w", encoding="utf-8") as f:
-                    json.dump(links, f, ensure_ascii=False, indent=2)
-                print(f"已将链接保存至：{links_file}")
-
-            except Exception as e:
-                print(f"[✗] 抓取链接失败：{e}")
-                continue
+            # 保存链接到 JSON
+            with open(links_file, "w", encoding="utf-8") as f:
+                json.dump(links, f, ensure_ascii=False, indent=2)
+            print(f"已将链接保存至：{links_file}")
 
             if not os.path.exists(links_file):
                 print(f"[!] 未找到链接文件: {links_file}, 跳过")
@@ -188,7 +218,7 @@ class OpenReviewScraper:
 
             with open(links_file, "r", encoding="utf-8") as f:
                 links = json.load(f)
-            print(links)
+            # print(links)
             # 默认不下载 PDF，如需下载，可取消下面代码注释
             for link in links:
                 try:
@@ -211,7 +241,13 @@ if __name__ == "__main__":
         default=[
             "https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-oral",
             "https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-spotlight",
-            "https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-poster"
+            "https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-poster",
+            "https://openreview.net/group?id=NeurIPS.cc/2024/Conference#tab-accept-oral",
+            "https://openreview.net/group?id=NeurIPS.cc/2024/Conference#tab-accept-spotlight",
+            "https://openreview.net/group?id=NeurIPS.cc/2024/Conference#tab-accept-poster",
+            "https://openreview.net/group?id=ICML.cc/2024/Conference#tab-accept-oral",
+            "https://openreview.net/group?id=ICML.cc/2024/Conference#tab-accept-spotlight",
+            "https://openreview.net/group?id=ICML.cc/2024/Conference#tab-accept-poster"
         ],
         help=(
             "一个或多个 OpenReview group 页面 URL，"
