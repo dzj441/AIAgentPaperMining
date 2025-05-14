@@ -1,18 +1,25 @@
 # 文档
 ## mining pipeline  
+挖掘的全流程基于 url。
 
-OpenReviewScraper:
+### OpenReviewScraper
+负责网络爬虫，核心函数是：  
 ```python
 def run(self, urls: list):
     """
     对传入的 OpenReview 页面 URL 列表依次执行：
     1. 抓取每个页面的论文论坛链接。
     2. 将每页抓到的链接按子目录写入 JSON 文件。
-    3. （可选）下载对应的论文 PDF 并保存到指定目录。
+    3. 下载对应的论文 PDF 并保存到指定目录。
     """
     ...
 ```
-PdfLinkExtractor:
+整个`run`函数将各个行为逻辑分离，先通过爬虫将所有pdf链接写入json，再从json读出链接下载pdf到指定目录。它使用了两种方法进行爬虫，一种借用了OpenReview的API，通过对网址进行parse，然后调用API获取论文链接。另一种通过selenium动态渲染网页。动态渲染网页受网络环境影响较大，不稳定，优先使用了API方法。  
+- get_paper_links_via_selenium
+- get_paper_links_via_api  
+
+### PdfLinkExtractor:
+负责从PDF中提取url，核心函数是：
 ```python
 def run(self):
     """
@@ -28,5 +35,4 @@ def run(self):
     """
     ...
 ```
-
-TODO：加入urlchecker的部分 有的太离谱的url可以加入skip_domains 里面，skip_domains 的内容也需要仔细验证 是否都需要skip 以及在什么情形下提取出来的。
+整个`run`函数通过直接提取和正则匹配提取所有的url并去重，然后对其进行预筛选，同时对一些连接不上的国外网页替换为其国内镜像，最后输出到指定文件。后续agent判断将以来这份指定文件中的内容。  
