@@ -88,8 +88,8 @@ class MiningPipeline:
     async def run(self, urls: list):
         start_time = time.time()
         # 第一步：抓取 PDF (可选, 当前注释掉了)
-        # logger.info("[Pipeline] 开始抓取 PDF")
-        # self.scraper.run(urls)
+        logger.info("[Pipeline] 开始抓取 PDF")
+        self.scraper.run(urls)
 
         # 第二步：提取链接
         logger.info("[Pipeline] 开始从 PDF 提取链接...")
