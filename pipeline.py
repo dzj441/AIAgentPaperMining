@@ -20,6 +20,7 @@ logger = logging.getLogger(__name__)
 PRELIMINARY_KEEP_DOMAINS = [
     "github.com",
     "gitlab.com",
+    "github.io",
     "bitbucket.org",
     "hf.co", # huggingface.co 已经被替换为 hf-mirror.com, 但保留以防万一
     "huggingface.co",
@@ -29,7 +30,14 @@ PRELIMINARY_KEEP_DOMAINS = [
     "zenodo.org",
     "figshare.com",
     "paperswithcode.com/dataset",
-    "kaggle.com/datasets"
+    "kaggle.com/datasets",
+    "corpus",
+    "Corpus",
+    "archive.ics.uci.edu/dataset/",
+    "archive.ics.uci.edu/datasets",
+    "mkl.ucsd.edu/dataset/",
+    "mkl.ucsd.edu/datasets",
+    "archive.ics.uci.edu/dataset"
 ]
 
 def preliminary_filter(url: str, skip_domains: list) -> bool:
@@ -80,8 +88,8 @@ class MiningPipeline:
     async def run(self, urls: list):
         start_time = time.time()
         # 第一步：抓取 PDF (可选, 当前注释掉了)
-        logger.info("[Pipeline] 开始抓取 PDF")
-        self.scraper.run(urls)
+        # logger.info("[Pipeline] 开始抓取 PDF")
+        # self.scraper.run(urls)
 
         # 第二步：提取链接
         logger.info("[Pipeline] 开始从 PDF 提取链接...")
