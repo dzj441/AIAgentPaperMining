@@ -1,0 +1,1242 @@
+{
+  "00SnKBGTsz.pdf": [
+    "https://DataEnvGym.github.io"
+  ],
+  "03OkC0LKDD.pdf": [
+  ],
+  "04qx93Viwj.pdf": [
+    "https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered/resolve/main/ShareGPT_V3_unfiltered_cleaned_split.json, anon8231489123/ShareGPT_Vicuna_unfiltered",
+    "https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered/resolve/main/"
+  ],
+  "0bmGL4q7vJ.pdf": [
+    "https://mat-agent.github.io",
+    "https://github.com/InternLM/agentlego",
+    "https://huggingface.co/datasets/Lin-Chen/Open-LLaVA-NeXT-mix1M"
+  ],
+  "0fhzSFsGUT.pdf": [
+    "https://github.com/stephane-rivaud/PETRA"
+  ],
+  "0fJfVOSUra.pdf": [
+    "https://github.com/Dao-AILab/flash-attention",
+    "https://github.com/sustcsonglin/flash-linear-attention"
+  ],
+  "0h6v4SpLCY.pdf": [],
+  "0yvZm2AjUr.pdf": [
+    "https://github.com/jiahai-feng/prop-probes-iclr"
+  ],
+  "10JOlFIPjt.pdf": [
+  ],
+  "11xgiMEI5o.pdf": [
+    "https://github.com/ziyc/drivestudio"
+  ],
+  "1iuaxjssVp.pdf": [
+    "https://github.com/soedinglab/MMseqs2"
+  ],
+  "1Iuw1jcIrf.pdf": [
+    "https://github.com/evalplus/evalplus",
+    "https://github.com/EleutherAI/lm-evaluation-harness",
+    "https://huggingface.co/datasets/ajibawa-2023/Education-College-Students",
+    "https://huggingface.co/datasets/ajibawa-2023/Maths-College",
+    "https://huggingface.co/datasets/AI-MO/NuminaMath-CoT",
+    "https://huggingface.co/datasets/AI-MO/NuminaMath-TIR"
+  ],
+  "1jcnvghayD.pdf": [],
+  "1KLBvrYz3V.pdf": [
+    "https://github.com/google-deepmind/century"
+  ],
+  "1qP3lsatCR.pdf": [
+  ],
+  "1xzqz73hvL.pdf": [
+  ],
+  "28abpUEICJ.pdf": [
+    "https://dandiarchive.org/dandiset/000469/0.240123.1806",
+    "https://dandiarchive.org/dandiset/000363?search=mesoscale&pos=2"
+  ],
+  "2c7pfOqu9k.pdf": [
+    "https://github.com/LINs-lab/DeFT",
+    "https://github.com/huggingface/text-generation-inference",
+    "https://github.com/NVIDIA/TensorRT-LLM"
+  ],
+  "2hcfoCHKoB.pdf": [
+    "https://huggingface.co/Salesforce/codet5p-220m-bimodal",
+    "https://huggingface.co/Salesforce/instructcodet5p-16b",
+    "https://github.com/salesforce/CodeT5",
+    "https://huggingface.co/datasets/code-search-net/code_search_net",
+    "https://huggingface.co/shailja/fine-tuned-codegen-16B-Verilog"
+  ],
+  "2iCIHgE8KG.pdf": [
+    "https://github.com/tachukao/mgplvm-pytorch"
+  ],
+  "2kGKsyhtvh.pdf": [
+    "https://github.com/yuxiangw/autodp",
+    "https://github.com/lxuechen/private-transformers"
+  ],
+  "2o58Mbqkd2.pdf": [
+    "https://github.com/necludov/super-diffusion"
+  ],
+  "2pNLknCTvG.pdf": [],
+  "37EXtKCOkn.pdf": [
+  ],
+  "3b9SKkRAKw.pdf": [
+  ],
+  "3cgMU3TyyE.pdf": [
+    "https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md",
+    "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+  ],
+  "3ddi7Uss2A.pdf": [
+  ],
+  "3fl1SENSYO.pdf": [
+    "https://www.kaggle.com/datasets/camnugent/california-housing-prices",
+    "https://archive.ics.uci.edu/dataset/59/letter+recognition",
+    "https://archive.ics.uci.edu/dataset/302/gesture+phase+segmentation",
+    "https://archive.ics.uci.edu/dataset/159/magic+gamma+telescope",
+    "https://archive.ics.uci.edu/dataset/602/dry+bean+dataset",
+    "https://archive.ics.uci.edu/dataset/2/adult",
+    "https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients",
+    "https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset",
+    "https://archive.ics.uci.edu/dataset/332/online+news+popularity",
+    "https://github.com/tydusky/remasker",
+    "https://github.com/hezgit/TDM",
+    "https://github.com/BorisMuzellec/MissingDataOT",
+    "https://github.com/maxiaoba/GRAPE",
+    "https://github.com/G-AILab/IGRM",
+    "https://github.com/pfnet-research/TabCSDI",
+    "https://github.com/trevor-richardson/MCFlow",
+    "https://github.com/vanderschaarlab/hyperimpute",
+    "https://github.com/G-AILab/IGRM/blob/main/main.py",
+    "https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+"
+  ],
+  "3Oli4u6q3p.pdf": [
+  ],
+  "3PDklqqqfN.pdf": [
+    "https://www.microsoft.com/en-us/research/publication/ms-marco-human-generated-machine-reading-comprehension-dataset/",
+    "http://trec.nist.gov/pubs/trec3/papers/city.ps.gz"
+  ],
+  "44cMlQSreK.pdf": [
+  ],
+  "48WAZhwHHw.pdf": [
+  ],
+  "4FVGowGzQb.pdf": [
+  ],
+  "4gaySj8kvX.pdf": [
+    "http://github.com/google/jax",
+    "http://github.com/google/flax"
+  ],
+  "4HRRcqE9SU.pdf": [
+  ],
+  "4NTrco82W0.pdf": [
+  ],
+  "4ub9gpx9xw.pdf": [
+  ],
+  "5BjQOUXq7i.pdf": [
+    "https://github.com/sail-sg/regmix",
+    "https://huggingface.co/datasets/monology/pile-uncopyrighted",
+    "https://github.com/huggingface/lighteval"
+  ],
+  "5BSlakturs.pdf": [
+    "https://github.com/doub7e/Reliable-Random-Seeds"
+  ],
+  "5FXKgOxmb2.pdf": [
+  ],
+  "5ZEbpBYGwH.pdf": [
+  ],
+  "60i0ksMAhd.pdf": [
+    "https://github.com/ml-research/blendrl",
+    "https://github.com/k4ntz/NUDGE"
+  ],
+  "69Fp4dcmJN.pdf": [
+    "http://github.com/google/jax"
+  ],
+  "6NNA0MxhCH.pdf": [
+    "https://huggingface.co/datasets/sarahwie/copycolors_mcqa",
+    "https://huggingface.co/datasets/sarahwie/copycolors_mcqa)"
+  ],
+  "6RtRsg8ZV1.pdf": [
+  ],
+  "6tyPSkshtF.pdf": [],
+  "71pur4y8gs.pdf": [
+    "https://github.com/chaoyitud/TabWak"
+  ],
+  "78Nn4QJTEN.pdf": [
+    "https://github.com/sail-sg/Attention-Sink",
+    "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k"
+  ],
+  "7ANDviElAo.pdf": [
+    "https://github.com/yanweiyue/MoG",
+    "https://github.com/lukecavabarrett/pna"
+  ],
+  "7BQkXXM8Fy.pdf": [
+  ],
+  "7IzeL0kflu.pdf": [
+    "http://github.com/RobertTLange/gymnax"
+  ],
+  "7nyJBVCTGQ.pdf": [],
+  "7xCSK9BLPy.pdf": [
+    "https://github.com/tatsu-lab/alpaca_eval"
+  ],
+  "7XgKAabsPp.pdf": [],
+  "8bjspmAMBk.pdf": [
+  ],
+  "8oCrlOaYcc.pdf": [],
+  "8oFvUBvF1u.pdf": [
+    "https://github.com/strayrobots/3d-annotation-tool"
+  ],
+  "8UFG9D8xeU.pdf": [],
+  "8xxEBAtD7y.pdf": [
+  ],
+  "97rOQDPmk2.pdf": [
+  ],
+  "9bMZ29SPVx.pdf": [
+    "https://github.com/Jackbrocp/clip-powered-data-selection",
+    "https://github.com/facebookresearch/vissl"
+  ],
+  "9ehJCZz4aM.pdf": [
+  ],
+  "9GsgCUJtic.pdf": [
+    "https://github.com/ling-pan/FL-GFN"
+  ],
+  "9NfHbWKqMF.pdf": [
+    "https://sergeyprokudin.github.io/splatformer",
+    "https://github.com/NVlabs/instant-ngp",
+    "https://github.com/markomih/SplatFields",
+    "https://github.com/ethanweber/nerfbusters",
+    "https://github.com/kxhit/EscherNet",
+    "https://github.com/autonomousvision/LaRa"
+  ],
+  "9UGfOJBuL8.pdf": [
+    "https://github.com/Hannah37/ConDOR-ICLR25"
+  ],
+  "9WYMDgxDac.pdf": [
+  ],
+  "9YNyiCJE3k.pdf": [
+    "https://github.com/olivettigroup/OSDA_Generator",
+    "https://zeodb.mit.edu/index"
+  ],
+  "A1ztozypga.pdf": [
+    "https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus",
+    "https://huggingface.co/datasets/codeparrot/github-code"
+  ],
+  "A6Y7AqlzLW.pdf": [
+    "https://github.com/hendrycks/math"
+  ],
+  "Acvo2RGSCy.pdf": [
+  ],
+  "aD2uwhLbnA.pdf": [
+  ],
+  "AEFVa6VMu1.pdf": [
+    "https://pacechallenge.org/2018/steiner-tree/",
+    "https://github.com/HeathcliffAC/SteinerTreeProblem"
+  ],
+  "agHddsQhsL.pdf": [
+    "https://github.com/facebookresearch/xformers"
+  ],
+  "ALzTQUgW8a.pdf": [
+  ],
+  "aMBSY2ebPw.pdf": [
+    "https://dictionaria.clld.org/contributions/kalamang",
+    "http://www.language-archives.org/language/kgv",
+    "https://github.com/dictionaria/kalamang/tree/v1.0"
+  ],
+  "APojAzJQiq.pdf": [
+    "https://tum-pbs.github.io/ConFIG"
+  ],
+  "AUCYptvAf3.pdf": [
+    "https://multi-robot-diffusion.github.io/"
+  ],
+  "auZZ2gN0ZN.pdf": [
+  ],
+  "avSocG0oFA.pdf": [
+    "https://github.com/GAIR-NLP/abel"
+  ],
+  "awvJBtB2op.pdf": [
+    "https://endoskeletal.github.io"
+  ],
+  "aX7X9z3vQS.pdf": [
+  ],
+  "aZ1gNJu8wO.pdf": [
+    "https://github.com/layer6ai-labs/diffusion_memorization/",
+    "https://huggingface.co/datasets/diffusers/tuxemon"
+  ],
+  "bcTjW5kS4W.pdf": [
+  ],
+  "BgxsmpVoOX.pdf": [
+    "https://github.com/krafton-ai/Rare-to-Frequent"
+  ],
+  "bhK7U37VW8.pdf": [
+    "https://github.com/SaFoLab-WISC/AutoDAN-Turbo"
+  ],
+  "bjxuqI4KwU.pdf": [],
+  "Bk13Qfu8Ru.pdf": [
+    "https://github.com/JEKimLab/ICLR2025_SpuriousDataPruning"
+  ],
+  "BL4WBIfyrz.pdf": [],
+  "bMC1t7eLRc.pdf": [
+    "https://huggingface.co/datasets/cerebras/SlimPajama-627B"
+  ],
+  "BmG88rONaU.pdf": [
+  ],
+  "bW9fGYo44s.pdf": [
+  ],
+  "cD1kl2QKv1.pdf": [
+  ],
+  "cfKZ5VrhXt.pdf": [
+    "https://github.com/huggingface/alignment-handbook"
+  ],
+  "CkgKSqZbuC.pdf": [
+  ],
+  "cmXWYolrlo.pdf": [
+  ],
+  "cnKhHxN3xj.pdf": [
+    "https://github.com/Shavit-Lab/Sparse-Expansion",
+    "https://github.com/IST-DASLab/Sparse-Marlin",
+    "https://github.com/IST-DASLab/marlin"
+  ],
+  "Cnwz9jONi5.pdf": [
+    "https://huggingface.co/datasets/argilla/distilabel-capybara-dpo-7k-binarized",
+    "https://huggingface.co/datasets/LDJnr/Capybara",
+    "https://huggingface.co/datasets/Intel/orca_dpo_pairs",
+    "https://github.com/tatsu-lab/alpaca_eval",
+    "https://https://huggingface.co/Open-Orca/OpenOrca"
+  ],
+  "cqsw28DuMW.pdf": [
+    "https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus",
+    "http://Skylion007.github.io/OpenWebTextCorpus",
+    "https://github.com/open-compass/opencompass",
+    "http://Skylion007.github.io/"
+  ],
+  "cRR0oDFEBC.pdf": [
+    "https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered"
+  ],
+  "csbf1p8xUq.pdf": [
+    "https://github.com/fe1ixxu/ALMA",
+    "https://huggingface.co/datasets/allenai/nllb"
+  ],
+  "cTR17xl89h.pdf": [
+    "https://www.britannica.com/science/nervous-system/Diffuse-nervous-systems",
+    "https://github.com/huangwl18/modular-rl",
+    "https://github.com/WilsonWangTHU/neural_graph_evolution"
+  ],
+  "cv2iMNWCsh.pdf": [
+  ],
+  "cWHonXThtM.pdf": [
+  ],
+  "cznqgb4DNv.pdf": [],
+  "D042vFwJAM.pdf": [
+  ],
+  "D1Y2XFgsPI.pdf": [
+    "https://github.com/marineLM/Imputation_for_prediction_benchmark",
+    "https://www.openml.org/search?type=benchmark&study_type=task&sort=tasks_included&id=336"
+  ],
+  "d9aWa875kj.pdf": [
+    "https://github.com/saper0/qpcert"
+  ],
+  "DC8bsa9bzY.pdf": [
+  ],
+  "dDpB23VbVa.pdf": [
+  ],
+  "dEypApI1MZ.pdf": [
+  ],
+  "dGVZwyq5tV.pdf": [],
+  "dOAkHmsjRX.pdf": [
+  ],
+  "DRiLWb8bJg.pdf": [
+  ],
+  "dRXxFEY8ZE.pdf": [
+    "https://huggingface.co/datasets/DBD-research-group/BirdSet",
+    "https://xeno-canto.org/",
+    "https://zenodo.org/records/7018484",
+    "https://zenodo.org/records/7050014",
+    "https://kaggle.com/competitions/birdsong-recognition",
+    "https://huggingface.co/DBD-research-group",
+    "https://www.inaturalist.org/",
+    "https://www.macaulaylibrary.org/",
+    "https://research.google.com/audioset/",
+    "https://annotator.freesound.org/fsd/",
+    "https://annotator.freesound.org/fsd/release/FSD50K/",
+    "https://www.robots.ox.ac.uk/~vgg/data/vggsound/",
+    "https://zenodo.org/records/3966543",
+    "https://github.com/karolpiczak/ESC-50"
+  ],
+  "dsHpulHpOK.pdf": [
+  ],
+  "Dzh0hQPpuf.pdf": [
+    "https://rpg.ifi.uzh.ch/sitt/"
+  ],
+  "E1EHO0imOb.pdf": [
+    "https://github.com/togethercomputer/RedPajama-Data"
+  ],
+  "e1wDDFmlVu.pdf": [
+    "https://github.com/togethercomputer/RedPajama-Data",
+    "https://github.com/ourownstory/neuralprophet-data"
+  ],
+  "E48QvQppIN.pdf": [
+    "https://github.com/AlanNawzadAmin/CloneBO",
+    "https://github.com/samuelstanton/lambo",
+    "https://github.com/samsinai/FLEXS/tree/master",
+    "https://github.com/wengong-jin/RefineGNN"
+  ],
+  "EbWf36quzd.pdf": [
+    "https://github.com/kakaobrain/coyo-dataset",
+    "https://keithito.com/LJ-Speech-Dataset/"
+  ],
+  "EEgYUccwsV.pdf": [
+    "https://github.com/togethercomputer/RedPajama-Data",
+    "https://github.com/niuzaisheng/ScreenAgent/tree/main/data/ScreenAgent/train",
+    "https://huggingface.co/datasets/osunlp/Mind2Web",
+    "https://huggingface.co/datasets/agent-eto/eto-sft-trajectory"
+  ],
+  "EPHsIa0Ytg.pdf": [],
+  "et5l9qPUhm.pdf": [],
+  "eW4yh6HKz4.pdf": [],
+  "ExrEw8cVlU.pdf": [
+    "https://github.com/jiahaolu97/poison-splat",
+    "https://www.tanksandtemples.org/download/"
+  ],
+  "f7KxfUrRSb.pdf": [
+    "https://zenodo.org/records/12608602",
+    "https://github.com/zwhong714/weak-to-strong-preference-optimization"
+  ],
+  "FDnZFpHmU4.pdf": [
+    "https://github.com/starrYYxuan/UniTE"
+  ],
+  "fGdF8Bq1FV.pdf": [
+    "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass.html#usps",
+    "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass",
+    "https://www.kaggle.com/datasets/puneet6060/intel-image-classification"
+  ],
+  "fgUFZAxywx.pdf": [
+    "https://adni.loni.usc.edu/"
+  ],
+  "FhBT596F1X.pdf": [
+  ],
+  "Fk3eod9aaD.pdf": [
+    "https://brendel-group.github.io/clip-dg/"
+  ],
+  "FPfCUJTsCn.pdf": [
+  ],
+  "friHAl5ofG.pdf": [
+    "http://generative-value-learning.github.io"
+  ],
+  "Fs9EabmQrJ.pdf": [
+  ],
+  "FtX6oAW7Dd.pdf": [
+    "https://github.com/wwangwitsel/PLCIFAR10",
+    "https://palm.seu.edu.cn/zhangml/Resources.htm#data",
+    "https://palm.seu.edu.cn/zhangml/Resources"
+  ],
+  "fU8H4lzkIm.pdf": [
+  ],
+  "FxNNiUgtfa.pdf": [
+  ],
+  "fxv0FfmDAg.pdf": [
+  ],
+  "fZK6AQXlUU.pdf": [
+  ],
+  "G6dMvRuhFr.pdf": [
+  ],
+  "gcouwCx7dG.pdf": [
+  ],
+  "gI0kPklUKS.pdf": [
+    "https://github.com/tdooms/bilinear-decomposition"
+  ],
+  "Gj5JTAwdoy.pdf": [
+    "https://presto-music.github.io/web/",
+    "https://riffusion.com/about"
+  ],
+  "GjfIZan5jN.pdf": [
+  ],
+  "GjM61KRiTG.pdf": [
+    "https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/bbq_lite",
+    "https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/winogrande",
+    "https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/simple_ethical_questions",
+    "https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/toxigen",
+    "https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/hhh_alignment",
+    "https://github.com/llm-attacks/llm-attacks/blob/main/data/advbench/harmful_behaviors.csv",
+    "https://huggingface.co/datasets/Babelscape/ALERT",
+    "https://huggingface.co/datasets/Babelscape/ALERT/viewer/alert_adversarial"
+  ],
+  "gTwRMU3lJ5.pdf": [
+  ],
+  "gWgaypDBs8.pdf": [
+  ],
+  "gye2U9uNXx.pdf": [
+  ],
+  "gYWqxXE5RJ.pdf": [
+  ],
+  "h0ZfDIrj7T.pdf": [
+    "https://github.com/togethercomputer/moa"
+  ],
+  "H2Gxil855b.pdf": [
+  ],
+  "h8yg0hT96f.pdf": [
+  ],
+  "hBGavkf61a.pdf": [
+    "https://github.com/ckczzj/PDAE"
+  ],
+  "HE5JmwniHm.pdf": [
+    "https://archive.ics.uci.edu/dataset/",
+    "http://mlg.ucd.ie/datasets/",
+    "https://github.com/wangsiwei2010/awesome-multi-view-clustering",
+    "https://bmi.inf.ethz.ch/supplements/protsubloc/",
+    "https://www.robots.ox.ac.uk/~vgg/data/flowers/",
+    "https://kdd.ics.uci.edu/databases/reuters21578/",
+    "www.ee.columbia.edu/ln/dvmm/CCV/"
+  ],
+  "hJ1BaJ5ELp.pdf": [
+  ],
+  "hNjCVVm0EQ.pdf": [],
+  "hpCfPEvBsr.pdf": [
+    "https://github.com/togethercomputer/RedPajama-Data",
+    "https://dumps.wikimedia.org",
+    "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+    "https://www.adept.ai/blog/adept-fuyu-heavy"
+  ],
+  "HqLHY4TzGj.pdf": [
+  ],
+  "hUb2At2DsQ.pdf": [
+    "https://github.com/rahul3613/ProofNet-lean4"
+  ],
+  "hwnObmOTrV.pdf": [
+  ],
+  "hwSmPOAmhk.pdf": [
+  ],
+  "hXm0Wu2U9K.pdf": [
+    "https://huggingface.co/datasets/trl-internal-testing/tldr-preference-trl-style",
+    "https://huggingface.co/datasets/trl-internal-testing/tldr-preference-sft-trl-style"
+  ],
+  "Hz4BYVY8YM.pdf": [
+    "https://github.com/yzy-bupt/SVBench",
+    "https://github.com/Breakthrough/PySceneDetect"
+  ],
+  "i8dYPGdB1C.pdf": [],
+  "IC5RJvRoMp.pdf": [
+    "https://github.com/RUCKBReasoning/LLM-Streamline"
+  ],
+  "IF0Q9KY3p2.pdf": [
+  ],
+  "IjQ2Jtemzy.pdf": [
+    "https://github.com/meta-llama/"
+  ],
+  "ikkvC1UnnE.pdf": [],
+  "Im2neAMlre.pdf": [
+    "https://github.com/google-deepmind/gecko_benchmark_t2i"
+  ],
+  "INyi7qUdjZ.pdf": [],
+  "IqHeDe2lbl.pdf": [
+    "https://github.com/aimarvi/NSDstreams"
+  ],
+  "IUmj2dw5se.pdf": [
+    "https://github.com/SongW-SW/CEB"
+  ],
+  "IuU0wcO0mo.pdf": [
+    "https://github.com/zivlab/visual_drift/tree/main/data",
+    "https://github.com/AdaptiveMotorControlLab/cebra-figures"
+  ],
+  "iuxaCU3DI7.pdf": [
+  ],
+  "IwPXYk6BV9.pdf": [],
+  "ixMBnOhFGd.pdf": [
+    "https://huggingface.co/datasets/microsoft/ms_marco",
+    "https://huggingface.co/datasets/akariasai/PopQA",
+    "https://huggingface.co/datasets/mandarjoshi/trivia_qa",
+    "https://huggingface.co/datasets/rajpurkar/squad",
+    "https://huggingface.co/datasets/sentence-transformers/natural-questions",
+    "https://huggingface.co/datasets/google/boolq",
+    "https://huggingface.co/datasets/sewon/ambig_qa",
+    "https://drive.google.com/file/d/1C_JnoHotqT12yheNZCKg1IirHUCHp1ve",
+    "https://huggingface.co/datasets/BeIR/hotpotqa",
+    "https://huggingface.co/datasets/xanhho/2WikiMultihopQA",
+    "https://huggingface.co/datasets/dgslibisey/MuSiQue",
+    "https://huggingface.co/datasets/chiayewken/bamboogle",
+    "https://huggingface.co/datasets/fever/fever",
+    "https://people.eecs.berkeley.edu/~hendrycks/data.tar",
+    "https://huggingface.co/datasets/neulab/wiki_asp",
+    "https://archive.org/download/enwiki-20181220"
+  ],
+  "j4LITBSUjs.pdf": [
+  ],
+  "J9VogDTa1W.pdf": [
+  ],
+  "JAMxRSXLFz.pdf": [
+    "https://github.com/kasia-kobalczyk/active-task-disambiguation"
+  ],
+  "jCPak79Kev.pdf": [
+    "https://github.com/xz-group/AnalogGenie"
+  ],
+  "jkUp3lybXf.pdf": [
+    "https://huggingface.co/datasets/AI-MO/NuminaMath-CoT",
+    "https://github.com/tatsu-lab/stanford_alpaca"
+  ],
+  "jXLiDKsuDo.pdf": [
+  ],
+  "jXvwJ51vcK.pdf": [
+    "https://github.com/ZhaochongAn/Multimodality-3D-Few-Shot"
+  ],
+  "k03mB41vyM.pdf": [
+  ],
+  "K2jOacHUlO.pdf": [
+    "https://huggingface.co/datasets/kkkevinkkk/SituatedFaithfulnessEval",
+    "https://huggingface.co/datasets/kkkevinkkk/"
+  ],
+  "k3gCieTXeY.pdf": [
+    "https://huggingface.co/datasets/CohereForAI/include-base-44",
+    "https://huggingface.co/datasets/CohereForAI/include-lite-44",
+    "https://github.com/togethercomputer/RedPajama-Data"
+  ],
+  "kam84eEmub.pdf": [
+    "https://www.kaggle.com/competitions/predict-ai-model-runtime"
+  ],
+  "kFsWpSxkFz.pdf": [
+    "https://metadriverse.github.io/metaurban",
+    "https://github.com/eleurent/highway-env",
+    "https://bedlam.is.tue.mpg.de/license.html"
+  ],
+  "KijslFbfOL.pdf": [],
+  "Kpjvm2mB0K.pdf": [
+  ],
+  "kpq3IIjUD3.pdf": [
+    "https://www.aissquare.com/datasets/detail?pageType=datasets&name=Quantum_Operator_Dataset&id=286"
+  ],
+  "kuutidLf6R.pdf": [
+    "https://github.com/Jinxu-Lin/DAS"
+  ],
+  "kwqhn2VuG4.pdf": [
+    "https://github.com/OpenGVLab/OmniCorpus",
+    "https://github.com/kakaobrain/coyo-dataset",
+    "https://commoncrawl.org/",
+    "https://huggingface.co/datasets/teknium/OpenHermes-2.5",
+    "https://huggingface.co/datasets/jimmycarter/textocr-gpt4v",
+    "https://huggingface.co/datasets/laion/gpt4v-dataset",
+    "https://huggingface.co/datasets/OpenGVLab/OmniCorpus-CC",
+    "https://huggingface.co/datasets/OpenGVLab/OmniCorpus-YT",
+    "https://openxlab.org.cn/datasets/Li-Qingyun/OmniCorpus-CW",
+    "https://huggingface.co/datasets/OpenGVLab/OmniCorpus-CC-210M"
+  ],
+  "kxFtMHItrf.pdf": [
+    "https://github.com/ChunmingHe/Reti-Diff"
+  ],
+  "KZgo2YQbhc.pdf": [
+  ],
+  "L14sqcrUC3.pdf": [
+    "https://www.kaggle.com/pcovkrd84mejm/datasets",
+    "https://kaggle.com/competitions/sberbank-russian-housing-market",
+    "https://kaggle.com/competitions/homesite-quote-conversion",
+    "https://kaggle.com/competitions/acquire-valued-shoppers-challenge",
+    "https://kaggle.com/competitions/home-credit-credit-risk-model-stability",
+    "https://www.kaggle.com/competitions/sberbank-russian-housing-market/discussion/34364",
+    "https://www.kaggle.com/competitions/sberbank-russian-housing-market/discussion/35631",
+    "https://www.kaggle.com/competitions/homesite-quote-conversion/discussion/18826",
+    "https://www.kaggle.com/competitions/acquire-valued-shoppers-challenge/discussion/9756",
+    "https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/discussion/497167",
+    "https://archive.ics.uci.edu/dataset/241/one+hundred+plant+species+leaves+data+set",
+    "https://archive.ics.uci.edu/dataset/2/adult",
+    "https://archive.ics.uci.edu/dataset/143/statlog+australian+credit+approval",
+    "https://www.kaggle.com/c/bioresponse/overview",
+    "https://www.kaggle.com/datasets/shubh0799/churn-modelling/data",
+    "https://k4all.org/project/large-scale-learning-challenge/",
+    "https://archive.ics.uci.edu/dataset/363/facebook+comment+volume+dataset",
+    "https://www.dcc.fc.up.pt/~ltorgo/Regression/census.html",
+    "https://www.kaggle.com/competitions/otto-group-product-classification-challenge/",
+    "https://www.kaggle.com/competitions/santander-customer-transaction-prediction",
+    "https://github.com/Shifts-Project/shifts",
+    "https://www.openml.org/search?type=data&status=active&id=40536",
+    "https://new.assistments.org/",
+    "https://collegescorecard.ed.gov/",
+    "https://www.cdc.gov/brfss/index.html",
+    "https://tableshift.org/",
+    "https://www.hindawi.com/journals/bmri/2014/781670/",
+    "https://archive.ics.uci.edu/dataset/203/yearpredictionmsd",
+    "https://pages.stern.nyu.edu/~jsimonof/AnalCatData",
+    "https://archive.ics.uci.edu/dataset/8/audiology+standardized",
+    "http://archive.ics.uci.edu/dataset/12/balance+scale",
+    "https://www.openml.org/search?type=data&status=active&id=1468",
+    "https://www.openml.org/search?type=data&status=active&id=25",
+    "https://www.kaggle.com/datasets/danofer/compass?select=cox-violent-parsed.csv",
+    "https://www.kaggle.com/c/GiveMeSomeCredit/data?select=cs-training.csv",
+    "https://archive.ics.uci.edu/dataset/27/credit+approval",
+    "https://www.openml.org/search?type=data&status=active&id=44096",
+    "https://www.diamondse.info/diamond-prices.asp",
+    "https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset",
+    "https://openml.org/search?type=data&status=active&id=51",
+    "https://www.openml.org/search?type=data&status=active&id=41003",
+    "https://openml.org/search?type=data&status=active&id=1067",
+    "https://kdd.ics.uci.edu/databases/ipums/ipums.html",
+    "https://www.openml.org/search?type=data&status=active&id=10",
+    "https://archive.ics.uci.edu/dataset/72/multiple+features",
+    "https://www.openml.org/search?type=data&status=active&id=334",
+    "https://www.researchgate.net/publication/236168126_Design_and_Analysis_of_the_Nomao_challenge_Active_Learning_in_the_Real-World",
+    "https://joss.theoj.org/papers/10.21105/joss.00051",
+    "https://sci2s.ugr.es/keel/dataset.php?cod=105#sub2",
+    "https://archive.ics.uci.edu/dataset/158/poker+hand",
+    "https://www.openml.org/search?type=data&status=active&id=470",
+    "https://www.openml.org/search?type=data&status=active&id=1494",
+    "https://www.openml.org/search?type=data&status=active&id=44987",
+    "https://www.openml.org/search?type=data&sort=version&status=any&order=asc&exact_name=splice&id=46",
+    "https://www.frontiersin.org/articles/10.3389/fmats.2021.714752/full",
+    "https://www.openml.org/search?type=data&status=active&id=54",
+    "https://archive.ics.uci.edu/ml/datasets/wine+quality"
+  ],
+  "l2zFn6TIQi.pdf": [
+    "https://github.com/apple/ml-act"
+  ],
+  "l4fMj4Vnly.pdf": [
+    "https://github.com/soham97/ADIFF"
+  ],
+  "L6IgkJvcgV.pdf": [
+  ],
+  "l6QnSQizmN.pdf": [
+    "https://github.com/pouyahmdn/LCPO",
+    "https://github.com/DLR-RM/rl-baselines3-zoo"
+  ],
+  "LbgIZpSUCe.pdf": [],
+  "LBl7Hez0fF.pdf": [
+    "https://github.com/LisaAnne/Hallucination",
+    "https://huggingface.co/datasets/Shengcao1006/MMHal-Bench"
+  ],
+  "lgsyLSsDRe.pdf": [
+    "https://github.com/embeddings-benchmark/mteb",
+    "https://kaggle.com/competitions/jigsaw-unintended-bias-in-toxicity-classification",
+    "https://kaggle.com/competitions/tweet-sentiment-extraction",
+    "https://huggingface.co/datasets/flax-sentence-embeddings/stackexchange_title_body_jsonl",
+    "https://huggingface.co/datasets/sentence-transformers/reddit-title-body",
+    "https://github.com/AIR-Bench/AIR-Bench"
+  ],
+  "LiUfN9h0Lx.pdf": [
+    "https://huggingface.co/datasets/stanfordnlp/imdb"
+  ],
+  "lJpqxFgWCM.pdf": [
+    "https://monst3r-project.github.io/"
+  ],
+  "lqTILjL6lP.pdf": [
+  ],
+  "LqTz13JS2P.pdf": [
+  ],
+  "LSp4KBhAom.pdf": [
+  ],
+  "lvw3UgeVxS.pdf": [
+    "https://github.com/chaitjo/geometric-rna-design",
+    "https://github.com/A4Bio/RDesign/tree/b61988824d9e69cde316e0c593c446711f0ce36f"
+  ],
+  "LXftdR11io.pdf": [
+    "http://manikvarma.org/downloads/XC/XMLRepository.html"
+  ],
+  "lXRDQsiP2v.pdf": [
+    "http://Skylion007.github.io/OpenWebTextCorpus"
+  ],
+  "Lz0XW99tE0.pdf": [
+    "https://github.com/wu-han-lin/CrysBFN"
+  ],
+  "lzdFImKK8w.pdf": [
+    "https://github.com/aim-uofa/BA-DDG"
+  ],
+  "M2SsqpxGtc.pdf": [
+    "https://www.humus.name/index.php?page=Textures"
+  ],
+  "M7KyLjuN0A.pdf": [
+    "https://www.nuscenes.org/nuscenes",
+    "https://umich-curly.github.io/CarlaSC.github.io"
+  ],
+  "M8OGl34Pmg.pdf": [
+    "https://github.com/L-Scofano/SDA"
+  ],
+  "m9RNBZewW2.pdf": [],
+  "m9wG6ai2Xk.pdf": [
+    "https://huggingface.co/datasets/henryzhongsc/MQuAKE-Remastered"
+  ],
+  "MagmwodCAB.pdf": [
+  ],
+  "MFZjrTFE7h.pdf": [
+  ],
+  "MGKDBuyv4p.pdf": [
+    "https://github.com/terarachang/MemPi"
+  ],
+  "mkDam1xIzW.pdf": [],
+  "MKEHCx25xp.pdf": [
+    "https://lmsys.org/blog/2024-04-19-arena-hard/",
+    "https://github.com/tatsu-lab/alpaca_eval",
+    "https://github.com/tatsu-lab/stanford_alpaca",
+    "https://huggingface.co/datasets/allenai/WildBench/viewer/v2",
+    "https://github.com/allenai/WildBench/"
+  ],
+  "Mn2qgIcIPS.pdf": [
+  ],
+  "mOpNrrV2zH.pdf": [
+  ],
+  "msEr27EejF.pdf": [
+  ],
+  "MtDd7rWok1.pdf": [
+  ],
+  "n0OtGl6VGb.pdf": [
+    "https://github.com/SalesforceAIResearch/ThinK",
+    "https://github.com/gkamradt/LLMTest_NeedleInAHaystack/tree/main"
+  ],
+  "N1L5TgtkAw.pdf": [
+    "https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm"
+  ],
+  "N4NhVN30ph.pdf": [
+    "https://brucegeli.github.io/TOP_ERL_ICLR25/"
+  ],
+  "n9PDaFNi8t.pdf": [
+    "https://huggingface.co/datasets/agentsea/wave-ui"
+  ],
+  "NdHka08uWn.pdf": [
+  ],
+  "nGiGXLnKhl.pdf": [
+  ],
+  "NGKQoaqLpo.pdf": [
+    "https://dumps.wikimedia.org",
+    "https://github.com/tatsu-lab/stanford_alpaca"
+  ],
+  "Njx1NjHIx4.pdf": [
+    "http://Skylion007.github.io/OpenWebTextCorpus"
+  ],
+  "NQqJPPCesd.pdf": [
+  ],
+  "NTHMw8S1Ow.pdf": [
+    "https://github.com/kasia-kobalczyk/informed-meta-learning",
+    "https://github.com/vanderschaarlab/informed-meta-learning"
+  ],
+  "Nx4PMtJ1ER.pdf": [
+  ],
+  "nYpPAT4L3D.pdf": [
+    "https://github.com/alibaba-damo-academy/fvlm"
+  ],
+  "o1Et3MogPw.pdf": [
+    "https://github.com/huggingface/alignment-handbook"
+  ],
+  "oCHsDpyawq.pdf": [
+    "https://google-research.github.io/zapbench/"
+  ],
+  "OdnqG1fYpo.pdf": [
+  ],
+  "OeBY9XqiTz.pdf": [
+    "https://sambamotr.github.io/"
+  ],
+  "ofuLWn8DFZ.pdf": [
+  ],
+  "Oi47wc10sm.pdf": [
+  ],
+  "oI5tZaWkF9.pdf": [
+    "https://www.kaggle.com/competitions/tweet-sentiment-extraction",
+    "https://github.com/tatsu-lab/stanford_alpaca"
+  ],
+  "oQ4igHyh3N.pdf": [
+    "https://github.com/Haiyang-W/TokenFormer.git",
+    "https://github.com/karpathy/nanoGPT",
+    "https://github.com/open-mmlab/mmdetection"
+  ],
+  "oSQiao9GqB.pdf": [
+  ],
+  "OwpLQrpdwE.pdf": [
+    "https://pysindy.readthedocs.io/en/latest/"
+
+  ],
+  "OZbFRNhpwr.pdf": [
+    "https://ai-agents-2030.github.io/SPA-Bench/"
+  ],
+  "OZVTqoli2N.pdf": [
+  ],
+  "P42DbV2nuV.pdf": [
+  ],
+  "p4cLtzk4oe.pdf": [
+  ],
+  "P7KRIiLM8T.pdf": [
+  ],
+  "PGhiPGBf47.pdf": [
+    "https://hf.co/datasets/kellycyy/daily_dilemmas",
+    "https://github.com/kellycyy/daily_dilemmas"
+  ],
+  "pHOH8FVrTp.pdf": [],
+  "PiZtlzMWUj.pdf": [
+  ],
+  "PkpNRmBZ32.pdf": [
+  ],
+  "pPQPQ7Yd58.pdf": [
+  ],
+  "pPyJyeLriR.pdf": [
+  ],
+  "PpYy0dR3Qw.pdf": [
+    "https://yann.lecun.com/exdb/mnist/"
+  ],
+  "pQsllTesiE.pdf": [
+  ],
+  "PstM8YfhvI.pdf": [
+    "https://data.broadinstitute.org/bbbc/BBBC021/BBBC021_v1_compound.csv",
+    "https://bbbc.broadinstitute.org/BBBC021"
+  ],
+  "PUnD86UEK5.pdf": [
+    "https://github.com/karpathy/nanoGPT"
+  ],
+  "pZISppZSTv.pdf": [
+  ],
+  "Q0zmmNNePz.pdf": [
+    "https://anonymous.4open.science/r/Topograph"
+  ],
+  "Q150eWkQ4I.pdf": [
+    "https://cave.cs.columbia.edu/repository/Multispectral"
+  ],
+  "q3EbOXb4y1.pdf": [
+  ],
+  "q5EZ7gKcnW.pdf": [
+    "https://github.com/tatsu-lab/alpaca_eval"
+  ],
+  "qgsXsqahMq.pdf": [
+    "https://github.com/shchur/gnn-benchmark"
+  ],
+  "QjSOgxJ0hp.pdf": [
+  ],
+  "QOfswj7hij.pdf": [
+  ],
+  "QogcGNXJVw.pdf": [
+  ],
+  "qPx3i9sMxv.pdf": [
+  ],
+  "qpXctF2aLZ.pdf": [
+  ],
+  "qtTIP5Gjc5.pdf": [
+  ],
+  "qtWjSboqfe.pdf": [
+    "https://github.com/RainBowLuoCS/DEEM"
+  ],
+  "qxRoo7ULCo.pdf": [
+  ],
+  "qyU5s4fzLg.pdf": [
+  ],
+  "R1hIXdST22.pdf": [
+  ],
+  "r3DF5sOo5B.pdf": [],
+  "RaR3ETzyKp.pdf": [
+  ],
+  "rdAbEn5DZt.pdf": [],
+  "rDLgnYLM5b.pdf": [
+    "https://github.com/timothybrooks/instruct-pix2pix"
+  ],
+  "RInisw1yin.pdf": [
+    "https://srsa2024.github.io/",
+    "https://www.mdpi.com/2076-3417/10/19/6923"
+  ],
+  "rpwGUtTeA5.pdf": [
+    "https://storage.googleapis.com/arena_external_data/public/clean_battle_20240814_public.json",
+    "https://tatsu-lab.github.io/alpaca_eval/",
+    "https://lmarena.ai/",
+    "https://github.com/tatsu-lab/alpaca_eval"
+  ],
+  "RSGoXnS9GH.pdf": [
+    "https://github.com/FanZT6/FairMT-bench",
+    "https://kaggle.com/competitions/jigsaw-unintended-bias-in-toxicity-classification"
+  ],
+  "rxVvRBgqmS.pdf": [
+    "https://github.com/agnJason/PianoMotion10M"
+  ],
+  "rySLejeB1k.pdf": [
+  ],
+  "S4dItvpvAv.pdf": [],
+  "S5Yo6w3n3f.pdf": [],
+  "S85PP4xjFD.pdf": [
+  ],
+  "sahQq2sH5x.pdf": [
+    "http://github.com/google-deepmind",
+    "http://yann.lecun.com/exdb/mnist/"
+  ],
+  "scI9307PLG.pdf": [
+  ],
+  "SG1R2H3fa1.pdf": [
+  ],
+  "SgymXhOEA5.pdf": [],
+  "SjufxrSOYd.pdf": [
+  ],
+  "sKYHBTAxVa.pdf": [
+    "https://github.com/livebench/livebench",
+    "https://lmsys.org/blog/2024-04-19-arena-hard/",
+    "https://github.com/tatsu-lab/alpaca_eval",
+    "https://ai.meta.com/blog/meta-llama-3/",
+    "https://github.com/quint-t/Puzzle-Generator-and-Solver",
+    "https://github.com/LiveBench/LiveBench/blob/main/README.md",
+    "https://huggingface.co/livebench"
+
+  ],
+  "SOd07Qxkw4.pdf": [],
+  "SOWZ59UyNc.pdf": [
+    "https://openai.com/research/gpt-4"
+  ],
+  "SqZ0KY4qBD.pdf": [
+  ],
+  "SRpq5OBpED.pdf": [],
+  "SUc1UOWndp.pdf": [
+    "https://huggingface.co/datasets/codeparrot/github-code",
+    "https://huggingface.co/datasets/mteb/raw_arxiv"
+  ],
+  "SuH5SdOXpe.pdf": [
+  ],
+  "SyVPiehSbg.pdf": [
+  ],
+  "sZQRUrvLn4.pdf": [
+  ],
+  "szRmEM8Kx5.pdf": [
+  ],
+  "t8qcGXaepr.pdf": [
+  ],
+  "TeVAZXr3yv.pdf": [
+  ],
+  "tfyHbvFZ0K.pdf": [
+    "https://github.com/heng840/KnowledgeLocalization"
+  ],
+  "THqWPzL00e.pdf": [
+    "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu",
+    "https://huggingface.co/datasets/nampdn-ai/tiny-codes",
+    "https://dumps.wikimedia.org"
+  ],
+  "tIBAOcAvn4.pdf": [
+    "https://github.com/machanic/hard_label_attacks"
+  ],
+  "TId1SHe8JG.pdf": [
+  ],
+  "tj5xJInWty.pdf": [
+    "https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset",
+    "https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset",
+    "https://tianchi.aliyun.com/dataset/649"
+  ],
+  "TJo6aQb7mK.pdf": [
+    "https://www.cerebras.net/blog/slimpajama-a-627b-token-cleaned-and-deduplicated-version-of-redpajama"
+  ],
+  "TlAdgeoDTo.pdf": [
+    "https://www.ssa.gov/oact/babynames/names.zip"
+  ],
+  "TtUh0TOlGX.pdf": [
+  ],
+  "tuu4de7HL1.pdf": [
+    "http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html",
+    "https://archive.ics.uci.edu/dataset/51/internet+advertisements",
+    "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass.html",
+    "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/"
+  ],
+  "Tv36j85SqR.pdf": [
+    "https://github.com/mandt-lab/RD-sandwich"
+  ],
+  "twEvvkQqPS.pdf": [
+  ],
+  "TYSQYx9vwd.pdf": [],
+  "U3PBITXNG6.pdf": [
+  ],
+  "U67J0QNtzo.pdf": [
+  ],
+  "U834XHJuqk.pdf": [
+    "https://www.cs.ucr.edu/~eamonn/time_series_data_2018/",
+    "http://probml.github.io/book2",
+    "https://github.com/XSpace2013/LowRankTimeSeriesRecovery",
+    "https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/",
+    "https://www.kaggle.com/datasets/Cornell-University/arxiv"
+  ],
+  "ujpAYpFDEA.pdf": [
+  ],
+  "UL8b54P96G.pdf": [
+  ],
+  "uqWM9hBDAE.pdf": [
+    "https://github.com/niMgnoeSeeL/UnseenGA",
+    "https://www.kaggle.com/datasets/kingburrito666/shakespeare-plays",
+    "https://www.kaggle.com/datasets/joebeachcapital/australian-population-data-by-region"
+  ],
+  "UqYNPyotxL.pdf": [
+    "https://www.openml.org/d/45019",
+    "https://www.openml.org/d/45022",
+    "https://www.openml.org/d/44129",
+    "https://www.openml.org/d/44125",
+    "https://www.openml.org/d/44128",
+    "https://www.openml.org/d/44126",
+    "https://www.openml.org/d/45028",
+    "https://www.openml.org/d/44121",
+    "https://www.openml.org/d/44089",
+    "https://www.openml.org/d/45020",
+    "https://www.openml.org/d/44120",
+    "https://www.openml.org/d/44130",
+    "https://www.openml.org/d/45026",
+    "https://www.openml.org/d/44123",
+    "https://www.openml.org/d/45021",
+    "https://www.openml.org/d/44122"
+  ],
+  "uREg3OHjLL.pdf": [
+  ],
+  "uSz2K30RRd.pdf": [
+    "https://github.com/sony/wpse"
+  ],
+  "uTqnyF0JNR.pdf": [
+    "https://github.com/TianxiangZhao/GraphSmote",
+    "https://github.com/shuaiOKshuai/Tail-GNN",
+    "https://github.com/shuaiOKshuai/SOLT-GNN"
+  ],
+  "uuriavczkL.pdf": [
+  ],
+  "UvfI4grcM7.pdf": [
+    "https://github.com/fun0515/RSNN_bfd"
+  ],
+  "uvHmnahyp1.pdf": [
+    "https://github.com/mirunacrt/synflownet"
+  ],
+  "UVnD9Ze6mF.pdf": [
+    "https://huggingface.co/datasets/stanford-crfm/air-bench-2024"
+  ],
+  "v9EjwMM55Y.pdf": [
+    "https://github.com/tkipf/gcn.git",
+    "https://github.com/chemprop/chemprop.git",
+    "https://github.com/SY575/CMPNN.git",
+    "https://github.com/OpenDrugAI/AttentiveFP.git",
+    "https://github.com/jrwnter/cddd.git",
+    "https://github.com/lol88/Mol2Context-vec.git",
+    "https://github.com/chao1224/n_gram_graph.git",
+    "https://github.com/snap-stanford/pretrain-gnns.git",
+    "https://github.com/lol88/Meta-MolNet.git"
+  ],
+  "VaowElpVzd.pdf": [
+    "https://mattie-e.github.io/Co3/"
+  ],
+  "VCbqXtS5YY.pdf": [
+    "https://huggingface.co/datasets/Anthropic/hh-rlhf",
+    "https://huggingface.co/datasets/HuggingFaceH4/ultrafeedback_binarized",
+    "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k"
+  ],
+  "VeMC6Bn0ZB.pdf": [
+  ],
+  "VEqPDZIDAh.pdf": [
+    "https://github.com/causalNLP/multiTP"
+  ],
+  "VGQugiuCQs.pdf": [
+  ],
+  "vi3DjUhFVm.pdf": [
+  ],
+  "vQhn4wrQ6j.pdf": [
+    "https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k",
+    "https://huggingface.co/datasets/CohereForAI/aya_dataset",
+    "https://huggingface.co/datasets/allenai/nllb",
+    "https://huggingface.co/datasets/ai4bharat/indic-align",
+    "https://huggingface.co/datasets/lumatic-ai/BongChat-v1-253k",
+    "https://huggingface.co/datasets/lelapa/Inkuba-instruct",
+    "https://huggingface.co/datasets/bigscience/xP3mt",
+    "https://huggingface.co/datasets/izumi-lab/llm-japanese-dataset",
+    "https://huggingface.co/datasets/p1atdev/ichikara-instruction",
+    "https://huggingface.co/datasets/kunishou/databricks-dolly-15k-ja"
+  ],
+  "vVCHWVBsLH.pdf": [],
+  "vWR3KuiQur.pdf": [
+  ],
+  "WcZLG8XxhD.pdf": [
+  ],
+  "wFD16gwpze.pdf": [
+  ],
+  "wg3rBImn3O.pdf": [
+    "https://github.com/shap/shap"
+  ],
+  "wHebuIb6IH.pdf": [
+    "https://github.com/mit-gfx/VLMaterial"
+  ],
+  "wJv4AIt4sK.pdf": [
+  ],
+  "WKfb1xGXGx.pdf": [
+    "https://github.com/NVlabs/stylegan2-ada-pytorch",
+    "https://github.com/milesial/Pytorch-UNet",
+    "http://www.cemyuksel.com/research/hairmodels/"
+  ],
+  "wkHcXDv7cv.pdf": [
+    "https://github.com/state-spaces/s4",
+    "https://dlsun.github.io/probability/"
+  ],
+  "wmV4cIbgl6.pdf": [
+    "https://github.com/causalrivers/experiments/",
+    "https://pegelportal-mv.de/pegel_mv.html",
+    "https://www.science.org/doi/10.1126/science.1105809",
+    "https://archive.ics.uci.edu/dataset/1",
+    "https://ui.adsabs.harvard.edu/abs/2007AGUFM.H11H..05W",
+    "https://archive.ics.uci.edu/dataset/18",
+    "https://github.com/causalrivers",
+    "https://github.com/causalrivers/experiments"
+  ],
+  "wN3KaUXA5X.pdf": [
+  ],
+  "ws5phQki00.pdf": [
+  ],
+  "wXSshrxlP4.pdf": [
+    "https://github.com/vLAR-group/GrabS"
+  ],
+  "WzCEiBILHu.pdf": [
+    "https://github.com/cookbook-ms/topological_SB_matching",
+    "https://data.mendeley.com/datasets/hhny5ff7yj/1"
+  ],
+  "xak8c9l1nu.pdf": [
+  ],
+  "xaYlO03tIk.pdf": [
+  ],
+  "XgH1wfHSX8.pdf": [
+    "https://github.com/karpathy/nanoGPT",
+    "https://github.com/cfpark00/markov-mixtures"
+  ],
+  "xGs7Ch3Vyo.pdf": [
+  ],
+  "XNA3Mnnbvb.pdf": [
+  ],
+  "xQBRrtQM8u.pdf": [],
+  "xsELpEPn4A.pdf": [
+    "https://github.com/baaivision/JudgeLM",
+    "https://github.com/nomic-ai/gpt4all",
+    "https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm"
+  ],
+  "xsx3Fpo3UD.pdf": [
+    "https://huggingface.co/datasets/argilla/DPO-MIX-7K",
+    "https://github.com/lm-sys/FastChat/pull/3158",
+    "https://huggingface.co/spaces/open-llm-leaderboard-old/open_llm_leaderboard",
+    "https://lmsys.org/blog/2023-03-30-vicuna/",
+    "https://github.com/tatsu-lab/alpaca_eval"
+  ],
+  "Y2RW9EVwhT.pdf": [
+    "https://huggingface.co/datasets/laion/gpt4v-dataset",
+    "https://huggingface.co/datasets/teknium/OpenHermes-2.5",
+    "https://llava-vl.github.io/"
+  ],
+  "y5einmJ0Yx.pdf": [
+  ],
+  "yfW1x7uBS5.pdf": [
+    "https://github.com/ethz-spylab/robust-style-mimicry"
+  ],
+  "YhfrKB3Ah7.pdf": [
+    "https://github.com/xinyuzc/PABBO",
+    "https://github.com/fivethirtyeight/data/tree/master/candy-power-ranking/",
+    "https://www.kamishima.net/sushi/"
+  ],
+  "Yk87CwhBDx.pdf": [
+    "https://github.com/tatsu-lab/stanford_alpaca",
+    "https://huggingface.co/datasets/VMware/open-instruct",
+    "https://github.com/lupantech/MathVista",
+    "https://www.kaggle.com/datasets/victorcondino/svgicons",
+    "https://www.kaggle.com/datasets/jacekpardyak/mnist-svg",
+    "https://github.com/EleutherAI/lm-evaluation-harness"
+  ],
+  "YK9G4Htdew.pdf": [
+    "https://github.com/fdeng18/dreamer-pro"
+  ],
+  "ykuc5q381b.pdf": [
+    "https://huggingface.co/datasets/xlangai/BRIGHT",
+    "https://huggingface.co/datasets/TIGER-Lab/MathInstruct",
+    "https://huggingface.co/datasets/greengerong/leetcode",
+    "https://huggingface.co/datasets/code_search_net"
+  ],
+  "yVeNBxwL5W.pdf": [
+    "https://github.com/grrrute/mr-sampler"
+  ],
+  "yVQcr4qjD6.pdf": [
+    "https://github.com/MadeAgents/Hammer",
+    "https://huggingface.co/MadeAgents"
+  ],
+  "ywFOSIT9ik.pdf": [],
+  "YwJkv2YqBq.pdf": [],
+  "z8sxoCYgmd.pdf": [
+    "https://github.com/Inf-imagine/Sentry",
+    "https://www.kaggle.com/datasets/thedatabeast/ted-talk-transcripts-2006-2021",
+    "https://github.com/YuanGongND/ltu#pretrained-models"
+  ],
+  "ZGkfoufDaU.pdf": [
+    "https://github.com/togethercomputer/RedPajama-Data"
+  ],
+  "ztzZDzgfrh.pdf": [
+    "https://github.com/Jeryi-Sun/ReDEeP-ICLR"
+  ],
+  "ZV7CLf0RHK.pdf": [
+  ]
+}
