@@ -1,4 +1,5 @@
-# AIAgentPaperMining
+# PROBE: PDF Retrieval and Online Benchmark Evaluator powered by llm-agent
+
 AIAgentPaperMinging PJ for COMP130148 DataMining  
 
 ## mining pipeline  
