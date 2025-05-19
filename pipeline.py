@@ -87,7 +87,7 @@ class MiningPipeline:
     # 将 run 方法改为异步
     async def run(self, urls: list):
         start_time = time.time()
-        # 第一步：抓取 PDF (可选, 当前注释掉了)
+        # 第一步：抓取 PDF (可选)
         logger.info("[Pipeline] 开始抓取 PDF")
         self.scraper.run(urls)
 

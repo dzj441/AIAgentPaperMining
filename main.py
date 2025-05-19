@@ -1,55 +1,49 @@
 # main.py
 import argparse
-from scraper import get_paper_links_via_api, download_pdf_bytes
-from PDFparser import extract_text_and_links
-from filters import is_dataset_or_code_link
-from utils import save_json
-import os
-from pathlib import Path
+import asyncio
+import logging
+from pipeline import MiningPipeline
+
+# 设置日志记录 (与 pipeline.py 保持一致)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 # follow maybe follow such steps: 1. download into a dir; 2. open dir and get candidates 3. validate candidates via LLM and Heuristic rules 4. save to json
 def main(args):
     # download_pdf(args)   
-    print("[INFO] START EXTRACTING LINKS!")
-    # 2. open dir and get candidates 3. validate candidates via LLM and Heuristic rules 4. save to json
-    run_agent(args)
+    logger.info("初始化 MiningPipeline...")
+    pipeline = MiningPipeline(config_path=args.config)
 
-def download_pdf(args):
-    paper_links = get_paper_links_via_api()
-    os.makedirs(args.pdf_dir,exist_ok=True)
-    # 1. download pdfs into dir
-    for idx, url in enumerate(paper_links):
-        try:
-            paper_id,pdf_bytes = download_pdf_bytes(url)
-            filename = os.path.join(args.pdf_dir, f"{paper_id}.pdf")
-            with open(filename, "wb") as f:
-                    f.write(pdf_bytes)
-            print(f"[{idx}] Success: {e}")
-
-        except Exception as e:
-            print(f"[{idx}] Error: {e}")
-
-def run_agent(args):
-    all_links = []
-
-    for idx,pdf in enumerate(Path(args.pdf_dir).glob("*.pdf")):
-        try:
-            pdf_bytes = pdf.read_bytes()
-            _, links = extract_text_and_links(pdf_bytes)
-            candidates = [ln for ln in links if is_dataset_or_code_link(ln)]
-            all_links.extend(candidates)
-            print(f"[{idx}] Found {len(candidates)} candidates.")
-        except Exception as e:
-            print(f"[{idx}] Error: {e}")
-
-    unique = list(set(all_links))
-    print(f"Total unique links: {len(unique)}")
-    save_json(args.output_path, unique)
+    logger.info(f"开始运行挖掘流程，目标URL: {args.urls if args.urls else '将使用配置文件中的默认或不抓取新PDF'}")
+    try:
+        asyncio.run(pipeline.run(args.urls))
+        logger.info("挖掘流程成功完成。")
+    except Exception as e:
+        logger.exception(f"Pipeline 运行时发生未处理的异常: {e}")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Extract dataset/code links from OpenReview papers.")
-    parser.add_argument('--conference_url',default=" ",help='URL of the OpenReview conference')
-    parser.add_argument('--output_path',default='testresults/result.json' ,help='Path to save the JSON results')
-    parser.add_argument('--pdf_dir',default='toyPDFset',help='Path to save the downloaded PDFs')
+    parser = argparse.ArgumentParser(description="论文挖掘 Pipeline：提取 PDF 链接 -> Agent 检查 -> 输出确认的链接")
+    # parser.add_argument('--conference_url',default=" ",help='URL of the OpenReview conference')
+    # parser.add_argument('--output_path',default='testresults/result.json' ,help='Path to save the JSON results')
+    # parser.add_argument('--pdf_dir',default='toyPDFset',help='Path to save the downloaded PDFs')
+    
+    # 更新命令行参数以适应 Pipeline 的需求
+    parser.add_argument(
+        "urls",
+        nargs="*", # 0个或多个URL
+        default=[], # 默认不传递URL，pipeline将根据配置决定是否抓取
+        help="可选：要抓取的 OpenReview 页面 URL 列表。如果未提供，将依赖配置文件中的设置或跳过抓取步骤。"
+    )
+    parser.add_argument(
+        "--config",
+        type=str,
+        default="config.yaml", # 默认配置文件名
+        help="YAML 配置文件路径 (默认: config.yaml)"
+    )
+    
     args = parser.parse_args()
+
+    # 这条信息来自原 pipeline.py, 放在这里作为启动提示
+    logger.info("确保 urlchecker 依赖和 Playwright 浏览器已准备就绪...")
+    
     main(args)
