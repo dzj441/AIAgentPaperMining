@@ -88,8 +88,8 @@ class MiningPipeline:
     async def run(self, urls: list):
         start_time = time.time()
         # 第一步：抓取 PDF (可选)
-        logger.info("[Pipeline] 开始抓取 PDF")
-        self.scraper.run(urls)
+        # logger.info("[Pipeline] 开始抓取 PDF")
+        # self.scraper.run(urls)
 
         # 第二步：提取链接
         logger.info("[Pipeline] 开始从 PDF 提取链接...")
@@ -204,7 +204,7 @@ if __name__ == "__main__":
         "urls",
         nargs="*",
         default=[
-            "https://openreview.net/group?id=NeurIPS.cc/2024/Conference#tab-accept-oral",
+            "https://openreview.net/group?id=ICML.cc/2024/Conference#tab-accept-spotlight",
             # "https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-oral",
             # "https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-spotlight",
             #"https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-poster"
