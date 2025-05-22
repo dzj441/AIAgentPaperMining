@@ -184,14 +184,34 @@ class MiningPipeline:
         logger.info(f"确认 YES: {len(dataset_urls)}, 确认 NO: {no_count}, 出错/未明确: {error_count}")
         
         if dataset_urls:
-            print("\n确认的数据集/代码链接:")
+            print("\n确认的数据集/代码链接 (可能包含镜像站):")
             for url in dataset_urls:
                 print(f"- {url}")
-            # TODO: 可以选择将 dataset_urls 保存到文件，例如使用 utils.save_json
+
+            # 定义反向替换规则
+            reverse_replacements = {
+                "hf-mirror.com": "huggingface.co",
+                "bgithub.xyz": "github.com",
+                # 如果有其他替换，也在这里添加其反向规则
+            }
+
+            restored_dataset_urls = []
+            for url in dataset_urls:
+                restored_url = url
+                for src, tgt in reverse_replacements.items():
+                    if src in restored_url:
+                        restored_url = restored_url.replace(src, tgt)
+                restored_dataset_urls.append(restored_url)
+            
+            # (可选) 打印恢复后的链接以供确认
+            print("\n恢复原始域名后的链接:")
+            for url in restored_dataset_urls:
+                print(f"- {url}")
+
             from utils import save_json
             output_json_path = "final_dataset_links.json"
-            save_json(output_json_path, dataset_urls)
-            logger.info(f"已将确认的链接保存到: {output_json_path}")
+            save_json(output_json_path, restored_dataset_urls) # 保存恢复后的链接
+            logger.info(f"已将恢复原始域名的链接保存到: {output_json_path}")
         else:
             print("\n未找到确认的数据集/代码链接。")
 
