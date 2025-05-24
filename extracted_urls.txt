@@ -1,4 +1,5 @@
-hf-mirror.com/datasets/anonymous152311
+darkpatterns.org/
+hf-mirror.com/datasets/anonymous152311/darkbench
 http://www.scopus.com/inward/record.url?scp=84872474926&partnerID=8YFLogxK
 https://anonymous.4open.science/r/DarkGPT-DCBF
 https://arstechnica.com/tech-policy/2010/03/google-keeps-your-data-to-learn-from-good-guys-fight-off-bad-guys/
