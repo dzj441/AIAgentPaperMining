@@ -1,0 +1,12 @@
+hf-mirror.com/datasets/anonymous152311
+http://www.scopus.com/inward/record.url?scp=84872474926&partnerID=8YFLogxK
+https://anonymous.4open.science/r/DarkGPT-DCBF
+https://arstechnica.com/tech-policy/2010/03/google-keeps-your-data-to-learn-from-good-guys-fight-off-bad-guys/
+https://artificialintelligenceact.eu/recital/29/
+https://bgithub.xyz/meta-llama/llama3/blob/main/MODEL_CARD.md
+https://metr.github.io/autonomy-evals-guide/elicitation-gap/
+https://openai.com/index/chatgpt/
+https://openai.com/index/hello-gpt-4o/
+https://openai.com/index/new-embedding-models-and-api-updates/
+https://www.anthropic.com/news/claude-3-family
+https://www.business.com/technology/chatgpt-usage-workplace-study/
