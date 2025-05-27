@@ -1,0 +1,19 @@
+[
+    "http://Skylion007.github.io/OpenWebTextCorpus",
+    "https://bit.ly/eqa-mx-dataset",
+    "https://bit.ly/eqa-repo",
+    "https://huggingface.co/datasets/Anthropic/llm_global_opinions",
+    "https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered",
+    "https://huggingface.co/datasets/cnn_dailymail",
+    "https://huggingface.co/datasets/princeton-nlp/QuRatedPajama-260B",
+    "https://open.bigmodel.cn/17MLLM-as-a-Judge:",
+    "https://osu-nlp-group.github.io/TravelPlanner",
+    "https://stanfordnlp.github.io/coqa/",
+    "https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata",
+    "https://www.kaggle.com/datasets/kentonnlp/2014-new-york-city-taxi-trips",
+    "https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather",
+    "https://www.kaggle.com/datasets/robikscube/flight-delay-dataset-20182022?select=Combined_Flights_2022.csv12TravelPlanner:",
+    "https://www.kaggle.com/datasets/shrutimehta/zomato-restaurants-data",
+    "https://www.yelp.com/dataset",
+    "paperswithcode.com/datasets"
+]
