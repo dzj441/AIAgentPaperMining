@@ -35,7 +35,7 @@ class PdfLinkExtractor:
                     links.append(uri)
         doc.close()
 
-        # # regex
+        # regex
         # full_text = "".join(text_fragments).replace("\n", "").replace("\r", "")
         # tld_pattern = r"(?:com|org|net|io|ai|co|edu|gov|cn|uk|info|xyz|dev|app|tech|me|us|jp|de|fr|ru|it|nl|es|ca|au|ch|se|no|fi|in|br|kr|tw|hk|sg|tv|cc|id|my|vn|za|pl|tr|ir|gr|cz|ro|hu|sk|be|at|dk|pt|ar|cl|mx|nz|il|sa|ua|by|lt|lv|ee|bg|hr|si|rs|ba|ge|md|al|az|am|kz|kg|tj|tm|uz|mn|pk|bd|lk|np|af|kh|la|mm|th|sg|ph|my|id|vn|kr|jp|cn|tw|hk|mo|au|nz|pg|fj|sb|vu|nc|pf|ws|to|tv|ki|nr|fm|mh|pw|gu|mp|as|ck|nu|tk|wf|yt|re|pm|tf|bl|mf|gp|mq|gf|sr|an|cw|sx|bq|aw|ai|ag|dm|gd|lc|ms|kn|vc|bb|tt|jm|bs|ky|vg|bm|tc|ai|gi|im|je|gg|fo|gl|sj|bv|hm|tf|aq|io|sh|ac|cv|st|sc|sd|so|ss|tz|ug|zm|zw|ao|bj|bw|bf|bi|cm|cv|cf|td|km|cg|cd|dj|gq|er|et|ga|gm|gh|gn|gw|ci|ke|ls|lr|ly|mg|mw|ml|mr|mu|yt|ma|mz|na|ne|ng|rw|sh|st|sn|sc|sl|so|za|ss|sd|sz|tz|tg|tn|ug|eh|zm|zw)"
         # extra = re.findall(
