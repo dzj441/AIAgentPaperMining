@@ -29,7 +29,6 @@ PRELIMINARY_KEEP_DOMAINS = [
     "dropbox.com",
     "zenodo.org",
     "figshare.com",
-    "paperswithcode.com/dataset",
     "kaggle.com/datasets",
     "corpus",
     "Corpus",
@@ -49,14 +48,35 @@ def preliminary_filter(url: str, skip_domains: list) -> bool:
     if any(keep in url for keep in PRELIMINARY_KEEP_DOMAINS):
         return True
     # 3. (更宽松的规则) 如果 URL 包含 'dataset', 'code', 'repo', 'github', 'data' 等关键词，也暂时保留
-    keywords = ["dataset", "code", "repo", "github", "data", "download", "model", "pretrained"]
+    keywords = ["dataset", "code", "repo", "github", "data", "download", "model", "pretrained","hf-mirror"]
     if any(keyword in url.lower() for keyword in keywords):
          return True
     # 4. 其他情况，暂时跳过（可以调整此逻辑）
-    # logger.debug(f"初步过滤跳过 URL: {url}")
+    logger.debug(f"初步过滤跳过 URL: {url}")
+    return True
+
+def is_blacklisted(url: str, skip_domains: list) -> bool:
+    """
+    返回 True 表示该 URL 命中“黑名单”，可以直接跳过；
+    skip_domains 里是你在配置里读进来的、所有需要跳过的域名片段。
+    """
+    lower = url.lower()
+    for skip in skip_domains:
+        if skip in lower:
+            return True
     return False
 
-# --- 修改 MiningPipeline --- 
+
+def is_whitelisted(url: str,keep_domains: list) -> bool:
+    """
+    返回 True 表示该 URL 命中“白名单”，可以直接当成数据集链接，不用再让 Agent 判断。
+    """
+    lower = url.lower()
+    for keep in keep_domains:
+        if keep in lower:
+            return True
+    return False
+
 class MiningPipeline:
     """
     挖掘流程：(可选抓取PDF) -> 提取链接 -> 调用 Agent 检查链接 -> 输出结果
@@ -65,6 +85,7 @@ class MiningPipeline:
         cfg = load_config(config_path)
         scraper_cfg = cfg.get("scraper", {})
         parser_cfg = cfg.get("PDFparser", {})
+        self.agent_cfg = cfg.get("agent", {})
 
         # 抓取器初始化保持不变
         self.scraper = OpenReviewScraper(
@@ -87,6 +108,8 @@ class MiningPipeline:
     # 将 run 方法改为异步
     async def run(self, urls: list):
         start_time = time.time()
+        dataset_urls = [] # 存储最终结果  
+
         # 第一步：抓取 PDF (可选)
         # logger.info("[Pipeline] 开始抓取 PDF")
         # self.scraper.run(urls)
@@ -94,6 +117,7 @@ class MiningPipeline:
         # 第二步：提取链接
         logger.info("[Pipeline] 开始从 PDF 提取链接...")
         extracted_urls = self.extractor.run() # 现在会返回列表
+        # print(extracted_urls)
         logger.info(f"[Pipeline] 从 PDF 共提取到 {len(extracted_urls)} 个唯一链接。")
 
         if not extracted_urls:
@@ -102,53 +126,64 @@ class MiningPipeline:
 
         # 第三步：初步过滤链接 (可选但推荐)
         logger.info("[Pipeline] 开始初步过滤链接...")
-        candidate_urls = [url for url in extracted_urls if preliminary_filter(url, self.skip_domains)]
-        logger.info(f"[Pipeline] 初步过滤后剩余 {len(candidate_urls)} 个候选链接需要 Agent 检查。")
-        
+        # —— 按照黑/白名单做初步分流 —— 
+        logger.info("[Pipeline] 开始按黑/白名单分流链接…")
+
+        candidate_urls = []     # “不确定”留给 Agent 的链接
+        blacklisted_count = 0   # 黑名单计数
+        whitelisted_count = 0   # 白名单计数
+
+        for url in extracted_urls:
+            if is_blacklisted(url, self.agent_cfg.get("blacklist",[])):
+                blacklisted_count += 1
+                continue
+
+            if is_whitelisted(url, self.agent_cfg.get("whitelist",[])):
+                whitelisted_count += 1
+                dataset_urls.append(url)
+            else:
+                candidate_urls.append(url)
+
+        logger.info(
+            f"[Pipeline] 黑名单直接跳过 {blacklisted_count} 个；"
+            f"白名单直接纳入 {whitelisted_count} 个；"
+            f"{len(candidate_urls)} 个待 Agent 判断。"
+        )
+
+
+        # print(candidate_urls)
         if not candidate_urls:
              logger.info("[Pipeline] 初步过滤后无候选链接，流程结束。")
              return
-        
-        # 第3.5步: 使用LLM粗选链接(应该返回url对应三种状态yes, no, maybe)
+
         # 使用网站链接测试来判断是否为国外网站,如果为国外网站算作maybe,其余算作yes或者no
-        urls_maybe = []
-        urls_yes_no = []
+
+        # 最终要传给 LLM Agent 判断的列表
+        urls_to_agent = []
+
+        # 仅用于统计/调试的可选列表
+
         for url in candidate_urls:
-            logger.info(f"正在检测网址 {url}")
+            logger.info(f"正在验证连通性: {url}")
             try:
                 response = requests.get(url, timeout=5)
                 if response.status_code == 200:
-                    urls_yes_no.append(url)
-                else:
-                    urls_maybe.append(url)
-            except urllib3.exceptions.LocationParseError as e:
-                    # 特别处理 LocationParseError，记录错误并跳过该URL
-                    logger.error(f"解析URL {url} 时发生错误: {e}")                    
-            except requests.RequestException as e:
-                print(f"连接 {url} 时出现错误: {e}")
-        # 使用agent判断网址是否为数据集的网站
-        logger.info(f"[Pipeline] 开始顺序调用 Agent 检查 {len(candidate_urls)} 个链接... (这可能需要一些时间)")
-        urls_yes = []
-        urls_no = []
-        for url in urls_yes_no:
-            logger.info(f"[Pipeline] 正在检查 URL: {url}")
-            try:
-                result = await check_url_is_dataset(url)
-                if result == "YES":
-                    urls_yes.append(url)
-                elif result == "NO":
-                    urls_no.append(url)
-            except Exception as e:
-                logger.error(f"[Agent检查严重错误] URL: {url} 在调用 check_url_is_dataset 时发生异常: {e}")
-                urls_maybe.append(url)
-        # 国内访问不了的url存放在urls_maybe, 判断是数据库网站的url存放在urls_yes, 判断不是数据库网址的url存放在urls_no
+                    urls_to_agent.append(url)
+            except requests.exceptions.Timeout as e:
+                logger.warning(f"请求超时 (Timeout)，丢弃: {url}；异常: {e}")
+            except requests.exceptions.RequestException as e:
+                logger.warning(f"请求异常 ({type(e).__name__}) 丢弃: {url}；异常: {e}")
+
+        logger.info(f"连通性检查完成："
+                    f"{len(urls_to_agent)} 个 URL 供 Agent 进一步判断。")
+
 
         # 第四步：调用 urlchecker Agent 进行检查 (改为顺序执行)
-        logger.info(f"[Pipeline] 开始顺序调用 Agent 检查 {len(candidate_urls)} 个链接... (这可能需要一些时间)")
+        logger.info(f"[Pipeline] 开始顺序调用 Agent 检查 {len(urls_to_agent)} 个链接... (这可能需要一些时间)")
         
         results_map = {} # 用于存储 URL 和其结果的映射
 
-        for url in candidate_urls:
+        for url in urls_to_agent:
             logger.info(f"[Pipeline] 正在检查 URL: {url}")
             try:
                 result = await check_url_is_dataset(url)
@@ -160,7 +195,6 @@ class MiningPipeline:
             # await asyncio.sleep(1) # 例如，暂停1秒
 
         # 第五步：处理结果并输出
-        dataset_urls = []
         error_count = 0
         no_count = 0
         # 现在遍历 results_map 来获取结果
@@ -188,12 +222,7 @@ class MiningPipeline:
             for url in dataset_urls:
                 print(f"- {url}")
 
-            # 定义反向替换规则
-            reverse_replacements = {
-                "hf-mirror.com": "huggingface.co",
-                "bgithub.xyz": "github.com",
-                # 如果有其他替换，也在这里添加其反向规则
-            }
+            reverse_replacements = self.agent_cfg.get("reverse_replacements",{})
 
             restored_dataset_urls = []
             for url in dataset_urls:
@@ -209,7 +238,7 @@ class MiningPipeline:
                 print(f"- {url}")
 
             from utils import save_json
-            output_json_path = "final_dataset_links.json"
+            output_json_path = self.agent_cfg.get("final_json_name","final_dataset_urls.json")
             save_json(output_json_path, restored_dataset_urls) # 保存恢复后的链接
             logger.info(f"已将恢复原始域名的链接保存到: {output_json_path}")
         else:

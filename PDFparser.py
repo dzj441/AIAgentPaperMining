@@ -17,55 +17,9 @@ class PdfLinkExtractor:
         self.pdf_root_dir = pdf_root_dir
         self.output_file = output_file
         self.flatten = flatten
-        self.skip_domains = skip_domains or [
-            "openreview.net/pdf",
-            "arxiv.org",
-            "doi.org",
-            "ieee.org",
-            "aclweb.org",
-            "springer.com",
-            "dblp.org",
-            "aaai.org/ocs",
-            ".pdf",
-            "cds.cern.ch/record",
-            "dblp.uni-trier.de/db/journals/corr",
-            "incompleteideas.net/book",
-            "jmlr.org/papers",
-            "papers.nips.cc/paper_files/paper",
-            "proceedings.mlr.press",
-            "www.jstor.org/stable",
-            "lrec-conf.org/proceedings",
-            "aclanthology.org",
-            "api.semanticscholar.org",
-            "artofproblemsolving.com/wiki",
-            "books.google.co.jp",
-            "cdn.openai.com/papers",
-            "dl.acm.org/doi",
-            "en.wikipedia.org/wiki",
-            "journals.",
-            "link.aps.org/doi",
-            "linkinghub.elsevier.com/retrieve",
-            "mistral.ai/news",
-            "ojs.aaai.org/index.php/AAAI/article",
-            "onlinelibrary.wiley.com/doi/abs",
-            "openreview.net/forum",
-            "papers.nips.cc/paper",
-            "proceedings.neurips.cc/paper",
-            "biorxiv.org/content",
-            "jneurosci.org/content",
-            "nature.com/articles",
-            "ncbi.nlm.nih.gov/pmc/articles",
-            "pnas.org/doi/abs",
-            "science.org/doi",
-            "sciencedirect.com/science/article",
-            "@",
-        ]
+        self.skip_domains = skip_domains
         # 使用字典存储多对替换规则
-        self.replacements = replacements or {
-            "huggingface.co": "hf-mirror.com",
-            "github.com": "bgithub.xyz",
-            # 可以继续添加其他替换对
-        }
+        self.replacements = replacements
 
     @staticmethod
     def extract_text_and_links(pdf_bytes: bytes) -> list:
@@ -81,14 +35,15 @@ class PdfLinkExtractor:
                     links.append(uri)
         doc.close()
 
-        full_text = "".join(text_fragments).replace("\n", "").replace("\r", "")
-        tld_pattern = r"(?:com|org|net|io|ai|co|edu|gov|cn|uk|info|xyz|dev|app|tech|me|us|jp|de|fr|ru|it|nl|es|ca|au|ch|se|no|fi|in|br|kr|tw|hk|sg|tv|cc|id|my|vn|za|pl|tr|ir|gr|cz|ro|hu|sk|be|at|dk|pt|ar|cl|mx|nz|il|sa|ua|by|lt|lv|ee|bg|hr|si|rs|ba|ge|md|al|az|am|kz|kg|tj|tm|uz|mn|pk|bd|lk|np|af|kh|la|mm|th|sg|ph|my|id|vn|kr|jp|cn|tw|hk|mo|au|nz|pg|fj|sb|vu|nc|pf|ws|to|tv|ki|nr|fm|mh|pw|gu|mp|as|ck|nu|tk|wf|yt|re|pm|tf|bl|mf|gp|mq|gf|sr|an|cw|sx|bq|aw|ai|ag|dm|gd|lc|ms|kn|vc|bb|tt|jm|bs|ky|vg|bm|tc|ai|gi|im|je|gg|fo|gl|sj|bv|hm|tf|aq|io|sh|ac|cv|st|sc|sd|so|ss|tz|ug|zm|zw|ao|bj|bw|bf|bi|cm|cv|cf|td|km|cg|cd|dj|gq|er|et|ga|gm|gh|gn|gw|ci|ke|ls|lr|ly|mg|mw|ml|mr|mu|yt|ma|mz|na|ne|ng|rw|sh|st|sn|sc|sl|so|za|ss|sd|sz|tz|tg|tn|ug|eh|zm|zw)"
-        extra = re.findall(
-            rf'(?:http[s]?://|www\.)[a-zA-Z0-9\./]+|[a-zA-Z0-9\./]+\.{tld_pattern}/[^\s，。；、,.;:!?()\[\]{{}}<>"]*',
-            full_text
-        )
-        for url in extra:
-            links.append(url.rstrip('；。；，,."\]'))
+        # # regex
+        # full_text = "".join(text_fragments).replace("\n", "").replace("\r", "")
+        # tld_pattern = r"(?:com|org|net|io|ai|co|edu|gov|cn|uk|info|xyz|dev|app|tech|me|us|jp|de|fr|ru|it|nl|es|ca|au|ch|se|no|fi|in|br|kr|tw|hk|sg|tv|cc|id|my|vn|za|pl|tr|ir|gr|cz|ro|hu|sk|be|at|dk|pt|ar|cl|mx|nz|il|sa|ua|by|lt|lv|ee|bg|hr|si|rs|ba|ge|md|al|az|am|kz|kg|tj|tm|uz|mn|pk|bd|lk|np|af|kh|la|mm|th|sg|ph|my|id|vn|kr|jp|cn|tw|hk|mo|au|nz|pg|fj|sb|vu|nc|pf|ws|to|tv|ki|nr|fm|mh|pw|gu|mp|as|ck|nu|tk|wf|yt|re|pm|tf|bl|mf|gp|mq|gf|sr|an|cw|sx|bq|aw|ai|ag|dm|gd|lc|ms|kn|vc|bb|tt|jm|bs|ky|vg|bm|tc|ai|gi|im|je|gg|fo|gl|sj|bv|hm|tf|aq|io|sh|ac|cv|st|sc|sd|so|ss|tz|ug|zm|zw|ao|bj|bw|bf|bi|cm|cv|cf|td|km|cg|cd|dj|gq|er|et|ga|gm|gh|gn|gw|ci|ke|ls|lr|ly|mg|mw|ml|mr|mu|yt|ma|mz|na|ne|ng|rw|sh|st|sn|sc|sl|so|za|ss|sd|sz|tz|tg|tn|ug|eh|zm|zw)"
+        # extra = re.findall(
+        #     rf'(?:http[s]?://|www\.)[a-zA-Z0-9\./]+|[a-zA-Z0-9\./]+\.{tld_pattern}/[^\s，。；、,.;:!?()\[\]{{}}<>"]*',
+        #     full_text
+        # )
+        # for url in extra:
+        #     links.append(url.rstrip('；。；，,."\]'))
 
         seen = set()
         unique = []
@@ -215,7 +170,9 @@ if __name__ == "__main__":
     extractor = PdfLinkExtractor(
         pdf_root_dir = config["scraper"]["pdf_dir"], 
         output_file = config["PDFparser"]["output_path"],
-        flatten= config["PDFparser"]["flatten"]
+        flatten= config["PDFparser"]["flatten"],
+        skip_domains=config["PDFparser"]["skip_domains"],
+        replacements=config["PDFparser"]["replacements"]
     )
     extractor.run()
 

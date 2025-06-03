@@ -1,6 +1,75 @@
 scraper:
-  json_dir: "./openreview_paper_links_json" # json 保存所有的论文paper_id
-  pdf_dir: "./openreview_papers" # 最终论文会被下到这个目录下
+  json_dir: "./openreview_paper_links_json" # json 保存所有的论文paper_id 如果有pdf的话 就不需要了
+  pdf_dir: "./temp/s" # 最终论文会被下到这个目录下 # dir to your pdfs
 PDFparser:
-  output_path: "extracted_urls.txt"
-  flatten : True
+  output_path: "final_tune_wo_regex.txt"
+  flatten: True
+  skip_domains:
+    - "openreview.net/pdf"
+    - "arxiv.org"
+    - "doi.org"
+    - "ieee.org"
+    - "aclweb.org"
+    - "springer.com"
+    - "dblp.org"
+    - "aaai.org/ocs"
+    - ".pdf"
+    - "cds.cern.ch/record"
+    - "dblp.uni-trier.de/db/journals/corr"
+    - "incompleteideas.net/book"
+    - "jmlr.org/papers"
+    - "papers.nips.cc/paper_files/paper"
+    - "proceedings.mlr.press"
+    - "www.jstor.org/stable"
+    - "lrec-conf.org/proceedings"
+    - "aclanthology.org"
+    - "api.semanticscholar.org"
+    - "artofproblemsolving.com/wiki"
+    - "books.google.co.jp"
+    - "cdn.openai.com/papers"
+    - "dl.acm.org/doi"
+    - "en.wikipedia.org/wiki"
+    - "journals."
+    - "link.aps.org/doi"
+    - "linkinghub.elsevier.com/retrieve"
+    - "mistral.ai/news"
+    - "ojs.aaai.org/index.php/AAAI/article"
+    - "onlinelibrary.wiley.com/doi/abs"
+    - "openreview.net/forum"
+    - "papers.nips.cc/paper"
+    - "proceedings.neurips.cc/paper"
+    - "biorxiv.org/content"
+    - "jneurosci.org/content"
+    - "nature.com/articles"
+    - "ncbi.nlm.nih.gov/pmc/articles"
+    - "pnas.org/doi/abs"
+    - "science.org/doi"
+    - "sciencedirect.com/science/article"
+    - "@"
+    - "www.wsj.com"
+    - ".png"
+  replacements:
+    "huggingface.co": "hf-mirror.com"
+    "github.com":       "bgithub.xyz"
+agent:
+  reverse_replacements:
+    "hf-mirror.com": "huggingface.co"
+    "bgithub.xyz":       "github.com"
+  blacklist:
+    - "/issues/"
+    - "/pull/"
+    - "hf-mirror.com/docs/"
+  whitelist:
+    - "www.kaggle.com/datasets"
+    - "hf-mirror.com/datasets"
+    - "archive.ics.uci.edu/dataset/"
+    - "archive.ics.uci.edu/datasets"
+    - "mkl.ucsd.edu/dataset/"
+    - "mkl.ucsd.edu/datasets" # some well renowned dataset website
+    - "archive.ics.uci.edu/dataset"
+    - "datasets"
+    - "dataset"
+    - "benchmark"
+    - "bench"
+    - "download"
+  final_json_name: "final_dataset_links.json"

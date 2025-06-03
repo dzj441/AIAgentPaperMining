@@ -8,7 +8,6 @@ from pipeline import MiningPipeline
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# follow maybe follow such steps: 1. download into a dir; 2. open dir and get candidates 3. validate candidates via LLM and Heuristic rules 4. save to json
 def main(args):
     # download_pdf(args)   
     logger.info("初始化 MiningPipeline...")
@@ -23,9 +22,6 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="论文挖掘 Pipeline：提取 PDF 链接 -> Agent 检查 -> 输出确认的链接")
-    # parser.add_argument('--conference_url',default=" ",help='URL of the OpenReview conference')
-    # parser.add_argument('--output_path',default='testresults/result.json' ,help='Path to save the JSON results')
-    # parser.add_argument('--pdf_dir',default='toyPDFset',help='Path to save the downloaded PDFs')
     
     # 更新命令行参数以适应 Pipeline 的需求
     parser.add_argument(

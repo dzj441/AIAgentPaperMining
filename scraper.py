@@ -194,6 +194,7 @@ class OpenReviewScraper:
 
             links_file = os.path.join(self.json_dir, f"{subdir}.json")
             try:
+                # raise Exception("API 方法暂时不可用")
                 links = self.get_paper_links_via_api(page_url)
                 if not links:
                     raise ValueError("API 返回空列表，尝试回退到 Selenium")
@@ -240,14 +241,14 @@ if __name__ == "__main__":
         nargs="*",
         default=[
             "https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-oral",
-            "https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-spotlight",
-            "https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-poster",
+            # "https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-spotlight",
+            # "https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-poster",
             "https://openreview.net/group?id=NeurIPS.cc/2024/Conference#tab-accept-oral",
-            "https://openreview.net/group?id=NeurIPS.cc/2024/Conference#tab-accept-spotlight",
-            "https://openreview.net/group?id=NeurIPS.cc/2024/Conference#tab-accept-poster",
-            "https://openreview.net/group?id=ICML.cc/2024/Conference#tab-accept-oral",
-            "https://openreview.net/group?id=ICML.cc/2024/Conference#tab-accept-spotlight",
-            "https://openreview.net/group?id=ICML.cc/2024/Conference#tab-accept-poster"
+            # "https://openreview.net/group?id=NeurIPS.cc/2024/Conference#tab-accept-spotlight",
+            # "https://openreview.net/group?id=NeurIPS.cc/2024/Conference#tab-accept-poster",
+            # "https://openreview.net/group?id=ICML.cc/2024/Conference#tab-accept-oral",
+            # "https://openreview.net/group?id=ICML.cc/2024/Conference#tab-accept-spotlight",
+            # "https://openreview.net/group?id=ICML.cc/2024/Conference#tab-accept-poster"
         ],
         help=(
             "一个或多个 OpenReview group 页面 URL，"
