@@ -48,6 +48,8 @@ PDFparser:
     - "@"
     - "www.wsj.com"
     - ".png"
+    - "nips.cc/public/guides/CodeSubmissionPolicy"
+    - "neurips.cc/public/EthicsGuidelines"
   replacements:
     "huggingface.co": "hf-mirror.com"
     "github.com":       "bgithub.xyz"

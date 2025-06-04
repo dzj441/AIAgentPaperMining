@@ -233,7 +233,7 @@ def apply_replacements(urls: List[str]) -> List[str]:
 
 详细使用教程请见[usage.md](usage.md)  
 
-### Limitations
+## Limitations
 1. 当前pdf中字面url的正则表达式提取功能尚不完善；可能会多提取一部分内容，导致通过uri提取的正确url成为短前缀而被舍弃。负责这部分的同学暂时也没有更好的办法，因此暂时禁用了 正则表达式的提取功能，经过实测，通过uri提取几乎不会漏掉benchmark url
 2. 我们的代码支持递归提取，当发生递归时，可能的log如下：  
 ```
@@ -295,15 +295,15 @@ https://bgithub.xyz/princeton-nlp/LESS: NO
 ```
 这里面有两个小问题:  
 - 对被递归挖掘的url，我们只将其作为判断源url是否是benchmark的依据，并不会将其添加到结果，存在一些遗憾。
-- 我们的算法在一些网页上依然无法克服VPN 问题。
+- 我们的算法在递归挖掘的一些网页上依然无法克服VPN 问题。
 3. 与基于上下文的方法比较，我们的方法召回率偏低，因为我们的算法对于benchmark的要求严格，而基于上下文的方法则相对宽松，但是我们的优点在于我们的precision会很高，因为我们只会在确定是benchmark的情况下才将其添加到结果中，而基于上下文的方法可能会将所有github项目都添加到结果中，因此其recall会很高，但是precision会很低。
 4. 似乎可以通过不同侧重点的prompt去诱导agent关注不同的侧重点，比如url、页面元素、子文件夹等等；集成学习在这里有很大发挥空间  
    
-### 分工
+## 分工
 - 刁子捷  
 组长，前期调研、分工、设计开发了整个pipeline流程的原型，开发了爬虫部分，开发了从pdf中根据uri提取url的部分、重构代码为类；PPT制作与汇报；重构了代码中KEEP和SKIP的逻辑
 - 谢宇轩
-组员，调研urlchecker，实现了WebAgent的核心功能与后续修改
+组员，调研urlchecker，实现了WebAgent的核心功能与后续修改，修改了WebAgent部分与PDFparser以适配最新要求的格式。
 - 蒙金杨
 组员，负责在ICLR-oral上构建benchmark，负责正则表达式从pdf中提取网页url、负责测试代码
 - 陈龙逸

@@ -1,47 +1,335 @@
 [
-    "https://github.com/noanabeshima/wikipedia-downloader",
-    "https://github.com/sdtblck/Opensubtitles_dataset",
-    "https://bit.ly/eqa-mx-dataset",
-    "https://huggingface.co/datasets/Anthropic/hh-rlhf",
-    "https://huggingface.co/datasets/Anthropic/llm_global_opinions",
-    "https://huggingface.co/datasets/HuggingFaceH4/hhh_alignment",
-    "https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF",
-    "https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered",
-    "https://huggingface.co/datasets/cerebras/SlimPajama-627B",
-    "https://huggingface.co/datasets/cnn_dailymail",
-    "https://huggingface.co/datasets/hendrydong/preference_700K",
-    "https://huggingface.co/datasets/llm-blender/Unified-Feedback",
-    "https://huggingface.co/datasets/lmsys/mt_bench_human_judgments",
-    "https://huggingface.co/datasets/princeton-nlp/QuRatedPajama-260B",
-    "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T-Sample",
-    "https://safimbenchmark.com",
-    "https://swebench.com",
-    "https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata",
-    "https://www.kaggle.com/datasets/kentonnlp/2014-new-york-city-taxi-trips",
-    "https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather",
-    "https://www.kaggle.com/datasets/robikscube/flight-delay-dataset-20182022?select=Combined_Flights_2022.csv",
-    "https://www.kaggle.com/datasets/shrutimehta/zomato-restaurants-data",
-    "https://www.yelp.com/dataset",
-    "http://Skylion007.github.io/OpenWebTextCorpus",
-    "http://archive.ics.uci.edu/ml",
-    "http://gso.gbv.de/DB=2.1/CMD?ACT=SRCHA&SRT=YOP&IKT=1016&TRM=ppn+502988711&sourceid=fbw_bibsonomy",
-    "https://github.com/HardworkingPearl/SDE-EDG-official",
-    "https://github.com/YangLing0818/SuperCorrect-llm",
-    "https://github.com/gonglinyuan/safim",
-    "https://github.com/jiank2/FATE",
-    "https://github.com/keyonvafa/world-model-evaluation",
-    "https://github.com/princeton-nlp/QuRating",
-    "https://github.com/tatsu-lab/opinions_qa",
-    "https://github.com/tatsu-lab/stanford_alpaca",
-    "https://github.com/togethercomputer/RedPajama-Data",
-    "https://deeprobust.readthedocs.io/",
-    "https://gorilla.cs.berkeley.edu",
-    "https://hugovk.github.io/top-pypi-packages/",
-    "https://kaggle.com/competitions/m5-forecasting-accuracy",
-    "https://mllm-judge.github.io/",
-    "https://osu-nlp-group.github.io/TravelPlanner",
-    "https://stanfordnlp.github.io/coqa/",
-    "https://www.cerebras.net/blog/slimpajama-a-627b-token-cleaned-and-deduplicated-version-of-redpajama",
-    "https://www.gharchive.org/",
-    "https://www.kaggle.com/andrewmvd/ocular-disease-recognition-odir5k"
+    {
+        "paper_name": "16093_Questioning_the_Survey_R",
+        "links": [
+            {
+                "url": "https://huggingface.co/datasets/Anthropic/llm_global_opinions",
+                "thought": "通过白名单规则自动确认"
+            }
+        ]
+    },
+    {
+        "paper_name": "TravelPlanner: A Benchmark for Real-World Planning with Language Agents",
+        "links": [
+            {
+                "url": "https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata",
+                "thought": "通过白名单规则自动确认"
+            },
+            {
+                "url": "https://www.kaggle.com/datasets/shrutimehta/zomato-restaurants-data",
+                "thought": "通过白名单规则自动确认"
+            },
+            {
+                "url": "https://www.kaggle.com/datasets/robikscube/flight-delay-dataset-20182022?select=Combined_Flights_2022.csv",
+                "thought": "通过白名单规则自动确认"
+            },
+            {
+                "url": "https://osu-nlp-group.github.io/TravelPlanner",
+                "thought": "页面中多次提到'TravelPlanner Dataset'，并且有指向 Hugging Face 数据集页面的链接，说明这是一个数据集网站。"
+            }
+        ]
+    },
+    {
+        "paper_name": "18682_Evaluating_the_World_Mod",
+        "links": [
+            {
+                "url": "https://www.kaggle.com/datasets/kentonnlp/2014-new-york-city-taxi-trips",
+                "thought": "通过白名单规则自动确认"
+            }
+        ]
+    },
+    {
+        "paper_name": "19782_Chain_of_Agents_Large_La",
+        "links": [
+            {
+                "url": "https://huggingface.co/",
+                "thought": "页面中包含搜索模型、数据集的输入框，说明该网站提供数据集资源，因此是数据集网站。"
+            }
+        ]
+    },
+    {
+        "paper_name": "20023_Regularizing_Hidden_Stat",
+        "links": [
+            {
+                "url": "https://huggingface.co/datasets/hendrydong/preference_700K",
+                "thought": "通过白名单规则自动确认"
+            },
+            {
+                "url": "https://huggingface.co/datasets/HuggingFaceH4/hhh_alignment",
+                "thought": "通过白名单规则自动确认"
+            },
+            {
+                "url": "https://huggingface.co/datasets/llm-blender/Unified-Feedback",
+                "thought": "通过白名单规则自动确认"
+            },
+            {
+                "url": "https://huggingface.co/datasets/lmsys/mt_bench_human_judgments",
+                "thought": "通过白名单规则自动确认"
+            },
+            {
+                "url": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T-Sample",
+                "thought": "通过白名单规则自动确认"
+            }
+        ]
+    },
+    {
+        "paper_name": "20326_AutoMix_Automatically_Mi",
+        "links": [
+            {
+                "url": "https://stanfordnlp.github.io/coqa/",
+                "thought": "页面包含数据集的下载链接（如训练集和开发集），并明确说明CoQA是一个用于对话式问答系统的大规模数据集，因此这是一个数据集网站。"
+            }
+        ]
+    },
+    {
+        "paper_name": "20576_GREATS_Online_Selection_",
+        "links": [
+            {
+                "url": "https://github.com/princeton-nlp/LESS",
+                "thought": "页面中包含指向 Hugging Face 数据集页面的链接（https://huggingface.co/datasets/princeton-nlp/less_data），说明该项目提供了数据集，因此这是一个数据集网站。"
+            },
+            {
+                "url": "https://github.com/Jiachen-T-Wang/GREATS",
+                "thought": "该页面是一个GitHub代码仓库页面，包含README.md、代码文件、脚本和笔记本文件等，且有一个Google Drive链接可能指向数据文件，因此可以判断这是一个数据集相关的网站。"
+            },
+            {
+                "url": "https://github.com/tatsu-lab/stanford_alpaca",
+                "thought": "该页面是一个GitHub仓库页面，包含了名为'alpaca_data.json'的数据文件和'datasheet.md'等文档，说明该项目包含数据集，因此这是一个数据集网站。"
+            },
+            {
+                "url": "http://Skylion007.github.io/OpenWebTextCorpus",
+                "thought": "页面介绍了OpenWebTextCorpus数据集的内容、构建方法，并提供了下载链接，明确是一个数据集网站。"
+            }
+        ]
+    },
+    {
+        "paper_name": "2147_Latent_Trajectory_Learnin",
+        "links": [
+            {
+                "url": "https://kaggle.com/competitions/m5-forecasting-accuracy",
+                "thought": "当前页面是 Kaggle 上的一个竞赛页面，标题为 'M5 Forecasting - Accuracy'，Kaggle 是一个著名的数据科学平台，通常其竞赛页面会提供数据集用于建模，因此可以判断这是一个数据集网站。"
+            },
+            {
+                "url": "https://www.kaggle.com/andrewmvd/ocular-disease-recognition-odir5k",
+                "thought": "当前页面是Kaggle上一个名为“Ocular Disease Recognition”的数据集页面，Kaggle是一个著名的数据集和数据科学竞赛平台，因此可以判断这是一个数据集网站。"
+            }
+        ]
+    },
+    {
+        "paper_name": "21559_Gorilla_Large_Language_M",
+        "links": [
+            {
+                "url": "https://gorilla.cs.berkeley.edu",
+                "thought": "页面中包含指向 HuggingFace 数据集的链接（例如 'HuggingFace Dataset 🤗'），说明该网站确实提供数据集。"
+            }
+        ]
+    },
+    {
+        "paper_name": "Self-Composing Policies for Scalable Continual Reinforcement Learning",
+        "links": [
+            {
+                "url": "https://github.com/awarelab/continual_world",
+                "thought": "该页面是一个GitHub代码仓库页面，包含多个Python脚本、Jupyter笔记本、README文件以及指向论文和项目网站的链接，表明这是一个与数据集相关的项目页面，因此可以判断这是一个数据集网站。"
+            }
+        ]
+    },
+    {
+        "paper_name": "400_Statistically_Optimal_K_me",
+        "links": [
+            {
+                "url": "http://archive.ics.uci.edu/ml",
+                "thought": "页面标题为'UCI Machine Learning Repository'，并且包含多个指向具体数据集（如Iris、Heart Disease等）的链接，说明这是一个提供数据集的网站。"
+            }
+        ]
+    },
+    {
+        "paper_name": "4686_Knowledge_Card_Filling_LL",
+        "links": [
+            {
+                "url": "https://www.yelp.com/dataset",
+                "thought": "通过白名单规则自动确认"
+            },
+            {
+                "url": "https://github.com/sdtblck/Opensubtitles_dataset",
+                "thought": "通过白名单规则自动确认"
+            },
+            {
+                "url": "https://github.com/noanabeshima/wikipedia-downloader",
+                "thought": "通过白名单规则自动确认"
+            },
+            {
+                "url": "https://github.com/thoppe/The-Pile-PubMed",
+                "thought": "该页面是一个GitHub仓库，标题中提到'Download, parse, and filter data PubMed, data-ready for The-Pile'，并且包含多个与数据处理相关的Python脚本文件，如'P3_build_final_LM_dataset.py'，说明这是一个用于构建数据集的项目，因此这是一个数据集网站。"
+            },
+            {
+                "url": "https://github.com/BunsenFeng/Knowledge_Card",
+                "thought": "该页面是一个GitHub代码仓库页面，包含多个指向Hugging Face数据集的链接（如knowledge-card-yelp、knowledge-card-wikipedia等），并且有名为eval_datasets和data的目录，表明该项目包含数据集。因此可以判断这是一个数据集网站。"
+            }
+        ]
+    },
+    {
+        "paper_name": "4955_Buffer_of_Thoughts_Though",
+        "links": [
+            {
+                "url": "https://github.com/YangLing0818/SuperCorrect-llm",
+                "thought": "页面中包含一个名为 'dataset/math' 的目录，表明该项目包含数据集内容，因此这是一个数据集网站。"
+            }
+        ]
+    },
+    {
+        "paper_name": "MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark",
+        "links": [
+            {
+                "url": "https://mllm-judge.github.io/",
+                "thought": "页面中包含一个指向 Hugging Face 数据集页面的链接，链接文字为 'Data'，这表明该网页确实提供了数据集资源。"
+            }
+        ]
+    },
+    {
+        "paper_name": "5897_EQA_MX_Embodied_Question_",
+        "links": [
+            {
+                "url": "https://bit.ly/eqa-mx-dataset",
+                "thought": "通过白名单规则自动确认"
+            }
+        ]
+    },
+    {
+        "paper_name": "6476_SWE_bench_Can_Language_Mo",
+        "links": [
+            {
+                "url": "https://swebench.com",
+                "thought": "通过白名单规则自动确认"
+            },
+            {
+                "url": "https://hugovk.github.io/top-pypi-packages/",
+                "thought": "该网页提供了多个链接，指向 JSON 和 CSV 格式的 top PyPI packages 数据文件，说明这是一个数据集网站。"
+            }
+        ]
+    },
+    {
+        "paper_name": "7870_A_Benchmark_for_Learning_",
+        "links": [
+            {
+                "url": "https://lukemelas.github.io/mtob/",
+                "thought": "页面中包含一个名为“Code & Data”的链接，指向 GitHub 上的项目页面，这表明该网页提供了数据集或与数据集相关的资源，因此可以判断这是一个数据集网站。"
+            }
+        ]
+    },
+    {
+        "paper_name": "PrE-Text: Training Language Models on Private Federated Data in the Age of LLMs",
+        "links": [
+            {
+                "url": "https://github.com/tatsu-lab/stanford_alpaca",
+                "thought": "该页面是一个GitHub仓库页面，包含了名为'alpaca_data.json'的数据文件和'datasheet.md'数据说明文档，说明该页面提供了数据集，因此答案是YES。"
+            },
+            {
+                "url": "https://www.speedtest.net/global-index/united-states",
+                "thought": "页面标题和多个链接（如Speedtest Global Index、Speedtest Intelligence、数据分析文章）表明该网站提供网络速度相关的数据和分析，因此这是一个数据集网站。"
+            }
+        ]
+    },
+    {
+        "paper_name": "QuRating: Selecting High-Quality Data for Training Language Models",
+        "links": [
+            {
+                "url": "https://huggingface.co/datasets/cerebras/SlimPajama-627B",
+                "thought": "通过白名单规则自动确认"
+            },
+            {
+                "url": "https://huggingface.co/datasets/princeton-nlp/QuRatedPajama-260B",
+                "thought": "通过白名单规则自动确认"
+            },
+            {
+                "url": "https://github.com/princeton-nlp/QuRating",
+                "thought": "页面中包含多个指向 Hugging Face 数据集页面的链接，例如 'princeton-nlp/QuRating-GPT3.5-Judgments'，说明该页面确实是一个数据集相关页面。"
+            },
+            {
+                "url": "https://github.com/togethercomputer/RedPajama-Data",
+                "thought": "页面标题和多个链接（如HuggingFace数据集链接、'RedPajama-Data-v2: an Open Dataset with 30 Trillion Tokens'）表明这是一个关于数据集的项目页面，因此可以判断这是一个数据集网站。"
+            },
+            {
+                "url": "https://www.cerebras.net/blog/slimpajama-a-627b-token-cleaned-and-deduplicated-version-of-redpajama",
+                "thought": "页面中多次提到 'SlimPajama dataset'，并且有多个链接指向 Hugging Face 上的数据集页面（如 https://huggingface.co/datasets/cerebras/SlimPajama-627B），这表明该网页确实是关于一个数据集的。因此可以判断这是一个数据集的网站。"
+            }
+        ]
+    },
+    {
+        "paper_name": "8714_Efficient_Inverse_Multiag",
+        "links": [
+            {
+                "url": "https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather",
+                "thought": "通过白名单规则自动确认"
+            }
+        ]
+    },
+    {
+        "paper_name": "8867_Deceptive_Fairness_Attack",
+        "links": [
+            {
+                "url": "https://deeprobust.readthedocs.io/",
+                "thought": "页面中包含了名为 'Graph Dataset' 的链接，表明该网站提供图数据集的相关内容，因此可以判断这是一个数据集网站。"
+            },
+            {
+                "url": "https://github.com/mengcao327/attack-gnn-fairness",
+                "thought": "该页面是一个GitHub代码仓库页面，包含一个名为'dataset'的目录，说明该项目中包含数据集，因此可以认为这是一个数据集网站。"
+            }
+        ]
+    },
+    {
+        "paper_name": "8880_Improving_Generalization_",
+        "links": [
+            {
+                "url": "https://huggingface.co/datasets/cnn_dailymail",
+                "thought": "通过白名单规则自动确认"
+            },
+            {
+                "url": "https://huggingface.co/datasets/Anthropic/hh-rlhf",
+                "thought": "通过白名单规则自动确认"
+            },
+            {
+                "url": "https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF",
+                "thought": "通过白名单规则自动确认"
+            },
+            {
+                "url": "https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered",
+                "thought": "通过白名单规则自动确认"
+            }
+        ]
+    },
+    {
+        "paper_name": "Evaluation of LLMs on Syntax-Aware Code Fill-in-the-Middle Tasks",
+        "links": [
+            {
+                "url": "https://safimbenchmark.com",
+                "thought": "通过白名单规则自动确认"
+            },
+            {
+                "url": "https://www.gharchive.org/",
+                "thought": "页面包含多个指向 BigQuery 数据表（如 githubarchive:year.2011、githubarchive:month.201501 等）和数据集 schema 的链接，说明这是一个提供 GitHub 事件数据集的网站。"
+            },
+            {
+                "url": "https://github.com/gonglinyuan/safim",
+                "thought": "页面中包含指向 Hugging Face 数据集页面的链接（https://huggingface.co/datasets/gonglinyuan/safim），表明该项目与数据集相关，因此可以判断这是一个数据集网站。"
+            }
+        ]
+    },
+    {
+        "paper_name": "Failures Are Fated, But Can Be Faded: Characterizing and Mitigating Unwanted Behaviors in Large-Scale Vision and Language Models",
+        "links": [
+            {
+                "url": "https://github.com/somsagar07/FailureShiftRL",
+                "thought": "页面中包含名为 'Dataset/generation' 的目录，并且还有关于获取数据集的链接（如 Kaggle API），说明该项目包含数据集或与数据集相关的内容，因此可以判断这是一个数据集网站。"
+            }
+        ]
+    },
+    {
+        "paper_name": "DRCT: Diffusion Reconstruction Contrastive Training towards Universal Detection of Diffusion Generated Images",
+        "links": [
+            {
+                "url": "https://huggingface.co/",
+                "thought": "页面中包含搜索模型、数据集的输入框，说明该网站提供数据集资源，因此是数据集网站。"
+            }
+        ]
+    }
 ]

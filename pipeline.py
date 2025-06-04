@@ -181,10 +181,10 @@ class MiningPipeline:
                             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
                         }
                         response = requests.get(url, timeout=10, headers=headers, allow_redirects=True)
-                        if response.status_code == 200:
-                            urls_to_agent.append(url)
-                        else:
-                            logger.warning(f"请求非200状态 ({response.status_code})，丢弃: {url}")
+                        # if response.status_code == 200:
+                        urls_to_agent.append(url) # 更宽松的可连接性检测条件
+                        # else:
+                        #     logger.warning(f"请求非200状态 ({response.status_code})，丢弃: {url}")
                     except requests.exceptions.Timeout:
                         logger.warning(f"请求超时 (Timeout)，丢弃: {url}")
                     except requests.exceptions.RequestException as e:

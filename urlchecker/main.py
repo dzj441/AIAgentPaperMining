@@ -51,8 +51,23 @@ async def check_url_is_dataset(url: str) -> Tuple[str, Optional[str]]:
     """
     logger.info(f"开始检查 URL: {url}")
     
-    # 定义固定的任务
-    task = "查看该网页是否是数据集的网站，请回答YES或者NO，注意，只回复YES或者NO,不要回答其他内容"
+    # # 定义固定的任务
+    # task = "查看该网页是否是数据集的网站，请回答YES或者NO，注意，只回复YES或者NO,不要回答其他内容"
+    task = """你是一个专门判断网页是否为“数据集网站”的分类器。请严格按照以下要求执行：
+
+    1. 浏览目标网页，重点关注页面的标题、导航菜单、显著的“数据”“下载”“下载数据”“训练集”“测试集”等字样，以及页面中所有指向数据存储或下载的链接。
+    2. 如果页面明确展示了某个数据集的下载链接、数据说明文档、或者有“下载数据”“数据集”“数据集描述”“训练集/验证集/测试集”等关键词，说明它是一个数据集网站；否则说明它不是。
+    3. 你只输出“YES”或“NO”，其中
+    - “YES” 表示该网页确实是一个数据集网站；
+    - “NO” 表示该网页不是数据集网站。
+    4. 绝对不要输出任何额外文字，不要解释，不要附加理由，只需输出这两个单词之一。
+
+    示例调用格式（仅供参考，你只需返回 YES 或 NO）：
+    User: “https://huggingface.co/datasets/Anthropic/llm_global_opinions”
+    Assistant: YES
+
+    User: “https://example.com/blog-post”
+    Assistant: NO"""    
     
     # 初始化 LLM Handler
     try:

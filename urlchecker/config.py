@@ -14,11 +14,11 @@ AI_CONFIG = {
     # OpenAI 或兼容 API 的配置 (根据 DEFAULT_AI_SOURCE 选择)
     "OPENAI": {
         # API Key: 优先从环境变量读取，其次用这里的默认值 (不推荐在代码中硬编码 Key)
-        "API_KEY": os.getenv("OPENAI_API_KEY", "sk-24c8be486fe54cb29d13b79cf1555450"), 
+        "API_KEY": os.getenv("OPENAI_API_KEY", "sk-5HT1UH2I6e1FD65EA6d5T3BlBKFJ8a4AaC8D3e60447da60c"), 
         # API Base URL: 对于标准 OpenAI 通常不需要改，对于 Siliflow 或本地模型需要设置
-        "API_BASE": os.getenv("OPENAI_API_BASE", "https://dashscope.aliyuncs.com/compatible-mode/v1/"), 
+        "API_BASE": os.getenv("OPENAI_API_BASE", "https://aigptx.top/v1"), 
         # 使用的模型名称 (例如 'gpt-3.5-turbo', 'gpt-4o', 或 Siliflow 上的模型名)
-        "MODEL": os.getenv("OPENAI_MODEL", "qwen-max"), 
+        "MODEL": os.getenv("OPENAI_MODEL", "chatgpt-4o-latest"), 
         # 模型温度 (0.0 表示更确定的输出)
         "TEMPERATURE": 0.0,
         # 生成内容的最大 Token 数量 (需要根据模型调整)
