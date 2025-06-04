@@ -3,7 +3,7 @@ import asyncio # 导入 asyncio
 import time # 用于计时
 import logging # 用于日志记录
 import requests # 用来检测是否为国外网站
-from utils import load_config
+from utils import load_config, save_json # 确保 save_json 被导入
 from scraper import OpenReviewScraper
 from PDFparser import PdfLinkExtractor
 # 导入 urlchecker 的接口
@@ -57,7 +57,7 @@ def preliminary_filter(url: str, skip_domains: list) -> bool:
 
 def is_blacklisted(url: str, skip_domains: list) -> bool:
     """
-    返回 True 表示该 URL 命中“黑名单”，可以直接跳过；
+    返回 True 表示该 URL 命中"黑名单"，可以直接跳过；
     skip_domains 里是你在配置里读进来的、所有需要跳过的域名片段。
     """
     lower = url.lower()
@@ -69,7 +69,7 @@ def is_blacklisted(url: str, skip_domains: list) -> bool:
 
 def is_whitelisted(url: str,keep_domains: list) -> bool:
     """
-    返回 True 表示该 URL 命中“白名单”，可以直接当成数据集链接，不用再让 Agent 判断。
+    返回 True 表示该 URL 命中"白名单"，可以直接当成数据集链接，不用再让 Agent 判断。
     """
     lower = url.lower()
     for keep in keep_domains:
@@ -108,140 +108,157 @@ class MiningPipeline:
     # 将 run 方法改为异步
     async def run(self, urls: list):
         start_time = time.time()
-        dataset_urls = [] # 存储最终结果  
+        
+        final_output_data = [] # 用于存储最终的 [{paper_name: ..., links: [{url:..., thought:...}]}]
 
-        # 第一步：抓取 PDF (可选)
+        # 步骤1: (可选) 抓取 PDF (当前默认不执行此步骤)
         # logger.info("[Pipeline] 开始抓取 PDF")
-        # self.scraper.run(urls)
+        # self.scraper.run(urls) 
 
-        # 第二步：提取链接
-        logger.info("[Pipeline] 开始从 PDF 提取链接...")
-        extracted_urls = self.extractor.run() # 现在会返回列表
-        # print(extracted_urls)
-        logger.info(f"[Pipeline] 从 PDF 共提取到 {len(extracted_urls)} 个唯一链接。")
-
-        if not extracted_urls:
-            logger.info("[Pipeline] 未提取到任何链接，流程结束。")
+        # 步骤2: 从 PDF 提取论文名和链接
+        logger.info("[Pipeline] 开始从 PDF 提取论文名和链接...")
+        # self.extractor.run() 现在返回 List[Dict[str, Any]]
+        # 每个字典是 {'paper_name': '...', 'extracted_links': ['url1', 'url2', ...]}
+        papers_with_extracted_links = self.extractor.run()
+        
+        if not papers_with_extracted_links:
+            logger.info("[Pipeline] 未从 PDF 提取到任何论文或链接，流程结束。")
             return
 
-        # 第三步：初步过滤链接 (可选但推荐)
-        logger.info("[Pipeline] 开始初步过滤链接...")
-        # —— 按照黑/白名单做初步分流 —— 
-        logger.info("[Pipeline] 开始按黑/白名单分流链接…")
+        logger.info(f"[Pipeline] 从 PDF 共提取到 {len(papers_with_extracted_links)} 篇论文的链接信息。")
 
-        candidate_urls = []     # “不确定”留给 Agent 的链接
-        blacklisted_count = 0   # 黑名单计数
-        whitelisted_count = 0   # 白名单计数
+        # 遍历每篇论文及其提取的链接
+        for paper_data in papers_with_extracted_links:
+            paper_name = paper_data.get("paper_name", "未知论文")
+            extracted_urls_for_paper = paper_data.get("extracted_links", [])
 
-        for url in extracted_urls:
-            if is_blacklisted(url, self.agent_cfg.get("blacklist",[])):
-                blacklisted_count += 1
+            if not extracted_urls_for_paper:
+                logger.info(f"[Pipeline] 论文 '{paper_name}' 未提取到链接，跳过。")
                 continue
 
-            if is_whitelisted(url, self.agent_cfg.get("whitelist",[])):
-                whitelisted_count += 1
-                dataset_urls.append(url)
-            else:
-                candidate_urls.append(url)
-
-        logger.info(
-            f"[Pipeline] 黑名单直接跳过 {blacklisted_count} 个；"
-            f"白名单直接纳入 {whitelisted_count} 个；"
-            f"{len(candidate_urls)} 个待 Agent 判断。"
-        )
-
-
-        # print(candidate_urls)
-        if not candidate_urls:
-             logger.info("[Pipeline] 初步过滤后无候选链接，流程结束。")
-             return
-
-        # 使用网站链接测试来判断是否为国外网站,如果为国外网站算作maybe,其余算作yes或者no
-
-        # 最终要传给 LLM Agent 判断的列表
-        urls_to_agent = []
-
-        # 仅用于统计/调试的可选列表
-
-        for url in candidate_urls:
-            logger.info(f"正在验证连通性: {url}")
-            try:
-                response = requests.get(url, timeout=5)
-                if response.status_code == 200:
-                    urls_to_agent.append(url)
-            except requests.exceptions.Timeout as e:
-                logger.warning(f"请求超时 (Timeout)，丢弃: {url}；异常: {e}")
-            except requests.exceptions.RequestException as e:
-                logger.warning(f"请求异常 ({type(e).__name__}) 丢弃: {url}；异常: {e}")
-
-        logger.info(f"连通性检查完成："
-                    f"{len(urls_to_agent)} 个 URL 供 Agent 进一步判断。")
-
-
-        # 第四步：调用 urlchecker Agent 进行检查 (改为顺序执行)
-        logger.info(f"[Pipeline] 开始顺序调用 Agent 检查 {len(urls_to_agent)} 个链接... (这可能需要一些时间)")
-        
-        results_map = {} # 用于存储 URL 和其结果的映射
-
-        for url in urls_to_agent:
-            logger.info(f"[Pipeline] 正在检查 URL: {url}")
-            try:
-                result = await check_url_is_dataset(url)
-                results_map[url] = result
-            except Exception as e:
-                logger.error(f"[Agent检查严重错误] URL: {url} 在调用 check_url_is_dataset 时发生异常: {e}")
-                results_map[url] = e # 将异常本身存起来，以便后续识别
-            # 可以在每个 URL 检查后稍作停顿，如果需要避免过于频繁的请求
-            # await asyncio.sleep(1) # 例如，暂停1秒
-
-        # 第五步：处理结果并输出
-        error_count = 0
-        no_count = 0
-        # 现在遍历 results_map 来获取结果
-        for url, result in results_map.items():
-            if isinstance(result, Exception):
-                # 之前已经在循环中记录过错误日志，这里只计数
-                error_count += 1
-            elif result == "YES":
-                logger.info(f"[Agent确认✅] URL: {url} -> YES")
-                dataset_urls.append(url)
-            elif result == "NO":
-                 logger.info(f"[Agent确认❌] URL: {url} -> NO")
-                 no_count += 1
-            else: # 处理 check_url_is_dataset 返回的 "Error: ..." 字符串
-                logger.warning(f"[Agent检查警告/错误] URL: {url}, 返回: {result}")
-                error_count += 1 # 将非 YES/NO 的明确返回也视为错误
-
-        end_time = time.time()
-        logger.info(f"[Pipeline] Agent 检查完成。耗时: {end_time - start_time:.2f} 秒。")
-        logger.info(f"--- 最终结果 --- ({len(dataset_urls)} 个确认的链接)")
-        logger.info(f"确认 YES: {len(dataset_urls)}, 确认 NO: {no_count}, 出错/未明确: {error_count}")
-        
-        if dataset_urls:
-            print("\n确认的数据集/代码链接 (可能包含镜像站):")
-            for url in dataset_urls:
-                print(f"- {url}")
-
-            reverse_replacements = self.agent_cfg.get("reverse_replacements",{})
-
-            restored_dataset_urls = []
-            for url in dataset_urls:
-                restored_url = url
-                for src, tgt in reverse_replacements.items():
-                    if src in restored_url:
-                        restored_url = restored_url.replace(src, tgt)
-                restored_dataset_urls.append(restored_url)
+            logger.info(f"[Pipeline] 开始处理论文: '{paper_name}'，包含 {len(extracted_urls_for_paper)} 个初步链接。")
             
-            # (可选) 打印恢复后的链接以供确认
-            print("\n恢复原始域名后的链接:")
-            for url in restored_dataset_urls:
-                print(f"- {url}")
+            current_paper_confirmed_links = [] # 存储当前论文确认的链接及其 thought
 
-            from utils import save_json
-            output_json_path = self.agent_cfg.get("final_json_name","final_dataset_urls.json")
-            save_json(output_json_path, restored_dataset_urls) # 保存恢复后的链接
-            logger.info(f"已将恢复原始域名的链接保存到: {output_json_path}")
+            # 步骤3: 初步过滤链接 (黑/白名单)
+            candidate_urls_for_paper = []
+            blacklisted_count = 0
+            whitelisted_count = 0
+
+            for url in extracted_urls_for_paper:
+                if is_blacklisted(url, self.agent_cfg.get("blacklist", [])):
+                    blacklisted_count += 1
+                    continue
+                
+                # 白名单逻辑：如果命中白名单，直接认为是有效链接，但目前没有 thought
+                # 为了保持格式统一，可以给白名单链接一个默认的 thought
+                if is_whitelisted(url, self.agent_cfg.get("whitelist", [])):
+                    whitelisted_count += 1
+                    current_paper_confirmed_links.append({"url": url, "thought": "通过白名单规则自动确认"})
+                else:
+                    candidate_urls_for_paper.append(url)
+            
+            logger.info(
+                f"[Pipeline] 论文 '{paper_name}': 黑名单跳过 {blacklisted_count} 个；"
+                f"白名单直接纳入 {whitelisted_count} 个；"
+                f"{len(candidate_urls_for_paper)} 个待进一步判断。"
+            )
+
+            if not candidate_urls_for_paper and not whitelisted_count:
+                logger.info(f"[Pipeline] 论文 '{paper_name}' 初步过滤后无候选链接，且无白名单命中。")
+                # 如果这篇论文没有任何确认的链接（包括白名单），则不添加到最终输出
+                # continue # 如果希望即使论文没有链接也输出空的 paper_name 条目，则注释掉此行
+            
+            # 步骤4: 连通性检查 (针对候选链接)
+            urls_to_agent = []
+            if candidate_urls_for_paper: # 仅当有候选链接时才进行连通性检查
+                logger.info(f"[Pipeline] 论文 '{paper_name}': 开始对 {len(candidate_urls_for_paper)} 个候选链接进行连通性检查...")
+                for url in candidate_urls_for_paper:
+                    logger.info(f"正在验证连通性: {url}")
+                    try:
+                        # 增加 headers 模拟浏览器，减少被拒的可能性
+                        headers = {
+                            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+                        }
+                        response = requests.get(url, timeout=10, headers=headers, allow_redirects=True)
+                        if response.status_code == 200:
+                            urls_to_agent.append(url)
+                        else:
+                            logger.warning(f"请求非200状态 ({response.status_code})，丢弃: {url}")
+                    except requests.exceptions.Timeout:
+                        logger.warning(f"请求超时 (Timeout)，丢弃: {url}")
+                    except requests.exceptions.RequestException as e:
+                        logger.warning(f"请求异常 ({type(e).__name__}) 丢弃: {url}；异常: {e}")
+                
+                logger.info(f"[Pipeline] 论文 '{paper_name}': 连通性检查完成，{len(urls_to_agent)} 个 URL 供 Agent 进一步判断。")
+
+            # 步骤5: 调用 urlchecker Agent 进行检查 (针对通过连通性检查的链接)
+            if urls_to_agent:
+                logger.info(f"[Pipeline] 论文 '{paper_name}': 开始顺序调用 Agent 检查 {len(urls_to_agent)} 个链接...")
+                
+                for url in urls_to_agent:
+                    logger.info(f"[Pipeline] 论文 '{paper_name}' 正在检查 URL: {url}")
+                    try:
+                        # check_url_is_dataset 现在返回 (status, thought)
+                        status, thought = await check_url_is_dataset(url)
+                        
+                        if status == "YES":
+                            logger.info(f"[Agent确认✅] URL: {url} -> YES. Thought: {thought}")
+                            current_paper_confirmed_links.append({"url": url, "thought": thought if thought else "Agent确认，但未提供明确思考过程"})
+                        elif status == "NO":
+                            logger.info(f"[Agent确认❌] URL: {url} -> NO.")
+                        else: # 处理 Error 情况
+                            logger.warning(f"[Agent检查警告/错误] URL: {url}, 返回状态: {status}")
+                            
+                    except Exception as e:
+                        logger.error(f"[Agent检查严重错误] URL: {url} 在调用 check_url_is_dataset 时发生异常: {e}")
+                    # await asyncio.sleep(1) # 可选的延时
+            
+            # 步骤6: 处理当前论文的结果并准备添加到最终输出
+            if current_paper_confirmed_links:
+                # 进行域名反向替换
+                restored_links_for_paper = []
+                reverse_replacements = self.agent_cfg.get("reverse_replacements",{})
+                for link_info in current_paper_confirmed_links:
+                    restored_url = link_info["url"]
+                    for src, tgt in reverse_replacements.items():
+                        if src in restored_url:
+                            restored_url = restored_url.replace(src, tgt)
+                    restored_links_for_paper.append({"url": restored_url, "thought": link_info["thought"]})
+                
+                final_output_data.append({
+                    "paper_name": paper_name,
+                    "links": restored_links_for_paper
+                })
+                logger.info(f"[Pipeline] 论文 '{paper_name}' 处理完成，找到 {len(restored_links_for_paper)} 个确认的链接。")
+            else:
+                logger.info(f"[Pipeline] 论文 '{paper_name}' 未找到任何确认的数据集/代码链接。")
+
+        # 步骤7: 保存最终的 JSON 数据
+        end_time = time.time()
+        logger.info(f"[Pipeline] 所有论文处理完成。总耗时: {end_time - start_time:.2f} 秒。")
+        
+        if final_output_data:
+            output_json_path = self.agent_cfg.get("final_json_name", "final_dataset_urls.json")
+            try:
+                save_json(output_json_path, final_output_data) # 使用 utils 中的 save_json
+                logger.info(f"已将所有确认的链接（按论文组织并包含思考过程）保存到: {output_json_path}")
+                
+                # 打印到控制台以方便查看
+                print("\n--- 最终确认的数据集/代码链接 (按论文组织) ---")
+                for paper_entry in final_output_data:
+                    print(f"\n论文: {paper_entry['paper_name']}")
+                    if paper_entry['links']:
+                        for link_detail in paper_entry['links']:
+                            print(f"  - URL: {link_detail['url']}")
+                            print(f"    Thought: {link_detail['thought']}")
+                    else:
+                        print("  (此论文没有找到确认的链接)")
+                        
+            except Exception as e:
+                logger.error(f"保存最终 JSON 文件 '{output_json_path}' 时发生错误: {e}")
         else:
+            logger.info("[Pipeline] 未找到任何论文的任何确认链接，不生成输出文件。")
             print("\n未找到确认的数据集/代码链接。")
 
 

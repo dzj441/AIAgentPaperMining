@@ -1,10 +1,10 @@
 import asyncio
 import logging
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Tuple
 
 from .browser_controller import BrowserController
 from .llm_handler import LLMHandler
-from .actions import AgentAction, FinishAction, GoToURLAction, GoToURLParams, FinishParams
+from .actions import AgentAction, FinishAction, GoToURLAction, GoToURLParams, FinishParams, LLMResponse
 
 logger = logging.getLogger(__name__)
 
@@ -17,10 +17,11 @@ class MineAgent:
         self.history: List[Dict[str, Any]] = []
         self.max_steps = 10
 
-    async def run(self) -> Optional[FinishParams]:
+    async def run(self) -> Optional[Tuple[FinishParams, Optional[str]]]:
         logger.info(f"开始执行任务: {self.task}")
         await self.browser_controller.start()
         final_finish_params: Optional[FinishParams] = None
+        final_thought: Optional[str] = None
 
         try:
             logger.info(f"准备跳转到起始网址: {self.start_url}")
@@ -33,7 +34,7 @@ class MineAgent:
             if init_result["status"] == "error":
                 logger.error(f"起始网址跳转失败: {init_result['message']}")
                 final_finish_params = FinishParams(success=False, message=f"无法打开起始网址: {init_result['message']}")
-                return final_finish_params
+                return final_finish_params, None
 
             for step in range(self.max_steps):
                 logger.info(f"--- 开始第 {step + 1}/{self.max_steps} 步 ---")
@@ -45,7 +46,7 @@ class MineAgent:
                 logger.debug(f"当前页面元素 (前 500 字符): {str(current_state.get('elements', []))[:500]}...")
 
                 logger.debug("准备调用 llm_handler.get_next_action...")
-                llm_response = self.llm_handler.get_next_action(
+                llm_response: Optional[LLMResponse] = self.llm_handler.get_next_action(
                     task=self.task,
                     current_state=current_state,
                     history=self.history
@@ -54,6 +55,7 @@ class MineAgent:
 
                 if not llm_response:
                     logger.error("LLM Handler 没有返回有效响应 (返回了 None 或空对象)，Agent 停止。")
+                    final_finish_params = FinishParams(success=False, message="LLM未返回响应")
                     break
 
                 logger.debug("准备打印 LLM 输出...")
@@ -75,6 +77,7 @@ class MineAgent:
                     current_step_history["action_result"] = {"status": "finished", "message": result_message}
                     self.history.append(current_step_history)
                     final_finish_params = finish_params
+                    final_thought = llm_response.thought
                     break
 
                 action_result = await self.browser_controller.execute_action(action_to_execute)
@@ -88,6 +91,8 @@ class MineAgent:
             else:
                 logger.warning(f"Agent 跑满了 {self.max_steps} 步还没结束任务。")
                 final_finish_params = FinishParams(success=False, message=f"Agent 超时 ({self.max_steps} 步)")
+                if llm_response:
+                    final_thought = llm_response.thought
 
         except Exception as e:
             logger.exception("Agent 执行过程中出错:")
@@ -95,4 +100,6 @@ class MineAgent:
         finally:
             await self.browser_controller.close()
             logger.info("Agent 运行结束。")
-            return final_finish_params 
+            if final_finish_params is None:
+                final_finish_params = FinishParams(success=False, message="Agent因未知原因未产生结果")
+            return final_finish_params, final_thought 

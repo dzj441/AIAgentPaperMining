@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 # from langchain_openai import ChatOpenAI
 # from langchain_community.chat_models import ChatOllama
 # from langchain_core.language_models.chat_models import BaseChatModel
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, Tuple
 
 # 导入新的配置和客户端获取方式
 from .config import AI_CONFIG # 直接从 config.py 导入
@@ -37,7 +37,7 @@ logger = logging.getLogger(__name__)
 
 
 # --- 新增的外部调用接口 --- 
-async def check_url_is_dataset(url: str) -> str:
+async def check_url_is_dataset(url: str) -> Tuple[str, Optional[str]]:
     """
     检查给定的 URL 是否指向一个数据集网站。
 
@@ -45,7 +45,9 @@ async def check_url_is_dataset(url: str) -> str:
         url: 要检查的 URL 字符串。
 
     Returns:
-        "YES" 或 "NO" (基于 LLM 的判断)，或者返回 "Error: ..." 如果过程中出错。
+        一个元组 (status: str, thought: Optional[str])
+        status: "YES", "NO", 或 "Error: ..."
+        thought: 如果 status 是 "YES"，则为 LLM 的思考过程，否则为 None。
     """
     logger.info(f"开始检查 URL: {url}")
     
@@ -58,44 +60,54 @@ async def check_url_is_dataset(url: str) -> str:
     except (ValueError, AIClientError) as e:
         error_msg = f"Error: 初始化 LLM Handler 失败: {e}"
         logger.error(error_msg)
-        return error_msg
+        return error_msg, None # 返回 thought 为 None
 
     # 创建 Agent 实例 (使用无头模式)
     agent = MineAgent(
         task=task,
         llm_handler=llm_handler,
         start_url=url,
-        headless=True # 接口调用通常不需要显示浏览器
+        headless=True # 之前是 False，对于接口调用通常应该为 True
     )
 
     # 运行 Agent 并获取结果
-    final_params: Optional[FinishParams] = await agent.run()
+    run_result: Optional[Tuple[FinishParams, Optional[str]]] = await agent.run()
 
     # 处理结果
-    if final_params:
-        if final_params.success:
-            # 成功完成，提取 message
-            result = final_params.message.strip().upper()
-            # 确保只返回 YES 或 NO
-            if result == "YES" or result == "NO":
-                 logger.info(f"URL '{url}' 的检查结果: {result}")
-                 return result
+    if run_result:
+        final_params, thought = run_result # 解包元组
+        if final_params:
+            if final_params.success:
+                # 成功完成，提取 message
+                result_message = final_params.message.strip().upper()
+                # 确保只返回 YES 或 NO
+                if result_message == "YES":
+                    logger.info(f"URL '{url}' 的检查结果: YES. Thought: {thought}")
+                    return "YES", thought # 返回 YES 和 thought
+                elif result_message == "NO":
+                    logger.info(f"URL '{url}' 的检查结果: NO.")
+                    return "NO", None # NO 的情况下 thought 为 None
+                else:
+                    # 如果 LLM 没有严格返回 YES/NO
+                    warning_msg = f"Warning: LLM 返回了非预期的结果 '{final_params.message}' (期望 YES/NO)，任务视为失败。"
+                    logger.warning(warning_msg)
+                    # 可以选择返回错误，或者尝试强制判断 (这里选择返回错误)
+                    return f"Error: LLM did not return YES or NO ({final_params.message})", None
             else:
-                 # 如果 LLM 没有严格返回 YES/NO
-                 warning_msg = f"Warning: LLM 返回了非预期的结果 '{final_params.message}'，任务视为失败。"
-                 logger.warning(warning_msg)
-                 # 可以选择返回错误，或者尝试强制判断 (这里选择返回错误)
-                 return f"Error: LLM did not return YES or NO ({final_params.message})"
+                # 任务失败 (由 Agent 内部判断，例如超时或出错)
+                error_msg = f"Error: Agent 执行失败: {final_params.message}"
+                logger.error(error_msg)
+                return error_msg, None
         else:
-            # 任务失败 (由 Agent 内部判断，例如超时或出错)
-            error_msg = f"Error: Agent 执行失败: {final_params.message}"
+            # Agent.run 返回了 None (理论上不应该发生，因为我们处理了异常)
+            error_msg = "Error: Agent.run() 未返回有效的 final_params。"
             logger.error(error_msg)
-            return error_msg
+            return error_msg, None
     else:
-        # Agent.run 返回了 None (理论上不应该发生，因为我们处理了异常)
-        error_msg = "Error: Agent did not return a final result."
+        # Agent.run 返回了 None (理论上不应该发生)
+        error_msg = "Error: Agent did not return a result tuple."
         logger.error(error_msg)
-        return error_msg
+        return error_msg, None
 
 
 # --- 主程序 (现在用于测试新接口) --- 
@@ -114,15 +126,18 @@ async def main():
         "https://paperswithcode.com/dataset/imagenet"
     ]
 
-    results = {}
+    results_with_thoughts = {}
     for url in urls_to_check:
-        result = await check_url_is_dataset(url)
-        results[url] = result
-        print(f"\nURL: {url}\nResult: {result}\n{'-'*20}")
+        status, thought = await check_url_is_dataset(url) # 解包结果
+        results_with_thoughts[url] = {"status": status, "thought": thought}
+        print(f"\nURL: {url}\nStatus: {status}")
+        if thought:
+            print(f"Thought: {thought}")
+        print("--------------------")
     
     print("\n--- 最终结果汇总 ---")
-    for url, result in results.items():
-        print(f"{url}: {result}")
+    for url, res_info in results_with_thoughts.items():
+        print(f"{url}: Status - {res_info['status']}, Thought - {res_info['thought']}")
 
 
 if __name__ == "__main__":

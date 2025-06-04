@@ -1,7 +1,7 @@
 import os
 import re
 import pymupdf
-from typing import List
+from typing import List, Dict, Any
 
 class PdfLinkExtractor:
     def __init__(self, pdf_root_dir: str, output_file: str, flatten: bool = False,
@@ -20,6 +20,49 @@ class PdfLinkExtractor:
         self.skip_domains = skip_domains
         # 使用字典存储多对替换规则
         self.replacements = replacements
+
+    @staticmethod
+    def extract_paper_name_and_links(pdf_bytes: bytes, pdf_filename: str) -> Dict[str, Any]:
+        """从 PDF 二进制中提取标题作为 paper_name 和所有外部 URL。"""
+        links = []
+        paper_name = ""
+        doc = pymupdf.open(stream=pdf_bytes, filetype="pdf")
+
+        # 尝试从元数据中获取标题
+        if doc.metadata:
+            paper_name = doc.metadata.get('title', '')
+            if isinstance(paper_name, bytes): # 有时元数据中的标题是字节串
+                try:
+                    paper_name = paper_name.decode('utf-8')
+                except UnicodeDecodeError:
+                    try:
+                        paper_name = paper_name.decode('latin-1') # 尝试其他编码
+                    except UnicodeDecodeError:
+                        paper_name = "" # 解码失败则留空
+
+        # 如果元数据中没有标题，或者标题为空，则使用文件名（去除扩展名）
+        if not paper_name:
+            paper_name = os.path.splitext(pdf_filename)[0]
+        
+        # 清理 paper_name 中的换行符和多余空格
+        paper_name = " ".join(paper_name.strip().split())
+
+        for page in doc:
+            # text_fragments.append(page.get_text()) # 文本提取暂时不需要了
+            for link in page.get_links():
+                uri = link.get("uri")
+                if uri:
+                    links.append(uri)
+        doc.close()
+
+        seen = set()
+        unique_links = []
+        for url in links:
+            if url not in seen:
+                seen.add(url)
+                unique_links.append(url)
+        
+        return {"paper_name": paper_name, "extracted_links": unique_links}
 
     @staticmethod
     def extract_text_and_links(pdf_bytes: bytes) -> list:
@@ -99,69 +142,66 @@ class PdfLinkExtractor:
             new_urls.append(updated)
         return new_urls
     
-    def run(self) -> List[str]:
-        # 始终初始化一个集合来收集所有处理过的 URL，无论 flatten 如何设置
-        processed_urls = set()
+    def run(self) -> List[Dict[str, Any]]:
+        papers_data = []
 
-        # 文件写入逻辑保持不变
-        try:
-            # 尝试创建输出目录 (如果需要)
-            output_dir = os.path.dirname(self.output_file)
-            if output_dir:
-                 os.makedirs(output_dir, exist_ok=True)
-                 
-            with open(self.output_file, "w", encoding="utf-8") as out_f:
-                for root, _, files in os.walk(self.pdf_root_dir):
-                    for fn in files:
-                        if not fn.lower().endswith(".pdf"):
-                            continue
+        for root, _, files in os.walk(self.pdf_root_dir):
+            for fn in files:
+                if not fn.lower().endswith(".pdf"):
+                    continue
 
-                        pdf_path = os.path.join(root, fn)
-                        try:
-                            with open(pdf_path, "rb") as f:
-                                pdf_bytes = f.read()
-                        except Exception as e:
-                            print(f"[错误] 读取 PDF 失败 {pdf_path}: {e}")
-                            continue
+                pdf_path = os.path.join(root, fn)
+                try:
+                    with open(pdf_path, "rb") as f:
+                        pdf_bytes = f.read()
+                except Exception as e:
+                    print(f"[错误] 读取 PDF 失败 {pdf_path}: {e}")
+                    continue
 
-                        # 提取和处理链接
-                        try:
-                            links = self.extract_text_and_links(pdf_bytes)
-                            links = self.remove_prefix_urls(links)
-                            links = self.filter_urls(links)
-                            links = self.apply_replacements(links)
-                        except Exception as proc_e:
-                             print(f"[错误] 处理 PDF 时出错 {pdf_path}: {proc_e}")
-                             continue # 跳过处理失败的 PDF
+                try:
+                    # 从 PDF 中提取论文名和链接
+                    # fn (文件名) 被传递给 extract_paper_name_and_links 用于备用 paper_name
+                    paper_info = self.extract_paper_name_and_links(pdf_bytes, fn)
+                    
+                    # 对提取出的链接进行处理
+                    processed_links = self.remove_prefix_urls(paper_info["extracted_links"])
+                    processed_links = self.filter_urls(processed_links)
+                    processed_links = self.apply_replacements(processed_links)
+                    
+                    if processed_links: # 只添加包含有效链接的论文条目
+                        papers_data.append({
+                            "paper_name": paper_info["paper_name"],
+                            "extracted_links": processed_links
+                        })
+                        
+                except Exception as proc_e:
+                    print(f"[错误] 处理 PDF 时出错 {pdf_path}: {proc_e}")
+                    continue
+        
+        if self.output_file: # 简单保留写入，但格式可能不符合预期
+            try:
+                output_dir = os.path.dirname(self.output_file)
+                if output_dir:
+                    os.makedirs(output_dir, exist_ok=True)
+                with open(self.output_file, "w", encoding="utf-8") as out_f:
+                    if self.flatten: # 如果 flatten 仍然为 True，则展平所有链接并去重
+                        all_links_flat = set()
+                        for paper in papers_data:
+                            all_links_flat.update(paper["extracted_links"])
+                        for url in sorted(list(all_links_flat)):
+                            out_f.write(f"{url}\\n")
+                    else: # 否则，尝试写入一种结构化的表示（可能不是用户最终要的 JSON）
+                        for paper in papers_data:
+                            out_f.write(f"Paper: {paper['paper_name']}\\n")
+                            for link in paper['extracted_links']:
+                                out_f.write(f"  - {link}\\n")
+                            out_f.write("\\n")
+                print(f"[信息] PDFparser 提取（和可能的文本输出）已完成。输出文件: {self.output_file} (注意：此文件的格式可能与最终JSON不同)")
+            except Exception as e:
+                print(f"[错误] PDFparser 写入旧格式输出文件时出错: {e}")
 
-                        # 将当前 PDF 处理后的链接添加到总集合中
-                        processed_urls.update(links)
-
-                        # 根据 flatten 选项写入文件
-                        if not self.flatten:
-                            out_f.write(f"{fn}:\n")
-                            for url in links: # 写入当前文件的链接
-                                out_f.write(f"  {url}\n")
-                            out_f.write("\n")
-
-                # 如果是 flatten 模式，在最后写入所有去重链接
-                if self.flatten:
-                    for url in sorted(processed_urls):
-                        out_f.write(f"{url}\n")
-            
-            print(f"[信息] 提取的链接已写入文件: {self.output_file}")
-
-        except OSError as e:
-            print(f"[错误] 无法写入输出文件 {self.output_file}: {e}")
-            # 即使写入失败，也尝试返回已处理的 URL
-        except Exception as e_outer:
-             print(f"[错误] PdfLinkExtractor 运行时发生意外错误: {e_outer}")
-             # 返回空的或部分结果
-
-        # 无论文件写入是否成功，都返回收集到的所有处理过的、去重的 URL 列表
-        final_url_list = sorted(list(processed_urls))
-        print(f"[信息] PdfLinkExtractor 完成，共找到 {len(final_url_list)} 个唯一链接。")
-        return final_url_list
+        print(f"[信息] PdfLinkExtractor 完成，处理了 {len(papers_data)} 个包含链接的PDF文档。")
+        return papers_data
 
 if __name__ == "__main__":
     from utils import load_config
